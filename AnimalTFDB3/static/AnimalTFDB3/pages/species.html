@@ -1,0 +1,315 @@
+
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="sidebar-header">
+                    <h3>Species categories</h3>
+                </div>
+                <ul class="list-unstyled">
+                    <li style="color:black; font-weight: bold">Afrotheria</li>
+                    <ul id="bdg" class="list-unstyled">
+                        <li><a href="#!/species">Echinops telfairi</a></li>
+                        <li><a href="#!/species">Loxodonta africana</a></li>
+                        <li><a href="#!/species">Procavia capensis</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Amphibians</li>
+                    <ul id="bsf" class="list-unstyled">
+                        <li><a href="#!/species">Xenopus tropicalis</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Birds&Reptiles</li>
+                    <ul id="hth" class="list-unstyled">
+                        <li><a href="#!/species">Anas platyrhynchos</a></li>
+                        <li><a href="#!/species">Anolis carolinensis</a></li>
+                        <li><a href="#!/species">Ficedula albicollis</a></li>
+                        <li><a href="#!/species">Gallus gallus</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(3)"
+                            ng-hide="three">3 more
+                        </li>
+                        <div ng-show="three">
+                            <li><a href="#!/species">Meleagris gallopavo</a></li>
+                            <li><a href="#!/species">Pelodiscus sinensis</a></li>
+                            <li><a href="#!/species">Taeniopygia guttata</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(3)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Fishes</li>
+                    <ul id="oahg" class="list-unstyled">
+                        <li><a href="#!/species">Astyanax mexicanus</a></li>
+                        <li><a href="#!/species">Danio rerio</a></li>
+                        <li><a href="#!/species">Gadus morhua</a></li>
+                        <li><a href="#!/species">Gasterosteus aculeatus</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(4)"
+                            ng-hide="four">8 more
+                        </li>
+                        <div ng-show="four">
+                            <li><a href="#!/species">Latimeria chalumnae</a></li>
+                            <li><a href="#!/species">Lepisosteus oculatus</a></li>
+                            <li><a href="#!/species">Oreochromis niloticus</a></li>
+                            <li><a href="#!/species">Oryzias latipes</a></li>
+                            <li><a href="#!/species">Poecilia formosa</a></li>
+                            <li><a href="#!/species">Takifugu rubripes</a></li>
+                            <li><a href="#!/species">Tetraodon nigroviridis</a></li>
+                            <li><a href="#!/species">Xiphophorus maculatus</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(4)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Laurasiatheria</li>
+                    <ul id="uns" class="list-unstyled">
+                        <li><a href="#!/species">Ailuropoda melanoleuca</a></li>
+                        <li><a href="#!/species">Bos taurus</a></li>
+                        <li><a href="#!/species">Canis lupus familiaris</a></li>
+                        <li><a href="#!/species">Capra hircus</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(5)"
+                            ng-hide="five">11 more
+                        </li>
+                        <div ng-show="five">
+                            <li><a href="#!/species">Equus caballus</a></li>
+                            <li><a href="#!/species">Erinaceus europaeus</a></li>
+                            <li><a href="#!/species">Felis catus</a></li>
+                            <li><a href="#!/species">Mustela putorius furo</a></li>
+                            <li><a href="#!/species">Myotis lucifugus</a></li>
+                            <li><a href="#!/species">Ovis aries</a></li>
+                            <li><a href="#!/species">Pteropus vampyrus</a></li>
+                            <li><a href="#!/species">Sorex araneus</a></li>
+                            <li><a href="#!/species">Sus scrofa</a></li>
+                            <li><a href="#!/species">Tursiops truncatus</a></li>
+                            <li><a href="#!/species">Vicugna pacos</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(5)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Other Chordates</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Ciona intestinalis</a></li>
+                        <li><a href="#!/species">Ciona savignyi</a></li>
+                        <li><a href="#!/species">Petromyzon marinus</a></li>
+                        <li><a href="#!/species">Saccharomyces cerevisiae</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Other Eukaryotes</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Caenorhabditis elegans</a></li>
+                        <li><a href="#!/species">Drosophila melanogaster</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Other Mammals</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Monodelphis domestica</a></li>
+                        <li><a href="#!/species">Notamacropus eugenii</a></li>
+                        <li><a href="#!/species">Ornithorhynchus anatinus</a></li>
+                        <li><a href="#!/species">Sarcophilus harrisii</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Primates</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Aotus nancymaae</a></li>
+                        <li><a href="#!/species">Callithrix jacchus</a></li>
+                        <li><a href="#!/species">Carlito syrichta</a></li>
+                        <li><a href="#!/species">Cebus capucinus imitator</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(6)"
+                            ng-hide="six">19 more
+                        </li>
+                        <div ng-show="six">
+                            <li><a href="#!/species">Cercocebus atys</a></li>
+                            <li><a href="#!/species">Chlorocebus sabaeus</a></li>
+                            <li><a href="#!/species">Colobus angolensis palliatus</a></li>
+                            <li><a href="#!/species">Gorilla gorilla gorilla</a></li>
+                            <li><a href="#!/species">Homo sapiens</a></li>
+                            <li><a href="#!/species">Macaca fascicularis</a></li>
+                            <li><a href="#!/species">Macaca mulatta</a></li>
+                            <li><a href="#!/species">Macaca nemestrina</a></li>
+                            <li><a href="#!/species">Mandrillus leucophaeus</a></li>
+                            <li><a href="#!/species">Microcebus murinus</a></li>
+                            <li><a href="#!/species">Nomascus leucogenys</a></li>
+                            <li><a href="#!/species">Otolemur garnettii</a></li>
+                            <li><a href="#!/species">Pan paniscus</a></li>
+                            <li><a href="#!/species">Pan troglodytes</a></li>
+                            <li><a href="#!/species">Papio anubis</a></li>
+                            <li><a href="#!/species">Pongo abelii</a></li>
+                            <li><a href="#!/species">Propithecus coquereli</a></li>
+                            <li><a href="#!/species">Rhinopithecus bieti</a></li>
+                            <li><a href="#!/species">Rhinopithecus roxellana</a></li>
+                            <li><a href="#!/species">Saimiri boliviensis boliviensis</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(6)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Rodents</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Cavia aperea</a></li>
+                        <li><a href="#!/species">Cavia porcellus</a></li>
+                        <li><a href="#!/species">Chinchilla lanigera</a></li>
+                        <li><a href="#!/species">Cricetulus griseus chok1gshd</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(6)"
+                            ng-hide="six">20 more
+                        </li>
+                        <div ng-show="six">
+                            <li><a href="#!/species">Cricetulus griseus crigri</a></li>
+                            <li><a href="#!/species">Dipodomys ordii</a></li>
+                            <li><a href="#!/species">Fukomys damarensis</a></li>
+                            <li><a href="#!/species">Heterocephalus glaber female</a></li>
+                            <li><a href="#!/species">Heterocephalus glaber male</a></li>
+                            <li><a href="#!/species">Ictidomys tridecemlineatus</a></li>
+                            <li><a href="#!/species">Jaculus jaculus</a></li>
+                            <li><a href="#!/species">Mesocricetus auratus</a></li>
+                            <li><a href="#!/species">Microtus ochrogaster</a></li>
+                            <li><a href="#!/species">Mus caroli</a></li>
+                            <li><a href="#!/species">Mus musculus</a></li>
+                            <li><a href="#!/species">Mus pahari</a></li>
+                            <li><a href="#!/species">Mus spretus</a></li>
+                            <li><a href="#!/species">Nannospalax galili</a></li>
+                            <li><a href="#!/species">Ochotona princeps</a></li>
+                            <li><a href="#!/species">Octodon degus</a></li>
+                            <li><a href="#!/species">Oryctolagus cuniculus/a></li>
+                            <li><a href="#!/species">Peromyscus maniculatus bairdii</a></li>
+                            <li><a href="#!/species">Rattus norvegicus</a></li>
+                            <li><a href="#!/species">Tupaia belangeri</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(6)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Xenarthra</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/species">Choloepus hoffmanni</a></li>
+                        <li><a href="#!/species">Dasypus novemcinctus</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content Holder -->
+    <div class="row" style="margin-top: 0px;padding-top: 0px">
+        <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-default navbar-btn">
+                <i class="glyphicon glyphicon-arrow-left"></i>
+            </button>
+        </div>
+    </div>
+    <div id="content">
+        <div class="panel" style="margin-left: 3px">
+            <div class="panel-body">
+                figure panel
+            </div>
+        </div>
+        <div class="panel" style="margin-left: 3px">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="form-group" style="margin-left: 5px;margin-right: 5px">
+                        <img src=""><span class="glyphicon glyphicon-question-sign"></span></img>
+                        <div class="pull-right">
+                            <select class="form-control">
+                                <option>AF-4</option>
+                                <option>ARID</option>
+                                <option>BTB</option>
+                                <option>BTD</option>
+                                <option>CBF_beta</option>
+                                <option>CBFB_NFYA</option>
+                                <option>CG-1</option>
+                                <option>CP2</option>
+                                <option>CSD</option>
+                                <option>CSRNP_N</option>
+                                <option>CTF_NFI</option>
+                                <option>CUT</option>
+                                <option>DACH</option>
+                                <option>DM</option>
+                                <option>E2F_TDP</option>
+                                <option>Estrogen_Receptor-like</option>
+                                <option>Ets</option>
+                                <option>Forkhead</option>
+                                <option>GAGA</option>
+                                <option>GATA</option>
+                                <option>GCFC</option>
+                                <option>GCM</option>
+                                <option>Germ_Cell_Nuclear_Factor-like</option>
+                                <option>GTF2I</option>
+                                <option>HLH</option>
+                                <option>HMG_box</option>
+                                <option>HMGI_and_HMGY</option>
+                                <option>Homeobox</option>
+                                <option>HPD</option>
+                                <option>HSF_DNA-bind</option>
+                                <option>HTH_psq</option>
+                                <option>IRF</option>
+                                <option>LRRFIP</option>
+                                <option>MBD</option>
+                                <option>MH1</option>
+                                <option>Miscellaneous</option>
+                                <option>Myb_DNA-binding</option>
+                                <option>NCU-G1</option>
+                                <option>NDT80_PhoG</option>
+                                <option>Nerve_Growth_Factor_IB-like</option>
+                                <option>NFYB</option>
+                                <option>NFYC</option>
+                                <option>Nrf1_DNA-bind</option>
+                                <option>other_NR</option>
+                                <option>P53</option>
+                                <option>PAX</option>
+                                <option>PC4</option>
+                                <option>Pou</option>
+                                <option>Retinoid_X_Receptor-like</option>
+                                <option>RFX_DNA_binding</option>
+                                <option>RHD_DNA_bind</option>
+                                <option>Runt</option>
+                                <option>SAND</option>
+                                <option>SRF-TF</option>
+                                <option>STAT_bind</option>
+                                <option>Steroidogenic_Factor-like</option>
+                                <option>T-box</option>
+                                <option>TEA</option>
+                                <option>TF_AP-2</option>
+                                <option>TF_bZIP</option>
+                                <option>TF_others</option>
+                                <option>TF_Otx</option>
+                                <option>THAP</option>
+                                <option>Thyroid_Hormone_Receptor-like</option>
+                                <option>Transcription_Cofactors</option>
+                                <option>Transcription_factor_COE</option>
+                                <option>TSC22</option>
+                                <option>Tub</option>
+                                <option>zf-BED</option>
+                                <option>zf-C2H2</option>
+                                <option>zf-C2HC</option>
+                                <option>zf-CCCH</option>
+                                <option>zf-H2C2_2</option>
+                                <option>zf-LITAF-like</option>
+                                <option>zf-MIZ</option>
+                                <option>zf-NF-X1</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <table class="table table-bordered table-hover table-condensed">
+                    <thead>
+                    <tr>
+                        <td>Ensembl ID</td>
+                        <td>Entrez ID</td>
+                        <td>Symbol</td>
+                        <td>Alias</td>
+                        <td>Full Name</td>
+                        <td>Alignment</td>
+                        <td>DBD</td>
+                        <td>Phylogenetic Tree</td>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="col-lg-6">
+        <div class="panel" style="height: 500px">
+            <div class="panel-heading" style="background-color:  #BCCEE7"><span
+                    style="color:gold; font-size: large; font-weight: bold">Predict</span></div>
+            <div class="panel-body">
+                <h4 style="font-weight: bold;text-align: center">Transcription Factor Prediction</h4>
+                <p>The family assignment rules and thresholds determined by established methods (<a
+                        href="#!/document#anch2">see details</a>) are
+                    used to identify transcription factors from the input protein sequences.</p>
+                <p>Input the protein sequences in <a href="http://en.wikipedia.org/wiki/FASTA_format">FASTA</a>
+                    format( less than 1000 protein sequences):<a href="#!/predict" ng-click="load()">example</a></p>
+                <textarea class="form-control" id="input_seq" style="width: 97%;height: 250px"></textarea>
+                <br>
+                <div style="text-align: right;margin-right: 27px">
+                        <button class="btn btn-default" type="reset" ng-click="reset()">Reset</button>
+                        <button class="btn btn-default" type="submit" ng-click="get_result()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="panel" style="height: 500px">
+            <div class="panel-heading" style="background-color:  #BCCEE7"><span
+                    style="color:gold;font-size: large;font-weight: bold">Results</span></div>
+            <div class="panel-body">
+                <div ng-show="predict_start" style="width:100%; text-align: center;margin-top: 150px">
+                        <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
+                </div>
+                <div ng-show="result">
+                <h4 style="font-weight: bold;text-align: center">Transcription Factor Prediction Result</h4>
+                <p>Number of upload sequences: {$ seq_count $}</p>
+                <p>Number of hits: {$ hit_count $}</p>
+                <br>
+                <table class="table table-bordered table-hover table-condensed">
+                    <thead>
+                    <tr>
+                        <th>TF</th>
+                        <th>Family</th>
+                        <th>Full sequence e-value</th>
+                        <th>Best domain e-value</th>
+                        <th>Domain number</th>
+                        <th>Alignment information</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in result_ls">
+                        <td id="tf">{$ item.TF $}</td>
+                        <td>{$ item.Family $}</td>
+                        <td>{$ item.F_e_value$}</td>
+                        <td>{$ item.B_e_value $}</td>
+                        <td>{$ item.Domain_number $}</td>
+                        <td><button class="btn btn-success" ng-click="show_detail(item)">show</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,204 @@
+<div class="row">
+    <div class="col-lg-3">
+        <div class="panel panel-danger">
+            <div class="panel-heading "><span style="font-size: large;font-weight: bold">Search by basic information</span></div>
+            <div class="panel-body form-group">
+                <select id="basic_info_search" class="form-control">
+                    <option>Ensembl Gene ID</option>
+                    <option>Entrez Gene ID</option>
+                    <option>Ensembl Transcript ID</option>
+                    <option>Ensembl Protein ID</option>
+                    <option>Gene Symbol</option>
+                    <option>Gene Alias</option>
+                    <option>Full name</option>
+                </select>
+                <br>
+                <input class="form-control" type="text" id="basicInfo" value="ENSG00000072364">
+                <br>
+                <br>
+                <br>
+                 <div style="text-align: right">
+                    <button class="btn btn-danger" >Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="panel panel-success">
+            <div class="panel-heading "><span style="font-size: large;font-weight: bold">Searcg by gene annotation</span></div>
+            <div class="panel-body form-group">
+                <select id="gene_annotation" class="form-control">
+                    <option>Protein-Protein Interaction (Gene ID or Symbol)</option>
+                    <option>Pathway (Pathway ID or Description)</option>
+                    <option>Gene Ontology (Gene Ontology ID or Description)</option>
+                    <option>Ortholog (Ensembl ID or Symbol)</option>
+                    <option>Paralog (Ensembl ID or Symbol)</option>
+                </select>
+                <br>
+                <input class="form-control" type="text" id="annotation" value="5371">
+                <br>
+                <br>
+                <br>
+                <div style="text-align: right">
+                    <button class="btn btn-success" >Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="panel panel-info">
+            <div class="panel-heading"><span style="font-size: large;font-weight: bold">Search by mRNA expression</span></div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-lg-3">Species</label>
+                    <div class="col-lg-9">
+                        <select id="species" class="form-control">
+                            <option selected="selected">Homo sapiens</option>
+                            <option>Macaca mulatta</option>
+                            <option>Mus musculus</option>
+                            <option>Rattus norvegicus</option>
+                            <option>Gallus gallus</option>
+                            <option>Danio rerio</option>
+                            <option>Drosophila melanogaster</option>
+                            <option>Caenorhabditis elegans</option>
+                            <option>Bos taurus</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-3">Cancer&Tissue</label>
+                    <div class="col-lg-9">
+                        <select id="species" class="form-control">
+                            <option style="color:#0000FF">--Cancer--</option>
+                            <option>ACC: Adrenocortical carcinoma</option>
+                            <option>BLCA: Bladder Urothelial Carcinoma</option>
+                            <option>BRCA: Breast invasive carcinoma</option>
+                            <option>CESC: Cervical squamous cell carcinoma and endocervical adenocarcinoma</option>
+                            <option>COAD: Colon adenocarcinoma</option>
+                            <option>DLBC: Lymphoid Neoplasm Diffuse Large B-cell Lymphoma</option>
+                            <option>GBM: Glioblastoma multiforme</option>
+                            <option>HNSC: Head and Neck squamous cell carcinoma</option>
+                            <option>KICH: Kidney Chromophobe</option>
+                            <option>KIRC: Kidney renal clear cell carcinoma</option>
+                            <option>KIRP: Kidney renal papillary cell carcinoma</option>
+                            <option>LAML: Acute Myeloid Leukemia</option>
+                            <option>LGG: Brain Lower Grade Glioma</option>
+                            <option>LIHC: Liver hepatocellular carcinoma</option>
+                            <option>LUAD: Lung adenocarcinoma</option>
+                            <option>LUSC: Lung squamous cell carcinoma</option>
+                            <option>MESO: Mesothelioma</option>
+                            <option>OV: Ovarian serous cystadenocarcinoma</option>
+                            <option>PAAD: Pancreatic adenocarcinoma</option>
+                            <option>READ: Rectum adenocarcinoma</option>
+                            <option>SARC: Sarcoma</option>
+                            <option>SKCM: Skin Cutaneous Melanoma</option>
+                            <option>THCA: Thyroid carcinoma</option>
+                            <option>UCEC: Uterine Corpus Endometrial Carcinoma</option>
+                            <option>UCS: Uterine Carcinosarcoma</option>
+                            <option style="color:#0000FF">--Tissues</option>
+                            <option>Adipose</option>
+                            <option>Adrenal</option>
+                            <option>Brain</option>
+                            <option>Breast</option>
+                            <option>Colon</option>
+                            <option>Heart</option>
+                            <option>Kidney</option>
+                            <option>Liver</option>
+                            <option>Lung</option>
+                            <option>Lymph</option>
+                            <option>Ovary</option>
+                            <option>Prostate</option>
+                            <option>Skeletal_muscle</option>
+                            <option>Testes</option>
+                            <option>Thyroid</option>
+                            <option>White_blood_cells</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-3">Threshold</label>
+                    <div class="col-lg-9">
+                        <select id="threshold" class="form-control col-lg-9">
+                            <option>1</option>
+                            <option>10</option>
+                            <option>50</option>
+                            <option>100</option>
+                            <option>>100</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div style="text-align: right">
+                    <button class="btn btn-info" >Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="panel panel-warning">
+            <div class="panel-heading"><span style="font-size: large;font-weight: bold">Search by human protein expression</span></div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-lg-3">Tissue</label>
+                    <div class="col-lg-9">
+                        <select id="pro_tissue" class="form-control">
+                            <option>Adipocyte</option>
+                            <option>Adrenal gland</option>
+                            <option>Bone</option>
+                            <option>Breast</option>
+                            <option>Bsophagus</option>
+                            <option>Gall bladder</option>
+                            <option>Hair follicle</option>
+                            <option>Heart</option>
+                            <option>Kidney</option>
+                            <option>Liver</option>
+                            <option>Lung</option>
+                            <option>Myometrium</option>
+                            <option>Oral epithelium</option>
+                            <option>Ovary</option>
+                            <option>Pancreas</option>
+                            <option>Placenta</option>
+                            <option>Prostate gland</option>
+                            <option>Salivary gland</option>
+                            <option>Spleen</option>
+                            <option>Stomach</option>
+                            <option>Testis</option>
+                            <option>Thyroid gland</option>
+                            <option>Tonsil</option>
+                            <option>Uterine cervix</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-3">Threshold</label>
+                    <div class="col-lg-9">
+                        <select id="threshold" class="form-control col-lg-9">
+                            <option>1</option>
+                            <option>10</option>
+                            <option>50</option>
+                            <option>100</option>
+                            <option>>100</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div style="text-align: right">
+                    <button class="btn btn-warning" >Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

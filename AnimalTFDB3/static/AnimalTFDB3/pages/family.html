@@ -1,0 +1,299 @@
+
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="sidebar-header">
+                    <h3>Family categories</h3>
+                </div>
+                <ul class="list-unstyled">
+                    <li style="color:black; font-weight: bold">Basic Domains Group</li>
+                    <ul id="bdg" class="list-unstyled">
+                        <li><a href="#!/family">AP-2</a></li>
+                        <li><a href="#!/family">bHLH</a></li>
+                        <li><a href="#!/family">C/EBP</a></li>
+                        <li><a href="#!/family">Nrf1</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(1)"
+                            ng-hide="one">3 more
+                        </li>
+                        <div ng-show="one">
+                            <li><a href="#!/family">RFX</a></li>
+                            <li><a href="#!/family">TF_bZIP</a></li>
+                            <li><a href="#!/family">TSC22</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(1)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Beta-Scaffold Factors</li>
+                    <ul id="bsf" class="list-unstyled">
+                        <li><a href="#!/family">CBF</a></li>
+                        <li><a href="#!/family">CEP-1</a></li>
+                        <li><a href="#!/family">CP2</a></li>
+                        <li><a href="#!/family">CSD</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(2)"
+                            ng-hide="two">6 more
+                        </li>
+                        <div ng-show="two">
+                            <li><a href="#!/family">CSL</a></li>
+                            <li><a href="#!/family">GCM</a></li>
+                            <li><a href="#!/family">P53</a></li>
+                            <li><a href="#!/family">RHD</a></li>
+                            <li><a href="#!/family">Runt</a></li>
+                            <li><a href="#!/family">STAT</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(2)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Helex-turn-helix</li>
+                    <ul id="hth" class="list-unstyled">
+                        <li><a href="#!/family">ARID</a></li>
+                        <li><a href="#!/family">COE</a></li>
+                        <li><a href="#!/family">CUT</a></li>
+                        <li><a href="#!/family">E2F</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(3)"
+                            ng-hide="three">13 more
+                        </li>
+                        <div ng-show="three">
+                            <li><a href="#!/family">ETS</a></li>
+                            <li><a href="#!/family">Fork head</a></li>
+                            <li><a href="#!/family">Homeobox</a></li>
+                            <li><a href="#!/family">HPD</a></li>
+                            <li><a href="#!/family">HSF</a></li>
+                            <li><a href="#!/family">HTH</a></li>
+                            <li><a href="#!/family">IRF</a></li>
+                            <li><a href="#!/family">MYB</a></li>
+                            <li><a href="#!/family">PAX</a></li>
+                            <li><a href="#!/family">Pou</a></li>
+                            <li><a href="#!/family">SRF</a></li>
+                            <li><a href="#!/family">TEA</a></li>
+                            <li><a href="#!/family">TF_Otx</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(3)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Other Alpha-Helix Group</li>
+                    <ul id="oahg" class="list-unstyled">
+                        <li><a href="#!/family">GTF2I</a></li>
+                        <li><a href="#!/family">HMG</a></li>
+                        <li><a href="#!/family">NF-YA</a></li>
+                        <li><a href="#!/family">NF-YB</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(4)"
+                            ng-hide="four">2 more
+                        </li>
+                        <div ng-show="four">
+                            <li><a href="#!/family">NF-YC</a></li>
+                            <li><a href="#!/family">SAND</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(4)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Unclassified Structure</li>
+                    <ul id="uns" class="list-unstyled">
+                        <li><a href="#!/family">AF-4</a></li>
+                        <li><a href="#!/family">CG-1</a></li>
+                        <li><a href="#!/family">CTF/NFI</a></li>
+                        <li><a href="#!/family">HMGI/HMGY</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(5)"
+                            ng-hide="five">8 more
+                        </li>
+                        <div ng-show="five">
+                            <li><a href="#!/family">MBD</a></li>
+                            <li><a href="#!/family">MH1</a></li>
+                            <li><a href="#!/family">NCU-G1</a></li>
+                            <li><a href="#!/family">NDT80/PhoG</a></li>
+                            <li><a href="#!/family">Others</a></li>
+                            <li><a href="#!/family">PC4</a></li>
+                            <li><a href="#!/family">T-box</a></li>
+                            <li><a href="#!/family">Tub</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(5)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                    <hr class="divider">
+                    <li style="color:black; font-weight: bold">Zinc-Coordinating Group</li>
+                    <ul id="zcg" class="list-unstyled">
+                        <li><a href="#!/family">DM</a></li>
+                        <li><a href="#!/family">ESR-like</a></li>
+                        <li><a href="#!/family">GCNF-like</a></li>
+                        <li><a href="#!/family">Miscellaneous</a></li>
+                        <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(6)"
+                            ng-hide="six">15 more
+                        </li>
+                        <div ng-show="six">
+                            <li><a href="#!/family">NGFIB-like</a></li>
+                            <li><a href="#!/family">Other Nuclear Receptor</a></li>
+                            <li><a href="#!/family">RXR-like</a></li>
+                            <li><a href="#!/family">SF-like</a></li>
+                            <li><a href="#!/family">THAP</a></li>
+                            <li><a href="#!/family">THR-like</a></li>
+                            <li><a href="#!/family">ZBTB</a></li>
+                            <li><a href="#!/family">zf-BED</a></li>
+                            <li><a href="#!/family">zf-C2H2</a></li>
+                            <li><a href="#!/family">zf-C2HC</a></li>
+                            <li><a href="#!/family">zf-GAGA</a></li>
+                            <li><a href="#!/family">zf-GATA</a></li>
+                            <li><a href="#!/family">zf-LITAF-like</a></li>
+                            <li><a href="#!/family">zf-MIZ</a></li>
+                            <li><a href="#!/family">zf-NF-X1</a></li>
+                            <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(6)">Less
+                                ...
+                            </li>
+                        </div>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div class="row" style="margin-top: 0px;padding-top: 0px">
+        <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-default navbar-btn">
+                <i class="glyphicon glyphicon-arrow-left"></i>
+            </button>
+        </div>
+    </div>
+    <div id="content">
+        <div class="panel" style="margin-left: 3px">
+            <div class="panel-body">
+                figure panel
+            </div>
+        </div>
+        <div class="panel" style="margin-left: 3px">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="form-group" style="margin-left: 5px;margin-left: 5px">
+                        <label>Family Introduction<span class="glyphicon glyphicon-question-sign"></span></label>
+                        <div class="pull-right">
+                            <select class="form-control">
+                                <option>Ailuropoda melanoleuca</option>
+                                <option>Anas platyrhynchos</option>
+                                <option>Anolis carolinensis</option>
+                                <option>Aotus nancymaae</option>
+                                <option>Astyanax mexicanus</option>
+                                <option>Bos taurus</option>
+                                <option>Caenorhabditis elegans</option>
+                                <option>Callithrix jacchus</option>
+                                <option>Canis familiaris</option>
+                                <option>Capra hircus</option>
+                                <option>Carlito syrichta</option>
+                                <option>Cavia aperea</option>
+                                <option>Cavia porcellus</option>
+                                <option>Cebus capucinus</option>
+                                <option>Cercocebus atys</option>
+                                <option>Chinchilla lanigera</option>
+                                <option>Chlorocebus sabaeus</option>
+                                <option>Choloepus hoffmanni</option>
+                                <option>Ciona intestinalis</option>
+                                <option>Ciona savignyi</option>
+                                <option>Colobus angolensis palliatus</option>
+                                <option>Cricetulus griseus chok1gshd</option>
+                                <option>Cricetulus griseus crigri</option>
+                                <option>Danio rerio</option>
+                                <option>Dasypus novemcinctus</option>
+                                <option>Dipodomys ordii</option>
+                                <option>Drosophila melanogaster</option>
+                                <option>Echinops telfairi</option>
+                                <option>Equus caballus</option>
+                                <option>Erinaceus europaeus</option>
+                                <option>Felis catus</option>
+                                <option>Ficedula albicollis</option>
+                                <option>Fukomys damarensis</option>
+                                <option>Gadus morhua</option>
+                                <option>Gallus gallus</option>
+                                <option>Gasterosteus aculeatus</option>
+                                <option>Gorilla gorilla</option>
+                                <option>Heterocephalus glaber female</option>
+                                <option>Heterocephalus glaber male</option>
+                                <option>Homo sapiens</option>
+                                <option>Ictidomys tridecemlineatus</option>
+                                <option>Jaculus jaculus</option>
+                                <option>Latimeria chalumnae</option>
+                                <option>Lepisosteus oculatus</option>
+                                <option>Loxodonta africana</option>
+                                <option>Macaca fascicularis</option>
+                                <option>Macaca mulatta</option>
+                                <option>Macaca nemestrina</option>
+                                <option>Mandrillus leucophaeus</option>
+                                <option>Meleagris gallopavo</option>
+                                <option>Mesocricetus auratus</option>
+                                <option>Microcebus murinus</option>
+                                <option>Microtus ochrogaster</option>
+                                <option>Monodelphis domestica</option>
+                                <option>Mus caroli</option>
+                                <option>Mus musculus</option>
+                                <option>Mus pahari</option>
+                                <option>Mus spretus</option>
+                                <option>Mustela putorius furo</option>
+                                <option>Myotis lucifugus</option>
+                                <option>Nannospalax galili</option>
+                                <option>Nomascus leucogenys</option>
+                                <option>Notamacropus eugenii</option>
+                                <option>Ochotona princeps</option>
+                                <option>Octodon degus</option>
+                                <option>Oreochromis niloticus</option>
+                                <option>Ornithorhynchus anatinus</option>
+                                <option>Oryctolagus cuniculus</option>
+                                <option>Oryzias latipes</option>
+                                <option>Otolemur garnettii</option>
+                                <option>Ovis aries</option>
+                                <option>Pan paniscus</option>
+                                <option>Pan troglodytes</option>
+                                <option>Papio anubis</option>
+                                <option>Pelodiscus sinensis</option>
+                                <option>Peromyscus maniculatus bairdii</option>
+                                <option>Petromyzon marinus</option>
+                                <option>Poecilia formosa</option>
+                                <option>Pongo abelii</option>
+                                <option>Procavia capensis</option>
+                                <option>Propithecus coquereli</option>
+                                <option>Pteropus vampyrus</option>
+                                <option>Rattus norvegicus</option>
+                                <option>Rhinopithecus bieti</option>
+                                <option>Rhinopithecus roxellana</option>
+                                <option>Saccharomyces cerevisiae</option>
+                                <option>Saimiri boliviensis boliviensis</option>
+                                <option>Sarcophilus harrisii</option>
+                                <option>Sorex araneus</option>
+                                <option>Sus scrofa</option>
+                                <option>Taeniopygia guttata</option>
+                                <option>Takifugu rubripes</option>
+                                <option>Tetraodon nigroviridis</option>
+                                <option>Tupaia belangeri</option>
+                                <option>Tursiops truncatus</option>
+                                <option>Vicugna pacos</option>
+                                <option>Xenopus tropicalis</option>
+                                <option>Xiphophorus maculatus</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider">
+                <table class="table table-bordered table-hover table-condensed">
+                    <thead>
+                    <tr>
+                        <td>Ensembl ID</td>
+                        <td>Entrez ID</td>
+                        <td>Symbol</td>
+                        <td>Alias</td>
+                        <td>Full Name</td>
+                        <td>Alignment</td>
+                        <td>DBD</td>
+                        <td>Phylogenetic Tree</td>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

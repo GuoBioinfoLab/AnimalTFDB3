@@ -1,0 +1,28 @@
+<a href="#!/"><img src="/static/AnimalTFDB3/image/title_pic_with_name.png" style="width:100%"></a>
+<nav class="navbar navbar-default">
+    <div class="collapse navbar-collapse" id="navigation">
+        <ul class="nav navbar-nav">
+            <li><a href="#!/"><span style="color:#17365D;font-weight: bold">Home</span></a></li>
+            <li><a href="#!/search"><span style="color:#17365D;font-weight: bold">Search</span></a></li>
+            <li><a href="#!/family"><span style="color:#17365D;font-weight: bold">Families</span></a></li>
+            <li><a href="#!/species"><span style="color:#17365D;font-weight: bold">Species</span></a></li>
+            <li><a href="#!/predict"><span style="color:#17365D;font-weight: bold">Predict</span></a></li>
+            <li><a href="#!/blast"><span style="color:#17365D;font-weight: bold">Blast</span></a></li>
+            <li><a href="#!/download"><span style="color:#17365D;font-weight: bold">Download</span></a></li>
+            <li><a href="#!/document"><span style="color:#17365D;font-weight: bold">Document</span></a></li>
+            <li><a href="#!/contact"><span style="color:#17365D;font-weight: bold">Contact</span></a></li>
+        </ul>
+        <form class="navbar-form navbar-right" ng-controller="QuickSearchController">
+            <div class="input-group">
+                <input type="text" class="form-control" ng-model="q_input">
+                <span class="input-group-btn">
+                        <button class="btn btn-default" ng-click="quick_search()">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+            </div>
+        </form>
+    </div>
+</nav>
+
+
