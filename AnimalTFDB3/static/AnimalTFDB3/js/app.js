@@ -1,7 +1,7 @@
 "use strict";
 
-angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive', 'ui.bootstrap-slider', 'bw.paging'])
-    .config(function ($routeProvider) {
+angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive', 'ui.bootstrap-slider', 'bw.paging','ng-echarts','tableSort'])
+    .config(function($routeProvider) {
         $routeProvider
             .when("/", {
                 templateUrl: "/static/AnimalTFDB3/pages/home.html",
@@ -10,6 +10,10 @@ angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive',
             .when("/search", {
                 templateUrl: "/static/AnimalTFDB3/pages/search.html",
                 controller: "SearchController",
+            })
+            .when("/seach_result", {
+                templateUrl: "/static/AnimalTFDB3/pages/searchResult.html",
+                controller: "SearchResultController",
             })
             .when("/species", {
                 templateUrl: "/static/AnimalTFDB3/pages/species.html",
@@ -22,10 +26,6 @@ angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive',
             .when("/tcf", {
                 templateUrl: "/static/AnimalTFDB3/pages/tcf.html",
                 controller: "TcfController",
-            })
-            .when("/crf", {
-                templateUrl: "/static/AnimalTFDB3/pages/crf.html",
-                controller: "CrfController",
             })
             .when("/predict", {
                 templateUrl: "/static/AnimalTFDB3/pages/predict.html",
@@ -47,6 +47,10 @@ angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive',
                 templateUrl: "/static/AnimalTFDB3/pages/contact.html",
                 controller: "ContactController",
             })
+            .when("/tf_gene_info", {
+                templateUrl: "/static/AnimalTFDB3/pages/gene_info.html",
+                controller: "GeneInfoController",
+            })
             .otherwise({
                 redirectTo: "/404.html",
             });
@@ -55,6 +59,7 @@ angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive',
         $interpolateProvider.startSymbol('{$');
         $interpolateProvider.endSymbol('$}');
     })
+
     .service('AnimalTFDBservice',function () {
         this.getBrowserBaseUrl = function () {
             return "http://211.69.207.247/wubrowse/browser/?genome=hg38";
@@ -64,7 +69,9 @@ angular.module('AnimalTFDB3', ['ui.bootstrap', 'ngRoute', 'pageslide-directive',
             return "0.0.0.0:3000";
         };
         this.getAPIBaseUrl = function () {
-            return "/AnimalTFDB3"
-            //return ""
+            //return "/AnimalTFDB3"
+            return ""
         }
     });
+
+

@@ -7,12 +7,11 @@
                 <div class="sidebar-header">
                     <h3>Family categories</h3>
                 </div>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" id="family_ul">
                     <li style="color:black; font-weight: bold">Basic Domains Group</li>
                     <ul id="bdg" class="list-unstyled">
                         <li><a href="#!/family">AP-2</a></li>
                         <li><a href="#!/family">bHLH</a></li>
-                        <li><a href="#!/family">C/EBP</a></li>
                         <li><a href="#!/family">Nrf1</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(1)"
                             ng-hide="one">3 more
@@ -30,7 +29,6 @@
                     <li style="color:black; font-weight: bold">Beta-Scaffold Factors</li>
                     <ul id="bsf" class="list-unstyled">
                         <li><a href="#!/family">CBF</a></li>
-                        <li><a href="#!/family">CEP-1</a></li>
                         <li><a href="#!/family">CP2</a></li>
                         <li><a href="#!/family">CSD</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(2)"
@@ -54,13 +52,13 @@
                         <li><a href="#!/family">ARID</a></li>
                         <li><a href="#!/family">COE</a></li>
                         <li><a href="#!/family">CUT</a></li>
-                        <li><a href="#!/family">E2F</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(3)"
-                            ng-hide="three">13 more
+                            ng-hide="three">14 more
                         </li>
                         <div ng-show="three">
+                            <li><a href="#!/family">E2F</a></li>
                             <li><a href="#!/family">ETS</a></li>
-                            <li><a href="#!/family">Fork head</a></li>
+                            <li><a href="#!/family">Fork_head</a></li>
                             <li><a href="#!/family">Homeobox</a></li>
                             <li><a href="#!/family">HPD</a></li>
                             <li><a href="#!/family">HSF</a></li>
@@ -83,11 +81,11 @@
                         <li><a href="#!/family">GTF2I</a></li>
                         <li><a href="#!/family">HMG</a></li>
                         <li><a href="#!/family">NF-YA</a></li>
-                        <li><a href="#!/family">NF-YB</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(4)"
-                            ng-hide="four">2 more
+                            ng-hide="four">3 more
                         </li>
                         <div ng-show="four">
+                            <li><a href="#!/family">NF-YB</a></li>
                             <li><a href="#!/family">NF-YC</a></li>
                             <li><a href="#!/family">SAND</a></li>
                             <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(4)">Less
@@ -101,18 +99,22 @@
                         <li><a href="#!/family">AF-4</a></li>
                         <li><a href="#!/family">CG-1</a></li>
                         <li><a href="#!/family">CTF/NFI</a></li>
-                        <li><a href="#!/family">HMGI/HMGY</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(5)"
-                            ng-hide="five">8 more
+                            ng-hide="five">13 more
                         </li>
                         <div ng-show="five">
+                            <li><a href="#!/family">CSRNP_N</a></li>
+                            <li><a href="#!/family">DACH</a></li>
+                            <li><a href="#!/family">GCFC</a></li>
+                            <li><a href="#!/family">HMGA</a></li>
+                            <li><a href="#!/family">LRRFIP</a></li>
                             <li><a href="#!/family">MBD</a></li>
                             <li><a href="#!/family">MH1</a></li>
                             <li><a href="#!/family">NCU-G1</a></li>
                             <li><a href="#!/family">NDT80/PhoG</a></li>
-                            <li><a href="#!/family">Others</a></li>
                             <li><a href="#!/family">PC4</a></li>
                             <li><a href="#!/family">T-box</a></li>
+                             <li><a href="#!/family">TF_others</a></li>
                             <li><a href="#!/family">Tub</a></li>
                             <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_less(5)">Less
                                 ...
@@ -125,13 +127,12 @@
                         <li><a href="#!/family">DM</a></li>
                         <li><a href="#!/family">ESR-like</a></li>
                         <li><a href="#!/family">GCNF-like</a></li>
-                        <li><a href="#!/family">Miscellaneous</a></li>
                         <li style="text-align: right;margin-right: 5px;color: lightgray" ng-click="show_more(6)"
-                            ng-hide="six">15 more
+                            ng-hide="six">16 more
                         </li>
                         <div ng-show="six">
+                            <li><a href="#!/family">Miscellaneous</a></li>
                             <li><a href="#!/family">NGFIB-like</a></li>
-                            <li><a href="#!/family">Other Nuclear Receptor</a></li>
                             <li><a href="#!/family">RXR-like</a></li>
                             <li><a href="#!/family">SF-like</a></li>
                             <li><a href="#!/family">THAP</a></li>
@@ -142,6 +143,8 @@
                             <li><a href="#!/family">zf-C2HC</a></li>
                             <li><a href="#!/family">zf-GAGA</a></li>
                             <li><a href="#!/family">zf-GATA</a></li>
+                            <li><a href="#!/family">zf-CCCH</a></li>
+                            <li><a href="#!/family">zf-H2C2_2</a></li>
                             <li><a href="#!/family">zf-LITAF-like</a></li>
                             <li><a href="#!/family">zf-MIZ</a></li>
                             <li><a href="#!/family">zf-NF-X1</a></li>
@@ -164,18 +167,24 @@
         </div>
     </div>
     <div id="content">
-        <div class="panel" style="margin-left: 3px">
+        <div class="panel" style="width: 100%">
             <div class="panel-body">
-                figure panel
+                 <span>
+                <ng-echarts ec-config="lineConfig"  ec-option="lineOption" style="width: 1500px;height: 300px"></ng-echarts>
+                </span>
             </div>
         </div>
-        <div class="panel" style="margin-left: 3px">
+        <div class="panel" style="width: 100%">
             <div class="panel-body">
                 <div class="row">
                     <div class="form-group" style="margin-left: 5px;margin-left: 5px">
-                        <label>Family Introduction<span class="glyphicon glyphicon-question-sign"></span></label>
+                        <img src="/static/AnimalTFDB3/image/species/{$ species $}.png" style="width: 25px;height: 25px"><span style="margin-left: 5px;font-weight: bold">{$ species_title $}</span><span style="margin-left: 20px;font-weight: bold">Family:</span><span>{$ family $}</span><span style="margin-left: 20px;font-weight: bold">DNA Binding Domain:{$ dbd $}&nbsp;</span>
+                        <span ng-show="link_tag"><a href="http://pfam.xfam.org/family/{$ id $}" target="_blank">{$ id $}</a></span>
+                        <span ng-show="sing_tag"><a href="http://www.ebi.ac.uk/interpro/DisplayIproEntry?ac={$ id $}" target="_blank">{$ id $}</a></span>
+                        <span ng-show="self_tag">{$ id $}</span>
+                        <span style="margin-left: 20px;font-weight: bold">Item number:</span><span>{$ tf_count $}</span>
                         <div class="pull-right">
-                            <select class="form-control">
+                            <select class="form-control" id="species" ng-click="species_change()">
                                 <option>Ailuropoda melanoleuca</option>
                                 <option>Anas platyrhynchos</option>
                                 <option>Anolis carolinensis</option>
@@ -261,7 +270,6 @@
                                 <option>Rattus norvegicus</option>
                                 <option>Rhinopithecus bieti</option>
                                 <option>Rhinopithecus roxellana</option>
-                                <option>Saccharomyces cerevisiae</option>
                                 <option>Saimiri boliviensis boliviensis</option>
                                 <option>Sarcophilus harrisii</option>
                                 <option>Sorex araneus</option>
@@ -279,21 +287,103 @@
                     </div>
                 </div>
                 <hr class="divider">
-                <table class="table table-bordered table-hover table-condensed">
+                <table ng-show="tf_count" ts-wrapper class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed" >
                     <thead>
                     <tr>
-                        <td>Ensembl ID</td>
-                        <td>Entrez ID</td>
-                        <td>Symbol</td>
-                        <td>Alias</td>
-                        <td>Full Name</td>
-                        <td>Alignment</td>
-                        <td>DBD</td>
-                        <td>Phylogenetic Tree</td>
+                        <th ts-criteria="ensembl" ts-default style="width: 12%">Ensembl ID</th>
+                        <th ts-criteria="entrez">Entrez ID</th>
+                        <th style="width:5%" ts-criteria="symbl">Symbol</th>
+                        <th ts-criteria="alia">Alias</th>
+                        <th ts-criteria="fullname">Full Name</th>
+                        <th ts-criteria="protein">Protein <span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Protein with DBD predicted"></span></th>
+                        <th style="width: 5%">Alignment</th>
+                        <th style="width: 5%">Phy logenetic Tree</th>
+                        <th style="width: 5%">WebLogo</th>
+                        <th style="width: 5%">Domain</th>
+                        <th style="width: 5%">GO</th>
+                        <th style="width: 5%">Pathway</th>
+                        <th style="width: 5%">Phenotype</th>
+                        <th style="width: 5%">PPI</th>
+                        <th style="width: 5%">Paralog</th>
+                        <th style="width: 5%">Ortholog</th>
+                        <th style="width: 5%">Expression</th>
                     </tr>
                     </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tf_list" ts-repeat ts-hide-no-data>
+                        <td title="{$ item.ensembl $}"><a href="#!tf_gene_info?tf={$item.ensembl$}" target="_self">{$ item.ensembl $}</a></td>
+                        <td title="{$ item.entrez$}"><a href="http://www.ncbi.nlm.nih.gov/gene/{$item.entrez$}" target="_blank">{$ item.entrez$}</a></td>
+                        <td title="{$ item.symbl $}">{$ item.symbl $}</td>
+                        <td title="{$ item.alia $}">{$ item.alia $}</td>
+                        <td title="{$item.fullname$}">{$ item.fullname $}</td>
+                        <td title="{$item.protein$}">{$item.protein$}</td>
+                        <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
+                        <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
+                        <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.domain"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.domain"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.go"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.go"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.pathway"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.pathway"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Pheanotype"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Pheanotype"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.PPI"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.PPI"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Paralog"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Paralog"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Ortholog"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Ortholog"></span>
+                        </td>
+                        <td>
+                            <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Expression"></span>
+                            <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Expression"></span>
+                        </td>
+                    </tr>
+                    </tbody>
                 </table>
+                <div class="well"style="background-color: #4682B4;color: white;"  ng-show="tf_zero">There were 0 item in the selected family</div>
             </div>
         </div>
     </div>
 </div>
+<div class="fade" tabindex="-1">
+    <div class="dialog">
+        <div class="content"></div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    {$ modal_header $}
+                </h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+

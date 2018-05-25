@@ -3,7 +3,7 @@
         <div class="panel panel-danger">
             <div class="panel-heading "><span style="font-size: large;font-weight: bold">Search by basic information</span></div>
             <div class="panel-body form-group">
-                <select id="basic_info_search" class="form-control">
+                <select id="basicSelect" class="form-control" ng-click="query_change()">
                     <option>Ensembl Gene ID</option>
                     <option>Entrez Gene ID</option>
                     <option>Ensembl Transcript ID</option>
@@ -13,21 +13,21 @@
                     <option>Full name</option>
                 </select>
                 <br>
-                <input class="form-control" type="text" id="basicInfo" value="ENSG00000072364">
+                <input class="form-control" type="text" id="basicInput" value="{$ query $}" placeholder="{$ query $}">
                 <br>
                 <br>
                 <br>
                  <div style="text-align: right">
-                    <button class="btn btn-danger" >Submit</button>
+                    <button class="btn btn-danger" ng-click="basic_search()">Submit</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-lg-3">
         <div class="panel panel-success">
-            <div class="panel-heading "><span style="font-size: large;font-weight: bold">Searcg by gene annotation</span></div>
+            <div class="panel-heading "><span style="font-size: large;font-weight: bold">Search by gene annotation</span></div>
             <div class="panel-body form-group">
-                <select id="gene_annotation" class="form-control">
+                <select id="annotationSelect" class="form-control" ng-click="annotation_change()">
                     <option>Protein-Protein Interaction (Gene ID or Symbol)</option>
                     <option>Pathway (Pathway ID or Description)</option>
                     <option>Gene Ontology (Gene Ontology ID or Description)</option>
@@ -35,12 +35,12 @@
                     <option>Paralog (Ensembl ID or Symbol)</option>
                 </select>
                 <br>
-                <input class="form-control" type="text" id="annotation" value="5371">
+                <input class="form-control" type="text" id="annotationInput" value="{$ annotation_query $}" placeholder="{$ annotation_query $}">
                 <br>
                 <br>
                 <br>
                 <div style="text-align: right">
-                    <button class="btn btn-success" >Submit</button>
+                    <button class="btn btn-success" ng-click="annotation_search()">Submit</button>
                 </div>
             </div>
         </div>

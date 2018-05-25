@@ -62,6 +62,11 @@ while(<IN>)
 	{
 		$hash{$pr}="ZBTB";
 	}
+        if($TF=~/zf-H2C2_2/)
+        {
+                $hash{$pr}="zf-C2H2";
+        }
+
 	#Pou and Homeobox
 	elsif($TF=~/Pou/ && $TF=~/Homeobox/)
 	{

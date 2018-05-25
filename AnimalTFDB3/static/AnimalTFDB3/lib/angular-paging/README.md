@@ -1,23 +1,48 @@
-####Distribution Files
+####Source Files
+The source file directory contains a sample working application using all the features of the paging directive.
 
-
-The distribution folder holds the source and compressed versions of the paging directive.
-
-The distribution files are built using [grunt](http://gruntjs.com/) when a tagged version is released - see the `src` folder for latest
-
-Any [bower](https://bower.io/) references should use either the source or compressed version.
-
-Any Content Delivery Networks would reference these files.
+The goal of this working version is to mitigate simple setup and "how to" questions as well as visually test new features.
 
 ---
 <br/>
 
-####Using [Rawgit CDN](https://rawgit.com/)
+####Paging.js
 
-At the moment the only CDN available is through rawgit.
+The angular paging directive javascript code.  
 
-It may not be the best but if you are interested in using a CDN refer to the following:
+This is the latest code under development - see the `dist` folder for tagged and minified versions.
 
-- For test/debug : https://rawgit.com/brantwills/Angular-Paging/master/dist/paging.js
+The paging directive is contained in a `bw.paging` module which you can consume in your project.
 
-- For production : https://rawgit.com/brantwills/Angular-Paging/v2.2.2/dist/paging.min.js
+<br/>
+**The following constraints are built into the directive by design:**
+
+- If the current page value is larger than the page count, the page will be set to the page count value
+
+- If the current page value is less than or equal to zero (0), the page will be set to one (1)
+
+- If the adjacent count value is less than or equal to zero (0), the adjacent count value will be set to two (2)
+
+- If the page size does not exist or is less than or equal to zero (0), the page size is set to one (1)
+
+- The current page on click event is disabled
+
+---
+<br/>
+
+####App.js
+
+A simple angular application module which consumes the paging directive and introduces a single controller. 
+
+The controller is used to explain how a `paging action` could be introduced into the paging directive.
+
+---
+<br/>
+
+####Index.html
+
+A simple HTML implementation of the angular application defined in `app.js`
+
+This file should exercise both the simple and advanced options of the paging directive.
+
+For simplicity we are using [bootstrap](http://getbootstrap.com/) for styling. 

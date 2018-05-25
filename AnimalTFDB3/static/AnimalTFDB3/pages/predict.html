@@ -13,8 +13,8 @@
                 <textarea class="form-control" id="input_seq" style="width: 97%;height: 250px"></textarea>
                 <br>
                 <div style="text-align: right;margin-right: 27px">
-                        <button class="btn btn-default" type="reset" ng-click="reset()">Reset</button>
-                        <button class="btn btn-default" type="submit" ng-click="get_result()">Submit</button>
+                    <button class="btn btn-default" type="reset" ng-click="reset()">Reset</button>
+                    <button class="btn btn-default" type="submit" ng-click="get_result()">Submit</button>
                 </div>
             </div>
         </div>
@@ -25,35 +25,37 @@
                     style="color:gold;font-size: large;font-weight: bold">Results</span></div>
             <div class="panel-body">
                 <div ng-show="predict_start" style="width:100%; text-align: center;margin-top: 150px">
-                        <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
+                    <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
                 </div>
                 <div ng-show="result">
-                <h4 style="font-weight: bold;text-align: center">Transcription Factor Prediction Result</h4>
-                <p>Number of upload sequences: {$ seq_count $}</p>
-                <p>Number of hits: {$ hit_count $}</p>
-                <br>
-                <table class="table table-bordered table-hover table-condensed">
-                    <thead>
-                    <tr>
-                        <th>TF</th>
-                        <th>Family</th>
-                        <th>Full sequence e-value</th>
-                        <th>Best domain e-value</th>
-                        <th>Domain number</th>
-                        <th>Alignment information</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr ng-repeat="item in result_ls">
-                        <td id="tf">{$ item.TF $}</td>
-                        <td>{$ item.Family $}</td>
-                        <td>{$ item.F_e_value$}</td>
-                        <td>{$ item.B_e_value $}</td>
-                        <td>{$ item.Domain_number $}</td>
-                        <td><button class="btn btn-success" ng-click="show_detail(item)">show</button></td>
-                    </tr>
-                    </tbody>
-                </table>
+                    <h4 style="font-weight: bold;text-align: center">Transcription Factor Prediction Result</h4>
+                    <p>Number of upload sequences: {$ seq_count $}</p>
+                    <p>Number of hits: {$ hit_count $}</p>
+                    <br>
+                    <div class="pre-scrollable" style="height: 300px">
+                        <table class="table table-bordered table-hover table-condensed">
+                            <thead>
+                            <tr>
+                                <th>TF</th>
+                                <th>Family</th>
+                                <th>Full sequence e-value</th>
+                                <th>Best domain e-value</th>
+                                <th>Domain number</th>
+                                <th>Alignment information</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in result_ls">
+                                <td id="tf">{$ item.TF $}</td>
+                                <td>{$ item.Family $}</td>
+                                <td>{$ item.F_e_value$}</td>
+                                <td>{$ item.B_e_value $}</td>
+                                <td>{$ item.Domain_number $}</td>
+                                <td><button class="btn btn-success" ng-click="show_detail(item)">show</button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
