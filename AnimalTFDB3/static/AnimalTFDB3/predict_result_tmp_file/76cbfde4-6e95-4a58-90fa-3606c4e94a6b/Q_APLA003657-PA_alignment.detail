@@ -1,0 +1,48 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	244.8	13.7	7.4e-77	6.8e-74	1	333	737	1067
+2	8.1	0.1	7e-05	0.064	79	130	1201	1252
+3	-1.9	0.2	0.081	74	133	162	1380	1409
+
+  Alignments for each domain:
+  == domain 1  score: 244.8 bits;  conditional E-value: 7.4e-77
+            PLU-1    1 eWaekveelle..eeskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllskkqrtRrkneaeeeeeekeklsleelekL 90  
+                       +W +kv+++l+    + ++L+el++ll+ea  +kfp++ell++Lk++v++aek++++++ql  +k+rtR++n     +++k+kl++eel+ +
+  Q_APLA003657-PA  737 NWVNKVKDALDpnIPKSMDLSELKALLSEATGKKFPKSELLDTLKNAVDDAEKCASVIRQLDLNKMRTRTRNS----SDNKYKLTIEELTLF 824 
+                       6***********88999******************************************************88....99************* PP
+
+            PLU-1   91 leeldslpFdlpeieqLkelleeieefrkkarellseesedssieeleklieeGksfnvelpeleeLkrvleqlkWleevrevreekkqltl 182 
+                       +ee++sl ++l+e  ++ +ll++ ++f++++ +ll+ +  + + ++lek+++ G+ +++elp+l++++++l+q  Wl ++++vr +++ + +
+  Q_APLA003657-PA  825 VEEINSLACNLEEGRSVIDLLKQTKDFEAESTRLLQMDLGECNASDLEKCLDHGNGLCIELPSLKFVTQRLRQVLWLRDITTVRRKAEIVQM 916 
+                       *************************************999999****************************************977777*** PP
+
+            PLU-1  183 eevkeLieeGeslaispek.eellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaaleealkkarelqrkvee 273 
+                       +++k+L+++G +l+ ++   e++l+ l++ll+ ae we++a++l +++ +  ++e e+ll+ea++++v lps + l +al++a+++ +++ee
+  Q_APLA003657-PA  917 DTLKNLLKSGLQLP-PDIFiERELQVLRALLADAEDWEKRAQQLFKSDSTNIIQEAESLLQEAEDMEVFLPSEEMLADALSRAKDWLKTLEE 1007
+                       **************.68889*************************9999999**************************************** PP
+
+            PLU-1  274 liksaerptlseleellkkgeslpvkleeleeLekelsraedWlekakklFlkknaplsl 333 
+                       +++++  p+++++e+l+kkg+ +p+ lee+ +Le ++s+a+ W+ek++++Fl+kn +++l
+  Q_APLA003657-PA 1008 INSAEFYPYFDTMEDLIKKGRAIPICLEEVGKLETYISAARVWKEKTSRIFLRKNTSFTL 1067
+                       *887777*************************************************9998 PP
+
+  == domain 2  score: 8.1 bits;  conditional E-value: 7e-05
+            PLU-1   79 keklsleelekLleeldslpFdlpeieqLkelleeieefrkkarellseese 130 
+                       +++  le + +Ll +l++l   +pe e+L+ l e+   ++ +ar+ll  ++ 
+  Q_APLA003657-PA 1201 TRRPRLETILSLLVSLQKLYVRVPEGEALQCLTERAMGWQDRARQLLHSDEL 1252
+                       467889999*************************************997433 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 0.081
+            PLU-1  133 sieeleklieeGksfnvelpeleeLkrvle 162 
+                       + + +e+l+ eG+ + v l e   L ++l+
+  Q_APLA003657-PA 1380 KRQHIEELLLEGDLLEVSLDETFHLWKILQ 1409
+                       47899****************999999998 PP
+
+
+

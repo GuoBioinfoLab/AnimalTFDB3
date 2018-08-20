@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	83.9	2.5	3.2e-26	3.7e-25	3	109	90	191
+2	-0.9	0.0	6.8	79	63	79	276	292
+
+  Alignments for each domain:
+  == domain 1  score: 83.9 bits;  conditional E-value: 3.2e-26
+                 HHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHHT-HHHHH CS
+        ZBTB   3 elresgelcDvtlvvgdgkefkahkavLaarSpyFkalftskeieessvseielddvepeafealLefiYtgeleitseenleelLaaadllqiprlkk 101
+                 e+ + + +cDvtl+v+ +k +kah+ vLa++SpyF+++++++ +  ++  +++++  ++e+f  +L+f+Ytge++++  +n+eelL++ad++ + ++++
+  Q_ENN83464  90 EQKRMNRFCDVTLYVN-NKILKAHRNVLACSSPYFDSILKHH-KVVKE--QLTVNCLDSEIFNHVLSFMYTGEITVK-HSNVEELLKLADHFILTKVIE 183
+                 5666679*********.6************************.34444..7999**********************7.********************* PP
+
+                 HHHHHHHH CS
+        ZBTB 102 aceeflkq 109
+                  c efl +
+  Q_ENN83464 184 YCIEFLGT 191
+                 ****9966 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 6.8
+                 HHHHHHHHHHHSEEEC- CS
+        ZBTB  63 afealLefiYtgeleit 79 
+                  f++l+++ Yt +le  
+  Q_ENN83464 276 YFDKLVRCFYTNNLEPA 292
+                 6999*******999874 PP
+

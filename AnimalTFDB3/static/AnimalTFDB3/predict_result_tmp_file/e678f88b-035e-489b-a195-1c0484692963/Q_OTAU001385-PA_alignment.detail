@@ -1,0 +1,53 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	203.3	21.0	3.1e-64	2.9e-61	2	333	752	1079
+2	18.0	0.2	7.2e-08	6.7e-05	48	131	1165	1263
+3	3.1	0.1	0.0024	2.3	126	161	1351	1384
+
+  Alignments for each domain:
+  == domain 1  score: 203.3 bits;  conditional E-value: 3.1e-64
+            PLU-1    2 Waekveelle..eeskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllskkqrtRrkneaeeeeeekeklsleelekLl 91  
+                       Wa+kv+++l+  + + + L elr+l +ea+ + fp+++l+ +L +++++aek++++++ql  +k rtR+ ++       k kl+leel+ ++
+  Q_OTAU001385-PA  752 WADKVKDALDrnTPKSMHLDELRQLFQEAQGKHFPKSDLILTLANAIEDAEKCASVIRQLDLNKIRTRNSYD------HKSKLTLEELTLFC 837 
+                       ***********99999************************************************99999877......6788********** PP
+
+            PLU-1   92 eeldslpFdlpeieqLkelleeieefrkkarellseesedssieeleklieeGksfnvelpeleeLkrvleqlkWleevrevreekkqltle 183 
+                       +e+dsl + l e + +kell +  ef+k+++++ls   ++   +++e+l++ ++ +++elp+l+ ++++l++lkWl ev+++r+      ++
+  Q_OTAU001385-PA  838 DEIDSLACILDEEKIIKELLTKTSEFEKESKRILSLPLKECLMQQVEDLVNNSNDLCIELPSLQPMQDRLKKLKWLCEVQSTRHLGDVADID 929 
+                       ************************************98899******************************************98888**** PP
+
+            PLU-1  184 evkeLieeGeslaispek.eellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaaleealkkarelqrkveel 274 
+                       ++k+L+++G+ ++  +   ++ l +lq l+++ae+we++a+elL+++ +  ++e e+l++ea ei+v lp+   l + l++a e+ ++++e+
+  Q_OTAU001385-PA  930 TLKKLVQSGNVFPY-DSViSNVLLELQTLITEAEEWEQRAQELLKKTGSDIISEAEQLIKEACEIEVFLPTENVLIDSLNSANEWFKQLQEM 1020
+                       *************7.7777**************************9999******************************************* PP
+
+            PLU-1  275 iksaerptlseleellkkgeslpvkleeleeLekelsraedWlekakklFlkknaplsl 333 
+                       ++ +  p+l  +e+l+kk++ ++++lee+e+L++ +++a +W+ek++++Fl+kn+  +l
+  Q_OTAU001385-PA 1021 NSLEFYPYLCSIEDLIKKSKGFQFQLEEVERLKSFVTSALSWKEKTSRIFLRKNSTGNL 1079
+                       777777************************************************98666 PP
+
+  == domain 2  score: 18.0 bits;  conditional E-value: 7.2e-08
+            PLU-1   48 eaekwvekaqqllskkqrtRrkne................aeeeeeekeklsleelekLleeldslpFdlpeieqLkelleeieefrkkare 123 
+                        ++ w +  +  l k  +t+ k++                  ++  ++++ +le + +Ll +l++l+  lpe e+L+ l e+  +++ +ar+
+  Q_OTAU001385-PA 1165 LCKDWFHSTCVTLPKIANTKIKSNlttamlqigykdskflCPNCL-RTRRPKLESILSLLMSLQKLHTRLPEGEALQCLTERAMNWQDRARQ 1255
+                       577888888888888888888887888888888888887544554.45699***************************************** PP
+
+            PLU-1  124 llseesed 131 
+                       ll+ ++ +
+  Q_OTAU001385-PA 1256 LLQSDELE 1263
+                       ***86444 PP
+
+  == domain 3  score: 3.1 bits;  conditional E-value: 0.0024
+            PLU-1  126 seesedssieeleklieeGksfnvelpeleeLkrvl 161 
+                       +   ++  +e+le+l+ eG+ + v l el++L + +
+  Q_OTAU001385-PA 1351 RL--SETVKEQLEDLMVEGDLLEVTLDELPQLWQLV 1384
+                       43..345689**********************9876 PP
+
+
+

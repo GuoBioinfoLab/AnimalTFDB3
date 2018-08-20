@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	4.1	0.0	1.4	3.4	2	18	102	118
+2	11.2	0.9	0.0076	0.018	7	26	148	167
+3	22.7	0.4	1.8e-06	4.3e-06	2	21	171	190
+4	37.1	1.5	5e-11	1.2e-10	2	25	199	222
+5	28.1	0.7	3.6e-08	8.8e-08	1	24	226	249
+6	24.4	2.7	5.1e-07	1.2e-06	4	25	257	278
+7	22.2	1.4	2.6e-06	6.4e-06	1	24	282	305
+8	35.9	0.7	1.2e-10	2.9e-10	2	25	311	334
+9	35.3	0.1	1.8e-10	4.3e-10	4	26	341	363
+10	5.0	3.5	0.69	1.7	5	25	370	388
+11	3.9	0.4	1.6	3.9	2	11	393	402
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 1.4
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCp 18 
+                      L  H  +H+ +  y+Cp
+  PrHsapNP_775902 102 LAEHDGTHPEQGLYTCP 118
+                      6679999*********9 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.0076
+        zf-H2C2_2   7 rkHtgekpyeCplCdkaFkt 26 
+                      r+H+  k + C++C+kaF++
+  PrHsapNP_775902 148 RVHMAGKTFLCSECGKAFSH 167
+                      67886677**********97 PP
+
+  == domain 3  score: 22.7 bits;  conditional E-value: 1.8e-06
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCd 21 
+                      L+ H + Htge+ y+C++C+
+  PrHsapNP_775902 171 LSDHQKIHTGERTYKCSKCG 190
+                      899****************7 PP
+
+  == domain 4  score: 37.1 bits;  conditional E-value: 5e-11
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+rH r+Htge+pyeC +C+kaF 
+  PrHsapNP_775902 199 LNRHQRTHTGERPYECNECGKAFL 222
+                      9**********************6 PP
+
+  == domain 5  score: 28.1 bits;  conditional E-value: 3.6e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+rH   H ge+pyeC++C+k F
+  PrHsapNP_775902 226 HLVRHQTIHSGERPYECSECGKLF 249
+                      79*******************977 PP
+
+  == domain 6  score: 24.4 bits;  conditional E-value: 5.1e-07
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                       H r+Htg++py C++C+k Fk
+  PrHsapNP_775902 257 THQRVHTGKRPYGCSECGKFFK 278
+                      6********************9 PP
+
+  == domain 7  score: 22.2 bits;  conditional E-value: 2.6e-06
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      nL rH r Htg++ y C++C+k F
+  PrHsapNP_775902 282 NLFRHYRIHTGKRSYGCSECGKFF 305
+                      799*******************98 PP
+
+  == domain 8  score: 35.9 bits;  conditional E-value: 1.2e-10
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+rH r+Htge+pyeC +C+k F+
+  PrHsapNP_775902 311 LSRHQRVHTGERPYECNECGKFFS 334
+                      89********************95 PP
+
+  == domain 9  score: 35.3 bits;  conditional E-value: 1.8e-10
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFkt 26 
+                      +H r+Htge+pyeC++C+kaF t
+  PrHsapNP_775902 341 QHQRVHTGERPYECSECGKAFLT 363
+                      7********************75 PP
+
+  == domain 10  score: 5.0 bits;  conditional E-value: 0.69
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H  +Ht     +C++C+k F 
+  PrHsapNP_775902 370 HQTVHTAA--KQCSECGKFFR 388
+                      44445544..4********96 PP
+
+  == domain 11  score: 3.9 bits;  conditional E-value: 1.6
+        zf-H2C2_2   2 LrrHlrkHtg 11 
+                      L rH ++Htg
+  PrHsapNP_775902 393 LLRHQKVHTG 402
+                      67*******8 PP
+

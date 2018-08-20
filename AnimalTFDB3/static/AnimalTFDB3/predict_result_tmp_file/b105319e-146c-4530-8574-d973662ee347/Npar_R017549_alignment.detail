@@ -1,0 +1,31 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	14.5	0.5	8.5e-07	0.00085	237	320	11	118
+2	1.2	0.4	0.0092	9.2	178	225	136	187
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 8.5e-07
+         PLU-1 237 Leallneaqeipvslpslaaleealkkarelqrkveeliks....................aerptlseleellkkg.eslpvkleele...eLeke 309
+                   L+al++  + +  + +s++ +e +lk++++l +k ++l ++                    + rp++ el+++++   ++ + k ++l+   eL ++
+  Npar_R017549  11 LDALMDTQAAFTDIGDSVSRVEHLLKELKQLEEKGQDLLEKaqlhalhgdqliqnnhyavdSIRPKCIELRRICDDFtNETKKKYDILRkslELHQQ 107
+                   5666666555555568899999999999999999999999999999999999988888777666*************5559999988753337999* PP
+
+         PLU-1 310 lsraedWleka 320
+                   l+ra++W+e +
+  Npar_R017549 108 LDRANQWCEDG 118
+                   *******9965 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.0092
+         PLU-1 178 kqltleevkeLie..eGeslaispe.k.eellaklqelleaaekweekakel 225
+                   ++  l++++++i   +G +l+++ e + + ++    +++++++k  +k+ ++
+  Npar_R017549 136 AESALQDIEKFIGrsKGHQLSNPTEfYhKYEMILSSDIKTNVQKVLQKLADV 187
+                   4556666666665223444443333321222222233344444444444443 PP
+
+
+

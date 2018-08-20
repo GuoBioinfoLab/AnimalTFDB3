@@ -1,0 +1,27 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	230.6	0.2	1.6e-72	8.1e-70	28	227	91	282
+
+  Alignments for each domain:
+  == domain 1  score: 230.6 bits;  conditional E-value: 1.6e-72
+               CP2  28 sstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrkkeaklwklWkegrgseavrvvd 120
+                       s ++++rf+++L+a+t++a+k+nee+ltYLN+GQ+Y+i+lk+lg  +ls++kgk lksvi++ F+e++++++e++++++W+++r+ e  r+v+
+  BGIBMGA009653-PA  91 SFKDDTRFQYVLAAATSIATKQNEETLTYLNQGQSYEIKLKKLG--DLSHYKGKLLKSVIKICFHERRLQYMEREQIAQWHAERPGE--RIVE 179
+                       457899**************************************..*****************************************..5555 PP
+
+               CP2 121 i..pls.ggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksK..GvkGvPlrlqieTelisesvkesalevafckvKlFr 208
+                       +  pls g+++ ++        ++++a+++ W+ ++e++++++vNc+St+F+ +K  G+kGvP+r+q+eT+l s++++++  ++a c++K+F+
+  BGIBMGA009653-PA 180 VdvPLSyGIIKVEQS-------TALNALHVYWDATKEVGVYIKVNCISTEFTAKKhgGEKGVPFRIQVETYLASDENNRL--NAAACQIKVFK 263
+                       555***999988876.......89**************************************************999988..9********** PP
+
+               CP2 209 dkGAeRKlkndvakvkkki 227
+                        kGA+RK+k+d++kv +++
+  BGIBMGA009653-PA 264 LKGADRKHKQDREKVLRRP 282
+                       ***************9876 PP
+

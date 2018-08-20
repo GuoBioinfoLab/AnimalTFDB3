@@ -1,0 +1,31 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	37.9	0.1	1e-11	1.2e-10	1	89	8	89
+2	38.9	2.6	5e-12	6.1e-11	1	89	94	167
+3	41.0	2.0	1.2e-12	1.4e-11	1	86	200	277
+
+  Alignments for each domain:
+  == domain 1  score: 37.9 bits;  conditional E-value: 1e-11
+             THAP  1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeek.kkkkkeeekkeskkrrkLkkdavPtif 89
+                     C vp+C+  +++++   +  +r P+d++lrk W   i rkd++ +  +   ++C++HF+e++   +   ++ +    +++Lk++a+P+i+
+  Q_AGLA019997-RA  8 CYVPDCNIYDEEEE--LLYWFRAPNDRNLRKLWDICIDRKDQRLHVGD---LICHQHFHESDiIYYT--DK-NGVVLSKTLKNGAIPCIN 89
+                     *******9444332..3899999**********889999877765555...9******888422222..22.33444556********96 PP
+
+  == domain 2  score: 38.9 bits;  conditional E-value: 5e-12
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPk.dkelrkkWlkaikrkdkkkkkkskk..srvCskHFeeekkkkkkeeekkeskkrrkLkkdavPtif 89 
+                      C+vp+C+n+   +     ++++fP  +++ ++ Wl  ik++d +k + ++   +rvC +HFe+++            +++  Lk++a Pt+f
+  Q_AGLA019997-RA  94 CCVPNCNNQ---SG----HMYTFPAfQSSNFNLWLYMIKNHDLRKLEMKEVmrHRVCARHFERDC----------F-ESEFVLKSTAAPTLF 167
+                      ********2...22....699***7778899*********9998877654488********6542..........1.223459******997 PP
+
+  == domain 3  score: 41.0 bits;  conditional E-value: 1.2e-12
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskk.......srvCskHFeeek.kkkkkeeekkeskkrrkLkkdavP 86 
+                      C++ +C+n++++++    ++++fP+d++++ +Wl+a++r    ++ +++          vC++HFe+++ + ++             Lk+davP
+  Q_AGLA019997-RA 200 CAYGNCTNNNHTDK----RLFKFPEDPDRCIAWLTACHRGGLISTPEETVktmasgkLGVCEDHFEQDCfECTG------------ILKSDAVP 277
+                      77888***655443....6********************99998886544789999999******766323333............48888888 PP
+

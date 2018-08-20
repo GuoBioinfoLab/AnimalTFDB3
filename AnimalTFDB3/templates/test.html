@@ -1,47 +1,49 @@
-<!doctype html>
-<html lang="en" ng-app="AnimalTFDB3">
-<head>
+<form class="form">
+    <label for="">lncRNA</label>
+    <input type="text" ng-model="q_lncrna">
+    <button ng-click="fetch_results()">submit</button>
+</form>
 
-    <meta charset="utf-8">
-    <title>AnimalTFDB3</title>
-
-    <link rel="icon" href="/static/AnimalTFDB3/img/AnimalTFDB3-icon.ico">
-
-
-    <link rel="stylesheet" href="/static/AnimalTFDB3/css/bootstrap.css">
-    <link rel="stylesheet" href="/static/AnimalTFDB3/lib/bootstrap-slider/css/bootstrap-slider.css">
-    <link rel="stylesheet" href="/static/AnimalTFDB3/css/main.css">
-
-
-    <script src="/static/AnimalTFDB3/lib/angular/angular.js"></script>
-    <script src="/static/AnimalTFDB3/lib/angular/angular-route.js"></script>
-    <script src="/static/AnimalTFDB3/lib/angular/angular-resource.js"></script>
-    <script src="/static/AnimalTFDB3/lib/angular-pageslide-directive/angular-pageslide-directive.js"></script>
-
-    <script src="/static/AnimalTFDB3/js/app.js"></script>
-    <script src="/static/AnimalTFDB3/js/home.controller.js"></script>
-    <script src="/static/AnimalTFDB3/js/document.controller.js"></script>
-    <script src="/static/AnimalTFDB3/js/contact.controller.js"></script>
-
-    <script src="/static/AnimalTFDB3/js/test.js"></script>
-
-    <script src="/static/AnimalTFDB3/lib/jquery/jquery-3.1.1.min.js"></script>
-    <script src="/static/AnimalTFDB3/lib/bootstrap/bootstrap.js"></script>
-    <script src="/static/AnimalTFDB3/lib/ui-bootstrap/ui-bootstrap-tpls-2.4.0.js"></script>
-    <script src="/static/AnimalTFDB3/lib/bootstrap-slider/bootstrap-slider.js"></script>
-    <script src="/static/AnimalTFDB3/lib/bootstrap-slider/angular-bootstrap-slider.js"></script>
-
-</head>
-<body>
-
-<div ng-include="'/static/AnimalTFDB3/partials/navigation.html'"></div>
-
-<div class="container">
-    <div ng-view></div>
+<div>
+    <prev>
+        {$ q_lncrna $}
+    </prev>
 </div>
+<div id="cy">
 
-<div ng-include="'/static/AnimalTFDB3/partials/footer.html'"></div>
+</div>
+<table class="table table-condensed table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>chromosome</th>
+        <th>start</th>
+        <th>end</th>
+        <th>strand</th>
+        <th>lnc</th>
+        <th>snp</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="lncrna_snp in lncrna_snp_list">
+        <td>{$ $index+1 $}</td>
+        <td>{$ lncrna_snp.chromosome $}</td>
+        <td>{$ lncrna_snp.start $}</td>
+        <td>{$ lncrna_snp.end $}</td>
+        <td>{$ lncrna_snp.strand $}</td>
+        <td>
+            <a href="#!/test2?gene={$ lncrna_snp.lnc $}" target="_blank">
+                {$ lncrna_snp.lnc $}
+            </a>
+        </td>
+        <td>{$ lncrna_snp.snp $}</td>
+    </tr>
+    </tbody>
+</table>
 
+<hr>
 
-</body>
-</html>
+<div>
+    <a href="#!/test2">jump to test page</a>
+    <button class="btn btn-default" ng-click="jump_to_test2()">click</button> here to jump
+</div>

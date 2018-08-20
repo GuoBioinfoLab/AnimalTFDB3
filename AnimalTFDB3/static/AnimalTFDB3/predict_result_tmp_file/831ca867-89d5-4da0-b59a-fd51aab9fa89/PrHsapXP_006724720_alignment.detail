@@ -1,0 +1,27 @@
+HMM length of domain: 183 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	259.5	0.1	8e-81	9.8e-79	2	183	96	284
+
+  Alignments for each domain:
+  == domain 1  score: 259.5 bits;  conditional E-value: 8e-81
+               T-box   2 elenkelWekfhelgtEmiitksGrrmfpslkvsvsgldpkakYlvlldivpvddkryk..ftsskWevagkae.pelpkrlyihpdspat 89 
+                         el+ +elW++fh++gtEmiitk+Grrmfps++v+v+gldp ++Y v++d+vpvd+kry+  ++ss+W+vag+++   + +r+y+hpdsp +
+  PrHsapXP_006724720  96 ELQGSELWKRFHDIGTEMIITKAGRRMFPSVRVKVKGLDPGKQYHVAIDVVPVDSKRYRyvYHSSQWMVAGNTDhLCIIPRFYVHPDSPCS 186
+                         7999******************************************************98899***********446888*********** PP
+
+               T-box  90 gekwmkqkvsfeklkltnnkedkkkghiilnsmhkYqprlhivel.....aeeekelseekvktfvfpeteFiaVtaYqneeitkLKidnN 175
+                         ge+wm+q +sf+++kltnn++d+ kghiil+smhkY+pr+h++e       ++ ++l++e vktf+f+eteF++VtaYqn++itkLKi++N
+  PrHsapXP_006724720 187 GETWMRQIISFDRMKLTNNEMDD-KGHIILQSMHKYKPRVHVIEQgssvdLSQIQSLPTEGVKTFSFKETEFTTVTAYQNQQITKLKIERN 276
+                         ***********************.99*****************999999977789999********************************* PP
+
+               T-box 176 pFAkgfrd 183
+                         pFAkgfrd
+  PrHsapXP_006724720 277 PFAKGFRD 284
+                         *******7 PP
+

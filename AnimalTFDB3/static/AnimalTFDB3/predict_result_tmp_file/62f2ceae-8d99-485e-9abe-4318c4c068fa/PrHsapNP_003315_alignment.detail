@@ -1,0 +1,27 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	302.0	0.0	5.2e-94	1.5e-91	2	231	195	437
+
+  Alignments for each domain:
+  == domain 1  score: 302.0 bits;  conditional E-value: 5.2e-94
+              Tub   2 pgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgvkpk 91 
+                      p+p++ +++c+i Rdk+    +l++tY++yle++e+++ fLlaarkr++s+t++Ylis+d+ dlsr++esyvGklrsn++gtkft+yd+g  p 
+  PrHsapNP_003315 195 PAPQGVTVRCRIIRDKRgmdrGLFPTYYMYLEKEENQKIFLLAARKRKKSKTANYLISIDPVDLSREGESYVGKLRSNLMGTKFTVYDRGICPM 288
+                      99***************9*999***********99*******************************************************9999 PP
+
+              Tub  92 ksaa....ekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneqlqayvLnFrgR 176
+                      k +     +++r+elaa++Ye+nvlg++gpr+m+v+ip +     ++ ++p++++++l ++++++++++l++l+nkap wn+++q+yvLnFrgR
+  PrHsapNP_003315 289 KGRGlvgaAHTRQELAAISYETNVLGFKGPRKMSVIIPGMtlnhkQIPYQPQNNHDSLLSRWQNRTMENLVELHNKAPVWNSDTQSYVLNFRGR 382
+                      98889999889*****************************9*9998899********************************************* PP
+
+              Tub 177 vtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfdt 231
+                      vt+aSvKNfq+v+++d +++++qfG+v++dvFt+Dy+yPl+a+qAF+i lssfd+
+  PrHsapNP_003315 383 VTQASVKNFQIVHKNDPDYIVMQFGRVADDVFTLDYNYPLCAVQAFGIGLSSFDS 437
+                      *****************************************************96 PP
+

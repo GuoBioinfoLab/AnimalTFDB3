@@ -1,0 +1,39 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.9	0.9	0.66	39	125	141	448	468
+2	307.9	12.3	9.7e-95	5.7e-93	1	374	546	892
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 0.66
+        GCNF-like 125 p....sssalvqqllqaedln 141
+                      +    +   + qq++q++d+ 
+  Q_OTAU001137-PA 448 TggllQDVVQLQQQQQQQDCP 468
+                      034444444444444444443 PP
+
+  == domain 2  score: 307.9 bits;  conditional E-value: 9.7e-95
+        GCNF-like   1 AvREDrmPGGRNksivyvqikekeierkksgqefeeeaarqeqaqqqhqqsqqssqgqqasaqsqpqqkkqlkssrsvkllggvvdlkeaflgp 94 
+                      AvREDrmPGGRN+++vy+++k+k++++kk+  ++   +                ++  q+s q +++ + +       +l +g + lk a ++p
+  Q_OTAU001137-PA 546 AVREDRMPGGRNSGAVYNLYKVKYKKHKKTAAKQTATKPA--------------DKPLQLSPQMKQESPTS----IPSHLVNG-TILKTALTNP 620
+                      9*****************************8776544433..............22333444444433333....33344444.4688899999 PP
+
+        GCNF-like  95 slkpelllap.hslaqqqqqqqlqqqqrsasp.sssalvqqllqaedlnhlqqqigiedGalvdkselsekLcriaDelvfrlvsWiKkLPFfl 186
+                      s   +l +   + ++         +++r+ s   + +++q l+  +d +   +    e   l  ks+l +kL +i+D++v++lv+W+K+LPF+l
+  Q_OTAU001137-PA 621 SEVVHLRQRLdSAVSS--------SRDRNYSIeYTRSMIQTLIDCDDFQDIATLENLE-ELLDHKSDLNSKLIQIGDSIVYKLVQWTKRLPFYL 705
+                      8876666554233333........3444444446777888999999999998855454.47789****************************** PP
+
+        GCNF-like 187 elsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlskllgseeelerlkedagevvekltqllrk 280
+                      el+ve hT+LLt+kW+el++L+++ayqa+ + +   s  q+    +  +  e+n++l++L+++l+ ++g+++++e+l +d+g +vek+t ++ +
+  Q_OTAU001137-PA 706 ELPVEVHTRLLTHKWHELLVLTTSAYQAIHFRSHKRSLEQMASTGETDFNQEVNNNLQTLQTCLASMMGKSITMEQLRQDVGLMVEKITHVTLM 799
+                      ********************************************************************************************** PP
+
+        GCNF-like 281 FrrlkvskEeYvclKviilLnkdekglseveeleslqeryvkvlrsylenkspqnpkarlsellsclpeiraaaskllesklfyvPlllkavli 374
+                      Frr+++ +EeYvclKvi++Ln++  g +   ele++qery++ lr y+++ +pq p+ r+++ll  lpe++ aa++llesk+fyvP+ll+++ +
+  Q_OTAU001137-PA 800 FRRINLTMEEYVCLKVITMLNQARAGVTGSPELENIQERYMTCLRAYTQHIYPQDPT-RFQDLLVRLPEVQSAAALLLESKMFYVPFLLNSAIQ 892
+                      ********************************************************9.********************************9876 PP
+

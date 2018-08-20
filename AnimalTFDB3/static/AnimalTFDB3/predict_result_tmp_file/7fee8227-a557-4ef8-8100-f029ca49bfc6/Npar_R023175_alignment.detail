@@ -1,0 +1,36 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-5.8	4.7	1	1e+03	48	48	88	88
+2	299.0	0.0	1.4e-93	1.4e-90	2	230	231	468
+
+  Alignments for each domain:
+  == domain 1  score: -5.8 bits;  conditional E-value: 1
+           Tub 48 t 48
+                  t
+  Npar_R023175 88 T 88
+                  1 PP
+
+  == domain 2  score: 299.0 bits;  conditional E-value: 1.4e-93
+           Tub   2 pgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgvkpkksa 94 
+                   p+p++ +i+c ++Rdk+    + ++tY+ +l+  +ek+ fLla+rkr++s+ts+Ylis+da+dlsr +e+++Gklrsn++gtkft++d+g +p+k++
+  Npar_R023175 231 PAPQGVTIKCKVTRDKKgmdrGWYPTYYAHLD--NEKKVFLLAGRKRKKSKTSNYLISIDATDLSRGGENFIGKLRSNLMGTKFTVFDNGANPEKAN 325
+                   99***************999999****99999..689*********************************************************999 PP
+
+           Tub  95 a..ekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneqlqayvLnFrgRvtvaSvKN 184
+                   +  ++vr+elaavvYe+nvlg++gpr+m++lip +     +v ++p+++++ l +++++++++++++l+nk+p wn+++q+yvLnF+gRvt +S+KN
+  Npar_R023175 326 SdwSNVRQELAAVVYETNVLGFKGPRKMTMLIPGMdeeceRVPIRPRNDNDGLLHRWQSKNMENVIELHNKSPVWNDETQSYVLNFHGRVTHPSIKN 422
+                   99999**********************************98999***************************************************** PP
+
+           Tub 185 fqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfd 230
+                   fq+v+++d +++i+qfG+v++d FtmDy+yP++a+qAFai+lssfd
+  Npar_R023175 423 FQIVHSDDLDYIIMQFGRVADDAFTMDYKYPMCAVQAFAIALSSFD 468
+                   *********************************************9 PP
+
+
+

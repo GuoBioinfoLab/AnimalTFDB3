@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	406.8	0.1	3.7e-125	1.8e-123	1	261	215	475
+
+  Alignments for each domain:
+  == domain 1  score: 406.8 bits;  conditional E-value: 3.7e-125
+       NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfsel 93 
+                      sLkGRRGRLpskpksp++ s+pspPvsl++alvra+vd+tp+ a+ldys+++e +  + + ++ae++qqfy+lLt+s++vir++aekiPg+++l
+  Q_APLA007205-PA 215 SLKGRRGRLPSKPKSPQE-SPPSPPVSLITALVRAHVDTTPDLANLDYSQYCEpSPIEPTVSEAEKIQQFYNLLTTSVDVIRNFAEKIPGYQDL 307
+                      8***************99.**********************************66678899********************************* PP
+
+       NGFIB-like  94 qkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrv 187
+                      +++D +lL++sa lelfvlRlayR++ +++kl Fc+G+vlhr+qc r+Fg+w+  i++fs+sl+s+++disAfacl+aL+++terhGLkep++v
+  Q_APLA007205-PA 308 CREDKDLLFQSASLELFVLRLAYRTHANDTKLTFCNGVVLHRQQCHRSFGDWLSAILEFSSSLHSMEIDISAFACLCALTIITERHGLKEPHKV 401
+                      ********************************************************************************************** PP
+
+       NGFIB-like 188 eelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                      e+lq+kii++L+dhv+++a++q+k++++srllgkl+elr+l++qgLqrifylkLedLvpaP++i+++f+ +lpf
+  Q_APLA007205-PA 402 EQLQMKIISSLRDHVTYNAEAQRKAHYFSRLLGKLPELRSLSVQGLQRIFYLKLEDLVPAPPLIENMFVASLPF 475
+                      *************************************************************************9 PP
+

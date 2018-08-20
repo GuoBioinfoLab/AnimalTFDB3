@@ -1,0 +1,32 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	491.1	0.1	2.7e-151	1.4e-148	1	376	88	433
+
+  Alignments for each domain:
+  == domain 1  score: 491.1 bits;  conditional E-value: 2.7e-151
+     GCNF-like   1 AvREDrmPGGRNksivyvqikekeierkksgqefeeeaarqeqaqqqhqqsqqssqgqqasaqsqpqqkkqlkssrsvkllggvvdlkeaflgpslk 97 
+                   A+RED+mPGGRNksi++vqi+++eier++sgqefeeea+    +++++++s++ss+g+ +s+++qp++ ++ +ssrsv+l+g+   l++++lg+ + 
+  Npar_R002492  88 AIREDGMPGGRNKSIGPVQISDEEIERIMSGQEFEEEANT---SWSNNGDSDHSSPGNVVSESNQPSPVSTPSSSRSVELNGF-SSLRDQYLGTPAP 180
+                   9***************************************...7**************************************9.************* PP
+
+     GCNF-like  98 pelllaphslaqqqqqqqlqqqqrsaspsssalvqqllqaedlnhlqqqigiedGalvdkselsekLcriaDelvfrlvsWiKkLPFflelsvedhT 194
+                    +++++ph ++ + ++  +++q rs++p+s++l++qll+aed+++l+++++iedG++v++sel+++Lcr+aDel+fr+++W+KkLPFf++ls++d+T
+  Npar_R002492 181 THYQYLPHLFSCSTHSAIIPSQTRSLDPQSHTLINQLLAAEDMEPLNTPMLIEDGYKVTQSELFALLCRLADELLFRQIAWVKKLPFFCDLSIKDYT 277
+                   ************************************************************************************************* PP
+
+     GCNF-like 195 kLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlskllgseeelerlkedagevvekltqllrkFrrlkvskEeY 291
+                   +LL+++W+elilLss                         l+++s+q++g+Ladv+sk+++se el+r++e+++ev+e+l++l+rkF++lkvs+EeY
+  Npar_R002492 278 CLLSTTWQELILLSS-------------------------LITYSKQVFGDLADVTSKYSPSEAELHRFSEEGMEVMERLIYLYRKFSQLKVSNEEY 349
+                   ***************.........................9******************************************************** PP
+
+     GCNF-like 292 vclKviilLnkdekglseveeleslqeryvkvlrsylenkspqnpkarlsellsclpeiraaaskllesklfyvPlllkavlirl 376
+                   vc+K+i++Ln+d++g s+v++le+l++ry++v+++++e+++p +p+ r+++l++clpeir++a+kl++++l+++Pll+ka l+++
+  Npar_R002492 350 VCMKAINFLNQDIQGISNVSQLEQLNKRYWYVCQDFTEYRYPLQPN-RFPDLMMCLPEIRYIAGKLVNVPLEQLPLLFKAFLHSC 433
+                   **********************************************.************************************98 PP
+

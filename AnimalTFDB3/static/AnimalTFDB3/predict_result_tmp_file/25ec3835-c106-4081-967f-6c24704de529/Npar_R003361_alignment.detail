@@ -1,0 +1,38 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	18.5	0.0	5.5e-08	5.5e-05	27	60	39	72
+2	15.7	0.0	4e-07	0.0004	27	60	106	139
+3	103.6	0.4	5.2e-34	5.2e-31	132	227	152	244
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 5.5e-08
+           CP2 27 ssstekfrfevtLeaptamakkvneepltYLNkG 60
+                   ++++   f+++L ++t+ a k  ee+ltYLN+G
+  Npar_R003361 39 DTDAKLPPFQYVLCTATSPAIKLHEETLTYLNQG 72
+                  45566678*************************9 PP
+
+  == domain 2  score: 15.7 bits;  conditional E-value: 4e-07
+           CP2  27 ssstekfrfevtLeaptamakkvneepltYLNkG 60 
+                    ++++   f+++L ++t+ a k  ee+ltYLN+ 
+  Npar_R003361 106 DTDAKLPPFQYVLCTATSPAIKLHEETLTYLNQD 139
+                   45566668************************85 PP
+
+  == domain 3  score: 103.6 bits;  conditional E-value: 5.2e-34
+           CP2 132 ntqvelesssfdaveftWngeeeakifvrvNclStdFsksK..GvkGvPlrlqieTelisesvkesa.levafckvKlFrdkGAeRKlkndvakvkk 225
+                          s++++ +ef W++++ ++ f++v c+St+F+++K  G+kGvP+r+qi+T   +e+ + ++ l+ a+c++K+F+ kGA+RK k+d++k++k
+  Npar_R003361 152 S------STQLNTIEFLWDPSKRTSAFIQVHCISTEFTPRKhgGEKGVPFRIQIDTFKQNENGEYTEhLHSASCQIKVFKPKGADRKQKTDREKIEK 242
+                   4......7899*********************************************988776655555****************************9 PP
+
+           CP2 226 ki 227
+                   ++
+  Npar_R003361 243 RT 244
+                   86 PP
+
+
+

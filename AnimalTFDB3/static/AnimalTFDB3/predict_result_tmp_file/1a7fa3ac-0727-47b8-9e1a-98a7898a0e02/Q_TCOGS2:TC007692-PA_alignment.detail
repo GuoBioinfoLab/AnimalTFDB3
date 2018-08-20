@@ -1,0 +1,34 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	20.0	0.1	1.2e-06	3.3e-05	5	40	311	348
+2	17.0	3.1	1.1e-05	0.0003	42	68	402	428
+3	73.2	2.6	2.9e-23	8.1e-22	1	69	450	518
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 1.2e-06
+                           --HHHHHHHHHHHHHHHHSTTS-..HHHHHHHHHHHHH CS
+                   HMG   5 lsafflfskeqraklkaenPelk..naeiskklgekWk 40 
+                           ++a+ +f++  r++ k+++Pe +   ae skk++e+Wk
+  Q_TCOGS2:TC007692-PA 311 MTAYAFFVQTCREEHKKKHPEENvvFAEFSKKCAERWK 348
+                           89******************999889***********9 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 1.1e-05
+                           SHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+                   HMG  42 lseeeKkkYeekaekekaryekekpey 68 
+                           + ++eKk+++e+ae +k+ry+ e+++y
+  Q_TCOGS2:TC007692-PA 402 MLDKEKKRFHEMAENDKKRYDDEMKNY 428
+                           5689**********************9 PP
+
+  == domain 3  score: 73.2 bits;  conditional E-value: 2.9e-23
+                           --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCHH CS
+                   HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpeyk 69 
+                           pkR lsaff fs+++rak+k++nPe  + +i+k+lg++W + ++e K kYe+ a+k+karyeke+ +yk
+  Q_TCOGS2:TC007692-PA 450 PKRSLSAFFWFSNDERAKVKSQNPEFGVGDIAKELGRRWADAEPEMKSKYEALADKDKARYEKEMTAYK 518
+                           8*******************************************************************8 PP
+

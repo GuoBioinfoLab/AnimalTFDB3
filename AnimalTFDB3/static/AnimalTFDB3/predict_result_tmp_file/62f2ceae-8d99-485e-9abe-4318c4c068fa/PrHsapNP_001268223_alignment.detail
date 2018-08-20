@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	2.6	0.1	3.8	10	11	25	221	235
+2	28.2	0.2	3.1e-08	8.2e-08	1	24	239	262
+3	18.4	0.4	3.8e-05	0.0001	2	24	268	290
+4	25.6	4.1	2.1e-07	5.4e-07	2	25	296	319
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 3.8
+           zf-H2C2_2  11 gekpyeCplCdkaFk 25 
+                         ++kp+ C+ C+ aF 
+  PrHsapNP_001268223 221 SQKPHICDHCSAAFR 235
+                         689999******997 PP
+
+  == domain 2  score: 28.2 bits;  conditional E-value: 3.1e-08
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                         +LrrH   Htge+p++C+ C+  F
+  PrHsapNP_001268223 239 HLRRHVLIHTGERPFQCSQCSMGF 262
+                         79******************9887 PP
+
+  == domain 3  score: 18.4 bits;  conditional E-value: 3.8e-05
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                         L+rH + H  ekp+ C+ C+ +F
+  PrHsapNP_001268223 268 LQRHEKIHSREKPFGCDQCSMKF 290
+                         89******************999 PP
+
+  == domain 4  score: 25.6 bits;  conditional E-value: 2.1e-07
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                          +rH r+H gekpy+C+ C  +F+
+  PrHsapNP_001268223 296 MERHKRTHSGEKPYKCDTCQQYFS 319
+                         68********************97 PP
+

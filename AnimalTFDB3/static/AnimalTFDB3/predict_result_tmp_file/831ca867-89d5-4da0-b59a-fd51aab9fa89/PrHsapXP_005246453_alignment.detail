@@ -1,0 +1,38 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.6	0.0	0.42	72	14	46	117	150
+2	-3.7	0.0	4.1	7e+02	33	47	258	274
+3	86.0	0.1	4.1e-28	7.1e-26	2	79	298	376
+4	76.0	0.1	5.4e-25	9.2e-23	5	78	424	498
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 0.42
+                 CUT  14 vkeeLkr..asisqavFAekvlnrsqgtlselLrk 46 
+                         v++ Lk+  ++++q+ +A++    sq ++s + + 
+  PrHsapXP_005246453 117 VRNALKEllKEMNQSTLAKEC-PLSQSMISSIVNS 150
+                         555555522458888888875.5677777777664 PP
+
+  == domain 2  score: -3.7 bits;  conditional E-value: 4.1
+                 CUT  33 lnrsqgtlselLr..kP 47 
+                         l   q  +s+lL+  +P
+  PrHsapXP_005246453 258 LINQQIAVSRLLAhqHP 274
+                         44558888999984445 PP
+
+  == domain 3  score: 86.0 bits;  conditional E-value: 4.1e-28
+                 CUT   2 seeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeilk 79 
+                         s+  ++ di+q+v++eLkras+sqavFA++++nr+qg+lse+Lr   +P++     ++nl+a       mqn+Lnlpe erd+i++
+  PrHsapXP_005246453 298 SSVEVSPDIYQQVRDELKRASVSQAVFARVAFNRTQGLLSEILRkeeDPRTasqslLVNLRA-------MQNFLNLPEVERDRIYQ 376
+                         5678999****************************************9**************.......***************97 PP
+
+  == domain 4  score: 76.0 bits;  conditional E-value: 5.4e-25
+                 CUT   5 ldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeil 78 
+                         ++t+ i++++++e+kra++sqa+FA++++n+sqg+l+elLr   +P+p     wenl +       ++++Lnlp++erd i+
+  PrHsapXP_005246453 424 NITAAIYDEIQQEMKRAKVSQALFAKVAANKSQGWLCELLRwkeNPSPenrtlWENLCT-------IRRFLNLPQHERDVIY 498
+                         679*****************************************99999**********.......**************99 PP
+

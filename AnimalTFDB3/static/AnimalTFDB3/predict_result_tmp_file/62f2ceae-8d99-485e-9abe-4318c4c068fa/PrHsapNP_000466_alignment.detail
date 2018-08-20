@@ -1,0 +1,27 @@
+HMM length of domain: 214 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	345.5	0.5	2.4e-106	5.3e-105	1	214	244	469
+
+  Alignments for each domain:
+  == domain 1  score: 345.5 bits;  conditional E-value: 2.4e-106
+    Miscellaneous   1 rkvsLksPqvtCeaasavLvktlkFlknlpsfqeLplddqlvLlrscWapLllLglaqdrvsFevaevpepsilkkiLls.............e 81 
+                      r+v+LksPqv+Ceaasa+L+ktl+F+k+lp+fq Lpld+qlvL+r+cWa+Ll+L+laqdr++Fe++ev+eps+l+kiL++              
+  PrHsapNP_000466 244 RPVALKSPQVVCEAASAGLLKTLRFVKYLPCFQVLPLDQQLVLVRNCWASLLMLELAQDRLQFETVEVSEPSMLQKILTTrrretggneplpvP 337
+                      79*******************************************************************************************9 PP
+
+    Miscellaneous  82 aesaeqaaqaedrkllslaavqalksflekvWsLelstkeYayLkGtilFnpDvpgLkaskyiegLqeeaqqaLkevikmiqreeeqarlaell 175
+                      + +++ a++ae+rk++s+++vqa+k+fl+k+WsL++stkeYayLkGt+lFnpDvpgL+++kyi+gLq+ +qq+L+e+++m++++  ++r++el+
+  PrHsapNP_000466 338 TLQHHLAPPAEARKVPSASQVQAIKCFLSKCWSLNISTKEYAYLKGTVLFNPDVPGLQCVKYIQGLQWGTQQILSEHTRMTHQGP-HDRFIELN 430
+                      99**********************************************************************************9.******** PP
+
+    Miscellaneous 176 ltlslLksinaslvteLFFrPiiGdvdieelllemllak 214
+                      +tl+lL++ina++++eLFFrPiiG+v++++++leml++k
+  PrHsapNP_000466 431 STLFLLRFINANVIAELFFRPIIGTVSMDDMMLEMLCTK 469
+                      *************************************87 PP
+

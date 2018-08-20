@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	2.2	1.2	4.8	16	1	23	13	36
+2	4.9	0.0	0.64	2.2	2	23	42	64
+3	7.8	0.1	0.077	0.26	2	23	160	182
+4	11.7	0.0	0.0044	0.015	1	23	198	221
+
+  Alignments for each domain:
+  == domain 1  score: 2.2 bits;  conditional E-value: 4.8
+                     EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2  1 ykCpdCgksFkrksnLkrHirt.H 23
+                     y C++Cg    + +++++H  t H
+  Q_AGLA018472-RA 13 YCCEICGLEGLSEDEFRTHTHTaH 36
+                     88*****88779999999998888 PP
+
+  == domain 2  score: 4.9 bits;  conditional E-value: 0.64
+                     EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2  2 kCpdCgksFkrksnLkrHirt.H 23
+                     +Cp C  s  ++ +L  H +  H
+  Q_AGLA018472-RA 42 VCPFCELSAVSPAELILHVNQaH 64
+                     6*****************99888 PP
+
+  == domain 3  score: 7.8 bits;  conditional E-value: 0.077
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                      +Cp C+++  ++ +L+ H ++ H
+  Q_AGLA018472-RA 160 QCPMCNYTSLSPNELEEHVNRsH 182
+                      8*****9999**********999 PP
+
+  == domain 4  score: 11.7 bits;  conditional E-value: 0.0044
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      + Cp C  sFk+  +L+ H ++ H
+  Q_AGLA018472-RA 198 FSCPLCVNSFKSAPDLELHVNIeH 221
+                      89******************9988 PP
+

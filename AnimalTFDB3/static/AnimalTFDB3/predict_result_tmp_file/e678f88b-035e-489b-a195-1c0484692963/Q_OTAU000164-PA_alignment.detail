@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	402.0	0.1	1e-123	5.5e-122	1	261	298	558
+
+  Alignments for each domain:
+  == domain 1  score: 402.0 bits;  conditional E-value: 1e-123
+       NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfsel 93 
+                      sLkGRRGRLpskpksp++ s+pspPvsl++alvra+vd+tp+ a+ldys+++e +  +   ++ae++qqfy lLt+s++vir++aekiPgf++l
+  Q_OTAU000164-PA 298 SLKGRRGRLPSKPKSPQE-SPPSPPVSLITALVRAHVDTTPDLANLDYSQYCEpSPIEPMISEAEKIQQFYTLLTTSVDVIRNFAEKIPGFQDL 390
+                      8***************99.**********************************55567789********************************* PP
+
+       NGFIB-like  94 qkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrv 187
+                      +++D elL++sa lelfvlRlayR++++++kl Fc+G+vl ++qc r+Fg+w+++i++f +sl+s+++disAfacl+aL l+t+rhGLkep rv
+  Q_OTAU000164-PA 391 CPEDKELLFQSASLELFVLRLAYRTHPNDTKLTFCNGVVLDKQQCQRSFGDWLHTIMEFCNSLHSMEIDISAFACLCALDLVTDRHGLKEPSRV 484
+                      ********************************************************************************************** PP
+
+       NGFIB-like 188 eelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                      e+lq+kii++Lkdhv+++a++q+k++++srllgkl+elr+l++qgLqrifylkLedLvpaP++i+++f  tlpf
+  Q_OTAU000164-PA 485 EQLQMKIISSLKDHVTYNAEAQRKQHYFSRLLGKLPELRSLSIQGLQRIFYLKLEDLVPAPPLIERMFAATLPF 558
+                      *************************************************************************9 PP
+

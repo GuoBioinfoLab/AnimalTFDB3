@@ -1,0 +1,36 @@
+HMM length of domain: 583 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	98.1	0.1	2.1e-32	2e-29	196	249	1	54
+2	327.5	19.7	7.4e-102	6.9e-99	249	513	146	406
+
+  Alignments for each domain:
+  == domain 1  score: 98.1 bits;  conditional E-value: 2.1e-32
+              COE 196 lknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpsea 249
+                      lknagnprdmrrfqvv+st v+vdg +la+sdnmfvhnnskhgrra+rl+pse 
+  Q_OTAU007162-PA   1 LKNAGNPRDMRRFQVVISTQVSVDGALLAISDNMFVHNNSKHGRRAKRLEPSEG 54 
+                      8***************************************************93 PP
+
+  == domain 2  score: 327.5 bits;  conditional E-value: 7.4e-102
+              COE 249 aatpcikaispsegwttggatviiigdnffdglqvvfgtllvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvy.talnept 341
+                       atpcikaispsegwt+ggat++i+gdnffdglqvvfgt+lvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvy +alnept
+  Q_OTAU007162-PA 146 VATPCIKAISPSEGWTSGGATIMIVGDNFFDGLQVVFGTMLVWSELITPHAIRVQTPPRHIPGVVEVTLSYKSKQFCKGAPGRFVYvSALNEPT 239
+                      69************************************************************************************559***** PP
+
+              COE 342 idygfqrlqkviprhpgdperlpkevllkraadlvealygvphnnqeiilkraadiaealysvprnhnqlpalanssahagllgvnsfssqlav 435
+                      idygfqrlqk+iprhpgdpe+lpke++lkraadl+ealy +p nnq               + pr+    p++an+++ +     n++++qlav
+  Q_OTAU007162-PA 240 IDYGFQRLQKLIPRHPGDPEKLPKEIILKRAADLAEALYTMPRNNQLS---L---------AAPRS----PTMANNAMTT---SFNTYTGQLAV 314
+                      *********************************************943...2.........35887....5677776655...57********* PP
+
+              COE 436 nvseasqa..teqgyarn.sssvsprg..yvps.stpqqsn....yn.svstslngygsaa...lanlg..vpgspsflngsaanspyaivpss 513
+                      +v ++ ++  te+ yar+ sssvsprg  y++s stp  sn    y+ +++t++ngyg a+    ++l   +pgsps   g   ++p   + ss
+  Q_OTAU007162-PA 315 SVQDSGNGqwTEEEYARAqSSSVSPRGggYCSSaSTPHSSNgggsYGgGSTTNMNGYGGATptsTSQLSnmLPGSPSA--GIFNSTPRMGLVSS 406
+                      **998765337999**963789***9655876626788776444466578999****976511122332224777752..22222222222233 PP
+
+
+

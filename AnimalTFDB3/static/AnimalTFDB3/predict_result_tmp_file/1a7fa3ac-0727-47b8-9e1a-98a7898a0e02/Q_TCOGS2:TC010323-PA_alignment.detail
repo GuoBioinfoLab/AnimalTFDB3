@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	16.4	0.2	0.00011	0.00044	3	25	482	505
+2	8.0	0.5	0.047	0.19	2	22	542	567
+3	4.9	1.1	0.48	2	1	24	574	600
+4	15.8	0.2	0.00016	0.00067	1	26	605	632
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 0.00011
+             zf-H2C2_2   3 rrHlrk.HtgekpyeCplCdkaFk 25 
+                           ++H ++ H g+  y+C +C+k F 
+  Q_TCOGS2:TC010323-PA 482 MKHAAElHNGQGAYQCQFCKKFFL 505
+                           79***88***************96 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.047
+             zf-H2C2_2   2 LrrHlrk.Ht....gekpyeCplCdk 22 
+                           L+ H++  H     + k+++C++C k
+  Q_TCOGS2:TC010323-PA 542 LKVHIKRmHSdfseVLKEFQCKNCLK 567
+                           788*99735566655568******87 PP
+
+  == domain 3  score: 4.9 bits;  conditional E-value: 0.48
+             zf-H2C2_2   1 nLrrHlrk.Htgekp..yeCplCdkaF 24 
+                           +L+rHl++ H ++      C+ C+k F
+  Q_TCOGS2:TC010323-PA 574 ALQRHLKEvHQKQMDgaCSCSRCGKHF 600
+                           79*****74776654556888999988 PP
+
+  == domain 4  score: 15.8 bits;  conditional E-value: 0.00016
+             zf-H2C2_2   1 nLrrHlrkHtgekpyeCp..lCdkaFkt 26 
+                           nL+ H+ +H g kp++C   +C+ aF+t
+  Q_TCOGS2:TC010323-PA 605 NLKIHMLTHSGIKPFKCVvkSCNAAFTT 632
+                           7999**************999*****86 PP
+

@@ -1,0 +1,34 @@
+HMM length of domain: 55 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.0	0.2	0.89	21	18	50	8	46
+2	46.1	1.2	7.3e-15	1.7e-13	1	54	73	124
+3	-1.9	1.2	6.8	1.6e+02	10	18	146	154
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.89
+                         HHHHHHHHCSCCCH.......TTSS-STHHHHHHHHHHH CS
+                 bHLH 18 dafeeLrellPkas......kakskKlsKaeiLekAveY 50
+                         ++++ ++++lP +       +++++Kl  + +++++ +Y
+  Q_AGLA012574-RA-CDS  8 NRINGIKTILPIRKtstennAQTKRKLPESRVVKRTRQY 46
+                         678889999999544777766666667777777666655 PP
+
+  == domain 2  score: 46.1 bits;  conditional E-value: 7.3e-15
+                          CHHHHHHHHHHHHHHHHHHHHHHHHCSCC.CH.TTSS-STHHHHHHHHHHHHHHH CS
+                 bHLH   1 rRtahnerErrRRdriNdafeeLrellPk.askakskKlsKaeiLekAveYIkqL 54 
+                          +R+ hn +Er+RR ++++afe Lr l+P+ +   k++K  K+ iL++A +Y  qL
+  Q_AGLA012574-RA-CDS  73 KRSLHNNMERQRRIDLRNAFEDLRLLIPEvS---KKEKAAKVVILREASKYCYQL 124
+                          7999*************************88...*****************8877 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 6.8
+                          HHHHHHHHH CS
+                 bHLH  10 rrRRdriNd 18 
+                          rrR+++++ 
+  Q_AGLA012574-RA-CDS 146 RRRVSQLRR 154
+                          556666555 PP
+

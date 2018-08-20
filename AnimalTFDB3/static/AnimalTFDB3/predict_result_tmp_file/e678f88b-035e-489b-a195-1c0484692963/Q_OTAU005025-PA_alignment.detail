@@ -1,0 +1,41 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.7	1.4	0.65	38	55	129	227	295
+2	21.9	0.0	9e-08	5.3e-06	1	66	416	482
+3	232.9	0.1	7.8e-72	4.5e-70	205	408	546	744
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.65
+          SF-like  55 eltvssalsdsssaasyedltkssllpssteqslsvseslsrsvppllretlpaayqyeefdlssraikseypds 129
+                      +lt+  ++   +   +++d+++ss        s svs s  +   p +  ++++ ++ +  ++++  ++++  ++
+  Q_OTAU005025-PA 227 PLTQRHVTLTPNLSRNNSDASHSSCY---SCSSVSVSVSPTQQFSPTH-SPIQGRHNVP--NIHNSPLHHHGVLY 295
+                      44444444444444444555442221...1112222222222222222.2444444443..44444444444333 PP
+
+  == domain 2  score: 21.9 bits;  conditional E-value: 9e-08
+          SF-like   1 AVRaDRmRGGRnkFgplYkrdralkqqkkam.katiranavkleasqaltlaqppeltvssalsdss 66 
+                      A+R+DR+RGGR++++++Y  + +l         ++      ++e s   +  +pp++ +s+ ls++ 
+  Q_OTAU005025-PA 416 AIREDRTRGGRSTYQCSYSLPPSLTGHGDLRaSSQGDLRHGLGEHSHLTVKLEPPDVGISPHLSSKR 482
+                      9*****************9998887665333444444555555555555555666666666666655 PP
+
+  == domain 3  score: 232.9 bits;  conditional E-value: 7.8e-72
+          SF-like 205 ekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmkLLqnsWsellildhiarqvkhgkegsiklvtGqevelstvlsqagltlqtlvsr 298
+                        p+  a lc++Ad++L++iV+W+ks +lFk++++dDQ++LL+nsW+ell++++++r+++   +g+i ++ G+ ++   ++++  l++q +++r
+  Q_OTAU005025-PA 546 TNPDFVANLCNIADHRLYKIVKWCKSLPLFKNISIDDQICLLINSWCELLLFSCCFRSMEN--PGEIRISLGKSLT---LAQARDLGMQACIER 634
+                      5789999****************************************************99..*************...99999********** PP
+
+          SF-like 299 aqdlvkrLrsLqldrrefvclkfLvLfdsdvkllenaleveevqekvnaalleYtlanypqcpdkfeqlllrlpevralssqaeeylaykhleg 392
+                      + + +++Lr+L++d++e+v++k++vL+ sd+ +l++a +v+  qek+ +al++Ytl +yp+ p kf++lllr+pe++++++  +e l++k+ +g
+  Q_OTAU005025-PA 635 MLNFTEQLRRLRVDKYEYVAMKVIVLLTSDTSELKEAEKVRASQEKALKALQDYTLVHYPDLPAKFGELLLRIPELQRTCQAGKELLTIKTKDG 728
+                      ********************************************************************************************** PP
+
+          SF-like 393 evpvnnLliellqAkr 408
+                      e p  nLl+ell++ +
+  Q_OTAU005025-PA 729 EGPSFNLLMELLRGDH 744
+                      ************9875 PP
+

@@ -1,0 +1,34 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	28.3	5.9	1.7e-09	5.2e-08	1	26	337	362
+2	373.1	0.0	1e-114	3.3e-113	53	261	365	573
+
+  Alignments for each domain:
+  == domain 1  score: 28.3 bits;  conditional E-value: 1.7e-09
+          NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPv 26 
+                         sLkGRRGRLpskpksp+++s+pspP 
+  PrHsapXP_016859709 337 SLKGRRGRLPSKPKSPQEPSPPSPPF 362
+                         8************************6 PP
+
+  == domain 2  score: 373.1 bits;  conditional E-value: 1e-114
+          NGFIB-like  53 eadekvskedaedvqqfydlLtgslevirklaekiPgfselqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFg 143
+                         ++d+++s++d++++qqfydlLtgs+e+ir +aekiPgf++l+kaDq+lL+esaflelfvlRlayRs+++e+kliFc+G+vlhrlqc+rgFg
+  PrHsapXP_016859709 365 NPDYQMSGDDTQHIQQFYDLLTGSMEIIRGWAEKIPGFADLPKADQDLLFESAFLELFVLRLAYRSNPVEGKLIFCNGVVLHRLQCVRGFG 455
+                         3799*************************************************************************************** PP
+
+          NGFIB-like 144 ewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrveelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLq 234
+                         ewidsiv+fs++lq++n+disAf+c+aaL+++terhGLkepkrveelq+ki+n+Lkdhv++++g+ n++++ls+llgkl+elr+lctqgLq
+  PrHsapXP_016859709 456 EWIDSIVEFSSNLQNMNIDISAFSCIAALAMVTERHGLKEPKRVEELQNKIVNCLKDHVTFNNGGLNRPNYLSKLLGKLPELRTLCTQGLQ 546
+                         ******************************************************************************************* PP
+
+          NGFIB-like 235 rifylkLedLvpaPaiidklfldtlpf 261
+                         rifylkLedLvp+Paiidklfldtlpf
+  PrHsapXP_016859709 547 RIFYLKLEDLVPPPAIIDKLFLDTLPF 573
+                         **************************9 PP
+

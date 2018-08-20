@@ -1,0 +1,132 @@
+<HTML>
+<TITLE>BLAST Search Results</TITLE>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#660099" ALINK="#660099">
+<PRE>
+<b>BLASTP 2.2.26 [Sep-21-2011]</b>
+
+
+<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids
+=9254694&dopt=Citation">Reference</a>:</b>
+Altschul, Stephen F., Thomas L. Madden, Alejandro A. Sch&auml;ffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids
+=16218944&dopt=Citation">Reference for compositional score matrix adjustment</a>:</b>
+Altschul, Stephen F., John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Sch&auml;ffer, and Yi-Kuo Yu (2005) "Protein database
+searches using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+<b>Query=</b> ENSP00000415151
+         (187 letters)
+
+<b>Database:</b> Callithrix_jacchus 
+           2728 sequences; 1,566,100 total letters
+
+Searching..................................................done
+
+<PRE>
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+ENSCJAP00000055772 ENSCJAG00000046152 symbol:CBFB family:CBF spe...   <a href = #813>345</a>   e-122
+ENSCJAP00000065425 ENSCJAG00000046152 symbol:CBFB family:CBF spe...   <a href = #812>145</a>   5e-44
+</PRE>
+<PRE>
+><a name = 813></a>ENSCJAP00000055772 ENSCJAG00000046152 symbol:CBFB family:CBF
+           species:Callithrix_jacchus
+          Length = 187
+
+ Score =  345 bits (886), Expect = e-122,   Method: Compositional matrix adjust.
+ Identities = 170/187 (90%), Positives = 170/187 (90%)
+
+Query: 1   MPRVVPDQRSKFENEEFFRKLSRECEIKYTGFRDRPHEERQARFQNACRDGRSEIAFVAT 60
+           MPRVVPDQRSKFENEEFFRKLSRECEIKYTGFRDRPHEERQARFQNACRDGRSEIAFVAT
+Sbjct: 1   MPRVVPDQRSKFENEEFFRKLSRECEIKYTGFRDRPHEERQARFQNACRDGRSEIAFVAT 60
+
+Query: 61  GTNLSLQFFPASWQGEQRQTPSREYVDLEREAGKVYLKAPMILNGVCVIWKGWIDLQRLD 120
+           GTNLSLQFFPASWQGEQRQTPSREYVDLEREAGKVYLKAPMILNGVCVIWKGWIDLQRLD
+Sbjct: 61  GTNLSLQFFPASWQGEQRQTPSREYVDLEREAGKVYLKAPMILNGVCVIWKGWIDLQRLD 120
+
+Query: 121 GMGCLEFDEERAQQEDALAQQXXXXXXXXXXXXXXXXXSHREEMEARRQQDPSPGSNLGG 180
+           GMGCLEFDEERAQQEDALAQQ                 SHREEMEARRQQDPSPGSNLGG
+Sbjct: 121 GMGCLEFDEERAQQEDALAQQAFEETRRRTREFEDRDRSHREEMEARRQQDPSPGSNLGG 180
+
+Query: 181 GDDLKLR 187
+           GDDLKLR
+Sbjct: 181 GDDLKLR 187
+</PRE>
+
+
+<PRE>
+><a name = 812></a>ENSCJAP00000065425 ENSCJAG00000046152 symbol:CBFB family:CBF
+           species:Callithrix_jacchus
+          Length = 193
+
+ Score =  145 bits (366), Expect = 5e-44,   Method: Compositional matrix adjust.
+ Identities = 69/70 (98%), Positives = 70/70 (100%)
+
+Query: 26  EIKYTGFRDRPHEERQARFQNACRDGRSEIAFVATGTNLSLQFFPASWQGEQRQTPSREY 85
+           +IKYTGFRDRPHEERQARFQNACRDGRSEIAFVATGTNLSLQFFPASWQGEQRQTPSREY
+Sbjct: 105 QIKYTGFRDRPHEERQARFQNACRDGRSEIAFVATGTNLSLQFFPASWQGEQRQTPSREY 164
+
+Query: 86  VDLEREAGKV 95
+           VDLEREAGKV
+Sbjct: 165 VDLEREAGKV 174
+</PRE>
+
+
+<PRE>
+
+ Score = 60.8 bits (146), Expect = 9e-13,   Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 29/31 (93%)
+
+Query: 1  MPRVVPDQRSKFENEEFFRKLSRECEIKYTG 31
+          MPRVVPDQRSKFENEEFFRKLSRECE++  G
+Sbjct: 1  MPRVVPDQRSKFENEEFFRKLSRECEVRQAG 31
+</PRE>
+
+
+<PRE>
+  Database: Callithrix_jacchus
+    Posted date:  Jun 16, 2018  9:56 AM
+  Number of letters in database: 1,566,100
+  Number of sequences in database:  2728
+  
+Lambda     K      H
+   0.319    0.135    0.412 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 2728
+Number of Hits to DB: 654,644
+Number of extensions: 26109
+Number of successful extensions: 53
+Number of sequences better than 1.0e-05: 2
+Number of HSP's gapped: 52
+Number of HSP's successfully gapped: 3
+Length of query: 187
+Length of database: 1,566,100
+Length adjustment: 80
+Effective length of query: 107
+Effective length of database: 1,347,860
+Effective search space: 144221020
+Effective search space used: 144221020
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 90 (39.3 bits)
+</PRE>
+</BODY>
+</HTML>

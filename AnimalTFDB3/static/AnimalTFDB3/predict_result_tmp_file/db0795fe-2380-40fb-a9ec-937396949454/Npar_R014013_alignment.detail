@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	356.2	0.7	1.1e-110	5.6e-108	1	261	331	595
+
+  Alignments for each domain:
+  == domain 1  score: 356.2 bits;  conditional E-value: 1.1e-110
+    NGFIB-like   1 sLkGRRGRLpskpksprde.....sqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfs 91 
+                   sLkGRRGRLpskpksp ++     s psp  sll al++a++ds+p  ++ldys +   +d++++ +d e +qqfy+lLt s+e+++k+aekiPgf+
+  Npar_R014013 331 SLKGRRGRLPSKPKSPSHQessqmSLPSPSNSLLEALIQAVEDSSP--RDLDYSTYSSdTDQAAASTDIECIQQFYNLLTISIEISKKWAEKIPGFV 425
+                   8***************88777777889999****************..********9889************************************* PP
+
+    NGFIB-like  92 elqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrve 188
+                   el+++Dq+lL+e aflelf+lRl++Rs+ ++d+++Fc+GlvlhrlqclrgFgew+ds+++fs ++qslnld+s +acl+a+ l++erhGLkepk+v+
+  Npar_R014013 426 ELSHDDQTLLIEMAFLELFLLRLSIRSNVTTDEFVFCNGLVLHRLQCLRGFGEWLDSVRNFSLHIQSLNLDVSTIACLSAVCLVSERHGLKEPKKVN 522
+                   ************************************************************************************************* PP
+
+    NGFIB-like 189 elqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                   el +ki+++Lkdh++++ +s+ ++  ++  l+ l++lralct gLqrifylkLedLvp+P++i+klfldtlpf
+  Npar_R014013 523 ELHNKIMCCLKDHLALNIQSKGQQLDTATALSVLTDLRALCTLGLQRIFYLKLEDLVPPPPVIEKLFLDTLPF 595
+                   ************************99**********************************************9 PP
+

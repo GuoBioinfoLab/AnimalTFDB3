@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	179.8	0.3	4.5e-56	2.7e-54	2	200	109	299
+
+  Alignments for each domain:
+  == domain 1  score: 179.8 bits;  conditional E-value: 4.5e-56
+         RXR-like   2 cetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqelvtklr 95 
+                      +et+arlLf++V+w++    f++L+++dq+ LL++sW+el++L+laq+s p +++  ll+ + ++++   ++      +  e++++qe+++++r
+  Q_LDEC003556-PA 109 QETTARLLFMAVRWVRCLAPFQTLSKHDQLLLLQESWKELFLLHLAQWSVPWDLS-ALLGCS-QARERLPAD----LHTATEIKTIQEIMCRFR 196
+                      69****************************************************9.444442.333333333....233347789********* PP
+
+         RXR-like  96 dlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietl 189
+                      ++  d  E +c+kaI+lf+p  + agl + + +e+l++++q+ l +y++++yp qp+rFg+lLl++p+lr i+s t e lff+ +iG++pi++l
+  Q_LDEC003556-PA 197 QISPDGSECGCMKAIILFTP--ETAGLCDVQPVEMLQDQAQCILGDYVRTRYPRQPTRFGRLLLLVPSLRAIRSLTVELLFFKETIGEIPITQL 288
+                      ********************..66********************************************************************** PP
+
+         RXR-like 190 llemlesskps 200
+                      l +m+ ++k s
+  Q_LDEC003556-PA 289 LGDMYYMEKCS 299
+                      *****999876 PP
+

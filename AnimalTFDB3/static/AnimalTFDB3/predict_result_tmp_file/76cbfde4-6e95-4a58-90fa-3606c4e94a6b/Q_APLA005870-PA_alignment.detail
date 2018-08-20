@@ -1,0 +1,38 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.9	0.0	0.12	57	7	54	217	266
+2	13.0	0.0	7.4e-06	0.0034	71	128	363	436
+3	94.5	0.4	8.7e-31	4e-28	142	229	1017	1106
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 0.12
+              Tub   7 gliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYli 54 
+                        ++c++ R+++    +  + Y+Lyle   +    Ll ++k+++  + e++i
+  Q_APLA005870-PA 217 VRLHCTMIRHDDetnlTSGTCYTLYLEYL-GGLVPLLKGKKTSKI-RPEFVI 266
+                      567899999888787777789*****965.788888888887765.445555 PP
+
+  == domain 2  score: 13.0 bits;  conditional E-value: 7.4e-06
+              Tub  71 klrsnflgtkftiydkgvkpkksaaekvrkelaavvYelnvlgtrgprrmkvlipsi.........................k 128
+                      ++ sn++gtkf i+           ++v  +l++v+Y++++l+  +pr+m+ ++ ++                         +
+  Q_APLA005870-PA 363 EVTSNIWGTKFKIHGLV--------DSVPANLGQVTYKTSLLH-LQPRQMTLVMTELrddfpkgpdptfnpnifsedeedlaH 436
+                      67899999999998776........345778**********99.67********98866666666665555444443333330 PP
+
+  == domain 3  score: 94.5 bits;  conditional E-value: 8.7e-31
+              Tub  142 e.....eekkeeesdllvlknkaprwneqlqayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclss 228 
+                             ++++ ++++ +v++nkap wne+ q y L+F gRvt+ S KNfq+       k ++qfG+++ + +t+D++yP+salqAFa++l++
+  Q_APLA005870-PA 1017 PngtncNNQTTNQRREFVMHNKAPMWNENSQVYQLDFGGRVTQESAKNFQIEF---RGKQVMQFGRIDGNAYTLDFQYPFSALQAFAVALAN 1105
+                       1444444555556689**********************************965...5788******************************97 PP
+
+              Tub  229 f 229 
+                       +
+  Q_APLA005870-PA 1106 V 1106
+                       5 PP
+
+
+

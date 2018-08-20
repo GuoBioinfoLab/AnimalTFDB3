@@ -1,0 +1,34 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	23.3	0.0	4.9e-08	2.5e-06	3	47	129	172
+2	-2.2	0.7	4.7	2.4e+02	37	45	269	277
+3	40.3	0.0	2.5e-13	1.3e-11	3	47	376	419
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 4.9e-08
+                           SS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+                   MYB   3 kWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                            W+ e+  l+++a++ +G+  + +I ++l+ ++  +   ++++++
+  Q_TCOGS2:TC007336-PA 129 EWSVEDKVLFEQAFQFHGKS-FHRIRQMLPDKSIASLVKYYYSWK 172
+                           7*****************88.*********************996 PP
+
+  == domain 2  score: -2.2 bits;  conditional E-value: 4.7
+                           HHHHHHHHH CS
+                   MYB  37 kqcrsrwqn 45 
+                           ++c  +w+ 
+  Q_TCOGS2:TC007336-PA 269 NSCYQHWRR 277
+                           79*****95 PP
+
+  == domain 3  score: 40.3 bits;  conditional E-value: 2.5e-13
+                           SS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+                   MYB   3 kWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                           +Wt eE +l +++v+k+G++ +k+Ia+ lg++t+ ++r ++ ny+
+  Q_TCOGS2:TC007336-PA 376 RWTNEELLLAVQGVRKYGKD-FKSIAEVLGNKTEHHVRTFFVNYR 419
+                           7*****************99.**********************96 PP
+

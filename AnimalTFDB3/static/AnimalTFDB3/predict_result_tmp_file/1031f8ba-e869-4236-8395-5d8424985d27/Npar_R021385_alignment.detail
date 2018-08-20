@@ -1,0 +1,42 @@
+HMM length of domain: 55 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.6	0.0	0.25	31	38	51	5	18
+2	-5.5	1.8	8	1e+03	10	17	42	49
+3	35.7	2.8	2.8e-12	3.5e-10	2	55	56	107
+4	2.2	0.1	0.082	10	21	30	129	138
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 0.25
+                  STHHHHHHHHHHHH CS
+          bHLH 38 lsKaeiLekAveYI 51
+                  +s +++L +A eY+
+  Npar_R021385  5 PSNLQVLLQAAEYV 18
+                  58899********7 PP
+
+  == domain 2  score: -5.5 bits;  conditional E-value: 8
+                  HHHHHHHH CS
+          bHLH 10 rrRRdriN 17
+                  rr R+r N
+  Npar_R021385 42 RRKRQRTN 49
+                  66677776 PP
+
+  == domain 3  score: 35.7 bits;  conditional E-value: 2.8e-12
+                   HHHHHHHHHHHHHHHHHHHHHHHHCSCCCH.TTSS-STHHHHHHHHHHHHHHHH CS
+          bHLH   2 RtahnerErrRRdriNdafeeLrellPkaskakskKlsKaeiLekAveYIkqLq 55 
+                   R+ hne+E+ RR++++ ++e+L++ +P ++  +  + + ++ L +A ++Ik+L+
+  Npar_R021385  56 RSVHNELEKHRRAQLRRCLEQLKQQVPLSV--DTSRHTTLSLLHRARQHIKKLE 107
+                   789*************************74..8888***************996 PP
+
+  == domain 4  score: 2.2 bits;  conditional E-value: 0.082
+                   HHHHHCSCCC CS
+          bHLH  21 eeLrellPka 30 
+                   ++L++llP++
+  Npar_R021385 129 QRLKQLLPSN 138
+                   7899999986 PP
+

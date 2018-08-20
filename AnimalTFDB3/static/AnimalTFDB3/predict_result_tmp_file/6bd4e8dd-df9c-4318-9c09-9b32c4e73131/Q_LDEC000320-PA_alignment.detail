@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	13.3	1.7	0.0017	0.0045	1	21	89	109
+2	22.4	0.5	2.1e-06	5.6e-06	1	20	118	137
+3	11.9	0.2	0.0045	0.012	2	20	141	159
+4	3.5	4.6	2.1	5.6	2	20	170	190
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.0017
+                      EEETTTTEEESSHHHHHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                      + C+ C+k++k++s+  +Hi+
+  Q_LDEC000320-PA  89 FFCKRCDKKYKTRSSVGKHIN 109
+                      78*****************96 PP
+
+  == domain 2  score: 22.4 bits;  conditional E-value: 2.1e-06
+                      EEETTTTEEESSHHHHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHi 20 
+                      +kC++C+++Fk+k nLk+H+
+  Q_LDEC000320-PA 118 FKCEICSRRFKQKTNLKAHL 137
+                      8******************7 PP
+
+  == domain 3  score: 11.9 bits;  conditional E-value: 0.0045
+                      EETTTTEEESSHHHHHHHH CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHi 20 
+                       C +Cgk ++++ +L  H 
+  Q_LDEC000320-PA 141 SCQKCGKIYRNPVSLYYHK 159
+                      5**************9996 PP
+
+  == domain 4  score: 3.5 bits;  conditional E-value: 2.1
+                      EET..TTTEEESSHHHHHHHH CS
+          zf-C2H2   2 kCp..dCgksFkrksnLkrHi 20 
+                      +Cp   C+++   +snLkrH 
+  Q_LDEC000320-PA 170 TCPydNCTYKTHLPSNLKRHC 190
+                      69999***************5 PP
+

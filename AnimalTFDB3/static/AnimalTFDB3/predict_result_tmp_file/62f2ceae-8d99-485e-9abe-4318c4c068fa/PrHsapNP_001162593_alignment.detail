@@ -1,0 +1,94 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	369.0	15.3	1.1e-113	3.3e-111	1	367	18	362
+2	895.0	33.4	1.8e-272	5.3e-270	392	1227	358	1273
+
+  Alignments for each domain:
+  == domain 1  score: 369.0 bits;  conditional E-value: 1.1e-113
+                AF-4   1 ynedRnlLrlrewerRnQEvqqekelfsenvpLFgePYKtnKgDeLssriQnmLGnYeevkelltdksnq.klvgipkssvpttpeeksdq 90 
+                         y++dR++L++rewerRnQEvqqe++lfs++++LFgePYKtnKgD+L++r+Qn+LGnY+e+k+llt++snq +lvgipk+svp+ p++k++ 
+  PrHsapNP_001162593  18 YEQDRSALKKREWERRNQEVQQEDDLFSSGFDLFGEPYKTNKGDALANRVQNTLGNYDEMKNLLTNHSNQnHLVGIPKNSVPQNPNNKNEP 108
+                         9****************************************************************************************** PP
+
+                AF-4  91 slfpdkqssrlapsfqnss.ksqsvkppasaslssstlsqsskksqpssepsrslhssstsssslnhsqqsraessreksessseekke.r 179
+                         s+fp++ ++r+ p++q+++ +s +++pp++  l+s+ + +s++ks+   e+sr++h++st  +s    q+s +    +k+++ ++++++ +
+  PrHsapNP_001162593 109 SFFPEQ-KNRIIPPHQDNThPSAPMPPPSVVILNSTLI-HSNRKSK--PEWSRDSHNPSTVLAS----QASGQ---PNKMQTLTQDQSQaK 188
+                         *****5.56688888877779*********99886665.7777788..99**********9998....44443...356667777777779 PP
+
+                AF-4 180 redlessasdsss.akeeelspllsslsspvkpLsllhssqhansktqssskahskeldqskspkdseakseeketssplavtslltktsq 269
+                          ed +   +++ + +++ee++p+++                  +s+ +ss++   ke+ qs+sp++se+ ++ +   spl+++sll+++s+
+  PrHsapNP_001162593 189 LEDFFVYPAEQPQiGEVEESNPSAKE-----------------DSNPNSSGEDAFKEIFQSNSPEESEFAVQAP--GSPLVASSLLAPSSG 260
+                         99***999999886666665555544.................344455677789*******************..67************* PP
+
+                AF-4 270 lssqtFPpsLsskpsavmqqKPtAYVRPMDGqDQvpseSpelKps.p..edyseqsyeklselkan...aKakLtklkipsqsleqslsne 354
+                         ls+q+FPp+L++k+s+  qqKPtAYVRPMDGqDQ+p+ Sp+lKps +  +++ + s+++l + k++   +K+kL+k++i+ q++e+sl+++
+  PrHsapNP_001162593 261 LSVQNFPPGLYCKTSM-GQQKPTAYVRPMDGQDQAPDISPTLKPSiEfeNSFGNLSFGTLLDGKPSaasSKTKLPKFTIL-QTSEVSLPSD 349
+                         **************66.****************************758799*************999999**********.********** PP
+
+                AF-4 355 ascVeeILrEMth 367
+                         +scVeeILrE  h
+  PrHsapNP_001162593 350 PSCVEEILRESQH 362
+                         **********766 PP
+
+  == domain 2  score: 895.0 bits;  conditional E-value: 1.8e-272
+                AF-4  392 kesqhvtsalqnqkqydtsskkvstsqqsk.smLeddLklsssedsdee..............qapekpksssapssapqstpesvesa 465 
+                          +esqh+t +++  ++++++++++st+++s  smLeddLklss+ed+ e               qa+ek+k++++p+++p +tp+ + +a
+  PrHsapNP_001162593  358 RESQHLTPGFTL-QKWNDPTTRASTKSVSFkSMLEDDLKLSSDEDDLEPvktlttqctatelyQAVEKAKPRNNPVNPPLATPQ-PPPA 444 
+                          699********9.59*************999****************99**********************************8.99** PP
+
+                AF-4  466 hsssaeSeSsSeSeSSSeSDSesEssssdseanepprtatpepeppstnkWqLdnwlnkvn....qlassqeessaessseteesespk 550 
+                           + s++S+SsSeSeSSSeSDS++Ess++dse ne+pr+atpepeppstnkWqLd+wlnkv+    ++++ q+e+ +e+ s +++  +p 
+  PrHsapNP_001162593  445 VQASGGSGSSSESESSSESDSDTESSTTDSESNEAPRVATPEPEPPSTNKWQLDKWLNKVTsqnkSFICGQNETPMETISLPPPIIQP- 532 
+                          *************************************************************9999999******99999998886444. PP
+
+                AF-4  551 keskeqsegkskssssevvees......seskpkakskaeqkkseekqdkrskqkspaqkeseepntrktvgkkqPkksekasveee.. 631 
+                               + ++k k+++s+v++e+      s +++ka+++ +qk +e+k     k+k     +++e+ +++t+gkkqPkk+ek+++++e  
+  PrHsapNP_001162593  533 ----MEVQMKVKTNASQVPAEPkerpllSLIREKARPRPTQKIPETK---ALKHKLS---TTSETVSQRTIGKKQPKKVEKNTSTDEft 611 
+                          ....444455566666666666566688999**************98...7777744...47889999*************6666666* PP
+
+                AF-4  632 .....pksslkvekevpveekdqsskdrpkvktkgrrktaprkepkssl..asekkkkrssskkaapksrefvete..ksesesdseel 711 
+                                +ss+++eke  + e +++++ r+k++++   k+aprkep++++  a+ekkk+r++  k+ pksref+et+  +s+s++d+ee+
+  PrHsapNP_001162593  612 wpkpnITSSTPKEKE--SVELHDPPRGRNKATAH---KPAPRKEPRPNIplAPEKKKYRGPG-KIVPKSREFIETDssTSDSNTDQEET 694 
+                          **9999999*****9..888999**********7...************9**********87.999**********7778889999*** PP
+
+                AF-4  712 lplsplk.................qsqtpsssessrtsskkksevveekltkeklplpvrekkllsplrdseepqsLlVKIdLslLsrv 783 
+                          l+++ l+                 +s t s+  ss++s+++ s + ee +++   p+pv+++++lsplrd+e++++L+VKIdL+lLsrv
+  PrHsapNP_001162593  695 LQIKVLPpciisggntakskeicgASLTLSTLMSSSGSNNNLSISNEEPTFS---PIPVMQTEILSPLRDHENLKNLWVKIDLDLLSRV 780 
+                          ****999999999988877655443455555555556666666677777778...9********************************* PP
+
+                AF-4  784 PqrpekesqskkaesksepeegkkkeskqkskkssskskrkrK.eeeenksdskklrleketksllsppviss..shkesskk.ksskk 868 
+                          P++   +  + k+++k++  + k++++ ++ +k + k+krk+K  e  +k  +kk+rle+ t+++l+pp+is+   hk  +++ ++s++
+  PrHsapNP_001162593  781 PGHSSLHAAPAKPDHKETATKPKRQTAVTAVEKPAPKGKRKHKpIEVAEKIPEKKQRLEEATTICLLPPCISPapPHKPPNTReNNSSR 869 
+                          **999989999*****999999999999***************856666677*********************9988888877688999 PP
+
+                AF-4  869 kseekkkekllppllsplsseskskkpakkrsssessslsqessksaketkssskkssssskhkksegkasessk......enkkssk. 950 
+                          +++++k+ekl+pp+lspl+++++++    ++ s+++ +++q+++        +++ + +s+k k++egk ++++k      + kk+s+ 
+  PrHsapNP_001162593  870 RANRRKEEKLFPPPLSPLPEDPPRR----RNVSGNNGPFGQDKN-------IAMTGQITSTKPKRTEGKFCATFKgisegdTPKKASSa 947 
+                          99**********************6....899999*******99.......466677999***************99999955555556 PP
+
+                AF-4  951 ........................................................s.eaklfpvpsl.pngkskprrpklkfedrqhs 981 
+                                                                                  + e++ ++++ l +++++++rrpkl+f+d++h+
+  PrHsapNP_001162593  948 titvtntaiatatvtataivtttvtatatatattttttttistitstittglmdssHlEMTSWAALPLlSSSSTNVRRPKLTFDDSVHN 1036
+                          9***************************************************98752688888888888******************** PP
+
+                AF-4  982 adyylkEAKkLKhkADalsdKlgKAvkYlDAalsFiEcGiAmEkdpqeakSaYtmyseTVeLikfvlkLKnfvdasatsaekklavLCl 1070
+                          adyy++EAKkLKhkADal++K+gKAv+Y+DAalsF EcG+AmE+dp+eakS+YtmyseTVeL++++++LKnf+++ a+  +kklavLC+
+  PrHsapNP_001162593 1037 ADYYMQEAKKLKHKADALFEKFGKAVNYADAALSFTECGNAMERDPLEAKSPYTMYSETVELLRYAMRLKNFASPLASDGDKKLAVLCY 1125
+                          ***************************************************************************************** PP
+
+                AF-4 1071 rCqSLLylamFrlKkdtAlKYSrtLtehfk.nsskstqapspcvangkkstgtPSPlspsp.SPassvssssgssssssvsssVsiPqr 1157
+                          rC+SLLyl+mF+lKkd+A+KYSr+L+e+fk n+sk++q psp+v+ngk   +tPSP+s+++ SP +++++        + ++ V+iPqr
+  PrHsapNP_001162593 1126 RCLSLLYLRMFKLKKDHAMKYSRSLMEYFKqNASKVAQIPSPWVSNGK---NTPSPVSLNNvSPINAMGN--------CNNGPVTIPQR 1203
+                          *****************************999*************777...9******9988******99........7899******* PP
+
+                AF-4 1158 IhqmaaSyVnITsniLrayeiWeqAeeLarknkeffaeLdtvmgpLalnSsmteLVrYtRQGlhwLrlea 1227
+                          Ih+maaS+VnITsn+Lr+ye+W++A++L+r+nkeff +Ldt+mgpL+++Ssmt+LVrY+RQGl+wLr++a
+  PrHsapNP_001162593 1204 IHHMAASHVNITSNVLRGYEHWDMADKLTRENKEFFGDLDTLMGPLTQHSSMTNLVRYVRQGLCWLRIDA 1273
+                          ********************************************************************97 PP
+

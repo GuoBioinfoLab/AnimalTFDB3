@@ -1,0 +1,27 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	263.2	0.0	3.4e-82	7.3e-80	30	227	133	326
+
+  Alignments for each domain:
+  == domain 1  score: 263.2 bits;  conditional E-value: 3.4e-82
+                 CP2  30 tekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrkkeaklwklWkegrgseavrvvd 120
+                         + k++fe+tL +p+a++ k++e+p++YLNkGQ+Y+++l++ +  k   l+++k+ksv++vvF++ek +++++++wk+W+++++++++rv+d
+  PrHsapXP_011540172 133 SLKSDFEYTLGSPKAIHIKSGESPMAYLNKGQFYPVTLRTPAGGKGLALSSNKVKSVVMVVFDNEKVPVEQLRFWKHWHSRQPTAKQRVID 223
+                         45899***********************************999999999****************************************** PP
+
+                 CP2 121 iplsggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksKGvkGvPlrlqieTelisesvkesalevafckvKlFrdkG 211
+                         +   ++++e++nt++++e+ +++a++f+Wn++eeak+f+ vNclStdFs++KGvkGvPl+lqi+T++ + +++++ +++a+c++K+F+dkG
+  PrHsapXP_011540172 224 V---ADCKENFNTVEHIEEVAYNALSFVWNVNEEAKVFIGVNCLSTDFSSQKGVKGVPLNLQIDTYDCGLGTERL-VHRAVCQIKIFCDKG 310
+                         9...9**********************************************************************.*************** PP
+
+                 CP2 212 AeRKlkndvakvkkki 227
+                         AeRK+++d++k+ +++
+  PrHsapXP_011540172 311 AERKMRDDERKQFRRK 326
+                         ************9997 PP
+

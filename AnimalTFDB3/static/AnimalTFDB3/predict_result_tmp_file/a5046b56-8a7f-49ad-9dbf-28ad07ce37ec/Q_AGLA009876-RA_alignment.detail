@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	19.2	1.2	1.7e-05	5.8e-05	1	23	115	138
+2	1.7	0.3	6.1	21	1	8	145	152
+3	10.2	4.5	0.013	0.042	2	23	185	207
+4	14.0	4.9	0.00077	0.0026	1	23	214	237
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 1.7e-05
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      ++C  Cgk+ ++k +LkrHi   H
+  Q_AGLA009876-RA 115 FTCQLCGKVLCSKASLKRHIADkH 138
+                      89******************8777 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 6.1
+                      EEETTTTE CS
+          zf-C2H2   1 ykCpdCgk 8  
+                      y+C +C +
+  Q_AGLA009876-RA 145 YRCVICER 152
+                      9*****87 PP
+
+  == domain 3  score: 10.2 bits;  conditional E-value: 0.013
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                      +Cp+C ++F+  ++LkrH +  H
+  Q_AGLA009876-RA 185 ECPYCRRTFSCYYSLKRHFQDkH 207
+                      6*****************87666 PP
+
+  == domain 4  score: 14.0 bits;  conditional E-value: 0.00077
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      y+C+ C++++++k +L++H +  H
+  Q_AGLA009876-RA 214 YVCEFCHRRYRTKNSLTTHKSLqH 237
+                      9******************99888 PP
+

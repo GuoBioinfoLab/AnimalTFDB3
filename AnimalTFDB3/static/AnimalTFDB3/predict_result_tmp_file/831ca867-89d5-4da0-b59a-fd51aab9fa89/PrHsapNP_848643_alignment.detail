@@ -1,0 +1,27 @@
+HMM length of domain: 196 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	289.7	0.0	2.6e-90	5.6e-88	1	195	218	411
+
+  Alignments for each domain:
+  == domain 1  score: 289.7 bits;  conditional E-value: 2.6e-90
+             AP-2   1 fcsVpGRlsllsstskykVTveEvrRRlsppEcLNaSlLggvLrraKsKnggeslrekLekiglslpagrrkaanvtlltslvEgEavhlakDl 94 
+                      fcsVpGRlsllsstskykVTv+Ev+RRlsppEcLNaSlLggvLrraKsKngg++lre+Lekigl+lpagrrkaanvtlltslvEgEavhla+D+
+  PrHsapNP_848643 218 FCSVPGRLSLLSSTSKYKVTVGEVQRRLSPPECLNASLLGGVLRRAKSKNGGRCLRERLEKIGLNLPAGRRKAANVTLLTSLVEGEAVHLARDF 311
+                      9********************************************************************************************* PP
+
+             AP-2  95 eklceeefpakelaeelvkealsdenelekrkekleaakqilkelkdllesdrppltsrepkkileeklqssleeFsliTHGfGipailaalna 188
+                      +++ce+efpak+ ae+l++++  d+ el++rk++l aakqi+ke++dl+++dr+pl + +p  ile+ +qs+l++FsliTHGfG pai+aal+a
+  PrHsapNP_848643 312 GYVCETEFPAKAAAEYLCRQHA-DPGELHSRKSMLLAAKQICKEFADLMAQDRSPLGNSRPALILEPGVQSCLTHFSLITHGFGGPAICAALTA 404
+                      **********************.9*******************************66666********************************** PP
+
+             AP-2 189 lqkilee 195
+                      +q++l e
+  PrHsapNP_848643 405 FQNYLLE 411
+                      ***9865 PP
+

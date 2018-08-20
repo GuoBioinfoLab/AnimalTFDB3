@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	70.9	1.9	4.1e-23	5.1e-21	1	108	74	175
+2	-2.0	0.1	1.8	2.2e+02	21	32	362	373
+
+  Alignments for each domain:
+  == domain 1  score: 70.9 bits;  conditional E-value: 4.1e-23
+                   HHHHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHHT-H CS
+          ZBTB   1 lnelresgelcDvtlvvgdgkefkahkavLaarSpyFkalftskeieessvseielddvepeafealLefiYtgeleitseenleelLaaadllqip 97 
+                   +n lre++ +cDv ++++ + ef+ hk+v aa+S++++++f  +   +s +++i+    ++++ ++lL  +Ytg l+++ +++l ++L+aa++lq+ 
+  Npar_R007627  74 MNMLREQNLFCDVSIYIN-DAEFHGHKVVFAACSTFMRDQFLLN---QSRQVRIT-ILQNADVGQKLLLSCYTGVLQVK-RKELLKYLTAASYLQMV 164
+                   6899**************.6************************...44545676.467999****************7.***************** PP
+
+                   HHHHHHHHHHH CS
+          ZBTB  98 rlkkaceeflk 108
+                   +++++c++ l+
+  Npar_R007627 165 HIVEKCTDALS 175
+                   *******9987 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 1.8
+                   EEEEE-HHHHHH CS
+          ZBTB  21 kefkahkavLaa 32 
+                   +++k hk++L+ 
+  Npar_R007627 362 RHLKMHKLFLCL 373
+                   57899****996 PP
+

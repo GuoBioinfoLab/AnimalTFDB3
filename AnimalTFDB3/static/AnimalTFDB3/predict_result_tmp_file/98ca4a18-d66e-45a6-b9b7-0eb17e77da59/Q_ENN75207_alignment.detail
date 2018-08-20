@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	384.9	0.1	1.6e-118	7.6e-117	1	261	226	486
+
+  Alignments for each domain:
+  == domain 1  score: 384.9 bits;  conditional E-value: 1.6e-118
+  NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfselqkaDq 98 
+                 sLkGRRGRLpskpksp++ s+pspPvsl++alvra+vd+tp+ a+ldys+++e +  +   ++ e++qqfy lLt+s++vi+++a+kiPgf +++++D 
+  Q_ENN75207 226 SLKGRRGRLPSKPKSPQE-SPPSPPVSLITALVRAHVDTTPDLANLDYSQYMEpSPIEPVISEVEKIQQFYSLLTTSVDVIKSFADKIPGFLDICQEDR 323
+                 8***************99.**********************************55567889************************************** PP
+
+  NGFIB-like  99 elLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrveelqskiina 197
+                 elL++sa+lelfvlRl+yR++++++kl Fc+G+vl  +qc r+Fg+w++ i++f + l+ +++disAfacl+aL+l+terhGLke ++ve+lq+kii++
+  Q_ENN75207 324 ELLFQSAYLELFVLRLSYRTHPNDTKLTFCNGMVLDMQQCQRSFGDWLHGIMEFCSGLHAMEIDISAFACLCALTLITERHGLKESHKVEQLQMKIISS 422
+                 *************************************************************************************************** PP
+
+  NGFIB-like 198 LkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                 L+dhv+++a++q+k++++srllgkl+elr+l++ gLqrifylkLedLvpaP++i+k+f+ +lpf
+  Q_ENN75207 423 LRDHVTYNAEAQRKAHYFSRLLGKLPELRSLSVAGLQRIFYLKLEDLVPAPPLIEKMFVASLPF 486
+                 ***************************************************************9 PP
+

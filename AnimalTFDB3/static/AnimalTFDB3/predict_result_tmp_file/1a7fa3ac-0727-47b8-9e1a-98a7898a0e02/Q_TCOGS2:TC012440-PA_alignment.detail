@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	171.2	4.7	2e-53	9.2e-52	4	197	350	537
+2	-1.5	0.1	1.6	74	92	140	710	754
+
+  Alignments for each domain:
+  == domain 1  score: 171.2 bits;  conditional E-value: 2e-53
+              THR-like   4 eqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgel 92 
+                           +q+l+++f++++ +ai+ vveFaK+ipgFs l q+DQ+tLLk++++ev+l+rla +f+ ++  +   +++  +rd+++++ +      l
+  Q_TCOGS2:TC012440-PA 350 QQELLQDFSKRFSPAIRGVVEFAKRIPGFSLLAQDDQVTLLKAGVFEVLLVRLACMFDTQTSSMICLNGQVLKRDSIHNSSN---ARFL 435
+                           6899******************************************************999988866777*********996...6789 PP
+
+              THR-like  93 iesvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneeh 181
+                           ++s+f+fa+++++l+l+d+e+ L++ v+++ P drpg++n + +ek+q+++  al+ +++++h+   + ++   L++k+++lR+ln+ h
+  Q_TCOGS2:TC012440-PA 436 MDSMFDFAERMNALRLSDAEIGLFCSVVVIAP-DRPGLRNTELIEKMQNKLKAALQMVVNQNHHG--QTHIIDELMKKVPDLRTLNTLH 521
+                           *******************************9.*******************************5..6********************* PP
+
+              THR-like 182 serlvmlkveepktsl 197
+                           se+l+ +k++e+++ +
+  Q_TCOGS2:TC012440-PA 522 SEKLLAFKMTEQQQMM 537
+                           ***********98765 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 1.6
+              THR-like  92 liesvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklq 140
+                           l+++ +k +k++ +l+  d+  a +  ++++sP  +p+v+++++ ++l 
+  Q_TCOGS2:TC012440-PA 710 LMDEAYKPHKKFRALRNKDS--AEAEPAVVMSP--QPQVQHQQQQSSLS 754
+                           67777777777777777776..66677788888..88888888877775 PP
+

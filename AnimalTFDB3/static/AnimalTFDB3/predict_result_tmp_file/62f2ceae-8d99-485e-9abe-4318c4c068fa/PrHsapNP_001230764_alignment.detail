@@ -1,0 +1,36 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.6	1.0	0.16	48	32	80	139	199
+2	248.2	0.4	1.8e-77	5.3e-75	1	248	316	562
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 0.16
+                STAT  32 hlnslkvkvsiiseeqakallkge.............skvlelees.essgeilnnekaleyq 80 
+                         ++ +++ kv  i+++ + + ++++             +   ++ +s ++s+++  n++ l++q
+  PrHsapNP_001230764 139 RQRNVEHKVAAIKNSVQMTEQDTKyledlqdefdyryKTIQTMDQSdKNSAMV--NQEVLTLQ 199
+                         44444444444444422221211133333333333321111111110111111..22222222 PP
+
+  == domain 2  score: 248.2 bits;  conditional E-value: 1.8e-77
+                STAT   1 fvvekqP........pqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeet 83 
+                         fvve+qP        p+Vlkt  +F++k+RlL+  kl+e ++++kvk+si+++    ++l++       +    ++++   ++++  ++++
+  PrHsapNP_001230764 316 FVVERQPcmpthpqrPLVLKTLIQFTVKLRLLI--KLPELNYQVKVKASIDKNV---STLSNR------RFVLCGTNV---KAMSIEESSN 392
+                         9********************************..*****************99...445555......223333333...3333456778 PP
+
+                STAT  84 kqlsaefrnlsLkeikr.serkga...esVteekfallFeteftlgelkfkvetlSlPvvvivhgsQepsAwAtilWdna.faepkrlpff 169
+                         ++ls+efr+l+ ke+k+ +++kg+   ++Vtee+++++Fet+++l +l++++et+SlPvv+i+++sQ p+AwA+i+W+n+ ++++++l ff
+  PrHsapNP_001230764 393 GSLSVEFRHLQPKEMKSsAGGKGNegcHMVTEELHSITFETQICLYGLTIDLETSSLPVVMISNVSQLPNAWASIIWYNVsTNDSQNLVFF 483
+                         99***************8888999999*****************************************************99********* PP
+
+                STAT 170 v.pekvsWkqlaeaLswkFssatergLseeqlkyLaekllgkksskeqklvswsqfskenlpgrnftfWeWfdgilelik 248
+                           p+ ++ +ql+e++sw+Fss  +rgL+++ql++Laekl+ ++s +++ +++w++f+ke+lpg++ftfW+W+++il+lik
+  PrHsapNP_001230764 484 NnPPPATLSQLLEVMSWQFSSYVGRGLNSDQLHMLAEKLTVQSS-YSDGHLTWAKFCKEHLPGKSFTFWTWLEAILDLIK 562
+                         *****************************************776.55********************************8 PP
+
+
+

@@ -1,0 +1,34 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	46.2	0.2	3.4e-15	1.8e-13	1	55	419	473
+2	257.7	7.4	1.9e-79	9.8e-78	156	374	546	759
+
+  Alignments for each domain:
+  == domain 1  score: 46.2 bits;  conditional E-value: 3.4e-15
+             GCNF-like   1 AvREDrmPGGRNksivyvqikekeierkksgqefeeeaarqeqaqqqhqqsqqss 55 
+                           AvREDrmPGGRN+++vy+++k+k++++kk   ++  +aa+++  +qq + +q ss
+  Q_TCOGS2:TC000543-PA 419 AVREDRMPGGRNSGAVYNLYKVKYKKHKKPACKQPPKAAEKNILSQQFKMEQPSS 473
+                           9********************************9999999766555555454444 PP
+
+  == domain 2  score: 257.7 bits;  conditional E-value: 1.9e-79
+             GCNF-like 156 dkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllg 244
+                            +++lsekLc+i+D++v++lv+W+K+LPF+lel+ve hT+LLt+kW+el++L+++ayqa+  + +       + k+d  +  e++ +l 
+  Q_TCOGS2:TC000543-PA 546 HNTDLSEKLCHIGDSIVYKLVQWTKRLPFYLELPVEVHTRLLTHKWHELLVLTTSAYQAIHKAGD---QLTTIIKTD--FNHEVETNLC 629
+                           56789******************************************************976554...455566777..7789999*** PP
+
+             GCNF-like 245 eLadvlskllgseeelerlkedagevvekltqllrkFrrlkvskEeYvclKviilLnkdekg.lseveeleslqeryvkvlrsylenks 332
+                           +L+ +l+ ++g e+++e+l +d+g ++ek+t ++ +Fr++k+ +EeYvclKvi++Ln+++ +  s  +eles+ ery++ lr y+++ +
+  Q_TCOGS2:TC000543-PA 630 TLQSCLTSMMGREITIEQLRQDVGLMIEKITHVTLMFRQIKLTMEEYVCLKVITMLNQAKPAsSSGNSELESIHERYMTCLRVYTQHMY 718
+                           ***********************************************************986366789********************* PP
+
+             GCNF-like 333 pqnpkarlsellsclpeiraaaskllesklfyvPlllkavli 374
+                           pq+ + r+++ll  lpei+ aas+llesk+fyvP+ll+++ +
+  Q_TCOGS2:TC000543-PA 719 PQQTT-RFQDLLGRLPEIQSAASLLLESKMFYVPFLLNSAIQ 759
+                           *9988.********************************9876 PP
+

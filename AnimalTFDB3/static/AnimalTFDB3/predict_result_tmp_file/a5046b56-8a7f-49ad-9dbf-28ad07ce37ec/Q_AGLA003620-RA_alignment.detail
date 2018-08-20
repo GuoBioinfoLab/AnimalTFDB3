@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.5	2.6	0.0023	0.0076	1	20	23	42
+2	8.6	5.9	0.04	0.13	1	23	52	76
+3	17.5	1.5	5.9e-05	0.0002	1	21	86	106
+4	7.9	5.2	0.065	0.22	3	23	117	138
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.0023
+                     EEETTTTEEESSHHHHHHHH CS
+          zf-C2H2  1 ykCpdCgksFkrksnLkrHi 20
+                     y+C +C++ +k+k  L+rH+
+  Q_AGLA003620-RA 23 YQCLKCSRLYKHKFTLTRHL 42
+                     9******************7 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.04
+                     EEETTTTEEESSHHHHHHHHHC..C CS
+          zf-C2H2  1 ykCpdCgksFkrksnLkrHirt..H 23
+                     + C+ C ++++rk+ L+ H+r+  H
+  Q_AGLA003620-RA 52 FACHLCAYKCTRKHRLEEHLRSriH 76
+                     78******************98666 PP
+
+  == domain 3  score: 17.5 bits;  conditional E-value: 5.9e-05
+                      EEETTTTEEESSHHHHHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                      ykC+ C+k++k   +L+rH+r
+  Q_AGLA003620-RA  86 YKCDRCSKTYKLLNSLRRHQR 106
+                      9*******************9 PP
+
+  == domain 4  score: 7.9 bits;  conditional E-value: 0.065
+                      ETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   3 CpdCgksFkrksnLkrHirt.H 23 
+                      C+ C+ +F  k ++++H+   H
+  Q_AGLA003620-RA 117 CKLCHHRFYYKQEMQVHMYNkH 138
+                      ******************8877 PP
+

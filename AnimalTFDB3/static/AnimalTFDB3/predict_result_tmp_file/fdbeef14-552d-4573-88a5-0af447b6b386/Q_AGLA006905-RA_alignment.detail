@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	25.0	0.6	2e-07	9.2e-07	2	26	150	174
+2	37.0	2.4	3.3e-11	1.5e-10	1	24	177	200
+3	27.9	5.1	2.5e-08	1.1e-07	3	25	207	229
+4	12.6	0.7	0.0017	0.0076	1	26	233	256
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 2e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L +H++ H++e+ y C++C+ +F +
+  Q_AGLA006905-RA 150 LFYHMKIHRNERNYVCSFCNGKFLN 174
+                      779******************9976 PP
+
+  == domain 2  score: 37.0 bits;  conditional E-value: 3.3e-11
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+rH+r Htge+py+C +C+k+F
+  Q_AGLA006905-RA 177 SLKRHTRIHTGERPYTCTFCPKTF 200
+                      69*********************9 PP
+
+  == domain 3  score: 27.9 bits;  conditional E-value: 2.5e-08
+        zf-H2C2_2   3 rrHlrkHtgekpyeCplCdkaFk 25 
+                      r H r Htg+kp++C++C+k+F 
+  Q_AGLA006905-RA 207 RTHERRHTGQKPHKCKYCPKRFI 229
+                      78*******************96 PP
+
+  == domain 4  score: 12.6 bits;  conditional E-value: 0.0017
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      nL+ H+ +Htg kp  C  C+k++ +
+  Q_AGLA006905-RA 233 NLKLHTSSHTGTKP--CGICRKSYLN 256
+                      899**********6..******9975 PP
+

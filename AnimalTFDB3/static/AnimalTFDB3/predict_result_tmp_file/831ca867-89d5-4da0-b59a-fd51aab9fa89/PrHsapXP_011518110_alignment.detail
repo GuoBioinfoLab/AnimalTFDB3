@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	184.0	2.7	3.4e-57	1e-55	3	196	37	222
+
+  Alignments for each domain:
+  == domain 1  score: 184.0 bits;  conditional E-value: 3.4e-57
+            THR-like   3 seqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvt.lndaelvtrdqlrslgrpglqgel 92 
+                          +q+ + +f+el+  ++qe+v+FaK++pgF +l+ eDQi+LLk++++evmll+ +r++np s+ +t l+d  +  +d+ +    +glq e+
+  PrHsapXP_011518110  37 ARQQRFAHFTELAIVSVQEIVDFAKQLPGFLQLSREDQIALLKTSAIEVMLLETSRRYNPGSESITfLKDFSYNREDFAK----AGLQVEF 123
+                         6899**************************************************************77777777777766....568**** PP
+
+            THR-like  93 iesvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehse 183
+                         i+++f+f++ +++l+l+d+e aLl+a+ ++s adrp+v+++ +ve+lq +++eal+ y+  +hp  +d+ +f+++l+kl  lR+l++ hse
+  PrHsapXP_011518110 124 INPIFEFSRAMNELQLNDAEFALLIAISIFS-ADRPNVQDQLQVERLQHTYVEALHAYVSIHHP--HDRLMFPRMLMKLVSLRTLSSVHSE 211
+                         *******************************.8*******************************..57*********************** PP
+
+            THR-like 184 rlvmlkveepkts 196
+                         ++  l+ +++  +
+  PrHsapXP_011518110 212 QVFALRLQDK--K 222
+                         *888888886..3 PP
+

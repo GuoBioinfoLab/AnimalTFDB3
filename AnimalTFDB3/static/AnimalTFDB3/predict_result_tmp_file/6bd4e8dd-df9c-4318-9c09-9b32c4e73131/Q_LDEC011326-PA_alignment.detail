@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	7.0	0.1	0.097	0.42	13	26	58	71
+2	6.8	0.2	0.12	0.5	13	25	167	180
+3	25.0	0.1	2.1e-07	8.9e-07	2	25	185	209
+4	24.2	3.3	3.7e-07	1.6e-06	2	25	214	237
+5	7.7	3.8	0.061	0.27	8	25	248	263
+6	20.2	1.9	6.5e-06	2.8e-05	1	25	267	290
+7	26.8	1.5	5.6e-08	2.4e-07	2	26	295	319
+8	31.4	5.7	1.9e-09	8.2e-09	3	25	324	346
+9	32.2	1.3	1e-09	4.5e-09	1	25	350	374
+10	23.6	1.6	5.6e-07	2.4e-06	5	25	382	402
+11	1.5	0.3	5.4	23	2	12	407	417
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.097
+        zf-H2C2_2 13 kpyeCplCdkaFkt 26
+                       + C+lC+k F t
+  Q_LDEC011326-PA 58 ELFVCELCRKHFDT 71
+                     4599*******975 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.12
+        zf-H2C2_2  13 kp.yeCplCdkaFk 25 
+                      +p   C+lC k+F+
+  Q_LDEC011326-PA 167 RPrIPCDLCTKTFS 180
+                      45689********5 PP
+
+  == domain 3  score: 25.0 bits;  conditional E-value: 2.1e-07
+        zf-H2C2_2   2 LrrHlrk.HtgekpyeCplCdkaFk 25 
+                      Lr H ++ H +e+p++C +C k+F 
+  Q_LDEC011326-PA 185 LRNHVAVvHNNERPFQCQVCLKSFG 209
+                      899***66****************7 PP
+
+  == domain 4  score: 24.2 bits;  conditional E-value: 3.7e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ H   Htgek +eC+ C+k+F+
+  Q_LDEC011326-PA 214 LKEHENYHTGEKLFECKTCSKTFS 237
+                      789********************8 PP
+
+  == domain 5  score: 7.7 bits;  conditional E-value: 0.061
+        zf-H2C2_2   8 kHtgekpyeCplCdkaFk 25 
+                      +H   k+++C++C+ +F+
+  Q_LDEC011326-PA 248 TH--VKRFQCKYCSETFT 263
+                      44..478**********8 PP
+
+  == domain 6  score: 20.2 bits;  conditional E-value: 6.5e-06
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L++H r+H  +kp++C+ C+kaF+
+  Q_LDEC011326-PA 267 HLVKHERSHS-DKPFQCEMCPKAFA 290
+                      79*******8.89***********5 PP
+
+  == domain 7  score: 26.8 bits;  conditional E-value: 5.6e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L+ H+r H gekpy C  C k F++
+  Q_LDEC011326-PA 295 LVEHIRIHNGEKPYACRICFKCFTR 319
+                      899********************85 PP
+
+  == domain 8  score: 31.4 bits;  conditional E-value: 1.9e-09
+        zf-H2C2_2   3 rrHlrkHtgekpyeCplCdkaFk 25 
+                      rrH r+H gekp++C+lC+kaF+
+  Q_LDEC011326-PA 324 RRHERTHSGEKPFQCKLCPKAFS 346
+                      9*********************7 PP
+
+  == domain 9  score: 32.2 bits;  conditional E-value: 1e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L+ H r+H g+kpy C++Cdk+F+
+  Q_LDEC011326-PA 350 HLVDHERTHSGDKPYRCSFCDKSFS 374
+                      6999********************7 PP
+
+  == domain 10  score: 23.6 bits;  conditional E-value: 5.6e-07
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H r+H g +p++C +C+kaF+
+  Q_LDEC011326-PA 382 HERTHNGITPFKCHVCNKAFT 402
+                      ********************8 PP
+
+  == domain 11  score: 1.5 bits;  conditional E-value: 5.4
+        zf-H2C2_2   2 LrrHlrkHtge 12 
+                      L +H + H++e
+  Q_LDEC011326-PA 407 LAKHEKIHKKE 417
+                      789*****998 PP
+

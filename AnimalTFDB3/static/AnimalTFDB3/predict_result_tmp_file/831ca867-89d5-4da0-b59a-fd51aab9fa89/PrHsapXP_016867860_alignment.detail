@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	30.0	0.2	8.8e-09	2.2e-08	1	25	484	508
+2	34.8	0.4	2.7e-10	6.7e-10	1	25	512	536
+3	29.5	0.1	1.2e-08	3e-08	1	25	540	564
+4	26.9	1.1	8.3e-08	2e-07	1	26	568	593
+
+  Alignments for each domain:
+  == domain 1  score: 30.0 bits;  conditional E-value: 8.8e-09
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         +L+rH ++Htge+p+ C +C+k F+
+  PrHsapXP_016867860 484 DLVRHQATHTGERPHRCGECGKGFS 508
+                         69**********************7 PP
+
+  == domain 2  score: 34.8 bits;  conditional E-value: 2.7e-10
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         nL+ H r Htgekpy C++C+k+F+
+  PrHsapXP_016867860 512 NLVTHQRIHTGEKPYACSYCAKRFS 536
+                         899*********************6 PP
+
+  == domain 3  score: 29.5 bits;  conditional E-value: 1.2e-08
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         +L++H r+Htge+py C  C+k+F+
+  PrHsapXP_016867860 540 ALVQHQRTHTGERPYACGDCGKRFS 564
+                         699********************95 PP
+
+  == domain 4  score: 26.9 bits;  conditional E-value: 8.3e-08
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                         nL rH r+H ge+py C+ C+ +F +
+  PrHsapXP_016867860 568 NLLRHRRTHSGERPYVCEDCGERFRH 593
+                         799********************986 PP
+

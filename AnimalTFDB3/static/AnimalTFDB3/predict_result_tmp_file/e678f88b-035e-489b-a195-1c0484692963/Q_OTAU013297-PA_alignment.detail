@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.5	3.0	0.011	0.071	11	26	29	44
+2	9.4	0.8	0.013	0.079	1	26	47	72
+3	16.3	3.5	7.9e-05	0.00049	2	23	76	97
+4	14.2	5.3	0.00038	0.0024	1	24	103	129
+5	26.2	1.2	6e-08	3.7e-07	4	25	137	158
+6	23.3	0.2	5.1e-07	3.1e-06	5	25	166	186
+7	22.3	0.3	1.1e-06	6.6e-06	1	26	190	215
+8	7.8	0.1	0.041	0.26	1	23	218	239
+9	28.9	2.7	8.5e-09	5.3e-08	2	26	246	270
+10	30.2	1.1	3.3e-09	2e-08	2	25	274	297
+11	6.1	0.2	0.13	0.83	2	13	302	313
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.011
+        zf-H2C2_2 11 gekpyeCplCdkaFkt 26
+                     ++k+++C +Cdk Fkt
+  Q_OTAU013297-PA 29 SQKEHKCNYCDKLFKT 44
+                     6899**********97 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.013
+        zf-H2C2_2  1 nLrrHlrk.HtgekpyeCplCdkaFkt 26
+                     +Lr H ++ H+g + y C +C+ +Fk+
+  Q_OTAU013297-PA 47 DLRVHKKSyHMGNN-YICQVCGEKFKY 72
+                     6999***77***87.**********95 PP
+
+  == domain 3  score: 16.3 bits;  conditional E-value: 7.9e-05
+        zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdka 23
+                     L+rH  kH  +kpyeC  C+k 
+  Q_OTAU013297-PA 76 LERHVFKHEDKKPYECNICKKG 97
+                     89******************96 PP
+
+  == domain 4  score: 14.2 bits;  conditional E-value: 0.00038
+        zf-H2C2_2   1 nLrrHlrkHt...gekpyeCplCdkaF 24 
+                      +L+rH r H     +k ++Cp C+k F
+  Q_OTAU013297-PA 103 SLKRHERIHDinnIKKTHCCPICSKCF 129
+                      69********8865555********98 PP
+
+  == domain 5  score: 26.2 bits;  conditional E-value: 6e-08
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                       H+++Htg kp+ C +C+k F 
+  Q_OTAU013297-PA 137 EHMKNHTGHKPFLCTVCGKGFR 158
+                      7*******************96 PP
+
+  == domain 6  score: 23.3 bits;  conditional E-value: 5.1e-07
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H+r+H g +py+C+ C ++F+
+  Q_OTAU013297-PA 166 HMRSHNGIRPYKCEICEDTFS 186
+                      *******************95 PP
+
+  == domain 7  score: 22.3 bits;  conditional E-value: 1.1e-06
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+ H++ H +e+p+ C+ C+ aFk+
+  Q_OTAU013297-PA 190 ALNVHIKRHSNERPFICDTCGMAFKH 215
+                      6999********************98 PP
+
+  == domain 8  score: 7.8 bits;  conditional E-value: 0.041
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdka 23 
+                      +Lr H   H g++   C +C+k+
+  Q_OTAU013297-PA 218 DLRGHKNIHLGKR-ILCTVCGKK 239
+                      5889*******87.8******98 PP
+
+  == domain 9  score: 28.9 bits;  conditional E-value: 8.5e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L+ H+r+Htgekp+ C +C+k F+t
+  Q_OTAU013297-PA 246 LTVHIRTHTGEKPFSCLYCSKCFTT 270
+                      788********************96 PP
+
+  == domain 10  score: 30.2 bits;  conditional E-value: 3.3e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L++H r Htg +py+C  C+kaF+
+  Q_OTAU013297-PA 274 LVKHERIHTGIRPYQCHICHKAFN 297
+                      99*********************8 PP
+
+  == domain 11  score: 6.1 bits;  conditional E-value: 0.13
+        zf-H2C2_2   2 LrrHlrkHtgek 13 
+                      L++Hl++H g+ 
+  Q_OTAU013297-PA 302 LKKHLKTHNGKG 313
+                      89*******985 PP
+

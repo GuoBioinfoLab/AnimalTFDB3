@@ -1,0 +1,50 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.8	0.3	0.42	1.1	1	21	69	89
+2	9.2	4.2	0.033	0.087	2	23	265	287
+3	9.2	0.2	0.034	0.089	1	23	294	317
+4	13.9	0.1	0.0011	0.003	3	21	376	394
+5	6.1	0.2	0.33	0.87	2	23	661	682
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.42
+                     EEETTTTEEESSHHHHHHHHH CS
+          zf-C2H2  1 ykCpdCgksFkrksnLkrHir 21
+                     y+C +C+  +++  n+  H r
+  Q_LDEC010366-PA 69 YECRICKSIYRSLANFILHKR 89
+                     99*****************88 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.033
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                       C++C+++F++k  L+ H+r  H
+  Q_LDEC010366-PA 265 SCTECNMKFSTKKTLVCHLRNkH 287
+                      6*******************988 PP
+
+  == domain 3  score: 9.2 bits;  conditional E-value: 0.034
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      y CpdC++++ +     rH+ + H
+  Q_LDEC010366-PA 294 YLCPDCKETYANAWGVFRHLFKfH 317
+                      66*****************99988 PP
+
+  == domain 4  score: 13.9 bits;  conditional E-value: 0.0011
+                      ETTTTEEESSHHHHHHHHH CS
+          zf-C2H2   3 CpdCgksFkrksnLkrHir 21 
+                      C++Cgk+F rk  L +H +
+  Q_LDEC010366-PA 376 CGGCGKRFERKAALHSHAQ 394
+                      *****************75 PP
+
+  == domain 5  score: 6.1 bits;  conditional E-value: 0.33
+                      EETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                      +C+ C ++F+   +L rH++ H
+  Q_LDEC010366-PA 661 TCKPCQQRFPAVLDLLRHMSAH 682
+                      7999***************988 PP
+

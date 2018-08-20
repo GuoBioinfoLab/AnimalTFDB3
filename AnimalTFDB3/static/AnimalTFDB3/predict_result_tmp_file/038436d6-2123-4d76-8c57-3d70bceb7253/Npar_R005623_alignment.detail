@@ -1,0 +1,34 @@
+HMM length of domain: 96 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	68.4	0.0	3.4e-23	3.4e-20	1	95	9	121
+2	-1.8	0.0	0.28	2.8e+02	19	40	247	268
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 3.4e-23
+                   HHHHHHHHHCTTTT..SEESSSSSEEEES-HHHHHHHTHH.........HHSTT--HHHHHHHHHHTTEEE........---SSBTTB--TTSEEEE CS
+           HSF   1 FlkkLyklledeel..isWsedgksfvvkdkeefakevlp.........kyfkhsnfssFvrqLnlYgFrk........vkrkeekkkkkekvweFs 78 
+                   F+ kL++l++d ++  ++W+++g+ +++ d+e f++e+l           +f++++f sF+rqLnlYgFrk         + +++ +  +++ + Fs
+  Npar_R005623   9 FPAKLWRLVNDPHVcsLQWDSRGEGIII-DQELFESELLApsreinvtdDLFRTTSFGSFIRQLNLYGFRKlvygsgasCQPTRNLEAGNRNLHPFS 104
+                   99*********888789**********9.9*********99999999988*********************87776665333333666677889*** PP
+
+                   ESS--XXXXXXXXXXXX CS
+           HSF  79 henFkrgkkelLkkikr 95 
+                   +++F+rg++elL ++kr
+  Npar_R005623 105 NSFFRRGHPELLINLKR 121
+                   **************998 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 0.28
+                   SSSSEEEES-HHHHHHHTHHHH CS
+           HSF  19 edgksfvvkdkeefakevlpky 40 
+                   ++ +s++v+++++f +e ++ky
+  Npar_R005623 247 STATSLHVQQSHSFMTEAVHKY 268
+                   4567899999999999888776 PP
+
+
+

@@ -1,0 +1,61 @@
+HMM length of domain: 22 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	17.8	4.0	1.1e-07	0.00011	10	21	80	91
+2	8.4	3.8	9.4e-05	0.094	7	18	129	140
+3	22.2	7.3	4.6e-09	4.6e-06	8	21	151	164
+4	-5.3	3.5	1	1e+03	12	15	183	186
+5	24.7	0.5	7.6e-10	7.6e-07	7	21	201	215
+6	-1.6	2.9	0.12	1.2e+02	12	16	234	238
+7	10.5	8.7	2.1e-05	0.021	7	18	251	264
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 1.1e-07
+          HMGA 10 RPRGRPKGSKNK 21
+                  R RGRPKGSKNK
+  Npar_R003855 80 RGRGRPKGSKNK 91
+                  77*********9 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 9.4e-05
+          HMGA   7 sPKRPRGRPKGS 18 
+                   +P R RGRP GS
+  Npar_R003855 129 TPHRGRGRPRGS 140
+                   9**********9 PP
+
+  == domain 3  score: 22.2 bits;  conditional E-value: 4.6e-09
+          HMGA   8 PKRPRGRPKGSKNK 21 
+                   PKR RGRPKGSKNK
+  Npar_R003855 151 PKRSRGRPKGSKNK 164
+                   *************9 PP
+
+  == domain 4  score: -5.3 bits;  conditional E-value: 1
+          HMGA  12 RGRP 15 
+                   RGRP
+  Npar_R003855 183 RGRP 186
+                   9999 PP
+
+  == domain 5  score: 24.7 bits;  conditional E-value: 7.6e-10
+          HMGA   7 sPKRPRGRPKGSKNK 21 
+                   +PKR RGRPKGS NK
+  Npar_R003855 201 TPKRGRGRPKGSLNK 215
+                   9************99 PP
+
+  == domain 6  score: -1.6 bits;  conditional E-value: 0.12
+          HMGA  12 RGRPK 16 
+                   RGRPK
+  Npar_R003855 234 RGRPK 238
+                   9***9 PP
+
+  == domain 7  score: 10.5 bits;  conditional E-value: 2.1e-05
+          HMGA   7 sPKRPRGRP..KGS 18 
+                   +PKRPRGRP  KGS
+  Npar_R003855 251 TPKRPRGRPrkKGS 264
+                   9********77777 PP
+
+
+

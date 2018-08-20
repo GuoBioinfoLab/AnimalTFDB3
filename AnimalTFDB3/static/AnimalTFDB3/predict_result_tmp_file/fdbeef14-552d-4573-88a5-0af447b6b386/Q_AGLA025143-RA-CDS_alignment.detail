@@ -1,0 +1,31 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.4	0.0	2.5	2.5e+02	67	97	194	225
+2	32.0	1.5	4.2e-11	4.1e-09	7	56	487	537
+3	97.1	0.7	7.2e-31	7.1e-29	156	219	610	673
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 2.5
+            GCNF-like  67 qqkkqlkssrsvkll.ggvvdlkeaflgpslk 97 
+                          +q+ +l++s++  l+  +++++k++ +g s +
+  Q_AGLA025143-RA-CDS 194 SQQPTLSQSQQLWLKhSRINGVKPELIGGSFT 225
+                          67888888888877515678899999988765 PP
+
+  == domain 2  score: 32.0 bits;  conditional E-value: 4.2e-11
+            GCNF-like   7 mPGGRNksivyvqikekeierkksgqefeeeaarqeq.aqqqhqqsqqssq 56 
+                          mPGGRN+++vy+++k+k++++kk   ++  +a +++  +qq +q+++q+s 
+  Q_AGLA025143-RA-CDS 487 MPGGRNSGAVYNLYKVKYKKHKKPSGKQPPKAMEKNIlSQQFKQEQDQASS 537
+                          ***********************9999999888865574444444444432 PP
+
+  == domain 3  score: 97.1 bits;  conditional E-value: 7.2e-31
+            GCNF-like 156 dkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalplst 219
+                           +++lsekLc+i+D++v++lv+W+K+LPF+lel+ve hT+LLt+kW+el++L+++ayqa+  + 
+  Q_AGLA025143-RA-CDS 610 HNTDLSEKLCNIGDSIVYKLVQWTKRLPFYLELPVEVHTRLLTHKWHELLVLTTSAYQAIHKAG 673
+                          56799******************************************************84333 PP
+

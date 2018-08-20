@@ -1,0 +1,32 @@
+HMM length of domain: 86 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	101.5	0.0	2.3e-32	1.2e-30	1	83	169	276
+2	-0.5	0.0	1.5	78	11	54	366	409
+
+  Alignments for each domain:
+  == domain 1  score: 101.5 bits;  conditional E-value: 2.3e-32
+                      -----HHHHHHHHHHT-TTT-B-HHHHHHHHHCC-HHHHC.-CCHHHHHHHHHHHHC--EEETT-TT.........................SS CS
+        Fork_head   1 kPpysYaaLIaqAiksspdkkltLseIykwieknypyyrtadkgwqnsirhnLslnkcFvkvprske.........................ep 69 
+                      kPpys+++LI++Ai++s +k l ++eIy+wi +++py+rta+ gw+ns+rhnLslnkcF+k+++                              
+  Q_OTAU011485-PA 169 KPPYSFSCLIFMAIEDSDQKALPVKEIYTWILDHFPYFRTAPMGWKNSVRHNLSLNKCFQKIEKAPMdfavmmvtddvktkvkrnngglviiPG 262
+                      9**************************************************************998899************9999999999888 PP
+
+                      SS--EEE--TTHHH CS
+        Fork_head  70 gkgslWtidpesee 83 
+                      gkgslWt+d++++ 
+  Q_OTAU011485-PA 263 GKGSLWTVDQQYRP 276
+                      9********99875 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 1.5
+                      HHHHHT-TTT-B-HHHHHHHHHCC-HHHHC.-CCHHHHHHHHHH CS
+        Fork_head  11 aqAiksspdkkltLseIykwieknypyyrtadkgwqnsirhnLs 54 
+                      +q i+ssp+   t s   ++i + ++  +++ k  ++si  ++ 
+  Q_OTAU011485-PA 366 CQVITSSPSLDHTYSAADSYIDEAFESDEEDIKLSKSSICRRID 409
+                      58899999999999999999999999888877777888877665 PP
+

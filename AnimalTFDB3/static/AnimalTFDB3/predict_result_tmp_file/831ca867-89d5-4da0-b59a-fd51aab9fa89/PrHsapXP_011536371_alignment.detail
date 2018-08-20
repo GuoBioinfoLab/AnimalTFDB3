@@ -1,0 +1,31 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	83.5	0.0	2.5e-27	4.2e-25	2	73	488	560
+2	82.9	0.0	3.7e-27	6.3e-25	3	70	832	900
+3	88.3	0.0	7.6e-29	1.3e-26	3	75	983	1056
+
+  Alignments for each domain:
+  == domain 1  score: 83.5 bits;  conditional E-value: 2.5e-27
+                 CUT   2 seeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpese 73 
+                         +e+ldt++ia +vke+L +++i q+vF++ vl+ sqg++se+L++Pkpw +l+  g+e++i+m+++L++++++
+  PrHsapXP_011536371 488 EEQLDTAEIAFQVKEQLLKHNIGQRVFGHYVLGLSQGSVSEILARPKPWRKLTVkGKEPFIKMKQFLSDEQNV 560
+                         689******************************************************************9986 PP
+
+  == domain 2  score: 82.9 bits;  conditional E-value: 3.7e-27
+                 CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlp 70 
+                          e+dt +++++vke+L ++ i q++F+ekvl+ sqg++s++L++Pkpw++l++ gre++irmq wL+++
+  PrHsapXP_011536371 832 REVDTLELTRQVKEKLAKNGICQRIFGEKVLGLSQGSVSDMLSRPKPWSKLTQkGREPFIRMQLWLSDQ 900
+                         5789**************************************************************997 PP
+
+  == domain 3  score: 88.3 bits;  conditional E-value: 7.6e-29
+                 CUT    3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpeserd 75  
+                           eldt +i+++vke L++++  q++F+e +l+ +qg++s+lL++Pkpw++l+  gre+++rmq wLn+p+++++
+  PrHsapXP_011536371  983 PELDTYSITKRVKEVLTDNNLGQRLFGESILGLTQGSVSDLLSRPKPWHKLSLkGREPFVRMQLWLNDPHNVEK 1056
+                          689*******************************************************************9876 PP
+

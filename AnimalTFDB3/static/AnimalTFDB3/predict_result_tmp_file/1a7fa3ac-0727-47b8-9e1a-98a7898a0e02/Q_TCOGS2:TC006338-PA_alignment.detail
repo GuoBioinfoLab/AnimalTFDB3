@@ -1,0 +1,29 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	39.6	0.1	1.3e-12	3.6e-11	1	89	7	99
+2	19.3	4.8	3e-06	8.3e-05	1	87	110	179
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 1.3e-12
+                  THAP  1 CvvpgCknrkkkkskkkvsfhrfP..................kdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekke 73
+                          C+v +C++++++++   +sfh fP                  k   +rk W + +  +   + +     rvCs HF       +k++++ e
+  Q_TCOGS2:TC006338-PA  7 CSVSNCHTNSRTHPL--LSFHPFPpkdttylsvstldaggskKLMCIRKLWEEILLMRT--PARC---ERVCSMHF-------QKTDYYGE 83
+                          ********8888775..8*****987776666665555554438888899965554431..2222...58******.......45678889 PP
+
+                  THAP 74 skkrrkLkkdavPtif 89
+                          ++  ++L+  a+Pt++
+  Q_TCOGS2:TC006338-PA 84 TTVLDTLNARAIPTLN 99
+                          999999********96 PP
+
+  == domain 2  score: 19.3 bits;  conditional E-value: 3e-06
+                  THAP   1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekkeskkrrkLkkdavPt 87 
+                           C v++C+n+++ +++k  +f+++ +++     W ++   k++++  ++++ +vCs+HF               + +   L++d vP+
+  Q_TCOGS2:TC006338-PA 110 CDVRSCHNQDNVHKNK--HFFTLERNE---TNWTRFHAWKRFTRACSDNQVTVCSDHFI-----L------GFPVDD-PLNPDHVPS 179
+                           899*****98888765..999887644...5565554444444444444578******2.....1......122223.366666666 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	261.0	0.5	7.8e-81	3.4e-79	1	200	220	414
+
+  Alignments for each domain:
+  == domain 1  score: 261.0 bits;  conditional E-value: 7.8e-81
+              RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqe 89 
+                           ice+aarlLf++Vewa++ip+f +L++ dqv+LLr  W+el++L+++q+s+pl++a+l++a+gl+++  +a ++v++++d  ++r++qe
+  Q_TCOGS2:TC001722-PA 220 ICELAARLLFSAVEWARNIPFFPDLQVTDQVALLRLVWSELFVLNASQCSMPLHVAPLIAAAGLHASPMCA-DRVVQFMD--HIRIFQE 305
+                           8*******************************************************************665.57899999..******* PP
+
+              RXR-like  90 lvtklrdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffs 178
+                           +v+kl+ l++d++Ey+cLkaIvlf+   da+gl++ ++ies++ek+q++leey+++qyp+qp+rFgklLlrLp+lr++ss++ie+lff 
+  Q_TCOGS2:TC001722-PA 306 QVEKLKALHVDSAEYSCLKAIVLFTT--DACGLSDVAHIESIQEKSQCALEEYCRSQYPNQPTRFGKLLLRLPSLRTVSSAVIEQLFFV 392
+                           **************************..99*********************************************************** PP
+
+              RXR-like 179 kliGdtpietlllemlesskps 200
+                           +l+G+tpietl+++ml+s+++ 
+  Q_TCOGS2:TC001722-PA 393 RLVGKTPIETLIRDMLLSGSSF 414
+                           *****************98865 PP
+

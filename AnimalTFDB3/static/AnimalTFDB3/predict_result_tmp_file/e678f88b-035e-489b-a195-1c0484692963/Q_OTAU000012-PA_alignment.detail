@@ -1,0 +1,59 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	3.9	0.0	0.68	4.2	12	25	62	75
+2	11.3	1.3	0.003	0.019	9	25	95	111
+3	4.8	0.2	0.36	2.2	12	26	169	184
+4	26.0	2.9	6.9e-08	4.3e-07	2	25	188	211
+5	17.1	3.5	4.5e-05	0.00028	4	25	218	239
+6	20.7	2.7	3.3e-06	2.1e-05	4	25	246	267
+7	26.1	0.5	6.5e-08	4.1e-07	5	25	275	295
+
+  Alignments for each domain:
+  == domain 1  score: 3.9 bits;  conditional E-value: 0.68
+        zf-H2C2_2 12 ekpyeCplCdkaFk 25
+                      k   C+ C+ +F+
+  Q_OTAU000012-PA 62 TKLIRCDICNFSFS 75
+                     34589*******96 PP
+
+  == domain 2  score: 11.3 bits;  conditional E-value: 0.003
+        zf-H2C2_2   9 HtgekpyeCplCdkaFk 25 
+                       tg+  y+C lC+k+Fk
+  Q_OTAU000012-PA  95 QTGKYSYHCHLCSKKFK 111
+                      459999**********8 PP
+
+  == domain 3  score: 4.8 bits;  conditional E-value: 0.36
+        zf-H2C2_2  12 ekp.yeCplCdkaFkt 26 
+                      e++ + C++C k F+t
+  Q_OTAU000012-PA 169 ENKqWACDVCFKLFTT 184
+                      544499******9986 PP
+
+  == domain 4  score: 26.0 bits;  conditional E-value: 6.9e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L++H r Htge py C  C+k+F+
+  Q_OTAU000012-PA 188 LKKHKRLHTGEMPYFCTQCNKSFT 211
+                      89*********************6 PP
+
+  == domain 5  score: 17.1 bits;  conditional E-value: 4.5e-05
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                      +H+  H +ekp+ C +C+ aFk
+  Q_OTAU000012-PA 218 KHMLYHSSEKPHVCGECGRAFK 239
+                      79*******************8 PP
+
+  == domain 6  score: 20.7 bits;  conditional E-value: 3.3e-06
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                       H r H ge+p+ C+ C+k F 
+  Q_OTAU000012-PA 246 NHERIHSGERPFACETCGKCFR 267
+                      5******************996 PP
+
+  == domain 7  score: 26.1 bits;  conditional E-value: 6.5e-08
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H r Htg  py+C +Cdk+F 
+  Q_OTAU000012-PA 275 HRRIHTGVMPYKCTACDKSFR 295
+                      ********************6 PP
+

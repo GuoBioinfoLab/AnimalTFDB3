@@ -1,0 +1,69 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	31.9	0.1	4.7e-10	9.7e-09	1	88	5	91
+2	33.2	0.8	1.9e-10	3.9e-09	1	88	451	535
+3	30.7	0.1	1.1e-09	2.4e-08	1	89	541	614
+4	15.5	0.0	6.5e-05	0.0013	26	87	644	702
+5	32.1	0.1	4e-10	8.3e-09	1	62	735	793
+6	41.7	1.3	4.3e-13	8.9e-12	1	89	874	962
+7	39.1	0.7	2.7e-12	5.5e-11	1	89	1003	1091
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 4.7e-10
+             THAP  1 CvvpgCknrkkkkskkk..vsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeee.....kkkkkkeeekkeskkrrkLkkdavPti 88
+                     C++++C++++k+ ++++  +sf++    + ++  W k ++ +    k++    ++C+ HF+++     ++ +  ++ + +  +++kLk+da Pti
+  Q_LDEC002588-PA  5 CAIKSCSSGRKRLKDSQepMSFFQAR--SWKLASWRKSLRMN---LKET---DYICQLHFKKDyiemyDEITVGNDVHYRYLSQKKLKEDALPTI 91
+                     ********966655444789**9865..44578999998875...2223...49*******9999876344444556666777778********9 PP
+
+  == domain 2  score: 33.2 bits;  conditional E-value: 1.9e-10
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeee......kkkkkkeeekkeskkrrkLkkdavPti 88 
+                      C+vpgCk  k+++    +  + +P++++++k W   i +k++k +    ++++C kHF+++      +  +k  + ++   ++ kL+k+a P++
+  Q_LDEC002588-PA 451 CFVPGCKIYKNEQ----MFAFGVPQNEATLKIWDMCIDNKEHKLDF---NHVICYKHFSQDdvlhniRIINK--NGEEIAVDEPKLRKGAFPCV 535
+                      *******943322....345566**********7777777555443...369******99999875313333..33455666667*******97 PP
+
+  == domain 3  score: 30.7 bits;  conditional E-value: 1.1e-09
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfP.kdkelrkkWlkaikrkdkkkkkkskk..srvCskHFeeek.kkkkkeeekkeskkrrkLkkdavPtif 89 
+                      C++++Ck++   +     ++++fP ++k+ ++ W+  ik+ d kk   ++    rvC+ HFe+ + ++            +  L  +a Pt+f
+  Q_LDEC002588-PA 541 CCIRSCKKT---TG----RMFTFPvEKKDNLNLWMYLIKNPDLKKLPLKELlrNRVCEIHFEPASfDE------------EGDLTYSAAPTLF 614
+                      *******92...22....69****7688899**********9999886544889*******8763111............2236666666665 PP
+
+  == domain 4  score: 15.5 bits;  conditional E-value: 6.5e-05
+             THAP  26 dkelrkkWlkaikrkdkkkkkkskk......srvCskHFeeekkkkkkeeekkeskkrrkLkkdavPt 87 
+                       ++++  Wl+a+kr d   k+ +++        vC  HF+         ++++ ++  +kLk++avP 
+  Q_LDEC002588-PA 644 SSRRLYIWLEACKRVDLVGKTLNETleklgnVGVCDYHFD--------LTDYE-NSALDKLKDSAVPK 702
+                      5667789*******9999988766688999999******2........22333.444556*******6 PP
+
+  == domain 5  score: 32.1 bits;  conditional E-value: 4e-10
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeee...k 62 
+                      C+++gCk+++++++     f+ fP++ ++ k W++a++ +   ++     +++C kHF++e   +
+  Q_LDEC002588-PA 735 CIYRGCKSKATEEN----PFFFFPSEANRYKDWMAACGYSYSGPNFYA--YKICPKHFSKEmfnE 793
+                      ********765554....5999****************9866665554..9*******7764321 PP
+
+  == domain 6  score: 41.7 bits;  conditional E-value: 4.3e-13
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPk...dkelrkkWlkaikrkdkkkkkkskk...srvCskHFeee.kkkkkkeeekkeskkrrkLkkdavPt 87 
+                      C+v++Ck+ +k+++    ++hrfP+   d+e+++ W k + +++  + ++++    + vC++HFe++      +++  + ++k   L  +avPt
+  Q_LDEC002588-PA 874 CAVKNCKSVYKTSTG---QYHRFPEprtDSERFDIWRKLVANSNLDNISRKEIcrkYMVCKRHFEKRfY----TRSIPTLKEKVAVLSLEAVPT 960
+                      ********9888765...7*****5566********888887777666654337779*******87631....2345566777888*******9 PP
+
+             THAP  88 if 89 
+                      ++
+  Q_LDEC002588-PA 961 LH 962
+                      85 PP
+
+  == domain 7  score: 39.1 bits;  conditional E-value: 2.7e-12
+             THAP    1 CvvpgCknrkkkkskkkvsfhrfP..k.dkelrkkWlkaikrkdkkkkkkskk...srvCskHFeee.kkkkkkeeekkeskkrrkLkkdav 85  
+                       C+v++C++ +k ++    ++hrfP  k d+++++ W k++ +++  + + ++    + vC +HFe++      +++  + ++k   L  +av
+  Q_LDEC002588-PA 1003 CAVKNCTSVYKISTG---QYHRFPdpKtDSDRFDIWQKFVANNNLDNMTPEEIckkYMVCMRHFEKRfY----TRRIPTLKEKVAVLSLEAV 1087
+                       ********9888775...7****9662699******99999988877764433677********87631....23345567778889***** PP
+
+             THAP   86 Ptif 89  
+                       Pt++
+  Q_LDEC002588-PA 1088 PTLH 1091
+                       *985 PP
+

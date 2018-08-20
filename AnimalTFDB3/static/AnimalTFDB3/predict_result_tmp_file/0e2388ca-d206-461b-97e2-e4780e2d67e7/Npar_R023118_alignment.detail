@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	89.6	0.2	4.9e-29	8.2e-27	1	110	14	121
+2	-2.2	0.0	1.6	2.6e+02	17	44	255	282
+
+  Alignments for each domain:
+  == domain 1  score: 89.6 bits;  conditional E-value: 4.9e-29
+                   HHHHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTST.TTTTCCCE.EEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHHT CS
+          ZBTB   1 lnelresgelcDvtlvvgdgkefkahkavLaarSpyFkalftsk.eieessvs.eielddvepeafealLefiYtgeleitseenleelLaaadllq 95 
+                   l+e+r+++ +cD+ + vg g++fkah+ vL a S yFk+l+++  +  + s+  + + d +++++f a+L+++Y+g+l+++  +n+ e+++aa++lq
+  Npar_R023118  14 LDEQRKRDLFCDCHITVG-GHTFKAHRNVLFANSGYFKMLLSQScK--DFSQPtTATFDVFSADTFTAILDYVYSGKLPLS-GQNVIEVMSAASYLQ 106
+                   689***************.9************************52..3333337999**********************6.*************** PP
+
+                   -HHHHHHHHHHHHHH CS
+          ZBTB  96 iprlkkaceeflkqs 110
+                   + +++ +c+ f+k+s
+  Npar_R023118 107 MTDVISVCKMFIKSS 121
+                   ***********9987 PP
+
+  == domain 2  score: -2.2 bits;  conditional E-value: 1.6
+                   ETTTEEEEE-HHHHHHH-HHHHHHHTST CS
+          ZBTB  17 vgdgkefkahkavLaarSpyFkalftsk 44 
+                   v+d++e+k++k   + +   Fk  f  +
+  Npar_R023118 255 VEDEEEVKTNKNLFCLHXVRFKCPFCTH 282
+                   7788999999999999999998877766 PP
+

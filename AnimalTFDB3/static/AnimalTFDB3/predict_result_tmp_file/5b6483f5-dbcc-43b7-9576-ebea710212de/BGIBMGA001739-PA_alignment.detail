@@ -1,0 +1,43 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.9	0.1	0.02	20	68	119	138	195
+2	-3.3	0.2	0.36	3.6e+02	62	92	310	338
+3	188.7	0.0	9.3e-60	9.3e-57	34	209	383	572
+
+  Alignments for each domain:
+  == domain 1  score: 0.9 bits;  conditional E-value: 0.02
+              STAT  68 geilnnekaleyqeetkqlsaefrnlsLkeikrserkga......esVteekfallFe 119
+                       g  + ++k     ee ++l+a+++ lsL+  +  ++kg+      ++Vt e+  l+  
+  BGIBMGA001739-PA 138 GLQTVRQKVNIAGEEIRSLQANIESLSLQYHECLKNKGHmnylqqQTVTTERRDLVAC 195
+                       444455666667788899*************999999988899999999888766655 PP
+
+  == domain 2  score: -3.3 bits;  conditional E-value: 0.36
+              STAT  62 eesessgeilnnekaleyqeetkqlsaefrn 92 
+                         s+++++i  +++++e+ ++ k+  +++r+
+  BGIBMGA001739-PA 310 DMSKQVAQI--TQSQMELVDHMKENITNLRQ 338
+                       233344444..44444444444444444444 PP
+
+  == domain 3  score: 188.7 bits;  conditional E-value: 9.3e-60
+              STAT  34 nslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkqlsaefr............nlsLkeikrserkgaesVteekf 114
+                         ++ +v iise+qa+ llk+++++ + ++  ++g+ilnn++++eyq +++qls++fr            n++L++ikr+e+kg+esV++ek 
+  BGIBMGA001739-PA 383 WTTRQQVVIISEQQAQLLLKSDTQAGKGKQPVECGDILNNTGTMEYQPTSRQLSVSFRrvggpaavsrsmNMQLRKIKRAEKKGTESVMDEKL 475
+                       5667799**************************************************866666666666689********************* PP
+
+              STAT 115 allFeteftl..gelkfkvetlSlPvvvivhgsQepsAwAtilWdnafaepkrlpffvpekvsWkqlaeaLswkFssatergLseeqlkyLae 205
+                       +llF+++f++  gel f+v+tlSlPvvvivhg+Qep++wAt++Wdnaf+ p r+pf+vp+kv+W qlae+Ls kFssat+  Lse++l++Lae
+  BGIBMGA001739-PA 476 TLLFQSQFNVggGELVFQVWTLSLPVVVIVHGNQEPHGWATVTWDNAFSPPGRVPFAVPDKVTWGQLAETLSLKFSSATGGSLSEDNLRFLAE 568
+                       **********999******************************************************************************** PP
+
+              STAT 206 kllg 209
+                       k+++
+  BGIBMGA001739-PA 569 KIFS 572
+                       **96 PP
+
+
+

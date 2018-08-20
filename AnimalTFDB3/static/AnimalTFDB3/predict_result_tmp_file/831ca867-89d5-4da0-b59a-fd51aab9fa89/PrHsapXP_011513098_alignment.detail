@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	289.1	0.0	2.8e-89	8.5e-88	1	199	222	418
+
+  Alignments for each domain:
+  == domain 1  score: 289.1 bits;  conditional E-value: 2.8e-89
+            RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek.evekildleevrvLqel 90 
+                         ic++a+++Lf+lVewak+ip+fs Lpl+dqviLLra W+elli++++++si++ d+ +lla+gl+v+rnsa++ +v +i+d +  rvL+el
+  PrHsapXP_011513098 222 ICQAADKQLFTLVEWAKRIPHFSSLPLDDQVILLRAGWNELLIASFSHRSIDVRDG-ILLATGLHVHRNSAHSaGVGAIFDRSLSRVLTEL 311
+                         8******************************************************9.********************************** PP
+
+            RXR-like  91 vtklrdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskli 181
+                         v+k+rd+++d+tE++cL+aI+lfnp  da+gl+++s++e+lrekv+asle+y++++ypeq+grF+klLlrLpalrsi +k++e+lff+kli
+  PrHsapXP_011513098 312 VSKMRDMRMDKTELGCLRAIILFNP--DAKGLSNPSEVEVLREKVYASLETYCKQKYPEQQGRFAKLLLRLPALRSIGLKCLEHLFFFKLI 400
+                         *************************..99************************************************************** PP
+
+            RXR-like 182 Gdtpietlllemlesskp 199
+                         Gdtpi+t+l+emle++++
+  PrHsapXP_011513098 401 GDTPIDTFLMEMLEAPHQ 418
+                         **************9986 PP
+

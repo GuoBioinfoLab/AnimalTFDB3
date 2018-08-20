@@ -1,0 +1,22 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	252.1	0.0	3.5e-78	3.1e-76	1	178	297	474
+
+  Alignments for each domain:
+  == domain 1  score: 252.1 bits;  conditional E-value: 3.5e-78
+           NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPg 89 
+                          sLkGRRGRLpskpksp++ s+pspPvsl++alvra+vd+tp+ a+ldys++ e +  + + ++a+++qqfy lLt+s++vi+++a+kiPg
+  Q_AGLA008828-RA-CDS 297 SLKGRRGRLPSKPKSPQE-SPPSPPVSLITALVRAYVDTTPDLANLDYSQYLEpSPIEPNISEADKIQQFYTLLTTSVDVIKNFADKIPG 385
+                          8***************99.**********************************66678899***************************** PP
+
+           NGFIB-like  90 fselqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllter 178
+                          f e++ +D elL++sa lelfvlRlayR++++++kl Fc+G+vl  +qc r+Fg+w++ i++f + l+s+++disAfacl+aL+l+t++
+  Q_AGLA008828-RA-CDS 386 FLEICSEDRELLFQSASLELFVLRLAYRTRPNDTKLTFCNGVVLDIQQCQRSFGDWLHGIMEFCAGLHSMEIDISAFACLCALTLITGK 474
+                          ***************************************************************************************97 PP
+

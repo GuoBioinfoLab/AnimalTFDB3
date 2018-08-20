@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.8	1.3	0.19	0.9	15	26	174	185
+2	30.3	0.6	3.3e-09	1.5e-08	1	25	188	212
+3	31.9	1.6	1.1e-09	5.1e-09	2	25	217	240
+4	0.5	0.2	9.2	43	5	18	248	260
+5	3.0	0.3	1.5	6.9	17	25	343	351
+6	23.8	0.3	3.9e-07	1.9e-06	2	25	356	379
+7	31.5	0.8	1.4e-09	6.6e-09	1	26	383	408
+8	13.5	3.2	0.00068	0.0032	2	26	412	437
+9	26.3	0.6	6.1e-08	2.9e-07	2	25	479	502
+10	27.3	1.0	2.9e-08	1.4e-07	1	26	506	531
+11	29.5	0.5	6e-09	2.8e-08	1	24	534	557
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.19
+        zf-H2C2_2  15 yeCplCdkaFkt 26 
+                       eC+ C+k+F++
+  Q_AGLA014753-RA 174 CECKICGKKFTR 185
+                      5999******85 PP
+
+  == domain 2  score: 30.3 bits;  conditional E-value: 3.3e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L+rH ++H g kp+eC+ C+k+F+
+  Q_AGLA014753-RA 188 GLKRHSKTHLGIKPFECETCGKTFV 212
+                      59**********************6 PP
+
+  == domain 3  score: 31.9 bits;  conditional E-value: 1.1e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+rH+  Htgekp+eC lC+k+++
+  Q_AGLA014753-RA 217 LNRHCLIHTGEKPFECNLCGKTTT 240
+                      9*********************97 PP
+
+  == domain 4  score: 0.5 bits;  conditional E-value: 9.2
+        zf-H2C2_2   5 HlrkHtgekpyeCp 18 
+                      H+ kH++ + ++C+
+  Q_AGLA014753-RA 248 HINKHHP-NAVNCD 260
+                      9*****5.557776 PP
+
+  == domain 5  score: 3.0 bits;  conditional E-value: 1.5
+        zf-H2C2_2  17 CplCdkaFk 25 
+                      C lC+k+F 
+  Q_AGLA014753-RA 343 CNLCGKVFR 351
+                      ********6 PP
+
+  == domain 6  score: 23.8 bits;  conditional E-value: 3.9e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ H++ H + kp+eC+ C+k F+
+  Q_AGLA014753-RA 356 LKNHMAIHAKIKPFECKICGKGFT 379
+                      999********************8 PP
+
+  == domain 7  score: 31.5 bits;  conditional E-value: 1.4e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+rH  +Ht+e+p++C lC+k+F++
+  Q_AGLA014753-RA 383 ALTRHNLVHTKERPFQCNLCGKTFTR 408
+                      79**********************85 PP
+
+  == domain 8  score: 13.5 bits;  conditional E-value: 0.00068
+        zf-H2C2_2   2 LrrHlrkHt.gekpyeCplCdkaFkt 26 
+                      L+ Hl++H  g kpy C  C+k F++
+  Q_AGLA014753-RA 412 LMDHLKNHEeGSKPYLCFHCGKCFSN 437
+                      789*****99**************87 PP
+
+  == domain 9  score: 26.3 bits;  conditional E-value: 6.1e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ Hl +HtgekpyeC  C+ +F+
+  Q_AGLA014753-RA 479 LKTHLLTHTGEKPYECNICGNRFT 502
+                      899*****************9996 PP
+
+  == domain 10  score: 27.3 bits;  conditional E-value: 2.9e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+ Hl  H+g kpy+C  CdkaF t
+  Q_AGLA014753-RA 506 SLNHHLNIHKGVKPYQCTQCDKAFRT 531
+                      5899********************76 PP
+
+  == domain 11  score: 29.5 bits;  conditional E-value: 6e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +Lr+H+  Htge+p++C +C k F
+  Q_AGLA014753-RA 534 SLRKHILLHTGERPFKCTSCEKGF 557
+                      69********************99 PP
+

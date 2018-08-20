@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	8.5	0.7	0.036	0.15	12	24	229	241
+2	32.6	1.6	8.3e-10	3.5e-09	1	25	246	270
+3	32.5	1.9	8.8e-10	3.7e-09	1	25	274	299
+4	5.9	0.0	0.24	0.98	1	12	303	316
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.036
+        zf-H2C2_2  12 ekpyeCplCdkaF 24 
+                      + +y C++C+k+F
+  Q_APLA000914-PA 229 KDRYACKFCGKVF 241
+                      668********99 PP
+
+  == domain 2  score: 32.6 bits;  conditional E-value: 8.3e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL+rHlr+Htge py+C +C  +F+
+  Q_APLA000914-PA 246 NLTRHLRTHTGEQPYKCRYCERSFS 270
+                      8*********************995 PP
+
+  == domain 3  score: 32.5 bits;  conditional E-value: 8.8e-10
+        zf-H2C2_2   1 nLrrHlrk.HtgekpyeCplCdkaFk 25 
+                      nL+rH r+ H +ekp++CplCd  F 
+  Q_APLA000914-PA 274 NLQRHVRNiHNKEKPFKCPLCDRCFG 299
+                      8******77*************9996 PP
+
+  == domain 4  score: 5.9 bits;  conditional E-value: 0.24
+        zf-H2C2_2   1 nLrrHlrkHt..ge 12 
+                      nL rHl+kH   g+
+  Q_APLA000914-PA 303 NLDRHLKKHEadGP 316
+                      89*******85555 PP
+

@@ -1,0 +1,138 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.6	0.4	7.8	5.5e+02	3	10	556	563
+2	5.8	0.4	0.016	1.2	1	23	581	603
+3	13.3	0.3	7e-05	0.005	1	23	686	710
+4	12.4	1.6	0.00013	0.0096	2	23	728	749
+5	4.8	0.3	0.034	2.4	5	23	761	779
+6	8.6	0.1	0.0022	0.16	3	23	786	808
+7	19.6	0.2	6.9e-07	4.9e-05	1	23	812	836
+8	5.9	0.4	0.015	1.1	1	23	1118	1143
+9	5.8	0.3	0.017	1.2	1	21	1393	1413
+10	2.4	1.9	0.2	14	1	23	1900	1925
+11	13.5	1.9	6.1e-05	0.0043	1	19	1945	1965
+12	5.3	0.4	0.024	1.7	1	23	2101	2126
+13	10.2	0.4	0.00068	0.048	1	23	2152	2177
+14	4.9	1.1	0.033	2.4	1	23	2196	2221
+15	16.2	1.5	8.2e-06	0.00059	1	23	2236	2261
+16	1.8	0.4	0.3	22	1	23	2362	2386
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 7.8
+                   ETTTTEEE CS
+       zf-C2H2   3 CpdCgksF 10 
+                   C  C+k F
+  Npar_R022954 556 CVLCDKEF 563
+                   99****98 PP
+
+  == domain 2  score: 5.8 bits;  conditional E-value: 0.016
+                   EEETTTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                   y Cp+C k +++k+ +  H   H
+  Npar_R022954 581 YSCPICAKQYTTKETFIPHVTLH 603
+                   89***********9998887666 PP
+
+  == domain 3  score: 13.3 bits;  conditional E-value: 7e-05
+                   EEET..TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCp..dCgksFkrksnLkrHirtH 23 
+                   ++Cp   C+k Fk   nL +H r H
+  Npar_R022954 686 FPCPvqFCNKGFKYFKNLIAHVRGH 710
+                   89*********************99 PP
+
+  == domain 4  score: 12.4 bits;  conditional E-value: 0.00013
+                   EETTTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                   +C +C + F +  +L+ H+++H
+  Npar_R022954 728 VCQYCRRQFVSLTHLNDHLQMH 749
+                   7*******************99 PP
+
+  == domain 5  score: 4.8 bits;  conditional E-value: 0.034
+                   TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   5 dCgksFkrksnLkrHirtH 23 
+                   +C+ sF +  +L +H++ H
+  Npar_R022954 761 KCKASFETYTDLLAHRKEH 779
+                   7****************99 PP
+
+  == domain 6  score: 8.6 bits;  conditional E-value: 0.0022
+                   ET..TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   3 Cp..dCgksFkrksnLkrHirtH 23 
+                   C    Cg+ F+  ++L  H   H
+  Npar_R022954 786 CMfpNCGRIFSAAYMLFDHEAQH 808
+                   66669**************8877 PP
+
+  == domain 7  score: 19.6 bits;  conditional E-value: 6.9e-07
+                   EEET..TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCp..dCgksFkrksnLkrHirtH 23 
+                   ++C+  dCgk F+++ +L++H+r H
+  Npar_R022954 812 FTCKlaDCGKIFRSQLQLEQHLREH 836
+                   89*********************99 PP
+
+  == domain 8  score: 5.9 bits;  conditional E-value: 0.015
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    +kC+  +C++ +++  +  +H+++ H
+  Npar_R022954 1118 FKCNvdGCTRIYNSVQSIGKHMKStH 1143
+                    89*********************999 PP
+
+  == domain 9  score: 5.8 bits;  conditional E-value: 0.017
+                    EEETTTTEEESSHHHHHHHHH CS
+       zf-C2H2    1 ykCpdCgksFkrksnLkrHir 21  
+                    + C+ C + F+++ +L  H++
+  Npar_R022954 1393 FICSRCFRAFTNPRSLGGHLS 1413
+                    78*************988876 PP
+
+  == domain 10  score: 2.4 bits;  conditional E-value: 0.2
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    + C    C+++  +k+ L +H+ + H
+  Npar_R022954 1900 FICReeTCNYCAMTKDALFKHYTKvH 1925
+                    6799999**************99988 PP
+
+  == domain 11  score: 13.5 bits;  conditional E-value: 6.1e-05
+                    EEET..TTTEEESSHHHHHHH CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrH 19  
+                    +kC    C+k+F+r+snL++H
+  Npar_R022954 1945 FKCVvpSCTKTFTRNSNLRAH 1965
+                    8999999************** PP
+
+  == domain 12  score: 5.3 bits;  conditional E-value: 0.024
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    y+C   +C+  F+ + +L+ H++  H
+  Npar_R022954 2101 YRCVhqGCTAAFSIQQSLMLHYQAvH 2126
+                    99*******************98777 PP
+
+  == domain 13  score: 10.2 bits;  conditional E-value: 0.00068
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    ++C+  dC++ F +  +L +H+ + H
+  Npar_R022954 2152 FRCTetDCSRIFATFASLIQHYVKlH 2177
+                    89*******************98877 PP
+
+  == domain 14  score: 4.9 bits;  conditional E-value: 0.033
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    + C+   C+ +F++  ++  H+   H
+  Npar_R022954 2196 FNCDqsQCTATFTTCTSYIEHLEDaH 2221
+                    789999***************97666 PP
+
+  == domain 15  score: 16.2 bits;  conditional E-value: 8.2e-06
+                    EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirt.H 23  
+                    ykC+  +C++++ ++snL rHi   H
+  Npar_R022954 2236 YKCDikGCDRVYATRSNLLRHIFHkH 2261
+                    9*********************8777 PP
+
+  == domain 16  score: 1.8 bits;  conditional E-value: 0.3
+                    EEET..TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2    1 ykCp..dCgksFkrksnLkrHirtH 23  
+                    y+C   +C+ +  + +n  rH+++H
+  Npar_R022954 2362 YPCMirGCTSVVASEHNIIRHYKSH 2386
+                    889999*****************99 PP
+

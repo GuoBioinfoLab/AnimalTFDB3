@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	11.3	0.6	0.0056	0.021	3	23	293	313
+2	18.0	0.9	4.1e-05	0.00016	1	23	319	341
+3	1.3	0.4	8.3	31	16	23	344	351
+4	24.1	0.3	4.9e-07	1.9e-06	1	23	356	380
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.0056
+                       ETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   3 CpdCgksFkrksnLkrHirtH 23 
+                       C+ Cgk+ +++  L+rH  +H
+  BGIBMGA002377-PA 293 CGACGKRLSSRGALRRHAHVH 313
+                       999**************9988 PP
+
+  == domain 2  score: 18.0 bits;  conditional E-value: 4.1e-05
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       + C++Cg++F ++s L+rH  +H
+  BGIBMGA002377-PA 319 HACSVCGRTFAQRSVLQRHKLVH 341
+                       56*****************9998 PP
+
+  == domain 3  score: 1.3 bits;  conditional E-value: 8.3
+                       HHHHHHCC CS
+           zf-C2H2  16 LkrHirtH 23 
+                       L rH+ tH
+  BGIBMGA002377-PA 344 LSRHMLTH 351
+                       89*****9 PP
+
+  == domain 4  score: 24.1 bits;  conditional E-value: 4.9e-07
+                       EEETTTTEEESSHHHHHHHHHC..C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt..H 23 
+                       y+C++Cg+ F++ks+L rH++t  H
+  BGIBMGA002377-PA 356 YECGGCGRQFNDKSSLLRHLKTasH 380
+                       99******************99666 PP
+

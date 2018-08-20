@@ -1,0 +1,90 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	18.2	3.5	3.3e-05	0.00011	1	23	23	45
+2	11.0	0.1	0.0063	0.021	1	23	48	69
+3	19.3	0.2	1.4e-05	4.7e-05	1	23	74	96
+4	15.7	0.3	0.0002	0.00065	1	21	102	122
+5	19.9	2.4	8.9e-06	3e-05	1	23	130	152
+6	17.9	2.9	3.9e-05	0.00013	1	23	158	180
+7	15.9	9.3	0.00017	0.00057	1	23	186	208
+8	18.2	0.2	3.1e-05	0.0001	1	23	214	236
+9	18.6	0.1	2.3e-05	7.7e-05	1	23	240	262
+10	16.0	0.1	0.00016	0.00055	1	23	270	293
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 3.3e-05
+                EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                ++C++C+ +F++  +L+ H+r+H
+  Q_ENN73963 23 HQCNICNTKFPTFKQLRLHLRMH 45
+                79********************9 PP
+
+  == domain 2  score: 11.0 bits;  conditional E-value: 0.0063
+                EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                ++Cp+Cgk + +k   ++H+++H
+  Q_ENN73963 48 FECPICGKEY-DKGYEEVHMKSH 69
+                89********.999999999999 PP
+
+  == domain 3  score: 19.3 bits;  conditional E-value: 1.4e-05
+                EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                ++C +C+++F  ++nL+ Hi+ H
+  Q_ENN73963 74 FTCVICNRKFELQENLTLHIKAH 96
+                89******************998 PP
+
+  == domain 4  score: 15.7 bits;  conditional E-value: 0.0002
+                 EEETTTTEEESSHHHHHHHHH CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                 + C++C+k+F + + L++H +
+  Q_ENN73963 102 FICSYCKKPFQTYEALEQHVN 122
+                 78*****************86 PP
+
+  == domain 5  score: 19.9 bits;  conditional E-value: 8.9e-06
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 ++C +Cg++F+r+++ ++H r+H
+  Q_ENN73963 130 FECQYCGRRFSRPHEKVKHERIH 152
+                 89*******************99 PP
+
+  == domain 6  score: 17.9 bits;  conditional E-value: 3.9e-05
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 + C++CgksF+  + L+ H+rtH
+  Q_ENN73963 158 HICEICGKSFRIGYCLTLHMRTH 180
+                 67********************9 PP
+
+  == domain 7  score: 15.9 bits;  conditional E-value: 0.00017
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 y+C++Cgk+Fk+ s +++H++tH
+  Q_ENN73963 186 YTCDHCGKRFKSCSVFNHHLKTH 208
+                 9*********************9 PP
+
+  == domain 8  score: 18.2 bits;  conditional E-value: 3.1e-05
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 ykCp+C+k Fk+  +   H ++H
+  Q_ENN73963 214 YKCPYCPKAFKTAVQIAGHKNSH 236
+                 9**************99999998 PP
+
+  == domain 9  score: 18.6 bits;  conditional E-value: 2.3e-05
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 + C++C+++F + +  ++H+ tH
+  Q_ENN73963 240 FACTECNRPFASLYAVRAHMDTH 262
+                 78********************9 PP
+
+  == domain 10  score: 16.0 bits;  conditional E-value: 0.00016
+                 EEETTTTEEESSHHHHHHHHHC.C CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                 ++C +Cg s+ r+  L+ Hi+  H
+  Q_ENN73963 270 HECWVCGASYARSFALRDHINEvH 293
+                 78******************9988 PP
+

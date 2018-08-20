@@ -1,0 +1,46 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.6	0.1	4.6e-05	0.0026	7	23	1	17
+2	238.7	6.6	9.5e-74	5.3e-72	154	361	86	293
+3	139.6	2.1	1.2e-43	6.6e-42	155	282	358	485
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 4.6e-05
+   GCNF-like  7 mPGGRNksivyvqikek 23
+                mPGGRN+++vy+++k++
+  Q_ENN79011  1 MPGGRNSGAVYNLYKVN 17
+                9*************985 PP
+
+  == domain 2  score: 238.7 bits;  conditional E-value: 9.5e-74
+   GCNF-like 154 lvdkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlsk 252
+                 l  +++lsekLc+i+D++v++lv+W+K+LPF+lel+ve hT+LLt+kW+el++L+++ayqa+  ++   +        ++ +  e++ +l +L+++l+ 
+  Q_ENN79011  86 LDHNTDLSEKLCNIGDSIVYKLVQWTKRLPFYLELPVEVHTRLLTHKWHELLVLTTSAYQAIQKAASEQQLQTSSTMIEPDFSQEVETNLCTLQNCLTS 184
+                 456789*******************************************************97666555555555556788****************** PP
+
+   GCNF-like 253 llgseeelerlkedagevvekltqllrkFrrlkvskEeYvclKviilLnkdekg.lseveeleslqeryvkvlrsylenkspqnpkarlsellsclpei 350
+                 ++g e+++e+l +d+g ++ek+t ++ +Fr++k+ +EeYvclKvi++Ln+++ +  +++ el+++ ery++ lr y+++ +pq+ + r+++ll  lpei
+  Q_ENN79011 185 MMGREITIEQLRQDVGLMIEKITHVTLMFRHIKLTMEEYVCLKVITMLNQAKPAsGASTGELDTIHERYMTCLRVYTQHMYPQQAT-RFQDLLVRLPEI 282
+                 **************************************************9976478999***********************999.************ PP
+
+   GCNF-like 351 raaaskllesk 361
+                 + aas+lle++
+  Q_ENN79011 283 QSAASLLLEMN 293
+                 ********975 PP
+
+  == domain 3  score: 139.6 bits;  conditional E-value: 1.2e-43
+   GCNF-like 155 vdkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlskl 253
+                   +++lsekLc+i+D++v++lv+W+K+LPF+lel+ve hT+LLt+kW+el++L+++ayqa+  ++   +        ++ +  e++ +l +L+++l+ +
+  Q_ENN79011 358 DHNTDLSEKLCNIGDSIVYKLVQWTKRLPFYLELPVEVHTRLLTHKWHELLVLTTSAYQAIQKAASEQQLQTSSTMIEPDFSQEVETNLCTLQNCLTSM 456
+                 55789*******************************************************97666555555555556788******************* PP
+
+   GCNF-like 254 lgseeelerlkedagevvekltqllrkFr 282
+                 +g e+++e+l +d+g ++ek+t ++ +Fr
+  Q_ENN79011 457 MGREITIEQLRQDVGLMIEKITHVTLMFR 485
+                 ****************************7 PP
+

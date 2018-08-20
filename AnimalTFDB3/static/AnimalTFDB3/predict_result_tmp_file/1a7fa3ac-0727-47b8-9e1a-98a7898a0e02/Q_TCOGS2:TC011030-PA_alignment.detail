@@ -1,0 +1,33 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.5	0.0	0.096	42	8	56	458	508
+2	11.7	0.0	1.8e-05	0.0079	71	128	600	670
+3	90.6	0.1	1.4e-29	6e-27	149	229	1111	1188
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.096
+                   Tub   8 liqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisl 56 
+                            ++c++ R+++    +  + Y+Lyle   +    Ll ++++++  + e++i+ 
+  Q_TCOGS2:TC011030-PA 458 RLHCTMIRHDDdnnlSSGTCYTLYLEYL-GGLVPLLKGKRTSKI-RPEFVIFD 508
+                           67899989888888888899*****965.788889998887776.55677764 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 1.8e-05
+                   Tub  71 klrsnflgtkftiydkgvkpkksaaekvrkelaavvYelnvlgtrgprrmkvlipsi......................k 128
+                           ++ sn++gtkf i+           + v  +l++v+Y++++l+  +pr+m+ ++ ++                      +
+  Q_TCOGS2:TC011030-PA 600 EVTSNIWGTKFKIHGLA--------TLVPANLGQVTYKTSLLH-LQPRQMTLVMTELrddfpvvpdpnfnpnlfsedeeE 670
+                           67899999999997766........345789**********99.67********88877666666665555444444440 PP
+
+  == domain 3  score: 90.6 bits;  conditional E-value: 1.4e-29
+                   Tub  149 esdllvlknkaprwneqlqayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssf 229 
+                            +++ +v++nkap wne+ q y L+F gRvt+ S KNfq+       k ++qfG+++ + +t+D++yP+salqAFa++l+++
+  Q_TCOGS2:TC011030-PA 1111 QRREFVMHNKAPMWNENSQVYQLDFGGRVTQESAKNFQIEF---RGKQVMQFGRIDGNAYTLDFQYPFSALQAFAVALANV 1188
+                            456799********************************965...5788******************************975 PP
+
+
+

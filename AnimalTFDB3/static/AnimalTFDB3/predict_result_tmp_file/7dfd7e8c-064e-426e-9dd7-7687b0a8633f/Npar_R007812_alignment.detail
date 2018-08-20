@@ -1,0 +1,42 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-4.4	0.9	3	1e+03	5	12	18	25
+2	33.6	0.5	5.4e-12	1.8e-09	1	32	45	76
+3	43.6	1.0	4e-15	1.3e-12	13	47	78	112
+4	58.5	0.5	8.8e-20	2.9e-17	1	45	118	161
+
+  Alignments for each domain:
+  == domain 1  score: -4.4 bits;  conditional E-value: 3
+                  -HHHHHHH CS
+           MYB  5 teeEdelL 12
+                  +eeEde +
+  Npar_R007812 18 SEEEDEDI 25
+                  79999865 PP
+
+  == domain 2  score: 33.6 bits;  conditional E-value: 5.4e-12
+                  CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHS CS
+           MYB  1 rgkWteeEdelLleaveklGngnWkkIakelg 32
+                  + +Wt eEde+L+++ve++G+++Wk Ia+ l+
+  Npar_R007812 45 KTRWTREEDEKLKKLVEQNGTEDWKVIASFLP 76
+                  579*************************9886 PP
+
+  == domain 3  score: 43.6 bits;  conditional E-value: 4e-15
+                   HHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+           MYB  13 leaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                   +e+v+k+G+++W+ Iak+l gR +kqcr+rw+n+l
+  Npar_R007812  78 IELVQKYGPKRWSVIAKHLKGRIGKQCRERWHNHL 112
+                   89*******************************97 PP
+
+  == domain 4  score: 58.5 bits;  conditional E-value: 8.8e-20
+                   CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHH CS
+           MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqn 45 
+                   + +Wte+Ed ++ ea+++lGn+ W++Iak+l+gRt++ ++++w++
+  Npar_R007812 118 KTSWTEQEDRIIFEAHKRLGNR-WAEIAKLLPGRTDNAIKNHWNS 161
+                   568*******************.********************96 PP
+

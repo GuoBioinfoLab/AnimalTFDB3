@@ -1,0 +1,40 @@
+HMM length of domain: 196 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.1	0.0	0.029	13	75	135	11	70
+2	142.1	0.0	1.9e-45	8.1e-43	6	195	69	260
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.029
+                           TTSB-B--HHHHHSSTTTTS.SS-TTBSEEECS-TT-EEEEETTTTEEEEEEE---SSTTSS CS
+                   P53  75 vaevvkrcphherssdaddg.lapashlirvegnqkaeyledkvtkrqsvvvpyeppqvgse 135
+                           + +v k   +h  ++d +    +++ hl+  +g++  +  e ++t  +s++ p +p ++g+e
+  Q_TCOGS2:TC011560-PA  11 IPDVDKFLEDHGLKDDVGRImHENNVHLVNDDGEEEKYSNEANYT--ESIFPPDQPTNLGTE 70 
+                           556777777888888877764677889999999987766666665..699999999999987 PP
+
+  == domain 2  score: 142.1 bits;  conditional E-value: 1.9e-45
+                           -S-B-TTTTEEEEESSBSSSTTTSEEEETTTTEEEEETTSEEEEEEEESS-SST.TEEEEEEEEESSCCCTTSB-B--HHHHHSSTTTT CS
+                   P53   6 tkdypgsyelklrfqksgtaksvtctysealnklfcqlaktcpvqvkvdkeppk.gsilratavykksehvaevvkrcphherssdadd 93 
+                           t++ypg++++ + +  +   +   + yse+lnk+f  +    pv   v++ p +    +rat+v+ +++h  ++v+rc  h++ +d+++
+  Q_TCOGS2:TC011560-PA  69 TEEYPGPFNFSVLISPN--EQKSPWEYSEKLNKIFIGINVKFPVAFSVQNRPQNlPLYIRATPVFCQTQHFQDLVHRCVGHRHPQDQSN 155
+                           789*******9987655..45568*************************999862568*********************9999888766 PP
+
+                           S.SS-T..TBSEEECS-TT-EEEEETTT.TEEEEEEE---SSTTSSSEEEEEEESS-TTCTTTTTTS-EEEEEEEEETTSCEEEEEEEE CS
+                   P53  94 g.lapa..shlirvegnqkaeyledkvt.krqsvvvpyeppqvgselttilynymcnssclggmnrrpiltiitletkegqllgrrsfe 178
+                           + +ap+  +h+ir   n+ a y+ dk+t  r  +v+p   pqvg ++   +++++c  sc  gmnrrpi ++ tle+++g+++grr   
+  Q_TCOGS2:TC011560-PA 156 KgVAPHifQHIIRCS-NDSALYFGDKNTgARLNIVLPLAHPQVGEDVVKEFFQFVCKNSCPLGMNRRPIDVVFTLEDNKGEVFGRRLVG 243
+                           548886559****97.55667777766626999******************************************************** PP
+
+                           EEEESSHHHHHHHHHHH CS
+                   P53 179 vrvcacpgrdrkteeen 195
+                           vrvc+cp rd+  ee++
+  Q_TCOGS2:TC011560-PA 244 VRVCSCPKRDKDKEEKD 260
+                           ***********999975 PP
+
+
+

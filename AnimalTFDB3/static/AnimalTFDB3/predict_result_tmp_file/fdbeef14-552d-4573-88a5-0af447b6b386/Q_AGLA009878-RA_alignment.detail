@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	85.9	0.0	5.1e-27	1.2e-25	1	102	14	110
+2	-0.4	0.0	3.1	71	43	91	136	184
+
+  Alignments for each domain:
+  == domain 1  score: 85.9 bits;  conditional E-value: 5.1e-27
+                      HHHHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHH CS
+             ZBTB   1 lnelresgelcDvtlvvgdgkefkahkavLaarSpyFkalftskeieessvseielddvepeafealLefiYtgeleitseenleelLaaadll 94 
+                      +++lr+ ++++Dvtl+++ gk++kah++vL+a+SpyF++l++s+  +++   +i l+dv  ++++al+efiY ge++++ + +l ++L++a+ l
+  Q_AGLA009878-RA  14 FENLRDDEDFVDVTLACD-GKSLKAHRVVLSACSPYFRELLKST-PCKHP--VIVLQDVAWTDLHALVEFIYHGEVNVH-QRSLSSFLKTAEVL 102
+                      6789**************.9************************.57777..6889**********************8.9************* PP
+
+                      T-HHHHHH CS
+             ZBTB  95 qiprlkka 102
+                      ++  l+++
+  Q_AGLA009878-RA 103 RVSGLTQQ 110
+                      ***99986 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 3.1
+                      STTTTTCCCEEEEETTSGHHHHHHHHH.HHHHSEEEC-CGGGHHHHHHHH CS
+             ZBTB  43 skeieessvseielddvepeafealLe.fiYtgeleitseenleelLaaa 91 
+                      + + ++++++  +l++ +p+  e+l+e  ++t+  + +  +++++lL+ a
+  Q_AGLA009878-RA 136 Q-QQQQQQQQSTPLSNHHPSFTEKLVEdALFTSPSSPPHGATVNQLLRRA 184
+                      2.345555557899999999999998624466666666666666666655 PP
+

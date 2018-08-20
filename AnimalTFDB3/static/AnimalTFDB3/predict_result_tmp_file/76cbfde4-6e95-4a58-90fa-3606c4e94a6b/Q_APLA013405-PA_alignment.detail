@@ -1,0 +1,45 @@
+HMM length of domain: 45 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	34.7	0.0	3.7e-11	5.5e-10	1	38	358	396
+2	18.3	0.1	4.8e-06	7.1e-05	1	27	412	438
+3	3.5	0.0	0.21	3.1	27	39	460	472
+4	48.1	0.0	2.4e-15	3.6e-14	1	45	489	534
+5	47.5	0.0	3.6e-15	5.4e-14	1	39	541	580
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 3.7e-11
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLw.rrkr 38 
+                      t e++++Al+a +n  mS+ kA+  YgiP +TLw r+ r
+  Q_APLA013405-PA 358 TQEDMELALDALRNHNMSLTKASATYGIPSTTLWqRAHR 396
+                      579*******************************77666 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 4.8e-06
+              HTH   1 tpealaaAleavvnGkmSirkAArkYg 27 
+                      t+e+l+ Alea ++G +S +kA++ Yg
+  Q_APLA013405-PA 412 TEENLNSALEALRTGTISANKASKAYG 438
+                      79************************9 PP
+
+  == domain 3  score: 3.5 bits;  conditional E-value: 0.21
+              HTH  27 giPrsTLwrrkrg 39 
+                      giP sTL++  r+
+  Q_APLA013405-PA 460 GIPSSTLYKIARR 472
+                      9*******98877 PP
+
+  == domain 4  score: 48.1 bits;  conditional E-value: 2.4e-15
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLw.rrkrgkyslkr 45 
+                      t e+l++Ale++++G+ S++kA++++giP+ TL+ r+kr++++l+r
+  Q_APLA013405-PA 489 TQEDLEKALESIRTGQSSVQKASTEFGIPTGTLYgRCKREGIELSR 534
+                      579***************************************9987 PP
+
+  == domain 5  score: 47.5 bits;  conditional E-value: 3.6e-15
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLw.rrkrg 39 
+                      +++a+ +Aleav+ G mSi++AA +Y+ P+s+L+ r+krg
+  Q_APLA013405-PA 541 SEDAMGEALEAVRLGHMSINQAAIHYNLPYSSLYgRFKRG 580
+                      59********************************777775 PP
+

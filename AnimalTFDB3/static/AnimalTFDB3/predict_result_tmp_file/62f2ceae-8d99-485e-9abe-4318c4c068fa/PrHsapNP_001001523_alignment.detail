@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.7	0.2	3.8	83	173	194	88	110
+2	188.8	0.5	1.7e-58	3.6e-57	2	193	290	470
+
+  Alignments for each domain:
+  == domain 1  score: -1.7 bits;  conditional E-value: 3.8
+            THR-like 173 elR.slneehserlvmlkveepk 194
+                         ++R sl +e +++l++ ++++++
+  PrHsapNP_001001523  88 KQRdSLHAEVQKQLQQRQQQQQE 110
+                         44567777777777776666654 PP
+
+  == domain 2  score: 188.8 bits;  conditional E-value: 1.7e-58
+            THR-like   2 kseqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgel 92 
+                         ks  +++e++a+ +t+aiq+vveFaK+++gF+el+q+DQi+LLk++++ev+l+r++r++n +++tv ++++ +   + +r+lg    ++el
+  PrHsapNP_001001523 290 KSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGK-YGGMELFRALG----CSEL 375
+                         67789**************************************************************9777.***********....**** PP
+
+            THR-like  93 iesvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehse 183
+                         i+s+f+f++sl++l+ +++e+aL++a++l+  a rpg+++++kve+lq ++ +a++++l+k+h+    ++++akL  k  +lRsl+++h e
+  PrHsapNP_001001523 376 ISSIFDFSHSLSALHFSEDEIALYTALVLIN-AHRPGLQEKRKVEQLQYNLELAFHHHLCKTHR----QSILAKLPPKG-KLRSLCSQHVE 460
+                         *******************************.8*******************************....89********9.9********** PP
+
+            THR-like 184 rlvmlkveep 193
+                         rl+++++++p
+  PrHsapNP_001001523 461 RLQIFQHLHP 470
+                         ******9998 PP
+

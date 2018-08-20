@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	8.3	0.5	0.059	0.18	1	22	97	118
+2	8.9	4.1	0.037	0.11	2	23	296	318
+3	3.8	0.9	1.6	4.6	1	23	325	348
+4	12.6	0.1	0.0025	0.0074	3	19	375	391
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.059
+                      EEETTTTEEESSHHHHHHHHHC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt 22 
+                      y+C++C   F++  n+  H r+
+  Q_APLA011627-PA  97 YECKVCRSIFRSLANFILHKRK 118
+                      99*****************985 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.037
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                      +C++C+++F++k  L  Hi+  H
+  Q_APLA011627-PA 296 TCTICNQKFSTKKTLSCHIKYkH 318
+                      8*****************99888 PP
+
+  == domain 3  score: 3.8 bits;  conditional E-value: 1.6
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      y+Cp+C+ + ++     rH+ + H
+  Q_APLA011627-PA 325 YPCPECKDTLSNTWCVFRHLIKvH 348
+                      99*****99999999999999888 PP
+
+  == domain 4  score: 12.6 bits;  conditional E-value: 0.0025
+                      ETTTTEEESSHHHHHHH CS
+          zf-C2H2   3 CpdCgksFkrksnLkrH 19 
+                      C++Cg++F rk  L +H
+  Q_APLA011627-PA 375 CGGCGRRFERKAALHSH 391
+                      ***************** PP
+

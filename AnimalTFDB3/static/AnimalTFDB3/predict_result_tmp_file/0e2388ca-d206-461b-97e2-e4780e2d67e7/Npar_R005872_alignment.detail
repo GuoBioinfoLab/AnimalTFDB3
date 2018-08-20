@@ -1,0 +1,37 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	611.1	1.0	3.5e-187	7e-185	1	409	190	576
+
+  Alignments for each domain:
+  == domain 1  score: 611.1 bits;  conditional E-value: 3.5e-187
+       SF-like   1 AVRaDRmRGGRnkFgplYkrdralkqqkkamkatiranavkleasqaltlaqppeltvssalsdsssaasyedltkssllpssteqslsvseslsrs 97 
+                   AVRaDRmRGGRnkFgp+Ykrdralkqqk   ka+iran++klea++++++a p++lt+ssa+++++sa++  +l++++l+++++++s++v++++s++
+  Npar_R005872 190 AVRADRMRGGRNKFGPMYKRDRALKQQK---KALIRANGLKLEAMSQVIQAIPTDLTISSAIQNIHSASKGLPLNHTALPSTDYDRSPFVTSPISMA 283
+                   9***************************...****************************************************************** PP
+
+       SF-like  98 vppllretlpaayqyeefdlssraikseypdsytsnttnaatlspestvgstysestslsssttgreasstvpiLilellklekdedqvknkilAkl 194
+                   +pp+   +l+ +++y   +++sraikseypd+yts        spes++g++y++s++ ss++       ++p+Li+ellk+e+de+qv++ki+ +l
+  Npar_R005872 284 MPPHG--SLQSYQAYG--HFPSRAIKSEYPDPYTS--------SPESIMGYSYMDSYQSSSPS-------NIPHLIVELLKCEPDEPQVQSKIMSYL 361
+                   ***99..6*******9..*****************........*************9999998.......*************************** PP
+
+       SF-like 195 qqeqasrkktekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmkLLqnsWsellildhiarqvkhgkegsiklvtGqevelstvlsqaglt 291
+                   qqeqa+r+k++k+++f+l+ck+AdqtLfsiVeWA+ss++F+eLkvdDQmkLLqn+Wsellildhi+rqv hgkegsi+lvtGq+v++s ++sqag+t
+  Npar_R005872 362 QQEQANRSKHDKLNTFGLMCKMADQTLFSIVEWARSSIFFRELKVDDQMKLLQNCWSELLILDHIFRQVLHGKEGSILLVTGQQVDFSVIMSQAGTT 458
+                   ************************************************************************************************* PP
+
+       SF-like 292 lqtlvsraqdlvkrLrsLqldrrefvclkfLvLfdsdvkllenaleveevqekvnaalleYtlanypqcpdkfeqlllrlpevralssqaeeylayk 388
+                   l++l+s+aq+lv +LrsLq+d refvclkfLvLf+ dvk+len++++e vqe+vnaall+Ytl+nypq++dkf+qlllrlpe+ra+s qaeeyl+yk
+  Npar_R005872 459 LNNLMSHAQELVAKLRSLQFDLREFVCLKFLVLFSLDVKNLENFQLIEGVQEQVNAALLDYTLCNYPQQTDKFGQLLLRLPEIRAISLQAEEYLYYK 555
+                   ************************************************************************************************* PP
+
+       SF-like 389 hlegevpvnnLliellqAkrt 409
+                   hl+g+vp+nnLlie+l+Akr+
+  Npar_R005872 556 HLNGDVPCNNLLIEMLHAKRA 576
+                   *******************95 PP
+

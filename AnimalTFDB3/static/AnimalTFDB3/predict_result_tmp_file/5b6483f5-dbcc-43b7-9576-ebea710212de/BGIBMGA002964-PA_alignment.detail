@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	351.7	0.0	1.7e-108	1.3e-106	1	261	307	567
+
+  Alignments for each domain:
+  == domain 1  score: 351.7 bits;  conditional E-value: 1.7e-108
+        NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfse 92 
+                       sLkGRRGRLpskpk p++ s+pspP+sl++alvra+vd++p+ a+ldys++ e +  +  ++d e + qfy lLt+s+++i+ +aek+Pg+ +
+  BGIBMGA002964-PA 307 SLKGRRGRLPSKPKCPQE-SPPSPPISLITALVRAHVDTSPDFANLDYSQYREpSPLEPPMSDLEVIHQFYSLLTTSIDMIKLFAEKVPGYGD 398
+                       8***************99.**********************************55567899******************************** PP
+
+        NGFIB-like  93 lqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepk 185
+                       l+++D e L+ sa lelfvlRlayR++ +++kl Fc+Glvl + qc r+Fg+w++ ++dfs++l+s+ +dis facl+aL+l+t+rhGLkep+
+  BGIBMGA002964-PA 399 LCPEDREQLFASARLELFVLRLAYRTRLEDTKLTFCNGLVLDKRQCQRSFGDWLHAVLDFSNTLHSMDIDISTFACLCALTLITDRHGLKEPH 491
+                       ********************************************************************************************* PP
+
+        NGFIB-like 186 rveelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                       rve+lq+kii +L+ h+    gs + ++++sr+lg+l+elr+l++qgLqrif lkLedLvpaP++i+++f  +lpf
+  BGIBMGA002964-PA 492 RVEQLQMKIIGCLRAHMPGGGGSSSGAPHFSRVLGALPELRSLSVQGLQRIFSLKLEDLVPAPPLIENMFRASLPF 567
+                       ******************999*****************************************************99 PP
+

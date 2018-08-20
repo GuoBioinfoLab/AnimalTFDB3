@@ -1,0 +1,185 @@
+<div id="wrapper_doc">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper_doc">
+        <nav id="spy">
+            <ul class="sidebar-nav nav">
+                <li><a style="height: 50px" href="#!species#favo"><span class="fa fa-anchor solo">Favourites</span></a></li>
+                <li><a style="height: 50px" href="#!species#prim"><span class="fa fa-anchor solo">Primates</span></a></li>
+                <li><a style="height: 50px" href="#!species#rode"><span class="fa fa-anchor solo">Rodents</span></a></li>
+                <li><a style="height: 50px" href="#!species#laur"><span class="fa fa-anchor solo">Laurasiatheria</span></a></li>
+                <li><a style="height: 50px" href="#!species#afro"><span class="fa fa-anchor solo">Afrotheria</span></a></li>
+                <li><a style="height: 50px" href="#!species#xena"><span class="fa fa-anchor solo">Xenarthra</span></a></li>
+                <li><a style="height: 50px" href="#!species#mamm"><span class="fa fa-anchor solo">Other Mammals</span></a></li>
+                <li><a style="height: 50px" href="#!species#bird"><span class="fa fa-anchor solo">Birds&Reptiles</span></a></li>
+                <li><a style="height: 50px" href="#!species#amph"><span class="fa fa-anchor solo">Amphibians</span></a></li>
+                <li><a style="height: 50px" href="#!species#fish"><span class="fa fa-anchor solo">Fishes</span></a></li>
+                <li><a style="height: 50px" href="#!species#vert"><span class="fa fa-anchor solo">Other Vertabrates</span></a></li>
+                <li><a style="height: 50px" href="#!species#chor"><span class="fa fa-anchor solo">Other Chordates</span></a></li>
+                <li><a style="height: 50px" href="#!species#euka"><span class="fa fa-anchor solo">Other Eukaryotes</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Page content -->
+    <div id="page-content-wrapper_doc">
+       <div class="panel" style="margin-left: 3px">
+    <div class="panel-body">
+        <h4 id="favo">Favourites</h4>
+        <div class="row">
+            <div ng-repeat="item in favo_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="prim">Primates</h4>
+        <div class="row">
+            <div ng-repeat="item in prim_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="rode">Rodents</h4>
+        <div class="row">
+            <div ng-repeat="item in rodents_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="laur">Laurasiatheria</h4>
+        <div class="row">
+            <div ng-repeat="item in lau_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="afro">Afrotheria</h4>
+        <div class="row">
+            <div ng-repeat="item in afro_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="xena">Xenarthra</h4>
+        <div class="row">
+            <div ng-repeat="item in xena_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="mamm">Other Mammals</h4>
+        <div class="row">
+            <div ng-repeat="item in other_mammal_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="bird">Birds&Reptiles</h4>
+        <div class="row">
+            <div ng-repeat="item in bird_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="amph">Amphibians</h4>
+        <div class="row">
+            <div ng-repeat="item in amphi_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="fish">Fishes</h4>
+        <div class="row">
+            <div ng-repeat="item in fish_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="vert">Other Vertebrates</h4>
+        <div class="row">
+            <div ng-repeat="item in vert_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="chor">Other Chordates</h4>
+        <div class="row">
+            <div ng-repeat="item in other_chor_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <h4 id="euka">Other Eukaryotes</h4>
+        <div class="row">
+            <div ng-repeat="item in other_euka_list" style="vertical-align: top;display: inline-block;padding: 0">
+                <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 5px;text-align: center">
+                    <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" ng-click="fetch_species_count(item)" class="img-rounded" style="width: 100px;"></span>
+                    <div class="caption">
+                        <p style="font-size: small">{$ item.raw $}<br><span style="color: #FF3366">{$ item.name $}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+</div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	24.8	0.0	1.3e-08	5.8e-07	1	29	27	55
+2	2.8	0.0	0.061	2.6	79	118	78	119
+3	140.7	0.8	8.6e-44	3.7e-42	205	327	158	275
+
+  Alignments for each domain:
+  == domain 1  score: 24.8 bits;  conditional E-value: 1.3e-08
+     SF-like  1 AVRaDRmRGGRnkFgplYkrdralkqqkk 29
+                A+R+DR+RGGR++++++Y  + +l +q +
+  Q_ENN72571 27 AIREDRTRGGRSTYQCSYSLPPSLASQTE 55
+                9*******************999999874 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.061
+     SF-like  79 llpssteqslsvseslsrs..vppllretlpaayqyeefdls 118
+                 l p++  qs+ +  +l  s  vppll+e+++++++++  +++
+  Q_ENN72571  78 LEPHDGSQSHHKRGTLPGSkgVPPLLQEIMDVEHLWHYNEME 119
+                 556666666666555544444**************9743333 PP
+
+  == domain 3  score: 140.7 bits;  conditional E-value: 8.6e-44
+     SF-like 205 ekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmkLLqnsWsellildhiarqvkhgkegsiklvtGqevelstvlsqagltlqtlvsraqdlv 303
+                   p+  a lc++Ad++L++iV+W+ks +lFk++++dDQ++LL+nsW+ell++++++r++++  +g+i ++ G+ ++   ++++  l++q +++r+ + +
+  Q_ENN72571 158 TNPDFVANLCNIADHRLYKIVKWCKSLPLFKNISIDDQICLLINSWCELLLFSCCFRSMST--PGEIRVSLGKSIT---LAQARDLGMQACIERMLNFT 251
+                 4689999******************************************************..*************...99999*************** PP
+
+     SF-like 304 krLrsLqldrrefvclkfLvLfds 327
+                 ++Lr+L++d++e++++k++vL+ s
+  Q_ENN72571 252 EQLRRLKVDQYEYIAMKVIVLLTS 275
+                 *********************976 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	290.5	0.0	1.1e-90	3.8e-88	1	199	308	500
+
+  Alignments for each domain:
+  == domain 1  score: 290.5 bits;  conditional E-value: 1.1e-90
+      RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek.evekildleevrvLqelvtklrd 96 
+                   ic++a+++Lf+lVewak+ip+fseLpl+dqviLLra W+elli++++++si ++d+ +lla+gl+v+rnsa++ +v +i+d    rvL+elv+k+rd
+  Npar_R014713 308 ICQAADKQLFTLVEWAKRIPHFSELPLDDQVILLRAGWNELLIASFSHRSIAVKDG-ILLATGLHVHRNSAHSaGVGAIFD----RVLTELVSKMRD 399
+                   8******************************************************9.************************....************ PP
+
+      RXR-like  97 lqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietlllem 193
+                   +q+d+tE++cL+aIvlfnp  d++gl+++s++e+lrekv+asle+y++++ypeqpgrF+klLlrLpalrsi +k++e+lff+kliGdtpi+t+l+em
+  Npar_R014713 400 MQMDKTELGCLRAIVLFNP--DSKGLSNPSEVEALREKVYASLEAYCKHKYPEQPGRFAKLLLRLPALRSIGLKCLEHLFFFKLIGDTPIDTFLMEM 494
+                   *******************..99************************************************************************** PP
+
+      RXR-like 194 lesskp 199
+                   le++++
+  Npar_R014713 495 LEAPHQ 500
+                   ***997 PP
+

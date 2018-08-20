@@ -1,0 +1,124 @@
+HMM length of domain: 19 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-5.4	2.4	1	7.8e+02	15	19	167	171
+2	-2.0	0.4	0.22	1.7e+02	4	10	202	208
+3	19.8	16.7	3.3e-08	2.6e-05	1	19	216	233
+4	13.3	14.2	3.5e-06	0.0028	1	18	263	286
+5	21.9	10.3	7.4e-09	5.7e-06	1	18	338	355
+6	14.6	8.9	1.4e-06	0.0011	1	18	391	408
+7	-2.3	0.4	0.27	2.1e+02	1	4	418	421
+8	10.9	17.5	2e-05	0.016	1	18	443	460
+9	27.0	10.2	1.8e-10	1.4e-07	1	18	470	487
+10	-2.7	0.9	0.37	2.9e+02	5	10	516	521
+11	9.7	5.8	4.9e-05	0.038	9	19	536	546
+12	3.8	4.1	0.0035	2.7	4	11	558	565
+13	-0.1	1.7	0.057	45	14	19	594	599
+14	3.0	4.4	0.006	4.7	2	11	630	645
+15	6.8	17.4	0.0004	0.31	3	19	676	692
+16	14.1	10.6	2.1e-06	0.0016	1	16	735	749
+
+  Alignments for each domain:
+  == domain 1  score: -5.4 bits;  conditional E-value: 1
+    zf-NF-X1  15 CppCk 19 
+                 Cp C+
+  Q_ENN79764 167 CPKCR 171
+                 99996 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 0.22
+    zf-NF-X1   4 HtCeklC 10 
+                 H C ++C
+  Q_ENN79764 202 HSCGEIC 208
+                 99*9999 PP
+
+  == domain 3  score: 19.8 bits;  conditional E-value: 3.3e-08
+    zf-NF-X1   1 CGnHtCeklCHeGpCppCk 19 
+                 CG H+C  lCH+GpCppC+
+  Q_ENN79764 216 CG-HKCLLLCHPGPCPPCP 233
+                 **.***************7 PP
+
+  == domain 4  score: 13.3 bits;  conditional E-value: 3.5e-06
+    zf-NF-X1   1 CG......nHtCeklCHeGpCppC 18 
+                 CG      +H C   CH+G+C+pC
+  Q_ENN79764 263 CGkllscdKHSCADACHSGDCKPC 286
+                 567777779*************** PP
+
+  == domain 5  score: 21.9 bits;  conditional E-value: 7.4e-09
+    zf-NF-X1   1 CGnHtCeklCHeGpCppC 18 
+                 CGnH+C ++CH G C +C
+  Q_ENN79764 338 CGNHKCDETCHAGVCNSC 355
+                 *****************9 PP
+
+  == domain 6  score: 14.6 bits;  conditional E-value: 1.4e-06
+    zf-NF-X1   1 CGnHtCeklCHeGpCppC 18 
+                 CG+HtC+  CH+  C+ C
+  Q_ENN79764 391 CGMHTCNYRCHKDKCGLC 408
+                 ***************999 PP
+
+  == domain 7  score: -2.3 bits;  conditional E-value: 0.27
+    zf-NF-X1   1 CGnH 4  
+                 CG+H
+  Q_ENN79764 418 CGQH 421
+                 **** PP
+
+  == domain 8  score: 10.9 bits;  conditional E-value: 2e-05
+    zf-NF-X1   1 CGnHtCeklCHeGpCppC 18 
+                 C +H C+++C++G+CppC
+  Q_ENN79764 443 CNKHPCNRKCCDGNCPPC 460
+                 779*************** PP
+
+  == domain 9  score: 27.0 bits;  conditional E-value: 1.8e-10
+    zf-NF-X1   1 CGnHtCeklCHeGpCppC 18 
+                 CGnH+C ++CH+G C pC
+  Q_ENN79764 470 CGNHKCSSVCHSGLCYPC 487
+                 ****************** PP
+
+  == domain 10  score: -2.7 bits;  conditional E-value: 0.37
+    zf-NF-X1   5 tCeklC 10 
+                 +C klC
+  Q_ENN79764 516 RCSKLC 521
+                 7***** PP
+
+  == domain 11  score: 9.7 bits;  conditional E-value: 4.9e-05
+    zf-NF-X1   9 lCHeGpCppCk 19 
+                 +CH G+CppC+
+  Q_ENN79764 536 KCHFGDCPPCR 546
+                 8*********6 PP
+
+  == domain 12  score: 3.8 bits;  conditional E-value: 0.0035
+    zf-NF-X1   4 HtCeklCH 11 
+                 H C ++CH
+  Q_ENN79764 558 HPCSATCH 565
+                 ******** PP
+
+  == domain 13  score: -0.1 bits;  conditional E-value: 0.057
+    zf-NF-X1  14 pCppCk 19 
+                 pCp+Ck
+  Q_ENN79764 594 PCPVCK 599
+                 9****7 PP
+
+  == domain 14  score: 3.0 bits;  conditional E-value: 0.006
+    zf-NF-X1   2 G......nHtCeklCH 11 
+                 G      nH C   CH
+  Q_ENN79764 630 GrllkctNHSCSLQCH 645
+                 4555555********* PP
+
+  == domain 15  score: 6.8 bits;  conditional E-value: 0.0004
+    zf-NF-X1   3 nHtCeklCHeGpCppCk 19 
+                  H C k+CH+  CppCk
+  Q_ENN79764 676 THVCPKPCHPARCPPCK 692
+                 49**************7 PP
+
+  == domain 16  score: 14.1 bits;  conditional E-value: 2.1e-06
+    zf-NF-X1   1 CGnHtCeklCHeGpCp 16 
+                 CG H+C+  CH+G+Cp
+  Q_ENN79764 735 CG-HRCKTNCHSGDCP 749
+                 **.************8 PP
+
+
+

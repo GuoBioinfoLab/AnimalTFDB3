@@ -17,7 +17,7 @@
                 <br>
                 <br>
                 <br>
-                 <div style="text-align: right">
+                <div style="text-align: right">
                     <button class="btn btn-danger" ng-click="basic_search()">Submit</button>
                 </div>
             </div>
@@ -47,30 +47,12 @@
     </div>
     <div class="col-lg-3">
         <div class="panel panel-info">
-            <div class="panel-heading"><span style="font-size: large;font-weight: bold">Search by mRNA expression</span></div>
+            <div class="panel-heading"><span style="font-size: large;font-weight: bold">Search by human mRNA expression</span></div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="col-lg-3">Species</label>
+                    <label class="col-lg-3">Source</label>
                     <div class="col-lg-9">
-                        <select id="species" class="form-control">
-                            <option selected="selected">Homo sapiens</option>
-                            <option>Macaca mulatta</option>
-                            <option>Mus musculus</option>
-                            <option>Rattus norvegicus</option>
-                            <option>Gallus gallus</option>
-                            <option>Danio rerio</option>
-                            <option>Drosophila melanogaster</option>
-                            <option>Caenorhabditis elegans</option>
-                            <option>Bos taurus</option>
-                        </select>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="form-group">
-                    <label class="col-lg-3">Cancer&Tissue</label>
-                    <div class="col-lg-9">
-                        <select id="species" class="form-control">
+                        <select id="mirna_tissue" class="form-control">
                             <option style="color:#0000FF">--Cancer--</option>
                             <option>ACC: Adrenocortical carcinoma</option>
                             <option>BLCA: Bladder Urothelial Carcinoma</option>
@@ -98,22 +80,136 @@
                             <option>UCEC: Uterine Corpus Endometrial Carcinoma</option>
                             <option>UCS: Uterine Carcinosarcoma</option>
                             <option style="color:#0000FF">--Tissues</option>
-                            <option>Adipose</option>
-                            <option>Adrenal</option>
+                            <option>Adipose tissue</option>
+                            <option>Adrenal gland</option>
+                            <option>Adrenal tissue</option>
+                            <option>Adult mammalian kidney</option>
+                            <option>Blood</option>
+                            <option>Body of pancreas</option>
+                            <option>Body of stomach</option>
                             <option>Brain</option>
-                            <option>Breast</option>
+                            <option>Cerebellum</option>
                             <option>Colon</option>
+                            <option>Corpus callosum</option>
+                            <option>Cortex of kidney</option>
+                            <option>Endocervix</option>
+                            <option>Esophagus</option>
+                            <option>Female gonad</option>
+                            <option>Frontal cortex</option>
+                            <option>Fundus of stomach</option>
+                            <option>Gastrocnemius</option>
                             <option>Heart</option>
+                            <option>Heart left ventricle</option>
+                            <option>Intestine</option>
                             <option>Kidney</option>
+                            <option>Left adrenal gland</option>
+                            <option>Left lobe of thyroid gland</option>
+                            <option>Left uterine tube</option>
+                            <option>Leukocyte</option>
                             <option>Liver</option>
                             <option>Lung</option>
-                            <option>Lymph</option>
-                            <option>Ovary</option>
-                            <option>Prostate</option>
-                            <option>Skeletal_muscle</option>
-                            <option>Testes</option>
-                            <option>Thyroid</option>
-                            <option>White_blood_cells</option>
+                            <option>Lymph node</option>
+                            <option>Mucosa of stomach</option>
+                            <option>Multi-cellular organism</option>
+                            <option>Muscle of leg</option>
+                            <option>Myometrium</option>
+                            <option>Pituitary gland</option>
+                            <option>Placenta</option>
+                            <option>Prefrontal cortex</option>
+                            <option>Prostate gland</option>
+                            <option>Right adrenal gland</option>
+                            <option>Right lobe of liver</option>
+                            <option>Right lobe of thyroid gland</option>
+                            <option>Right uterine tube</option>
+                            <option>Skeletal muscle tissue</option>
+                            <option>Stomach</option>
+                            <option>Temporal lobe</option>
+                            <option>Testis</option>
+                            <option>Thoracic mammary gland</option>
+                            <option>Thyroid gland</option>
+                            <option>Tibial nerve</option>
+                            <option>Transverse colon</option>
+                            <option>Urinary bladder</option>
+                            <option>Vagina</option>
+                            <option style="color:#0000FF">--Celllines</option>
+                            <option>A549 whole cell1</option>
+                            <option>A549 whole cell2</option>
+                            <option>AG445 whole cell1</option>
+                            <option>AG445 whole cell2</option>
+                            <option>BJ whole cell1</option>
+                            <option>BJ whole cell2</option>
+                            <option>CD14-positive monocyte cell line whole cell2</option>
+                            <option>CD20-positive B cell cell line whole cell1</option>
+                            <option>CD20-positive B cell cell line whole cell2</option>
+                            <option>CD34-positive mobilized cell cell line whole cell3</option>
+                            <option>cellline</option>
+                            <option>GM12878 cytosol1</option>
+                            <option>GM12878 cytosol2</option>
+                            <option>GM12878 nucleus1</option>
+                            <option>GM12878 nucleus2</option>
+                            <option>GM12878 whole cell1</option>
+                            <option>GM12878 whole cell2</option>
+                            <option>H1-hESC cytosol1</option>
+                            <option>H1-hESC cytosol2</option>
+                            <option>H1-hESC nucleus1</option>
+                            <option>H1-hESC nucleus2</option>
+                            <option>H1-hESC whole cell1</option>
+                            <option>H1-hESC whole cell2</option>
+                            <option>HeLa-S3 cytosol1</option>
+                            <option>HeLa-S3 cytosol2</option>
+                            <option>HeLa-S3 nucleus1</option>
+                            <option>HeLa-S3 nucleus2</option>
+                            <option>HeLa-S3 whole cell1</option>
+                            <option>HeLa-S3 whole cell2</option>
+                            <option>HepG2 cytosol1</option>
+                            <option>HepG2 cytosol2</option>
+                            <option>HepG2 nucleus1</option>
+                            <option>HepG2 nucleus2</option>
+                            <option>HepG2 whole cell1</option>
+                            <option>HepG2 whole cell2</option>
+                            <option>HFDPC cell line whole cell3</option>
+                            <option>HMEC cell line whole cell1</option>
+                            <option>HMEC cell line whole cell2</option>
+                            <option>hMSC-AT cell line whole cell3</option>
+                            <option>HPC-PL cell line whole cell3</option>
+                            <option>HSMM cell line whole cell1</option>
+                            <option>HSMM cell line whole cell2</option>
+                            <option>HUVEC cell line cytosol1</option>
+                            <option>HUVEC cell line cytosol2</option>
+                            <option>HUVEC cell line nucleus1</option>
+                            <option>HUVEC cell line nucleus2</option>
+                            <option>HUVEC cell line whole cell1</option>
+                            <option>HUVEC cell line whole cell2</option>
+                            <option>IMR-90 cytosol1</option>
+                            <option>IMR-90 nucleus1</option>
+                            <option>IMR-90 whole cell1</option>
+                            <option>IMR-90 whole cell3</option>
+                            <option>K562 chromatin3</option>
+                            <option>K562 cytosol1</option>
+                            <option>K562 cytosol2</option>
+                            <option>K562 nucleolus3</option>
+                            <option>K562 nucleoplasm3</option>
+                            <option>K562 nucleus1</option>
+                            <option>K562 nucleus2</option>
+                            <option>K562 whole cell1</option>
+                            <option>K562 whole cell2</option>
+                            <option>MCF-7 cytosol1</option>
+                            <option>MCF-7 nucleus1</option>
+                            <option>MCF-7 whole cell1</option>
+                            <option>MCF-7 whole cell2</option>
+                            <option>NHEK cell line cytosol1</option>
+                            <option>NHEK cell line cytosol2</option>
+                            <option>NHEK cell line nucleus1</option>
+                            <option>NHEK cell line nucleus2</option>
+                            <option>NHEK cell line whole cell1</option>
+                            <option>NHEK cell line whole cell2</option>
+                            <option>NHLF cell line whole cell1</option>
+                            <option>NHLF cell line whole cell2</option>
+                            <option>SK-N-SH cytosol1</option>
+                            <option>SK-N-SH nucleus1</option>
+                            <option>SK-N-SH_RA whole cell1</option>
+                            <option>SK-N-SH_RA whole cell2</option>
+                            <option>SK-N-SH whole cell1</option>
                         </select>
                     </div>
                 </div>
@@ -122,7 +218,7 @@
                 <div class="form-group">
                     <label class="col-lg-3">Threshold</label>
                     <div class="col-lg-9">
-                        <select id="threshold" class="form-control col-lg-9">
+                        <select id="mirna_threshold" class="form-control col-lg-9">
                             <option>1</option>
                             <option>10</option>
                             <option>50</option>
@@ -133,8 +229,10 @@
                 </div>
                 <br>
                 <br>
+                <br>
+                <br>
                 <div style="text-align: right">
-                    <button class="btn btn-info" >Submit</button>
+                    <button class="btn btn-info" ng-click="human_mirna_exp_search()" style="margin-bottom: 10px">Submit</button>
                 </div>
 
             </div>
@@ -145,33 +243,38 @@
             <div class="panel-heading"><span style="font-size: large;font-weight: bold">Search by human protein expression</span></div>
             <div class="panel-body">
                 <div class="form-group">
-                    <label class="col-lg-3">Tissue</label>
+                    <label class="col-lg-3">Tissue&Cell</label>
                     <div class="col-lg-9">
                         <select id="pro_tissue" class="form-control">
-                            <option>Adipocyte</option>
-                            <option>Adrenal gland</option>
-                            <option>Bone</option>
-                            <option>Breast</option>
-                            <option>Bsophagus</option>
-                            <option>Gall bladder</option>
-                            <option>Hair follicle</option>
-                            <option>Heart</option>
-                            <option>Kidney</option>
-                            <option>Liver</option>
-                            <option>Lung</option>
-                            <option>Myometrium</option>
-                            <option>Oral epithelium</option>
-                            <option>Ovary</option>
-                            <option>Pancreas</option>
+                            <option>Adult Colon</option>
+                            <option>Adult Esophagus</option>
+                            <option>Adult Frontal Cortex</option>
+                            <option>Adult Gallbladder</option>
+                            <option>Adult Heart</option>
+                            <option>Adult Kidney</option>
+                            <option>Adult Liver</option>
+                            <option>Adult Lung</option>
+                            <option>Adult Ovary</option>
+                            <option>Adult Pancreas</option>
+                            <option>Adult Prostate</option>
+                            <option>Adult Rectum</option>
+                            <option>Adult Retina</option>
+                            <option>Adult Spinal Cord</option>
+                            <option>Adult Testis</option>
+                            <option>Adult Urinary Bladder</option>
+                            <option>Fetal Brain</option>
+                            <option>Fetal Gut</option>
+                            <option>Fetal Heart</option>
+                            <option>Fetal Liver</option>
+                            <option>Fetal Ovary</option>
+                            <option>Fetal Testis</option>
                             <option>Placenta</option>
-                            <option>Prostate gland</option>
-                            <option>Salivary gland</option>
-                            <option>Spleen</option>
-                            <option>Stomach</option>
-                            <option>Testis</option>
-                            <option>Thyroid gland</option>
-                            <option>Tonsil</option>
-                            <option>Uterine cervix</option>
+                            <option>B Cells</option>
+                            <option>CD4 Cells</option>
+                            <option>CD8 Cells</option>
+                            <option>Monocytes</option>
+                            <option>NK Cells</option>
+                            <option>Platelets</option>
                         </select>
                     </div>
                 </div>
@@ -193,9 +296,8 @@
                 <br>
                 <br>
                 <br>
-                <br>
                 <div style="text-align: right">
-                    <button class="btn btn-warning" >Submit</button>
+                    <button class="btn btn-warning" ng-click="protein_search()" style="margin-bottom: 10px">Submit</button>
                 </div>
 
             </div>

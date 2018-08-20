@@ -1,0 +1,24 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	232.8	0.0	2.4e-73	5.2e-71	1	169	26	191
+
+  Alignments for each domain:
+  == domain 1  score: 232.8 bits;  conditional E-value: 2.4e-73
+                   EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEEEEEEEEESSST--B-SSEEESTTEETTEEEEEE-TTTSEEE-SSEE CS
+           RHD   1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeakirvslvtkdeplrpHahslvgkdckdgvcevelkpedmvasfqnlG 97 
+                   +eI+eqPkqrg+RfrYkcEgrsaGsipge+s++++kt+Pt+k++ny+g+a+ir+slvtkd p++pH+h+lvgkdckdg++e++l+p++ ++sfqnlG
+  Npar_R001849  26 VEIIEQPKQRGMRFRYKCEGRSAGSIPGERSTDTTKTHPTIKVNNYQGPARIRISLVTKDAPHKPHPHELVGKDCKDGYYEADLSPDRNIHSFQNLG 122
+                   79*********************************************************************************************** PP
+
+                   EEE--CGGHHHHHHHHHHCT--TTS-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEES CS
+           RHD  98 IlcvkkkeveealkerielkekeknvekeakeeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiydk 169
+                   I+cvkk+eve+a+ +ri+++++++nv  e++++  ++dln+v+lcFq+ + ++  ++  + + vvS+piyd+
+  Npar_R001849 123 IQCVKKREVEDAIAQRIRTNNNPFNVPVEDLKS--DFDLNTVCLCFQICI-RDPTRGLLPFPLVVSHPIYDN 191
+                   *************************99888877..***************.67778999***********96 PP
+

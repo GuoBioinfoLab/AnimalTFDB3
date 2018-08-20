@@ -1,0 +1,34 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.7	0.1	0.11	56	109	167	1072	1128
+2	230.8	0.3	1.4e-72	7e-70	1	200	1819	2019
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.11
+      RXR-like  109 aIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsi 167 
+                     Iv f++   +a+l++ s+ + +   v+ + e+  q+++++ ++++ k+++r+   ++i
+  Npar_R010015 1072 FIVAFDK--TSAALDDCSMKAPSVAAVIRDFERIFQRRQSSIKHELMKVVQRIFKYHMI 1128
+                    6999999..7899*****99999999************************999888777 PP
+
+  == domain 2  score: 230.8 bits;  conditional E-value: 1.4e-72
+      RXR-like    1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek.....evekildleevrvLqel 90  
+                    ice+a+rlLfl+++wa+sipaf+ L ++++++L+ra+W+el+ L+laq+s+++s++++l+a++++++++ +e+     +++  +++e++++Lqe+
+  Npar_R010015 1819 ICESASRLLFLSMHWARSIPAFQALGQDCNTTLVRACWNELFTLGLAQCSQVMSLSTILAAIVNHLQNSIQEDklsgdRIK--QVMEHIWKLQEF 1911
+                    8**********************************************************************999*874444..4455******** PP
+
+      RXR-like   91 vtklrdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtp 185 
+                    ++++++l++d +Eya+Lka+vlf+p  d  gl+++++ie+++ek+q++l++y+q++yp++++r++++L+rLpalr+++s+++eelff++liG +p
+  Npar_R010015 1912 CNSMAKLDIDGYEYAYLKAVVLFSP--DHPGLSSTAQIEKFQEKAQMELQDYVQKTYPDDTYRLARILVRLPALRLMNSSITEELFFTGLIGSVP 2004
+                    *************************..66****************************************************************** PP
+
+      RXR-like  186 ietlllemlesskps 200 
+                    i+++++++l++++++
+  Npar_R010015 2005 IDSIIPYILKMETAE 2019
+                    ***********9875 PP
+

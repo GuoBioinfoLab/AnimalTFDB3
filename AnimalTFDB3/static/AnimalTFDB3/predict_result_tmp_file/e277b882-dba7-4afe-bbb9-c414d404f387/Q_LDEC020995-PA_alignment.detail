@@ -1,0 +1,42 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-8.1	6.1	9	3.5e+02	44	59	518	533
+2	77.6	6.0	3.6e-25	1.4e-23	1	69	547	613
+3	-6.4	3.8	9	3.5e+02	44	49	680	685
+4	-6.8	3.4	9	3.5e+02	46	60	717	729
+
+  Alignments for each domain:
+  == domain 1  score: -8.1 bits;  conditional E-value: 9
+                      HHHHHHHHHHHHHHHH CS
+              HMG  44 eeeKkkYeekaekeka 59 
+                      +e+K+k + k  +ek 
+  Q_LDEC020995-PA 518 KEKKEKKKTKTVSEKP 533
+                      3444433333333333 PP
+
+  == domain 2  score: 77.6 bits;  conditional E-value: 3.6e-25
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCHH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpeyk 69 
+                      pkR+++af+l++++ r+k+k+ nP+lk++ei+kk+ge W++l  ++K ++e+ka+k+k+ry+k+++eyk
+  Q_LDEC020995-PA 547 PKRATTAFMLWLNDAREKIKKDNPGLKVTEIAKKAGEIWREL--KDKSEWEAKAKKDKERYDKAMDEYK 613
+                      8*****************************************..99**********************8 PP
+
+  == domain 3  score: -6.4 bits;  conditional E-value: 9
+                      HHHHHH CS
+              HMG  44 eeeKkk 49 
+                      ++eK+k
+  Q_LDEC020995-PA 680 DDEKEK 685
+                      333333 PP
+
+  == domain 4  score: -6.8 bits;  conditional E-value: 9
+                      HHHHHHHHHHHHHHH CS
+              HMG  46 eKkkYeekaekekar 60 
+                      +Kk  e  a++ek +
+  Q_LDEC020995-PA 717 KKKGSE--AKEEKSK 729
+                      333333..3333333 PP
+

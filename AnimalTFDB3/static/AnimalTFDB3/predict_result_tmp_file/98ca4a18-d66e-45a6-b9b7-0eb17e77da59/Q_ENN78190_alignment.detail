@@ -1,0 +1,33 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.4	0.1	0.13	51	88	133	151	199
+2	57.2	0.6	1.7e-19	6.5e-17	9	82	226	297
+3	88.8	1.0	3.5e-29	1.3e-26	159	227	298	369
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.13
+         CP2  88 rvvFeeekqrkkeaklwklWkegrgse....avrvvdiplsggveeqknt 133
+                 +v+ +e   +++++   ++ +++r+s     +  +v+ p+++++ee++++
+  Q_ENN78190 151 MVFKQEALSPTMNEVAHSQARHNRQSPtstqKGAMVN-PINSTMEENSQN 199
+                 3433444444454444444444444444544555666.777777776663 PP
+
+  == domain 2  score: 57.2 bits;  conditional E-value: 1.7e-19
+         CP2   9 lknkkesasslaseesavssstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkk 82 
+                 l ++ +s+     ++++  ss e++rf+++L+a+t++a+k+ne++ltYLN+GQ+Y+++lk+lg  +ls ++gk 
+  Q_ENN78190 226 LSTSPHSQDNFGVSSTNNYSSLEDCRFQYVLAAATSIATKQNEDTLTYLNQGQSYEVKLKKLG--DLSMYRGKL 297
+                 33344444444455556666899****************************************..777777765 PP
+
+  == domain 3  score: 88.8 bits;  conditional E-value: 3.5e-29
+         CP2 159 vrvNclStdFsksK..GvkGvPlrlqieTelisesvkesa.levafckvKlFrdkGAeRKlkndvakvkkki 227
+                 ++vNc+St+F+++K  G+kGvP+r+q+eT++ +++ + ++ l++a c++K+F+ kGA+RK+k+d+ k+ k++
+  Q_ENN78190 298 LKVNCISTEFTPKKhgGEKGVPFRIQVETYQNGDALTANKrLHAAACQIKVFKLKGADRKHKQDRDKIMKRP 369
+                 68*****************************9988766656***************************9985 PP
+
+
+

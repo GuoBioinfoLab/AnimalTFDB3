@@ -1,0 +1,84 @@
+<div class="row">
+    <div class="col-lg-4">
+        <div class="panel" style="height: 500px">
+            <div class="panel-heading" style="background-color:  #BCCEE7;height: 55px"><span
+                    style="color:gold; font-size: large; font-weight: bold">Predict</span></div>
+            <div class="panel-body">
+                <h4 style="font-weight: bold;text-align: center">TF binding site Prediction</h4>
+                <p>Input the sequences in <a href="http://en.wikipedia.org/wiki/FASTA_format">FASTA</a>
+                    format:<a ng-click="load()">example</a></p>
+                </div>
+                <div>
+                <textarea class="form-control"  ng-model="fasta" style="width: 97%;height: 250px"></textarea>
+                <br>
+                <div style="text-align: right;margin-right: 27px">
+                    <button class="btn btn-default" type="reset" ng-click="reset()">Reset</button>
+                    <button class="btn btn-default" type="submit" ng-click="predict()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <div class="panel" style="height: 500px">
+            <div class="panel-heading" style="background-color:  #BCCEE7">
+                <div class="row">
+                    <span class="col-lg-1" style="color:gold;font-size: large;font-weight: bold">Results</span>
+                    <div class="form-group">
+                        <label class="col-lg-1 control-label" style="width: 180px"><span class="glyphicon glyphicon-filter"></span>Filter by TF</label>
+                        <div class="col-lg-3">
+                            <select class="form-control col-lg-2" id="filter_tf" style="width: 150px;margin-left: -30%" ng-click="filter_tf()">
+                                <option ng-repeat="item in tf_list">{$ item.tf $}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div ng-show="loading" style="width:100%; text-align: center;margin-top: 150px">
+                    <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
+                </div>
+                 <div ng-show="zero" style="width:100%; text-align: center;margin-top: 150px">
+                     <h3>Sorry! No transcription factor binding sites founded!</h3>
+                </div>
+                <div ng-show="result">
+                    <h4 style="font-weight: bold;text-align: center">TF binding site Prediction Result</h4>
+                    <div class="pre-scrollable" style="height: 350px">
+                         <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"  ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th ts-criteria="tf">TF</th>
+                                <th ts-criteria="source">Source<span class="glyphicon glyphicon-question-sign" data-placement="top" data-container="body" data-toggle="popover" style="color: lightskyblue" data-trigger="hover" data-content="Database in this column means the TF binding site was predicted based on the motifs collected from TRANSFAC, JASPAR and HOCOMOCO" data-original-title="" title=""></span></th>
+                                <th ts-criteria="sequence_name">Sequence</th>
+                                <th ts-criteria="start">Start</th>
+                                <th ts-criteria="stop">Stop</th>
+                                <th ts-criteria="strand">Strand</th>
+                                <th ts-criteria="score">Score</th>
+                                <th ts-criteria="p_value">P-value</th>
+                                <th ts-criteria="q_value">Q-value</th>
+                                <th ts-criteria="matched_sequence">Matched Sequence</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="record in result_ls" ts-repeat>
+                                <td class="text-center">{$ record.tf $}</td>
+                                <td class="text-center" ng-switch="record.source">
+                                    <span  ng-switch-when="hTFtarget"><a href="http://bioinfo.life.hust.edu.cn/hTFtarget#!/">hTFtarget</a></span>
+                                    <span  ng-switch-default>database</span>
+                                </td>
+                                <td class="text-center">{$ record.sequence_name $}</td>
+                                <td class="text-center">{$ record.start $}</td>
+                                <td class="text-center">{$ record.stop $}</td>
+                                <td class="text-center">{$ record.strand $}</td>
+                                <td class="text-center">{$ record.score $}</td>
+                                <td class="text-center">{$ record.p_value $}</td>
+                                <td class="text-center">{$ record.q_value $}</td>
+                                <td class="text-center" style="font-family: Courier New, monospace;">{$ record.matched_sequence $}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

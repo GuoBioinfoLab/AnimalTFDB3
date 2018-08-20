@@ -1,0 +1,27 @@
+HMM length of domain: 212 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	381.1	0.0	1.6e-118	7.4e-116	1	211	67	277
+
+  Alignments for each domain:
+  == domain 1  score: 381.1 bits;  conditional E-value: 1.6e-118
+             Nrf1   1 GpvGvaaaaaiatgkkrkrphsfetnpsirkrqqtrLlrklkatldeyttRvGqqavvlvvtPskpnsvfkvfGakpLeavvknlksvileele 94 
+                      GpvGvaaaaai + kkrkrphsfetnpsirkr+q+rLlrkl++t+de++tRvGqqa+vlv tP+kpn+++kvfGakpLe+v+knl+s+i+eele
+  Q_OTAU001304-PA  67 GPVGVAAAAAIVSAKKRKRPHSFETNPSIRKRHQNRLLRKLRQTIDEFATRVGQQAIVLVATPGKPNTSYKVFGAKPLEDVIKNLRSMIMEELE 160
+                      8********************************************************************************************* PP
+
+             Nrf1  95 ealaeqapkqekeksellelPplvidgiptpvekmtqaqlrlfipemlkystgrgkpgWGkeslkpvwwPkdlpwanvrsdvrseeekkkvsWt 188
+                      +ala+qap+  +++ +l+elPpl+idgiptpvekmtqaqlr+fip+mlkystgrgkpgWG+es++p+wwPk+lpwanvr+d+rse+ek+k+sWt
+  Q_OTAU001304-PA 161 SALAHQAPPPVQDDPTLFELPPLIIDGIPTPVEKMTQAQLRAFIPLMLKYSTGRGKPGWGRESTRPPWWPKELPWANVRMDARSEDEKQKISWT 254
+                      ********************************************************************************************** PP
+
+             Nrf1 189 eaLRkivknCYkyhgReDLleaf 211
+                      +aLR+iv+nCYkyhgReDLl+af
+  Q_OTAU001304-PA 255 HALRQIVINCYKYHGREDLLPAF 277
+                      *********************99 PP
+

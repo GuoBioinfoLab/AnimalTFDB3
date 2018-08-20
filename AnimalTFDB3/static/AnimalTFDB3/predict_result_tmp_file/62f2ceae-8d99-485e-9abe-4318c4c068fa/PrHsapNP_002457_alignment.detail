@@ -1,0 +1,34 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	53.5	0.9	1.3e-17	9.6e-16	1	46	31	76
+2	65.7	3.3	2e-21	1.4e-19	1	47	83	129
+3	57.5	0.7	7.6e-19	5.5e-17	2	45	136	178
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 1.3e-17
+                     CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHH CS
+              MYB  1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqny 46
+                     + kWt eEde+L+ +v+++G  +Wk  a+++++Rt+ qc++rw+ +
+  PrHsapNP_002457 31 KVKWTHEEDEQLRALVRQFGQQDWKFLASHFPNRTDQQCQYRWLRV 76
+                     679****************************************986 PP
+
+  == domain 2  score: 65.7 bits;  conditional E-value: 2e-21
+                      CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+              MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                      +g+Wt+eEd++ +e+v+k+G+++W++Iak+l gR +kqcr+rw+n+l
+  PrHsapNP_002457  83 KGPWTKEEDQKVIELVKKYGTKQWTLIAKHLKGRLGKQCRERWHNHL 129
+                      79*******************************************97 PP
+
+  == domain 3  score: 57.5 bits;  conditional E-value: 7.6e-19
+                      SSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHH CS
+              MYB   2 gkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqn 45 
+                        WteeEd ++ ea++ lGn+ W++Iak+l+gRt++ ++++w++
+  PrHsapNP_002457 136 SCWTEEEDRIICEAHKVLGNR-WAEIAKMLPGRTDNAVKNHWNS 178
+                      68*******************.********************96 PP
+

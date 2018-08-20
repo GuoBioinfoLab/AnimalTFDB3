@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	4.3	0.5	0.85	2.8	8	21	12	25
+2	11.2	0.3	0.0055	0.018	1	20	34	53
+3	16.4	1.8	0.00012	0.00039	3	20	78	95
+4	20.0	3.0	8.6e-06	2.8e-05	1	21	105	125
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.85
+                EEESSHHHHHHHHH CS
+     zf-C2H2  8 ksFkrksnLkrHir 21
+                +s+ +k  L+rH+r
+  Q_ENN73541 12 RSYQSKRTLMRHLR 25
+                79999*******98 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.0055
+                EEETTTTEEESSHHHHHHHH CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHi 20
+                ++C++C+ + k k nL++Hi
+  Q_ENN73541 34 FTCSVCSFKTKWKANLMKHI 53
+                89*****************8 PP
+
+  == domain 3  score: 16.4 bits;  conditional E-value: 0.00012
+                ETTTTEEESSHHHHHHHH CS
+     zf-C2H2  3 CpdCgksFkrksnLkrHi 20
+                C +Cg s+k+k +Lk+H+
+  Q_ENN73541 78 CVKCGSSYKNKKHLKSHM 95
+                99***************9 PP
+
+  == domain 4  score: 20.0 bits;  conditional E-value: 8.6e-06
+                 EEETTTTEEESSHHHHHHHHH CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                 ++C++C k+Fk++ +L+rH  
+  Q_ENN73541 105 FECDKCEKKFKHRKHLNRHVA 125
+                 89*****************76 PP
+

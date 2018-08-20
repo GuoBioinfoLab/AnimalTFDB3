@@ -1,0 +1,29 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	36.2	0.1	4.1e-11	5e-10	4	89	5	77
+2	32.2	0.5	7.3e-10	8.8e-09	1	89	131	218
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 4.1e-11
+             THAP  4 pgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekkeskkrrkLkkdavPtif 89
+                       C+n+ +    k + + +fP+d+ +rk+Wl ++kr+++++++ s   ++C+  F +e   ++    k++ +  rkLk d vPtif
+  Q_AGLA010572-RA  5 VTCTNSGR----KGFLMKTFPRDSIRRKQWLIKMKRDNWTPTNAS---CLCEVDFAPEM--WE----KTRVDGTRKLKMDDVPTIF 77
+                     57999333....3356778*********************98887...9******8872..22....223445667*********8 PP
+
+  == domain 2  score: 32.2 bits;  conditional E-value: 7.3e-10
+             THAP   1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskk...........srvCskHFeeekkkkkkeeekkeskkrrkLkkd 83 
+                      C++ +C+n+++k     + + +fP+d+ +rk+Wl +++r+++++++ s             s     HF +e   ++   ++k  +  rkL  +
+  Q_AGLA010572-RA 131 CAALNCTNSRRKG----FLMKTFPRDPIRRKQWLIKMRRDEWTPTNASCLcelciffvilaS--FIVHFAPEM--WE---KTKV-DGTRKLTMN 212
+                      ********54433....56778******************9999887644677776533222..337997772..22...2233.44556**** PP
+
+             THAP  84 avPtif 89 
+                      +vPti+
+  Q_AGLA010572-RA 213 VVPTIY 218
+                      ****95 PP
+

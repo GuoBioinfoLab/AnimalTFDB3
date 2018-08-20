@@ -1,0 +1,32 @@
+HMM length of domain: 96 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	114.8	1.7	4.7e-37	1e-34	1	96	10	110
+2	-0.6	0.2	0.47	1e+02	42	54	167	179
+
+  Alignments for each domain:
+  == domain 1  score: 114.8 bits;  conditional E-value: 4.7e-37
+                         HHHHHHHHHCT...TTTSEESSSSSEEEES-HHHHHHHTHHHHSTT--HHHHHHHHHHTTEEE---SSB..TTB--TTSEEEEESS--XXX CS
+                 HSF   1 FlkkLyklled...eelisWsedgksfvvkdkeefakevlpkyfkhsnfssFvrqLnlYgFrkvkrkee..kkkkkekvweFshenFkrgk 86 
+                         Fl+kL++l+e+   +e+i+Ws++g+sf+v d+++fake+lpkyfkh+n++sFvrqLn+YgFrkv + ++   k++++   eF+h++Fk+g+
+  PrHsapNP_001230023  10 FLSKLWTLVEEthtNEFITWSQNGQSFLVLDEQRFAKEILPKYFKHNNMASFVRQLNMYGFRKVVHIDSgiVKQERDGPVEFQHPYFKQGQ 100
+                         9********98777999**********************************************99888877566666777*********** PP
+
+                         XXXXXXXXXX CS
+                 HSF  87 kelLkkikrk 96 
+                          +lL++ikrk
+  PrHsapNP_001230023 101 DDLLENIKRK 110
+                         *********7 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.47
+                         TT--HHHHHHHHH CS
+                 HSF  42 khsnfssFvrqLn 54 
+                         kh + +  +r++ 
+  PrHsapNP_001230023 167 KHAQQQQVIRKIV 179
+                         4444443333333 PP
+

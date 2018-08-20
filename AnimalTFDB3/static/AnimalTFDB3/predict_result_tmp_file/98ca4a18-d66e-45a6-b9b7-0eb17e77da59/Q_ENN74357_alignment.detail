@@ -1,0 +1,29 @@
+HMM length of domain: 212 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	381.0	0.0	8.3e-119	6.5e-116	1	211	66	276
+
+  Alignments for each domain:
+  == domain 1  score: 381.0 bits;  conditional E-value: 8.3e-119
+        Nrf1   1 GpvGvaaaaaiatgkkrkrphsfetnpsirkrqqtrLlrklkatldeyttRvGqqavvlvvtPskpnsvfkvfGakpLeavvknlksvileeleealae 99 
+                 GpvGvaaaaai ++kkrkrphsfetnpsirkrqq+rLlrkl++t+de++tRvGqqa+vlv tP+kpn+++kvfGakpLe+v+knlk  i+eele+ala+
+  Q_ENN74357  66 GPVGVAAAAAIVSSKKRKRPHSFETNPSIRKRQQNRLLRKLRQTIDEFATRVGQQAIVLVATPGKPNTSYKVFGAKPLEDVIKNLKVSIMEELENALAH 164
+                 8************************************************************************************************** PP
+
+        Nrf1 100 qapkqekeksellelPplvidgiptpvekmtqaqlrlfipemlkystgrgkpgWGkeslkpvwwPkdlpwanvrsdvrseeekkkvsWteaLRkivknC 198
+                 qap+  +e+ +l+elPpl+idgiptpvekmtqaqlr+fip+mlkystgrgkpgWG+es++p+wwPk+lpwanvr+d+rse+ek+k+sWt+aLR+iv+nC
+  Q_ENN74357 165 QAPPPIQEDPTLFELPPLIIDGIPTPVEKMTQAQLRAFIPLMLKYSTGRGKPGWGRESTRPPWWPKELPWANVRMDARSEDEKQKISWTHALRQIVINC 263
+                 *************************************************************************************************** PP
+
+        Nrf1 199 YkyhgReDLleaf 211
+                 Yk+hgReDLl+af
+  Q_ENN74357 264 YKFHGREDLLPAF 276
+                 ***********99 PP
+
+
+

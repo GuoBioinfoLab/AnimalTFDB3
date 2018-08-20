@@ -1,0 +1,82 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.6	1.4	0.46	1.2	1	23	125	147
+2	9.2	0.2	0.034	0.084	2	23	156	178
+3	5.7	3.2	0.44	1.1	1	19	248	266
+4	7.6	2.9	0.11	0.28	1	23	641	663
+5	11.8	0.7	0.005	0.012	1	23	669	691
+6	16.1	3.3	0.00022	0.00056	1	23	697	720
+7	11.2	0.8	0.0078	0.02	1	23	758	780
+8	13.3	3.6	0.0017	0.0043	1	20	786	805
+9	11.7	3.5	0.0054	0.014	1	23	911	933
+
+  Alignments for each domain:
+  == domain 1  score: 5.6 bits;  conditional E-value: 0.46
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         y+C+ C+   ++ s Lk Hi+ H
+  PrHsapNP_001129628 125 YQCSLCKFLSSSFSVLKDHIKQH 147
+                         9********************99 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.034
+                         EETTTTEEESSHHHHHHHHHC.C CS
+             zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                          C++C+ + +++++L++H    H
+  PrHsapNP_001129628 156 MCSECHITSRSQEELEAHVVNdH 178
+                         5*****************86666 PP
+
+  == domain 3  score: 5.7 bits;  conditional E-value: 0.44
+                         EEETTTTEEESSHHHHHHH CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrH 19 
+                         y+C  C++++ ++ +Lk+H
+  PrHsapNP_001129628 248 YRCLFCSYTCGQQRMLKTH 266
+                         9****************** PP
+
+  == domain 4  score: 7.6 bits;  conditional E-value: 0.11
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         y+C  C+++  +k   k+H+r+H
+  PrHsapNP_001129628 641 YRCRLCHYTSGNKGYIKQHLRVH 663
+                         9*********************9 PP
+
+  == domain 5  score: 11.8 bits;  conditional E-value: 0.005
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         y+Cp+C     ++ +L++H+  H
+  PrHsapNP_001129628 669 YQCPICEHIADNSKDLESHMIHH 691
+                         9*******************998 PP
+
+  == domain 6  score: 16.1 bits;  conditional E-value: 0.00022
+                         EEETTTTEEESSHHHHHHHHHC.C CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                         y+C+ C +sF  ks+L++H r  H
+  PrHsapNP_001129628 697 YQCKQCEESFHYKSQLRNHEREqH 720
+                         9********************988 PP
+
+  == domain 7  score: 11.2 bits;  conditional E-value: 0.0078
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         y+C++C+++ ++    ++H+r+H
+  PrHsapNP_001129628 758 YRCDVCDYTSTTYVGVRNHRRIH 780
+                         9********************99 PP
+
+  == domain 8  score: 13.3 bits;  conditional E-value: 0.0017
+                         EEETTTTEEESSHHHHHHHH CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHi 20 
+                         y+C+ Cg++++++ +Lk+H+
+  PrHsapNP_001129628 786 YRCSLCGYVCSHPPSLKSHM 805
+                         9******************9 PP
+
+  == domain 9  score: 11.7 bits;  conditional E-value: 0.0054
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         + C +Cg   ++k+nL  H++ H
+  PrHsapNP_001129628 911 FCCCICGFESTSKENLLDHMKEH 933
+                         7899*****************99 PP
+

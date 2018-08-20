@@ -1,0 +1,43 @@
+HMM length of domain: 219 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.4	0.0	0.03	30	84	131	21	65
+2	344.7	5.4	1.3e-107	1.3e-104	3	219	62	279
+3	1.0	1.4	0.019	19	66	103	346	380
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.03
+       CSRNP_N  84 leeeeeealevddisdedldseaelddylflqplstkkrralLraaGv 131
+                   ++e++e+ ++  + s + +d + +  ++ +l p s+ kr   Lra+ v
+  Npar_R004588  21 IQESDEDISS--SESGDSFD-SVNPSSSSHLTPQSILKREKRLRAKNV 65 
+                   3333333222..34555555.778889999999999999999999876 PP
+
+  == domain 2  score: 344.7 bits;  conditional E-value: 1.3e-107
+       CSRNP_N   3 kksvkFdkvtvyyFpRlqgftsvPsqGGstLGmakkhsslkkftlaehaieqkrlrreklrerlkeeklealklklsssdlleeeeeealevddisd 99 
+                    k+v+F+ vtvyyF+R+qgftsvPsqGGstLGm+++h+s++++tl e+a eq+rl++e+lr++l+eekl++lk+k ++++++e+ee++ l+ ddisd
+  Npar_R004588  62 AKNVRFNCVTVYYFTRRQGFTSVPSQGGSTLGMSSRHNSIRQYTLGEFALEQDRLHKEMLRDHLREEKLNSLKQKITKNGTIESEEANVLTLDDISD 158
+                   689********************************************************************************************** PP
+
+       CSRNP_N 100 edld.seaelddylflqplstkkrralLraaGvkkidseekkelraiRksRekCGCdCkgvCdPetCaCslagikCqvDrasFPCgCtkdgCgnteg 195
+                   +d+d +++e+d+y+flqpl+tkkrralLra+Gvkkid eek+elraiR sRe+CGCdC+ +CdPetC+CslagikCqvDr+sFPCgC+k+gC+nt+g
+  Npar_R004588 159 DDIDlDNTEVDEYFFLQPLPTKKRRALLRASGVKKIDVEEKHELRAIRLSREDCGCDCRIFCDPETCTCSLAGIKCQVDRMSFPCGCSKEGCSNTAG 255
+                   ****9999***************************************************************************************** PP
+
+       CSRNP_N 196 riefnsvrvrthflhtlmrlelek 219
+                   riefn++rvrthflhtlm+lelek
+  Npar_R004588 256 RIEFNPIRVRTHFLHTLMKLELEK 279
+                   *********************996 PP
+
+  == domain 3  score: 1.0 bits;  conditional E-value: 0.019
+       CSRNP_N  66 lkeeklealklklsssdlleeeeeealevddisdedld 103
+                   ++ee+  + + ++ +s++ +++ +++l  ++++++d++
+  Npar_R004588 346 EEEEE--EDDGSSYCSEA-TDSSTQSLAPSESEENDAE 380
+                   11111..11111111111.1111111211122222221 PP
+
+
+

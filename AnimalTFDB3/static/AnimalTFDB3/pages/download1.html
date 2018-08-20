@@ -1,0 +1,32 @@
+<div>
+    <div ng-repeat="item in species_list" style="vertical-align: top;display: inline-block;padding: 0">
+        <div class="thumbnail" style="width: 120px;height: 180px;margin-right: 14px;text-align: center">
+            <span class="cursor-hand" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)"><img src="/static/AnimalTFDB3/image/species/{$ item.species $}.png" class="img-rounded" style="width: 100px;"></span>
+            <div class="caption">
+                <p style="font-size: xx-small">{$ item.name $}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    {$ modal_header $}
+                </h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Close
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+

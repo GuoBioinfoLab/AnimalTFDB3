@@ -1,0 +1,41 @@
+HMM length of domain: 583 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	675.3	0.7	3.4e-207	3.4e-204	94	365	6	277
+2	279.1	22.3	3.3e-87	3.3e-84	387	574	278	468
+
+  Alignments for each domain:
+  == domain 1  score: 675.3 bits;  conditional E-value: 3.4e-207
+           COE  94 keanaektnngihyrlqllysngvrteqdlyvrlidsltkqaivyegqdknpemcrvlltheimcsrccdkkscgnrnetpsdpviidrfflkfflk 190
+                   +e++ ektnngihyrlqllysng+rteqd+yvrlids++kqai+yegqdknpemcrvlltheimcsrccdkkscgnrnetpsdpviidrfflkfflk
+  Npar_R006817   6 HEQSGEKTNNGIHYRLQLLYSNGIRTEQDIYVRLIDSMSKQAIIYEGQDKNPEMCRVLLTHEIMCSRCCDKKSCGNRNETPSDPVIIDRFFLKFFLK 102
+                   79999******************************************************************************************** PP
+
+           COE 191 cnqnclknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpseaatpcikaispsegwttggatviiigdnffdglqvvfgt 287
+                   cnqnclknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpseaatpcikaispsegwttggatvi+igd ffdglqvvfgt
+  Npar_R006817 103 CNQNCLKNAGNPRDMRRFQVVVSTTVNVDGHVLAVSDNMFVHNNSKHGRRARRLDPSEAATPCIKAISPSEGWTTGGATVILIGDHFFDGLQVVFGT 199
+                   ************************************************************************************************* PP
+
+           COE 288 llvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvytalneptidygfqrlqkviprhpgdperlpk 365
+                   +lvwselitphairvqtpprhipgvvevtlsyksk fckg+pgrfvytalneptidygfqrlqkv+prhpgdperlpk
+  Npar_R006817 200 MLVWSELITPHAIRVQTPPRHIPGVVEVTLSYKSKHFCKGSPGRFVYTALNEPTIDYGFQRLQKVVPRHPGDPERLPK 277
+                   *****************************************************************************9 PP
+
+  == domain 2  score: 279.1 bits;  conditional E-value: 3.3e-87
+           COE 387 qeiilkraadiaealysvprnhnqlpalanssahagllgvnsfssqlavnvseasqateqgyarnsssvsprgyvpsstpqqsnynsvstslngygs 483
+                   q+iilkraadiaealysvprn nql++l+++++h+g++gvnsf+sqla+n++e+sqa++qgy+rnsssvsprgyvpsstpqqs yn++++s+ngy+ 
+  Npar_R006817 278 QDIILKRAADIAEALYSVPRNSNQLSSLTSNHPHSGMMGVNSFGSQLAINIAESSQASDQGYSRNSSSVSPRGYVPSSTPQQSHYNTITSSMNGYAG 374
+                   9************************************************************************************************ PP
+
+           COE 484 aalanlgvpgspsflngsaanspyaivpssptlass.tslpsnasss..ssilsfspanvvsavkqksafapvvrpqaspppactsangnglqa 574
+                   a++++lgvp spsflngs+anspyai+p+sp+l++s  slps+a+s   ++i+sfsp+n++savkqksafapvvrpq+sppp+cts+  n+lq 
+  Npar_R006817 375 AGMTSLGVPASPSFLNGSTANSPYAIMPASPPLGASsISLPSSANSGnpTGIFSFSPVNMISAVKQKSAFAPVVRPQNSPPPTCTSSSANSLQG 468
+                   *********************************887367777665532289****************************************996 PP
+
+
+

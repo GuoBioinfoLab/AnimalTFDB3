@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	3.4	0.1	0.99	6.2	9	25	169	204
+2	30.1	0.9	3.5e-09	2.2e-08	2	25	209	232
+3	32.9	0.4	4.7e-10	2.9e-09	1	25	236	260
+4	19.4	0.9	8.8e-06	5.5e-05	4	20	267	283
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.99
+        zf-H2C2_2   9 Htgekpy...................eCplCdkaFk 25 
+                      H++++ +                    C  C+k+++
+  Q_OTAU008631-PA 169 HHKPTAFqsprrrhsivpeddpqkpnVCNICGKSYA 204
+                      555554444444445555555555559******997 PP
+
+  == domain 2  score: 30.1 bits;  conditional E-value: 3.5e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ Hlr+H gekpy C  C+k+F+
+  Q_OTAU008631-PA 209 LKTHLRTHSGEKPYRCIDCNKSFS 232
+                      889********************7 PP
+
+  == domain 3  score: 32.9 bits;  conditional E-value: 4.7e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL+ H r+H gekp+ Cp+Cd +F+
+  Q_OTAU008631-PA 236 NLTAHVRTHSGEKPFRCPVCDRRFS 260
+                      89**********************7 PP
+
+  == domain 4  score: 19.4 bits;  conditional E-value: 8.8e-06
+        zf-H2C2_2   4 rHlrkHtgekpyeCplC 20 
+                       H+r+H ge+py C  C
+  Q_OTAU008631-PA 267 THMRTHSGERPYRCRQC 283
+                      7***************9 PP
+

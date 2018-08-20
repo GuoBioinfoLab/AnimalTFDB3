@@ -1,0 +1,38 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	78.5	0.0	5.4e-26	1.7e-23	2	70	341	410
+2	-1.4	0.0	0.47	1.5e+02	26	54	539	567
+3	92.1	0.0	2.9e-30	9.2e-28	3	76	719	793
+4	7.4	0.1	0.00082	0.26	3	27	962	986
+
+  Alignments for each domain:
+  == domain 1  score: 78.5 bits;  conditional E-value: 5.4e-26
+              CUT   2 seeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlp 70 
+                      s++ldt  i +kv+e L+ ++i q++FA+ +l+ sqgt+selL+kPkpw++l++ gr+ y++m+ w  ++
+  Q_OTAU014150-PA 341 SQNLDTLHISRKVRELLSIHNIGQRLFAKYILGLSQGTVSELLSKPKPWDKLTEkGRDSYRKMHAWSCDE 410
+                      7899**************************************************************6555 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 0.47
+              CUT  26 avFAekvlnrsqgtlselLrkPkpwenlk 54 
+                      ++FA   l+rsq  +  lL    ++ +++
+  Q_OTAU014150-PA 539 QIFAGGHLERSQEEMRALLDAYHQLAKMN 567
+                      689*********99999998766666665 PP
+
+  == domain 3  score: 92.1 bits;  conditional E-value: 2.9e-30
+              CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpeserde 76 
+                      ++l+t+di++kvke+L+++sisq++F+e vl+ sqg++s+lL++Pkpw++l++ gre++irm+ +L+++++++++
+  Q_OTAU014150-PA 719 NNLNTEDIVKKVKEQLSQYSISQRLFGESVLGLSQGSVSDLLARPKPWHMLTQkGREPFIRMKMFLEDDNAVHKL 793
+                      689******************************************************************998876 PP
+
+  == domain 4  score: 7.4 bits;  conditional E-value: 0.00082
+              CUT   3 eeldtkdiaqkvkeeLkrasisqav 27 
+                      ++ldt+ i+ k+ke L +++i q+v
+  Q_OTAU014150-PA 962 QDLDTQVITTKIKEALLANNIGQKV 986
+                      689********************86 PP
+

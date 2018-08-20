@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.4	0.0	0.027	0.08	3	23	55	76
+2	8.9	0.6	0.037	0.11	2	23	92	114
+3	8.4	0.1	0.054	0.16	2	19	133	148
+4	10.4	0.8	0.013	0.038	1	23	164	187
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.027
+                     ETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2  3 CpdCgksFkrksnLkrHirt.H 23
+                     C++C+   k+ ++L++H++  H
+  Q_APLA005200-PA 55 CEICDGYIKDLEQLRNHMQWiH 76
+                     9*****************9988 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.037
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                       C +C  +F +   L+rH+   H
+  Q_APLA005200-PA  92 NCQKCQFRFFTDQGLERHLLGsH 114
+                      5*****************98777 PP
+
+  == domain 3  score: 8.4 bits;  conditional E-value: 0.054
+                      EETTTTEEESSHHHHHHH CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrH 19 
+                      +Cp+Cg+++  +  L +H
+  Q_APLA005200-PA 133 RCPVCGRVY--QWKLLNH 148
+                      7********..5555555 PP
+
+  == domain 4  score: 10.4 bits;  conditional E-value: 0.013
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      ykC++C+ +F    ++++H  + H
+  Q_APLA005200-PA 164 YKCTVCTATFGMYKQFENHVYSaH 187
+                      9******************98777 PP
+

@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.7	0.0	5.7	19	13	23	6	16
+2	22.5	0.8	1.4e-06	4.7e-06	1	23	22	44
+3	19.3	0.5	1.5e-05	4.8e-05	1	23	50	72
+4	23.8	5.2	5.4e-07	1.8e-06	1	23	78	100
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 5.7
+                HHHHHHHHHCC CS
+     zf-C2H2 13 ksnLkrHirtH 23
+                +++L++H++ H
+  Q_ENN73951  6 RDLLEQHLMGH 16
+                689*****988 PP
+
+  == domain 2  score: 22.5 bits;  conditional E-value: 1.4e-06
+                EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                ++C++Cg   krk++L+rH ++H
+  Q_ENN73951 22 FVCDICGAALKRKDHLTRHKQSH 44
+                89******************999 PP
+
+  == domain 3  score: 19.3 bits;  conditional E-value: 1.5e-05
+                EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                ++C++C k Fkrk++L+ H  +H
+  Q_ENN73951 50 FVCSVCLKAFKRKEQLTLHFVIH 72
+                89*****************8776 PP
+
+  == domain 4  score: 23.8 bits;  conditional E-value: 5.4e-07
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 + C++Cgk F rk++L++H r+H
+  Q_ENN73951  78 HICTECGKGFYRKDHLRKHTRSH 100
+                 67********************9 PP
+

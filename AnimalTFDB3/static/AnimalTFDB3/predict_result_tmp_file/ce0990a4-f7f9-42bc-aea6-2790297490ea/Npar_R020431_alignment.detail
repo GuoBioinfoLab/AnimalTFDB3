@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	243.6	0.3	4.3e-76	8.7e-74	1	200	187	381
+
+  Alignments for each domain:
+  == domain 1  score: 243.6 bits;  conditional E-value: 4.3e-76
+      RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqelvtklrdl 97 
+                   ice+aarlLf++Vew ++ip f eL + dqv+LLr sW+el++L++aq+++pl+ a+ll+a+g++++  sa ++v++++d  ++rv+q++v+kl +l
+  Npar_R020431 187 ICELAARLLFSTVEWSRNIPYFPELAVADQVSLLRLSWSELFVLNAAQSALPLHMAPLLAAAGFHASPMSA-DRVVSFMD--QIRVFQDQVEKLNRL 280
+                   8*******************************************************************555.57888999..*************** PP
+
+      RXR-like  98 qldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietllleml 194
+                   q+d++EyacLkaI+lf+   da+gl++++++esl+ek+q++l ey++ qyp+qp+rFg+lLlrLpalr + ++ i +lff +l+G+tpietl+++ml
+  Npar_R020431 281 QVDSAEYACLKAIALFTS--DACGLTDPAHVESLQEKAQVALTEYVRAQYPSQPQRFGRLLLRLPALRAVPASLISQLFFMRLVGKTPIETLIRDML 375
+                   ******************..99*************************************************************************** PP
+
+      RXR-like 195 esskps 200
+                   +s+++ 
+  Npar_R020431 376 LSGSSF 381
+                   *98765 PP
+

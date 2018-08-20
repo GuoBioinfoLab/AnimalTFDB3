@@ -1,0 +1,38 @@
+HMM length of domain: 29 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	53.2	3.2	5.4e-18	1.2e-15	1	29	30	58
+2	58.4	8.3	1.2e-19	2.8e-17	1	29	71	99
+3	52.3	5.2	1e-17	2.4e-15	1	29	116	144
+4	53.8	5.7	3.5e-18	8.1e-16	1	29	177	205
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 5.4e-18
+          zf-C2HC  1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29
+                     +CPt  CdG+GHv+G+ya+HrslsgCP+a
+  Q_APLA010544-PA 30 QCPTINCDGMGHVSGNYATHRSLSGCPRA 58
+                     6**************************97 PP
+
+  == domain 2  score: 58.4 bits;  conditional E-value: 1.2e-19
+          zf-C2HC  1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29
+                     kCPtpGCdGsGHv+G+y+sHrslsgCP+a
+  Q_APLA010544-PA 71 KCPTPGCDGSGHVTGNYSSHRSLSGCPRA 99
+                     7**************************97 PP
+
+  == domain 3  score: 52.3 bits;  conditional E-value: 1e-17
+          zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                      +CP+pGCdGsGH +Gk+ sHrs+sgCP+a
+  Q_APLA010544-PA 116 RCPIPGCDGSGHATGKFLSHRSASGCPIA 144
+                      7**************************97 PP
+
+  == domain 4  score: 53.8 bits;  conditional E-value: 3.5e-18
+          zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                      +CPtpGCdG+GHv+G + +HrslsgCP+a
+  Q_APLA010544-PA 177 NCPTPGCDGTGHVNGSFLTHRSLSGCPVA 205
+                      5**************************97 PP
+

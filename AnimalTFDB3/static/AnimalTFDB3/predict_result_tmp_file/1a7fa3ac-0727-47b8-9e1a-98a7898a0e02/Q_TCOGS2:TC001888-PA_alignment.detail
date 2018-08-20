@@ -1,0 +1,29 @@
+HMM length of domain: 212 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	379.7	0.0	2.1e-118	1.8e-115	1	211	68	278
+
+  Alignments for each domain:
+  == domain 1  score: 379.7 bits;  conditional E-value: 2.1e-118
+                  Nrf1   1 GpvGvaaaaaiatgkkrkrphsfetnpsirkrqqtrLlrklkatldeyttRvGqqavvlvvtPskpnsvfkvfGakpLeavvknlksvi 89 
+                           GpvGvaaaaai + kkrkrphsfetnpsirkrqq+rLlrkl++t+de++tRvGqqa+vlv tP+kpn ++kvfGakpLe+v+knl+ +i
+  Q_TCOGS2:TC001888-PA  68 GPVGVAAAAAIVSAKKRKRPHSFETNPSIRKRQQNRLLRKLRQTIDEFATRVGQQAIVLVATPGKPNVSYKVFGAKPLEDVIKNLRGMI 156
+                           8**************************************************************************************** PP
+
+                  Nrf1  90 leeleealaeqapkqekeksellelPplvidgiptpvekmtqaqlrlfipemlkystgrgkpgWGkeslkpvwwPkdlpwanvrsdvrs 178
+                           +eele+ala+qap+  +++ +l+elPpl+idgiptpvekmtqaqlr+fip+mlkystgrgkpgWG+es++p+wwPk+lpwanvr+d+rs
+  Q_TCOGS2:TC001888-PA 157 MEELENALAHQAPPPVQDDPSLFELPPLIIDGIPTPVEKMTQAQLRAFIPLMLKYSTGRGKPGWGRESTRPPWWPKELPWANVRMDARS 245
+                           ***************************************************************************************** PP
+
+                  Nrf1 179 eeekkkvsWteaLRkivknCYkyhgReDLleaf 211
+                           e+ek+k+sWt+aLR+iv+nCYk+hgReDLl+af
+  Q_TCOGS2:TC001888-PA 246 EDEKQKISWTHALRQIVINCYKFHGREDLLPAF 278
+                           *******************************99 PP
+
+
+

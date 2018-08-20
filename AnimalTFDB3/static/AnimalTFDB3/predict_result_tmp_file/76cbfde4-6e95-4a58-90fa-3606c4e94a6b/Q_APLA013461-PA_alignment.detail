@@ -1,0 +1,30 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	125.5	0.3	5.7e-40	1e-37	1	168	84	276
+
+  Alignments for each domain:
+  == domain 1  score: 125.5 bits;  conditional E-value: 5.7e-40
+                      EEEEE-B-TTSE--EECCC.TSSSS---BTT--SS.S----EEEEES--SSEEEEEEEEESSST....--B-SSEEEST..T.EETTEEEEEE- CS
+              RHD   1 leIleqPkqrgfRfrYkcE.grsaGsipgesseks.kktfPtvkilnydgeakirvslvtkdep....lrpHahslvgk..d.ckdgvcevelk 85 
+                      l+IleqP ++ fRfrYk+E  +++Gs+ g s+ ++ k+tfPtv+++ny+++a+ir+s+ ++ ++     +pHah+lv k  +   d+ ++v ++
+  Q_APLA013461-PA  84 LKILEQPIEK-FRFRYKSEmAGTHGSLTGRSADRNrKQTFPTVQLCNYSEPAIIRCSVYQEASQtfeeCQPHAHRLVKKngQiEIDDPHDVPVS 176
+                      79********.********99********9887762679*******************998754333379*********44334466******9 PP
+
+                      TT.TSEEE-SSEEEEE--CGGHHHHHHHHH................HCT--TTS.-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---E CS
+              RHD  86 pe.dmvasfqnlGIlcvkkkeveealkeri................elkekekn.vekeakeeakeidlnvvrlcFqaflpdstgnfttalepv 161
+                       + d ++ f  +GI+++++k++ e l++++                 ++ +e+  v++e++  +k+i+ln+vrl F af   ++g +   + pv
+  Q_APLA013461-PA 177 RNeDFTVGFYGMGIIHTARKQIVEILTNKKlllkkeeiarsegkkrDINAEEFLeVKNETEGLIKNINLNIVRLRFDAFT-VRDGIYYPICSPV 269
+                      988*************************999*************99888889888*************************.788999999**** PP
+
+                      EEEEEEE CS
+              RHD 162 vSnpiyd 168
+                      +S+ i++
+  Q_APLA013461-PA 270 YSKNINN 276
+                      ***9986 PP
+

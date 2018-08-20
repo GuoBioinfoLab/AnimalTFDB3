@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.4	1.2	0.022	0.074	5	21	15	31
+2	18.1	3.4	3.9e-05	0.00013	1	23	41	63
+3	24.8	2.2	2.9e-07	9.9e-07	1	23	72	97
+4	19.0	0.2	2e-05	6.7e-05	2	23	107	131
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.022
+                     TTTEEESSHHHHHHHHH CS
+          zf-C2H2  5 dCgksFkrksnLkrHir 21
+                     dCg +F+r+ ++++H++
+  Q_AGLA000492-RA 15 DCGSVFNRWTLFCQHRK 31
+                     8**************98 PP
+
+  == domain 2  score: 18.1 bits;  conditional E-value: 3.9e-05
+                     EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2  1 ykCpdCgksFkrksnLkrHirtH 23
+                     +kC +C+k+F++ksnLk H ++H
+  Q_AGLA000492-RA 41 HKCVICNKVFTTKSNLKFHSMSH 63
+                     79**************9887777 PP
+
+  == domain 3  score: 24.8 bits;  conditional E-value: 2.9e-07
+                     EEET..TTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2  1 ykCp..dCgksFkrksnLkrHirt.H 23
+                     y+Cp  dC++s+k k nLk+Hi++ H
+  Q_AGLA000492-RA 72 YRCPylDCNRSYKYKKNLKSHISVyH 97
+                     9**********************988 PP
+
+  == domain 4  score: 19.0 bits;  conditional E-value: 2e-05
+                      EET..TTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCp..dCgksFkrksnLkrHirt.H 23 
+                      kC+  +C+ +Fk+k  L+rHi   H
+  Q_AGLA000492-RA 107 KCTeeGCDVVFKSKKYLRRHILNiH 131
+                      79999****************9888 PP
+

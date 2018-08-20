@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	168.6	0.0	1.2e-52	5.7e-51	5	199	167	352
+
+  Alignments for each domain:
+  == domain 1  score: 168.6 bits;  conditional E-value: 1.2e-52
+              THR-like   5 qslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvt.lndaelvtrdqlrslgrpglqgel 92 
+                            +l+++fa ++t+++q+vveFaK++pgF++l q+DQ +L k + +e++l ++ar+ +   +tv  ++d+++vtr+ql  ++      ++
+  Q_TCOGS2:TC003935-PA 167 CWLWQQFAANITPSVQRVVEFAKRVPGFCDLGQDDQLILIKIGFFEIWLSHVARLTS---NTVMmFDDGTTVTRQQLEIMY----DADF 248
+                           579***************************************************998...4444478**********9876....99** PP
+
+              THR-like  93 iesvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneeh 181
+                           i+sv++fa++++sl l+d+e+ L++av+ll  adr+g+++++++e +q++++eal+v++ ++h   n+p+lf  Ll kl+elR l ++h
+  Q_TCOGS2:TC003935-PA 249 ISSVMHFANTFNSLALNDTEVGLFSAVVLLT-ADRSGITDVKSIEHHQDKLIEALKVQVGRNHA--NEPQLFSSLLIKLPELRNLGAKH 334
+                           *******************************.8*******************************..67********************* PP
+
+              THR-like 182 serlvmlkveepktslpp 199
+                           s +l +++++  k  lpp
+  Q_TCOGS2:TC003935-PA 335 SAHLDWFRMNWTKLTLPP 352
+                           **********99877775 PP
+

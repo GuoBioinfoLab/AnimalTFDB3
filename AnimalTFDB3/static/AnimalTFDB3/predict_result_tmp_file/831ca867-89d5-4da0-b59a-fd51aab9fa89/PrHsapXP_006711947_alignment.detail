@@ -1,0 +1,27 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	267.9	2.1	1.3e-83	2.8e-81	24	229	52	253
+
+  Alignments for each domain:
+  == domain 1  score: 267.9 bits;  conditional E-value: 1.3e-83
+                 CP2  24 savssstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrkkeaklwklWkegrgse 114
+                          + ++   +++fe+tLea++++++k +++++tYLNkGQ+Y+i+lk++ +++  +++ +k++svi+vvF e+k r+ +++ wk+W+++++++
+  PrHsapXP_006711947  52 RPSRKAFRRNNFEYTLEASKSLRQKPGDSTMTYLNKGQFYPITLKEVSSSEGIHHPISKVRSVIMVVFAEDKSREDQLRHWKYWHSRQHTA 142
+                         44455567889******************************************************************************** PP
+
+                 CP2 115 avrvvdiplsggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksKGvkGvPlrlqieTelisesvkesalevafckvK 205
+                         ++r++di   ++++e++nt++++e+++++a++ftW++++eak+f+ vNclStdFs++KGvkG+Pl++q++T++++++++++ +++a+c++K
+  PrHsapXP_006711947 143 KQRCIDI---ADYKESFNTISNIEEIAYNAISFTWDINDEAKVFISVNCLSTDFSSQKGVKGLPLNIQVDTYSYNNRSNKP-VHRAYCQIK 229
+                         *******...9**********************************************************************.********* PP
+
+                 CP2 206 lFrdkGAeRKlkndvakvkkkiek 229
+                         +F+dkGAeRK++++++k++k+++k
+  PrHsapXP_006711947 230 VFCDKGAERKIRDEERKQSKRKGK 253
+                         ********************9976 PP
+

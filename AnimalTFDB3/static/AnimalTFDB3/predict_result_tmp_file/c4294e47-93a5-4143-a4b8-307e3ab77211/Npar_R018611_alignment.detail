@@ -1,0 +1,36 @@
+HMM length of domain: 214 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.7	0.0	0.02	20	59	90	5	36
+2	308.6	2.2	1.2e-96	1.2e-93	2	213	58	285
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.02
+  Miscellaneous 59 drvsFevaevpepsilkkiLlseaesaeqaaq 90
+                   d+ +  v++   +sil +iL +e++++++ ++
+   Npar_R018611  5 DKCHCAVDNRRHGSILYNILKNEEHRDSHHSS 36
+                   667788999999********997776554333 PP
+
+  == domain 2  score: 308.6 bits;  conditional E-value: 1.2e-96
+  Miscellaneous   2 kvsLksPqvtCeaasavLvktlkFlknlpsfqeLplddqlvLlrscWapLllLglaqdrvsFevaevpepsilkkiLls................. 80 
+                    kv+LksPqvtC+aasavLvktl+F+k++p+fqeLp++dql L+rscWapLl+Lglaqd+v+Fe++e++eps+l++iL++                 
+   Npar_R018611  58 KVTLKSPQVTCKAASAVLVKTLRFVKSVPCFQELPMEDQLLLVRSCWAPLLVLGLAQDKVDFETVETSEPSMLQRILTNrqggerklphehaqqdl 153
+                    79*****************************************************************************************99999 PP
+
+  Miscellaneous  81 ..eaesaeqaaqaedrkllslaavqalksflekvWsLelstkeYayLkGtilFnpDvpgLkaskyiegLqeeaqqaLkevikmiqreeeqarlael 174
+                      ++++++  +q++ ++l+s+++++++k flek+WsL +stkeY yLkG +lFnpD+pgL++++yi+gLq+ea+qaL+e++k+iqr + +ar+++l
+   Npar_R018611 154 liGNSQHQ--QQTKLSQLPSATEIRWIKEFLEKCWSLAISTKEYVYLKGIVLFNPDLPGLHCAQYIQGLQQEANQALNEHVKTIQRWD-HARFTKL 246
+                    87444444..466778889****************************************************************99988.******* PP
+
+  Miscellaneous 175 lltlslLksinaslvteLFFrPiiGdvdieelllemlla 213
+                    +++lslL+s+na+ ++eLFFrPiiG+v+++++lleml a
+   Npar_R018611 247 IIVLSLLRSVNANAISELFFRPIIGTVNMDDMLLEMLGA 285
+                    ************************************976 PP
+
+
+

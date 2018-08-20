@@ -1,0 +1,29 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	91.0	0.9	3.3e-29	1.5e-27	1	97	268	367
+2	36.4	0.1	1.7e-12	7.6e-11	154	199	364	409
+
+  Alignments for each domain:
+  == domain 1  score: 91.0 bits;  conditional E-value: 3.3e-29
+             RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek..evekildle.evrvL 87 
+                          ice+ +rlLfl+V+wak+ipaf+ L+ e+qv+LLr +W+el+ L+laq+s++ls++++l a  ++++ + a++  +++k++++  ++ +L
+  Q_AGLA001129-RA-CDS 268 ICESGSRLLFLSVHWAKNIPAFQYLSSETQVSLLRGCWSELFTLGLAQCSQSLSLSTILSALISHLHASIAQDkmSANKVKQVTdHIVKL 357
+                          8********************************************************************9999898888888778***** PP
+
+             RXR-like  88 qelvtklrdl 97 
+                          q+ vt++ +l
+  Q_AGLA001129-RA-CDS 358 QDYVTSMNRL 367
+                          *******986 PP
+
+  == domain 2  score: 36.4 bits;  conditional E-value: 1.7e-12
+             RXR-like 154 FgklLlrLpalrsissktieelffskliGdtpietlllemlesskp 199
+                           ++lLlrLp lr ++++++eelff++liG+++i+++++++l+++++
+  Q_AGLA001129-RA-CDS 364 MNRLLLRLPPLRALEPNILEELFFAGLIGQVQIDSVIPYILRMGNS 409
+                          689***************************************9876 PP
+

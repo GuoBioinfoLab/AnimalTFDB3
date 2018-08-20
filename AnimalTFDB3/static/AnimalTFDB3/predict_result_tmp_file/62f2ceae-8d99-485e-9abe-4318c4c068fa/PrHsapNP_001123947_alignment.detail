@@ -1,0 +1,31 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	57.7	1.0	2.8e-19	8.2e-17	1	89	5	84
+2	-2.4	0.1	1.7	4.8e+02	51	55	109	113
+3	0.5	0.1	0.2	57	32	59	364	388
+
+  Alignments for each domain:
+  == domain 1  score: 57.7 bits;  conditional E-value: 2.8e-19
+                THAP  1 CvvpgCknrkkkkskkk.vsfhrfP.kdkelrkkWlkaikrkdkkkkkkskksrvCskHFeee..kkkkkkeeekkeskkrrkLkkdavPtif 89
+                        C++  Cknr+ +++k + +sf+ fP +dke+++kWlk++kr+++ ++k +   ++Cs+HF+++  + ++            r Lk++avPtif
+  PrHsapNP_001123947  5 CAAICCKNRRGRNNKDRkLSFYPFPlHDKERLEKWLKNMKRDSWVPSKYQ---FLCSDHFTPDslDIRW----------GIRYLKQTAVPTIF 84
+                        99******9665554446*******77***************99998887...9******877321233..........3566*********8 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 1.7
+                THAP  51 srvCs 55 
+                         + vC 
+  PrHsapNP_001123947 109 KEVCP 113
+                         44554 PP
+
+  == domain 3  score: 0.5 bits;  conditional E-value: 0.2
+                THAP  32 kWlkaikrkdkkkkkkskksrvCskHFe 59 
+                         + ++++k++++ ++++    ++ ++HF+
+  PrHsapNP_001123947 364 ALIRQLKQENWLSEENV---KIIENHFT 388
+                         45667777777766655...89999995 PP
+

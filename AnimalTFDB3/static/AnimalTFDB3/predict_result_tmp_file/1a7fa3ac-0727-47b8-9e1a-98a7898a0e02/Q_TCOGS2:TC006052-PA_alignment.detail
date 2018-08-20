@@ -1,0 +1,29 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	142.5	29.0	7.4e-46	6.5e-43	1	198	139	332
+
+  Alignments for each domain:
+  == domain 1  score: 142.5 bits;  conditional E-value: 7.4e-46
+        TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiit 83 
+                           kf+e+ +++++y+ls+++gl+vl+++p      e+w+g p++ +++    + +yy+++++++++ l+v+ +++ krkdf++m+iHhi+t
+  Q_TCOGS2:TC006052-PA 139 KFCENSWRCLYYTLSFIYGLVVLWNKPwlwdinECWNGFPHQSVTS---DIWWYYMISMSFYWS-LCVSQFFDVKRKDFWQMFIHHIAT 223
+                           799*****************************************99...999**********88.9999999***************** PP
+
+        TRAM_LAG1_CLN8  84 lvllvlsyvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylillsildvaklslstapl 172
+                           +vl++ls+v n +r+g++vl++h+  d+fl+++k+ +y  ++ ++ ++ +f   +f+++++  Rl  +p++i++ +  +a+  ++  ++
+  Q_TCOGS2:TC006052-PA 224 IVLMCLSWVVNVFRIGSLVLVVHDCADIFLEAAKMAKYS-GY-QKVCDTIF--GIFTVLWIASRLGFYPFWIIKNTSIDAPKIVP--MF 306
+                           ***************************************.77.788*****..***********************999998877..6* PP
+
+        TRAM_LAG1_CLN8 173 wlpliflilllvLqllnlyWfylivk 198
+                           + ++if+ ll++L++l+++W+yli+k
+  Q_TCOGS2:TC006052-PA 307 PAYYIFNSLLCLLLVLHIFWTYLILK 332
+                           ************************97 PP
+
+
+

@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	34.8	0.9	1.5e-10	6.7e-10	1	25	208	232
+2	16.6	7.6	9.1e-05	0.00039	1	24	236	259
+3	20.8	1.5	4.3e-06	1.9e-05	2	24	265	287
+4	18.5	4.9	2.3e-05	9.9e-05	1	25	292	316
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 1.5e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L+rHlr+H ge p++C++C+k+F+
+  Q_LDEC004995-PA 208 DLKRHLRTHIGEGPFQCDFCKKRFT 232
+                      69**********************6 PP
+
+  == domain 2  score: 16.6 bits;  conditional E-value: 9.1e-05
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+ H   Ht+ek+++C lC+++ 
+  Q_LDEC004995-PA 236 HLNEHKLCHTVEKKFKCHLCKYSG 259
+                      79*******************986 PP
+
+  == domain 3  score: 20.8 bits;  conditional E-value: 4.3e-06
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                       +rHl +H  ekp++C +C ++ 
+  Q_LDEC004995-PA 265 VNRHLVTHSTEKPFKCHFCEYSG 287
+                      58******************985 PP
+
+  == domain 4  score: 18.5 bits;  conditional E-value: 2.3e-05
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L+rHlr Ht e+ +eC +C+ +F+
+  Q_LDEC004995-PA 292 DLKRHLRAHTEERHFECHSCKQRFT 316
+                      69********************996 PP
+

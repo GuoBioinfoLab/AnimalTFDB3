@@ -1,0 +1,24 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	101.4	0.9	1.4e-32	2.6e-30	1	169	73	233
+
+  Alignments for each domain:
+  == domain 1  score: 101.4 bits;  conditional E-value: 1.4e-32
+                      EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEEEEEEEEESSST--B-S....SEEEST..T.EETT......EEE CS
+              RHD   1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeakirvslvtkdeplrpHa....hslvgk..d.ckdg......vce 81 
+                      l+Il+qP+q+ +R+rY++E +s+G++++    ++ ++fP v++++y  +a+++v+++t+  +++pH+    +++ gk  + c ++      v+e
+  Q_LDEC006285-PA  73 LTILKQPEQQ-HRARYQTE-GSRGAVKD----REGNGFPIVQLTGYYKPATLQVFIGTDIGKVSPHMfyqaCKVSGKnsTpCVEKkidgtcVIE 160
+                      78********.********.9*******....9**********************************9999******66357776899999999 PP
+
+                      EEE-TT.TSEEE-SSEEEEE--CGGHHHHHHHHHHCT--TTS-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEES CS
+              RHD  82 velkpe.dmvasfqnlGIlcvkkkeveealkerielkekeknvekeakeeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiydk 169
+                      ++l p  +m a+++++GIl+ ++ +ve+++  ++  + k+k+              +++r++F++++  + +++t+++ +v+S+pi ++
+  Q_LDEC006285-PA 161 LQLDPSkEMSATCDCVGILKERNVDVEHRFPDQLGNRSKKKS--------------TRCRMIFRTTI--TLDDGTQETLQVCSQPIVCS 233
+                      99***99************************77666666665..............89*********..99***************986 PP
+

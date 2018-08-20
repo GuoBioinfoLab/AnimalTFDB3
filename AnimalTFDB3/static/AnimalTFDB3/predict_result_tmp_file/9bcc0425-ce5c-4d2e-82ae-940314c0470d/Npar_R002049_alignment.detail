@@ -1,0 +1,29 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.9	0.0	0.22	1.1e+02	74	101	151	185
+2	201.8	0.0	8.8e-64	4.4e-61	4	193	210	392
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.22
+      THR-like  74 lvtrdqlrslgr.......pglqgeliesvfkfak 101
+                    ++++ ++++         p +++eli+ v k+++
+  Npar_R002049 151 NKKKKEVKEEVVvpdsyemPAEMEELIQKVSKAHQ 185
+                   22223333322255555788888899999888876 PP
+
+  == domain 2  score: 201.8 bits;  conditional E-value: 8.8e-64
+      THR-like   4 eqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkfa 100
+                   ++ l+ kf+el+t++i ++veFaK++pgF++l++ DQitLLk+acl++++lr++++++pe+dt+t++d+ + +r q++++g    +g l++ vf fa
+  Npar_R002049 210 DLGLWDKFSELATKCIIKIVEFAKRLPGFTTLTIADQITLLKAACLDILMLRICTRYTPEQDTMTFSDGLTLNRTQMHNAG----FGPLTDLVFAFA 302
+                   5779*****************************************************************************....************ PP
+
+      THR-like 101 kslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkveep 193
+                    +l  l++dd+e+ Ll+a++l++ +dr ++++++kveklqe++leal+ y+++r+p  n+p +f+++l+k+t+lR ++++ +er  +lk+e p
+  Npar_R002049 303 GQLLPLEMDDTETGLLSAICLIC-GDRMDLEEPEKVEKLQEPLLEALKFYARRRRP--NKPYMFPRMLMKITDLRGISTKGAERAITLKMEIP 392
+                   ***********************.8*******************************..67******************************987 PP
+

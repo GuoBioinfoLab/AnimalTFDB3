@@ -1,37 +1,58 @@
+<div ng-show="loading" style="text-align: center">
+    <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
+</div>
 <div id="wrapper_doc">
     <!-- Sidebar -->
     <div id="sidebar-wrapper_doc">
         <nav id="spy">
             <ul class="sidebar-nav nav">
-                <li ng-show="species">
-                    <div><a href="#!tf_gene_info/?tf={$ gene $}#info"><span class="fa fa-anchor solo">Infomation</span></a></div>
-                </li>
-                <li ng-show="species">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#structure" data-scroll><span class="fa fa-anchor solo">Gene model</span></a></div>
-                </li>
-                <li ng-show="domain_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#domain" data-scroll><span class="fa fa-anchor solo">Domain</span></a></div>
-                </li>
-                <li ng-show="go_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#go" data-scroll><span class="fa fa-anchor solo">GO</span></a></div>
-                </li>
-                <li ng-show="pathway_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#pathway" data-scroll><span class="fa fa-anchor solo">Pathway</span></a></div>
-                </li>
-                <li ng-show="phenotype_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#phenotype" data-scroll><span class="fa fa-anchor solo">Phenotype</span></a></div>
-                </li>
-                <li ng-show="ppi_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#ppi" data-scroll><span class="fa fa-anchor solo">PPI</span></a></div>
-                </li>
-                <li ng-show="paralog_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#paralog" data-scroll><span class="fa fa-anchor solo">Paralog</span></a></div>
-                </li>
-                <li ng-show="ortholog_list.length">
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#ortholog" data-scroll><span class="fa fa-anchor solo">Ortholog</span></a></div>
+                <li>
+                    <div ng-hide="cofactors" ng-click="goto_target('info')"><a><span class="fa fa-anchor solo">Gene Card</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('info')"><a><span class="fa fa-anchor solo">Gene Card</span></a></div>
                 </li>
                 <li>
-                    <div><a  href="#!tf_gene_info/?tf={$ gene $}#expression" data-scroll><span class="fa fa-anchor solo">Expression</span></a></div>
+                    <div ng-hide="cofactors" ng-click="goto_target('structure')"><a><span class="fa fa-anchor solo">Gene model</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('structure')"><a><span class="fa fa-anchor solo">Gene model</span></a></div>
+                </li>
+                <li ng-show="domain_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('domain')"><a><span class="fa fa-anchor solo">Domain</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('domain')"><a><span class="fa fa-anchor solo">Protein Functional Domain</span></a></div>
+                </li>
+                <li ng-show="go_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('go')"><a><span class="fa fa-anchor solo">Gene Ontology</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('go')"><a><span class="fa fa-anchor solo">Gene Ontology</span></a></div>
+                </li>
+                 <li ng-show="gwas_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('gwas')"><a><span class="fa fa-anchor solo">GWAS</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('gwas')"><a><span class="fa fa-anchor solo">GWAS</span></a></div>
+                </li>
+                 <li ng-show="tfbs_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('tfbs')"><a><span class="fa fa-anchor solo">TFBS</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('tfbs')"><a><span class="fa fa-anchor solo">TFBS</span></a></div>
+                </li>
+                <li ng-show="pathway_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('pathway')"><a><span class="fa fa-anchor solo">Pathway</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('pathway')"><a><span class="fa fa-anchor solo">Pathway</span></a></div>
+                </li>
+                <li ng-show="phenotype_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('phenotype')"><a><span class="fa fa-anchor solo">Phenotype</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('phenotype')"><a><span class="fa fa-anchor solo">Phenotype</span></a></div>
+                </li>
+                <li ng-show="ppi_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('ppi')"><a><span class="fa fa-anchor solo">PPI</span></a></div>
+                    <div ng-show="cofactors" ng-click=goto_target('ppi')><a><span class="fa fa-anchor solo">PPI</span></a></div>
+                </li>
+                <li ng-show="paralog_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('papralog')"><a><a><span class="fa fa-anchor solo">Paralog</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('paralog')"><a><span class="fa fa-anchor solo">Paralog</span></a></div>
+                </li>
+                <li ng-show="ortholog_list.length">
+                    <div ng-hide="cofactors" ng-click="goto_target('ortholog')"><a><span class="fa fa-anchor solo">Ortholog</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('ortholog')"><a><span class="fa fa-anchor solo">Ortholog</span></a></div>
+                </li>
+                <li ng-show="exp_tag">
+                    <div ng-hide="cofactors" ng-click="goto_target('expression')"><a><span class="fa fa-anchor solo">Expression</span></a></div>
+                    <div ng-show="cofactors" ng-click="goto_target('expression')"><a><span class="fa fa-anchor solo">Expression</span></a></div>
                 </li>
             </ul>
         </nav>
@@ -40,93 +61,90 @@
     <!-- Page content -->
     <div id="page-content-wrapper_doc">
         <div class="content-header">
-            <h4 id="home">
+            <span style="font-size: x-large" id="home">
                 <div ng-show="species">
-                <a id="menu-toggle" href="#!/tf_gene_info?tf={$gene$}#" class="glyphicon glyphicon-align-justify btn-menu toggle">
-                    <i class="fa fa-bars"></i>
-                </a>
-                    <img src="/static/AnimalTFDB3/image/species/{$ species $}.png" style="width: 35px;height: 35px">{$species_title$}<span style="margin-left: 30px">Family:{$ family $}</span>
+                    <a id="menu-toggle" href="#!/tf_gene_info?tf={$gene$}#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <img src="/static/AnimalTFDB3/image/species/{$ species $}.png" style="width: 35px;height: 35px"><a href="#!/tf_detail?species={$ species $}&family={$family$}"><span ng-model="exp_species">{$species_title$}</span></a><span style="margin-left: 30px">Family:<a href="#!/tf_detail?species={$ species $}&family={$family$}">{$ family $}</a></span>
                 </div>
-            </h4>
+         </span>
         </div>
-        <hr class="divider">
-        <div class="page-content inset" ng-hide="species">
+        <div class="page-content inset" ng-show="no_item">
             <div class="well">
                 Sorry, the query item is not exist
             </div>
         </div>
         <div class="page-content inset" data-spy="scroll" data-target="#spy">
-            <div class="panel panel-primary" id="info" ng-show="species">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Gene Card</span>
+            <div class="panel panel-default" id="info" ng-show="species">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold; color: #194D5B">Gene Card</span>
                 </div>
                 <div class="panel-body">
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            Basic information
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <span style="font-weight: bolder">Basic information</span>
                             <hr class="divider">
                             <dl class="dl-horizontal">
                                 <div class="pre-scrollable" style="height: 300px">
                                     <dt>Ensembl ID</dt>
                                     <dd>
-                                        <a href="http://www.ensembl.org/Ailuropoda_melanoleuca/Gene/Summary?g={$ tf.gene $}">{$ tf.ensembl $}</a>
+                                        <a href="http://www.ensembl.org/Ailuropoda_melanoleuca/Gene/Summary?g={$ item.ensembl $}">{$ item.ensembl $}</a>
                                     </dd>
                                     <dt>Gene ID</dt>
-                                    <dd><a href="http://www.ncbi.nlm.nih.gov/gene/{$ tf.gene $}">{$ tf.gene $}</a></dd>
+                                    <dd><a href="http://www.ncbi.nlm.nih.gov/gene/{$ item.entrez $}">{$ item.entrez $}</a></dd>
                                     <dt>Gene Symbol</dt>
-                                    <dd>{$tf.symbl$}</dd>
+                                    <dd>{$item.symbl$}</dd>
                                     <dt>Alias</dt>
-                                    <dd>{$ tf.alia $}</dd>
+                                    <dd>{$ item.alia $}</dd>
                                     <dt>Full Name</dt>
-                                    <dd>{$ tf.fullname $}</dd>
+                                    <dd>{$ item.fullname $}</dd>
                                     <dt>Gene Type</dt>
-                                    <dd>{$ tf.gene_type $}</dd>
+                                    <dd>{$ tf.biotype $}</dd>
                                     <dt>Strand</dt>
-                                    <dd>{$ tf.strand $}</dd>
+                                    <dd>{$ tf.orientation $}</dd>
                                     <dt>Length</dt>
                                     <dd>{$ tf.length $}</dd>
                                     <dt>Position</dt>
                                     <dd>{$ tf.position $}</dd>
-                                    <dt>HGNG</dt>
-                                    <dd><a href="http://www.genenames.org/cgi-bin/gene_symbol_report?q=data/hgnc_data.php&hgnc_id={$ tf.hgng $}">{$tf.hgng$}</a></dd>
+                                    <dt>HGNC</dt>
+                                    <dd><a href="http://www.genenames.org/cgi-bin/gene_symbol_report?q=data/hgnc_data.php&hgnc_id={$ tf.hgnc $}">{$tf.hgnc$}</a></dd>
                                     <dt>Evidence</dt>
-                                    <dd>{$ tf.evidence $}</dd>
-                                    <dt>Cross Link</dt>
-                                    <dd>{$ tf.crosslink $}</dd>
+                                    <dd>{$ evidence $}</dd>
+                                    <span ng-show="tf.summary">
                                     <dt>Summary</dt>
                                     <dd>{$ tf.summary $}</dd>
+                                    </span>
                                 </div>
                             </dl>
                         </div>
-                        <div class="col-lg-9 col-md-9 col-sm-9">
-                            Transcripts
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <span style="font-weight: bolder;">Transcripts</span>
                             <hr class="divider">
                             <div class="pre-scrollable" style="height: 300px">
-                                <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
+                                <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"  ts-wrapper>
                                     <thead>
                                     <tr>
-                                        <th ts-criteria="transcript" ts-default style="width: 12%">Transcript ID</th>
-                                        <th ts-criteria="name">Name</th>
-                                        <th ts-criteria="t_length">Length<span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Transcripts length(bp)"></span></th>
-                                        <th ts-criteria="refseq">Refseq ID</th>
-                                        <th ts-criteria="protein">Protein ID</th>
-                                        <th ts-criteria="p_length">Length<span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Protein length(aa)"></span></th>
-                                        <th ts-criteria="refseq">Refseq ID</th>
-                                        <th ts-criteria="unipro">UniProtKB ID</th>
-                                        <th ts-criteria="tf_judge">TF</th>
+                                        <th ts-criteria="transcript" ts-default style="width: 15%">Transcript ID</th>
+                                        <th ts-criteria="name" style="width: 10%">Name</th>
+                                        <th ts-criteria="t_length" style="width: 5%">Length<span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Transcripts length(bp)"></span></th>
+                                        <th ts-criteria="refseq" style="width: 10%">Refseq ID</th>
+                                        <th ts-criteria="protein" style="width: 15%">Protein ID</th>
+                                        <th ts-criteria="p_length" style="width: 5%">Length<span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Protein length(aa)"></span></th>
+                                        <th ts-criteria="refseq" style="width: 10%">Refseq ID</th>
+                                        <th ts-criteria="unipro" style="width: 10%">UniProtKB ID</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr ng-repeat="item in transcript_list" ts-repeat>
-                                        <td>{$ item.transcript $}</td>
-                                        <td>{$ item.name $}</td>
-                                        <td>{$ item.t_length $}</td>
-                                        <td>{$ item.refseq $}</td>
-                                        <td>{$ item.protein $}</td>
-                                        <td>{$ item.p_length $}</td>
-                                        <td>{$ item.refseq $}</td>
-                                        <td>{$ item.unipro $}</td>
-                                        <td>{$ item.tf_judge $}</td>
+                                        <td title="{$ item.transcript $}">{$ item.transcript $}</td>
+                                        <td title="{$ item.name $}">{$ item.name $}</td>
+                                        <td title="{$ item.length $}">{$ item.length $}</td>
+                                        <td title="{$ item.refseq $}">{$ item.refseq $}</td>
+                                        <td title="{$ item.protein $}">{$ item.protein $}</td>
+                                        <td title="{$ item.protein_length $}">{$ item.protein_length $}</td>
+                                        <td title="{$ item.protein_refseq $}">{$ item.protein_refseq $}</td>
+                                        <td title="{$ item.swiss_id $}">{$ item.trembl_id $}</td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -135,20 +153,41 @@
                     </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="structure" ng-show="species">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Gene Model</span>
+            <div class="panel panel-default" id="structure" ng-show="species">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Gene Model</span>
                 </div>
                 <div class="panel-body">
-
+                    <div class="well">
+                        <svg width="{$1600*ratio$}" height="{$ svg_height $}">
+                            <g ng-repeat="item in line" ng-cloak>
+                                <line x1="5" y1="{$ item.height $}" x2="{$item.end*ratio$}" y2="{$ item.height $}" style="stroke:red;" />
+                            </g>
+                            <g ng-repeat="item in scale" ng-cloak>
+                                <line x1="{$ item.start*ratio $}" y1="5" x2="{$ item.start*ratio $}" y2="15" style="stroke:black;"></line>
+                                <text x="{$ (item.start-5)*ratio $}" y="8" font-size="10">{$ item.num $}Mb</text>
+                            </g>
+                            <g ng-repeat="item in structure" ng-cloak>
+                                <rect x="{$ item.start*ratio $}" y="{$ item.height $}"  height="10" width="{$ item.length*ratio $}" fill="{$ item.color $}"></rect>
+                            </g>
+                            <g ng-repeat="item in transcript" ng-cloak>
+                                <text x="{$ item.start*ratio $}" y="{$ item.height $}" font-size="12">{$ item.transcript $}</text>
+                            </g>
+                            <rect x="{$ 700*ratio $}" y="{$svg_height-10$}" height="10" width="10" fill="#82A6F5"></rect>
+                            <text x="{$ 711*ratio $}" y="{$svg_height$}">CDS</text>
+                            <rect x="{$ 760*ratio $}" y="{$svg_height-10$}" height="10" width="10" fill="#EAF048"></rect>
+                            <text x="{$ 771*ratio $}" y="{$svg_height$}">UTR</text>
+                        </svg>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="domain" ng-show="domain_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Domain</span>
+
+            <div class="panel panel-default" id="domain" ng-show="domain_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Protein Functional Domain</span>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"   ts-wrapper>
                         <thead>
                         <tr>
                             <th ts-criteria="protein" ts-default style="width: 12%">Protein ID</th>
@@ -166,55 +205,139 @@
                         </thead>
                         <tbody>
                         <tr ng-repeat="item in domain_list" ts-repeat>
-                            <td>{$ item.protein $}</td>
-                            <td>{$ item.start $}</td>
-                            <td>{$ item.end $}</td>
-                            <td>{$ item.pfam $}</td>
-                            <td>{$ item.hmm $}</td>
-                            <td>{$ item.type $}</td>
-                            <td>{$ item.hmm_start $}</td>
-                            <td>{$ item.hmm_end $}</td>
-                            <td>{$ item.hmm_length $}</td>
-                            <td>{$ item.score $}</td>
-                            <td>{$ item.evalue $}</td>
+                            <td title="{$ item.protein $}">{$ item.protein $}</td>
+                            <td title="{$ item.start $}">{$ item.start $}</td>
+                            <td title="{$ item.end $}">{$ item.end $}</td>
+                            <td title="{$ item.pfam $}"><a href="http://pfam.xfam.org/family/{$ item.pfam $}">{$ item.pfam $}</a></td>
+                            <td title="{$ item.hmm $}">{$ item.hmm $}</td>
+                            <td title="{$ item.type $}">{$ item.type $}</td>
+                            <td title="{$ item.hmm_start $}">{$ item.hmm_start $}</td>
+                            <td title="{$ item.hmm_end $}">{$ item.hmm_end $}</td>
+                            <td title="{$ item.hmm_length $}">{$ item.hmm_length $}</td>
+                            <td title="{$ item.score $}">{$ item.score $}</td>
+                            <td title="{$ item.evalue $}">{$ item.evalue $}</td>
                         </tr>
                         </tbody>
                     </table>
+                    <div class="well">
+                        <svg width="1600" height="{$domain_svg_height$}">
+                            <g ng-repeat="item in domain_line" ng-cloak>
+                                <line x1="5" y1="{$ item.height $}" x2="{$ item.end*ratio $}" y2="{$ item.height $}" style="stroke:red;" />
+                            </g>
+                            <g ng-repeat="item in domain_scale" ng-cloak>
+                                <line x1="{$ item.start*ratio $}" y1="5" x2="{$ item.start*ratio $}" y2="15" style="stroke:black;"></line>
+                                <text x="{$ (item.start-5)*ratio $}" y="8" font-size="10">{$ item.num $}</text>
+                            </g>
+                            <g ng-repeat="item in domain_structure" ng-cloak>
+                                <rect x="{$ item.start*ratio $}" y="{$ item.height $}"  height="10" width="{$ item.length*ratio $}" fill="#82A6F5"></rect>
+                            </g>
+                            <g ng-repeat="item in domain_pfam" ng-cloak>
+                                <text x="{$ item.start*ratio $}" y="{$ item.height $}" font-size="12">{$ item.pfam $}</text>
+                            </g>
+                        </svg>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="go" ng-show="go_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">GO</span>
+            <div class="panel panel-default" id="go" ng-show="go_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Gene Ontology</span>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
-                        <thead>
-                        <tr>
-                            <th ts-criteria="id" ts-default>GO ID</th>
-                            <th ts-criteria="term" width="50%">GO Term</th>
-                            <th ts-criteria="pubmed">Pubmed</th>
-                            <th ts-criteria="category">Category</th>
-                            <th ts-criteria="evidence">Evidence</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr ng-repeat="item in go_list" ts-repeat>
-                            <td><a href="http://amigo.geneontology.org/amigo/term/{$ item.id $}">{$ item.id $}</a></td>
-                            <td>{$ item.term $}</td>
-                            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed?term={$ item.pubmed $}" target="_blank">{$ item.pubmed $}</a></td>
-                            <td>{$ item.category $}</td>
-                            <td><a href="http://www.geneontology.org/GO.evidence.shtml#{$ item.evidence $}">{$ item.evidence $}</a></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class="pre-scrollable" style="height: 500px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"   ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th ts-criteria="id" ts-default>GO ID</th>
+                                <th ts-criteria="term" width="50%">GO Term</th>
+                                <th ts-criteria="pubmed">Pubmed</th>
+                                <th ts-criteria="category">Category</th>
+                                <th ts-criteria="evidence">Evidence</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in go_list" ts-repeat>
+                                <td title="{$ item.id $}"><a href="http://amigo.geneontology.org/amigo/term/{$ item.id $}">{$ item.id $}</a></td>
+                                <td title="{$ item.term $}">{$ item.term $}</td>
+                                <td title="{$ item.pubmed $}"><a href="http://www.ncbi.nlm.nih.gov/pubmed?term={$ item.pubmed $}" target="_blank">{$ item.pubmed $}</a></td>
+                                <td title="{$ item.category $}">{$ item.category $}</td>
+                                <td title="{$ item.evidence $}"><a href="http://www.geneontology.org/GO.evidence.shtml#{$ item.evidence $}">{$ item.evidence $}</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="pathway" ng-show="pathway_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Pathway</span>
+            <div class="panel panel-default" id="gwas" ng-show="gwas_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">TF related GWAS phenotype <a href="#!/document/#gwas">(see details)</a></span>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
+                    <div class="pre-scrollable" style="height: {$ gwas_height $}px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"  ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th style="width: 12%">Gene</th>
+                                <th ts-criteria="start">SNP</th>
+                                <th ts-criteria="start">Chromosome</th>
+                                <th ts-criteria="pos">Position</th>
+                                <th ts-criteria="ref">Ref Allele</th>
+                                <th ts-criteria="alt">Alt Allele</th>
+                                <th ts-criteria="disease">Trait</th>
+                                <th ts-criteria="pubmed">Pubmed</th>
+                                <th ts-criteria="CI">95% CI</th>
+                                <th ts-criteria="or">OR or BETA</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in gwas_list" ts-repeat>
+                                <td title="{$ gene $}">{$ gene $}</td>
+                                <td title="{$ item.snp $}">{$ item.snp $}</td>
+                                <td title="{$ item.chr $}">{$ item.chr $}</td>
+                                <td title="{$ item.pos $}">{$ item.pos $}</td>
+                                <td title="{$ item.ref $}">{$ item.ref $}</td>
+                                <td title="{$ item.alt $}">{$ item.alt $}</td>
+                                <td title="{$ item.disease $}"><a href="{$ item.url $}">{$ item.disease $}</a></td>
+                                <td title="{$ item.pubmed $}"><a href="www.ncbi.nlm.nih.gov/pubmed/{$ item.pubmed $}">{$ item.pubmed $}</a></td>
+                                <td title="{$ item.CI $}">{$ item.CI $}</td>
+                                <td title="{$ item.or $}">{$ item.or $}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="tfbs" ng-show="tfbs_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">TFBS (TF binding site)</span>
+                </div>
+                <div class="panel-body">
+                    <div class="pre-scrollable" style="height: 500px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"  ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th style="width: 12%">Gene</th>
+                                <th ts-criteria="start" style="width:65%;text-align: center">TFBS</th>
+                                <th ts-criteria="start">Source</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in tfbs_list" ts-repeat>
+                                <td title="{$ gene $}">{$ gene $}</td>
+                                <td style="text-align: center"><img src="http://bioinfo.life.hust.edu.cn/static/AnimalTFDB3/image/{$item.source$}/{$ item.tfbs $}.png"></td>
+                                <td title="{$ item.source $}">{$ item.source $}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="pathway" ng-show="pathway_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Pathway</span>
+                </div>
+                <div class="panel-body">
+                    <div class="pre-scrollable" style="height: {$ pathway_height $}px">
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"    ts-wrapper>
                         <thead>
                         <tr>
                             <th ts-criteria="id" ts-default>Pathway ID</th>
@@ -226,84 +349,89 @@
                         <tbody>
                         <tr ng-repeat="item in pathway_list" ts-repeat>
                             <td>
-                                <a ng-hide="{$ item.kegg $}" href="http://www.genome.jp//kegg-bin/show_pathway?{$ item.id $}">{$ item.id $}</a>
-                                <a ng-show="{$ item.kegg $}" href="https://cgap.nci.nih.gov/Pathways/BioCarta/{$ item.id $}">{$ item.id $}</a>
+                                <a ng-hide="item.kegg" href="http://www.genome.jp//kegg-bin/show_pathway?{$ item.id $}">{$ item.id $}</a>
+                                <a ng-show="item.kegg" href="https://cgap.nci.nih.gov/Pathways/BioCarta/{$ item.id $}">{$ item.id $}</a>
                             </td>
                             <td>{$ item.name $}</td>
                             <td>{$ item.source $}</td>
-                            <td><a href="">show all genes</a></td>
+                            <td><a href="#!/seach_result?type=Pathway_(Pathway_ID_or_Description)&query={$ item.id $}">show all genes</a></td>
                         </tr>
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="phenotype" ng-show="phenotype_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Pheanotype</span>
+            <div class="panel panel-default" id="phenotype" ng-show="phenotype_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Phenotype</span>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
-                        <thead>
-                        <tr>
-                            <th ts-criteria="phenotype" ts-default>phenotype</th>
-                            <th ts-criteria="reference">Reference ID</th>
-                            <th ts-criteria="transcript">Transcript ID</th>
-                            <th ts-criteria="gene">Symbol</th>
-                            <th ts-criteria="source">Source</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr ng-repeat="item in phenotype_list" ts-repeat>
-                            <td>{$item.phenotype$}</td>
-                            <td>{$ item.reference $}</td>
-                            <td>{$ item.transcript $}</td>
-                            <td>{$ item.gene $}</td>
-                            <td><a href="{$ item.url $}">{$ item.source $}</a></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class="pre-scrollable" style="height: {$ phenotype_height $}px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"    ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th ts-criteria="phenotype" ts-default>phenotype</th>
+                                <th ts-criteria="reference">Reference ID</th>
+                                <th ts-criteria="gene">Symbol</th>
+                                <th ts-criteria="source">Source</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in phenotype_list" ts-repeat>
+                                <td title="{$ item.phenotype $}">{$item.phenotype$}</td>
+                                <td title="{$ item.reference $}">{$ item.reference $}</td>
+                                <td title="{$ item.gene $}">{$ item.gene $}</td>
+                                <td title="{$ item.url $}"><a href="{$ item.url $}">{$ item.source $}</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="ppi" ng-show="ppi_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">PPI-Protein-Protein Interaction</span>
+                </div>
+                <div class="panel-body">
+                    <div class="pre-scrollable" style="height: {$ ppi_height $}px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"    ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th ts-criteria="symbol" ts-default>Symbol</th>
+                                <th ts-criteria="Status">Status</th>
+                                <th ts-criteria="interactor_symbol">Interactor Symbol</th>
+                                <th ts-criteria="interactor_id">Interactor ID</th>
+                                <th ts-criteria="experimental">Experimental</th>
+                                <th ts-criteria="throughput">Throughput</th>
+                                <th ts-criteria="pubmed">Pubmed</th>
+                                <th ts-criteria="source">Source</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in ppi_list" ts-repeat>
+                                <td title="{$ item.symbol $}">{$item.symbol$}</td>
+                                <td title="{$ item.status $}">{$ item.status $}</td>
+                                <td title="{$ item.interactor_symbol $}">{$ item.interactor_symbol $}</td>
+                                <td title="{$ item.interactor_id $}"><a href="http://view.ncbi.nlm.nih.gov/gene/{$ item.interactor_id $}">{$ item.interactor_id $}</a></td>
+                                <td title="{$ item.experimental $}">{$ item.experimental $}</td>
+                                <td title="{$ item.throughput $}">{$ item.throughput $}</td>
+                                <td title="{$ item.pubmed $}"><a href="http://www.ncbi.nlm.nih.gov/pubmed?term={$ item.pubmed $}">{$ item.pubmed $}</a></td>
+                                <td title="{$ item.source $}"><a href="{$ item.url $}">{$ item.source $}</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="width:100%;text-align: center"><div class="badge alert-danger"><h4 style="font-weight: bold"><a href="#!/ppi_network?gene={$ gene $}">Click to view the PPI network</a></h4></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="paralog" ng-show="paralog_list.length">
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Paralog</span>
+                </div>
+                <div class="panel-body">
 
-                </div>
-            </div>
-            <div class="panel panel-primary" id="ppi" ng-show="ppi_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">PPI</span>
-                </div>
-                <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
-                        <thead>
-                        <tr>
-                            <th ts-criteria="symbol" ts-default>Symbol</th>
-                            <th ts-criteria="Status">Status</th>
-                            <th ts-criteria="interactor_symbol">Interactor Symbol</th>
-                            <th ts-criteria="interactor_id">Interactor ID</th>
-                            <th ts-criteria="experimental">Experimental</th>
-                            <th ts-criteria="throughput">Throughput</th>
-                            <th ts-criteria="pubmed">Pubmed</th>
-                            <th ts-criteria="source">Source</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr ng-repeat="item in ppi_list" ts-repeat>
-                            <td>{$item.symbol$}</td>
-                            <td>{$ item.status $}</td>
-                            <td>{$ item.interactor_symbol $}</td>
-                            <td><a href="http://view.ncbi.nlm.nih.gov/gene/{$ item.interactor_id $}">{$ item.interactor_id $}</a></td>
-                            <td>{$ item.experimental $}</td>
-                            <td>{$ item.throughput $}</td>
-                            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed?term={$ item.pubmed $}">{$ item.pubmed $}</a></td>
-                            <td><a href="{$ item.url $}">{$ item.source $}</a></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="panel panel-primary" id="paralog" ng-show="paralog_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Paralog</span>
-                </div>
-                <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"    ts-wrapper>
                         <thead>
                         <tr>
                             <th ts-criteria="ensembl" ts-default>Ensembl ID</th>
@@ -318,59 +446,121 @@
                         </thead>
                         <tbody>
                         <tr ng-repeat="item in paralog_list" ts-repeat>
-                            <td>{$item.ensembl$}</td>
-                            <td>{$item.symbol$}</td>
-                            <td>{$ item.coverage$}</td>
-                            <td>{$ item.identity $}</td>
-                            <td><a href="#!/tf_gene_info?tf={$ item.ortholog $}" target="_self">{$ item.ortholog $}</a></td>
-                            <td>{$ item.ortholog_symbol $}</td>
-                            <td>{$ item.ortholog_coverage $}</td>
-                            <td>{$ item.ortholog_identity $}</td>
+                            <td title="{$ item.ensembl $}">{$item.ensembl$}</td>
+                            <td title="{$ item.symbol $}">{$item.symbol$}</td>
+                            <td title="{$ item.coverage $}">{$ item.coverage$}</td>
+                            <td title="{$ item.identity $}">{$ item.identity $}</td>
+                            <td ng-hide="cofactors" title="{$item.ortholog$}"><a href="#!/tf_gene_info?tf={$ item.ortholog $}" target="_self">{$ item.ortholog $}</a></td>
+                            <td ng-show="cofactors" title="{$item.ortholog$}"><a href="#!/tf_gene_info?tf={$ item.ortholog $}&cofactors=1" target="_self">{$ item.ortholog $}</a></td>
+                            <td title="{$ item.ortholog_symbol $}">{$ item.ortholog_symbol $}</td>
+                            <td title="{$ item.ortholog_coverage $}">{$ item.ortholog_coverage $}</td>
+                            <td title="{$ item.ortholog_identity $}">{$ item.ortholog_identity $}</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-            <div class="panel panel-primary" id="ortholog" ng-show="ortholog_list.length">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">Ortholg</span>
+            <div class="panel panel-default" id="ortholog" ng-show="ortholog_list.length" >
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Ortholg</span>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
-                        <thead>
-                        <tr>
-                            <th ts-criteria="ensembl" ts-default>Ensembl ID</th>
-                            <th ts-criteria="symbol">Symbol</th>
-                            <th ts-criteria="coverage">Coverage</th>
-                            <th ts-criteria="identity">Identity</th>
-                            <th ts-criteria="ortholog">Ortholog</th>
-                            <th ts-criteria="ortholog_symbol">Symbol</th>
-                            <th ts-criteria="ortholog_coverage">Coverage</th>
-                            <th ts-criteria="ortholog_identity">Identity</th>
-                            <th ts-criteria="ortholog_species">Species</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr ng-repeat="item in ortholog_list" ts-repeat>
-                            <td>{$item.ensembl$}</td>
-                            <td>{$item.symbol$}</td>
-                            <td>{$ item.coverage$}</td>
-                            <td>{$ item.identity $}</td>
-                            <td><a href="#!/tf_gene_info?tf={$ item.ortholog $}" target="_self">{$ item.ortholog $}</a></td>
-                            <td>{$ item.ortholog_symbol $}</td>
-                            <td>{$ item.ortholog_coverage $}</td>
-                            <td>{$ item.ortholog_identity $}</td>
-                            <td>{$ item.species $}</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class="pre-scrollable" style="height: 300px">
+                        <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap"   ts-wrapper>
+                            <thead>
+                            <tr>
+                                <th ts-criteria="ensembl" ts-default>Ensembl ID</th>
+                                <th ts-criteria="symbol">Symbol</th>
+                                <th ts-criteria="coverage">Coverage</th>
+                                <th ts-criteria="identity">Identity</th>
+                                <th ts-criteria="ortholog">Ortholog</th>
+                                <th ts-criteria="ortholog_symbol">Symbol</th>
+                                <th ts-criteria="ortholog_coverage">Coverage</th>
+                                <th ts-criteria="ortholog_identity">Identity</th>
+                                <th ts-criteria="ortholog_species">Species</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in ortholog_list" ts-repeat>
+                                <td title="{$ item.ensembl $}">{$item.ensembl$}</td>
+                                <td title="{$ item.symbol $}">{$item.symbol$}</td>
+                                <td title="{$ item.coverage $}">{$ item.coverage$}</td>
+                                <td title="{$ item.identity $}">{$ item.identity $}</td>
+                                <td ng-hide="cofactors" title="{$item.ortholog$}"><a href="#!/tf_gene_info?tf={$ item.ortholog $}" target="_self">{$ item.ortholog $}</a></td>
+                                <td ng-show="cofactors" title="{$item.ortholog$}"><a href="#!/tf_gene_info?tf={$ item.ortholog $}&cofactors=1" target="_self">{$ item.ortholog $}</a></td>
+                                <td title="{$ item.ortholog_symbol $}">{$ item.ortholog_symbol $}</td>
+                                <td title="{$ item.ortholog_coverage $}">{$ item.ortholog_coverage $}</td>
+                                <td title="{$ item.ortholog_identity $}">{$ item.ortholog_identity $}</td>
+                                <td title="{$ item.species $}">{$ item.species $}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-primary" id="expression">
-                <div class="panel-heading" style="background-color: #85A3CD;">
-                    <span style="font-weight: bold">expression</span>
+            <div class="panel panel-default" id="expression" ng-show="exp_tag" >
+                <div class="panel-heading" style="background-color: #B0C4DE;">
+                    <span style="font-weight: bold;color: #194D5B">Expression</span>
                 </div>
                 <div class="panel-body">
+                    <div ng-show="tcga">
+                        <strong>TF miRNA expression in TCGA cancer types. The data were obtained from <a href="http://www.firebrowse.org/">Firebrowse</a> </strong>
+                        <div class="well">
+                            <span><ng-echarts id="cancer_chart" ec-config="lineConfig_tcga"  ec-option="lineOption_tcga" style="width:1500px;height: 300px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="cellline">
+                        <strong>Gene expression in cell lines. The data were obtained from EMBL-EBI <a href="http://www.ebi.ac.uk/gxa/experiments/E-GEOD-26284">Encode Cell Lines</a>.</strong>
+                        <p>The numbers 1, 2, 3 at the end of cell lines represent different library construction methods. <span style="color: red">1: LongPolyA RNA, 2: LongNonPolyA RNA, 3: Total RNA</span></p>
+                        <div class="well">
+                            <span><ng-echarts id="cellline_chart" ec-config="lineConfig_cellline"  ec-option="lineOption_cellline" style="width:1500px;height: 480px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="tissue">
+                        <strong>Gene expression in normal tissues. The data were obtained from EMBL-EBI <a href="http://www.ebi.ac.uk/gxa/experiments/E-MTAB-513">Illumina Body Map</a></strong>
+                        <div class="well">
+                            <span><ng-echarts id="ebi_tissue_chart" ec-config="lineConfig_tissue"  ec-option="lineOption_tissue" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="bgee">
+                        <strong>Gene expression in normal tissue and celllines obtained from <a href="https://bgee.org/">Bgee database</a>.</strong>
+                        <div class="well">
+                            <span><ng-echarts id="bgee_chart" ec-config="lineConfig_bgee"  ec-option="lineOption_bgee" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="pubmed_cellline">
+                        <strong>Gene expression in cell lines. </strong>This data is extracted from paper published by Li et al.<a href="http://www.ncbi.nlm.nih.gov/pubmed/24985912">24985912</a>. 
+                        <div class="well">
+                            <span><ng-echarts id="pubmed_cellline_chart" ec-config="pubmed_cellline_config"  ec-option="pubmed_cellline_option" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="pubmed_celltype">
+                        <strong>Gene expression of dissected cells. </strong>This data is extracted from paper published by Li et al. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24985912">24985912</a>. 
+                        <div class="well">
+                            <span><ng-echarts id="pubmed_celltype_chart" ec-config="pubmed_celltype_config"  ec-option="pubmed_celltype_option" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="pubmed_tissue">
+                        <strong>Gene expression of four normal tissues.</strong> This data is extracted from paper published by Li et al. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24985912">24985912</a>.
+                        <div class="well">
+                            <span><ng-echarts id="pubmed_tissue_chart" ec-config="pubmed_tissue_config"  ec-option="pubmed_tissue_option" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="pubmed_time">
+                        <strong>Gene expression of 35 different developmental stages.</strong> This data is extracted from paper published by Li et al. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/24985912">24985912</a>.
+                        <div class="well">
+                            <span><ng-echarts id="pubmed_time_chart" ec-config="pubmed_time_config"  ec-option="pubmed_time_option" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                    <div ng-show="protein">
+                        <strong>TF protein expression obtained form <a href="http://www.humanproteomemap.org">Human Protein Map</a>.</strong>
+                        <div class="well">
+                            <span><ng-echarts id="protein_chart" ec-config="lineConfig_protein"  ec-option="lineOption_protein" style="width:1500px;height: 450px;margin-bottom: 10px" ></ng-echarts></span>
+                        </div>
+                    </div>
+                     
+
+ 
                 </div>
             </div>
         </div>

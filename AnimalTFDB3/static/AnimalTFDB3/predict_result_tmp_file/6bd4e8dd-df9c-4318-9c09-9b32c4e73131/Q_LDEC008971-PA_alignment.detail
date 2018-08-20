@@ -1,0 +1,34 @@
+HMM length of domain: 273 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	291.5	29.3	1.1e-90	3.3e-88	10	266	27	290
+2	-0.9	3.5	0.15	47	187	216	283	315
+
+  Alignments for each domain:
+  == domain 1  score: 291.5 bits;  conditional E-value: 1.1e-90
+            NF-YC  10 asssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtednkrrtlqrndiam 103
+                       + s+aqq+lq fwp+vm+eir++   d++ q lplarikkimkldedvkmisaeap+lfakaa+ifi eltlrawihtednkrrtlqrndiam
+  Q_LDEC008971-PA  27 QTQSEAQQALQHFWPKVMDEIRSIRNMDLKQQVLPLARIKKIMKLDEDVKMISAEAPLLFAKAAEIFIHELTLRAWIHTEDNKRRTLQRNDIAM 120
+                      5678****************************************************************************************** PP
+
+            NF-YC 104 aitkfdqfdflidivprdelkppkrqee..vrqsvtpaepvqyyftlaqqpaavqvqgqqqgqqttsstttiqpgqiiiaqpqqgqttpvtm.. 193
+                      aitk+dqfdflidivprd++kp k +e+    +s t+ + v yyf laqq  a   q++  + + +++t+t   g i i qpqq qt +v+   
+  Q_LDEC008971-PA 121 AITKYDQFDFLIDIVPRDDIKPTKIREDgtTARSGTNPDQVHYYFQLAQQHHANLQQNNTSTTSGSTTTVTQPQGTIQIVQPQQLQTVQVSAie 214
+                      ************************999822445667777899*********9987777776666666666667799**********99886322 PP
+
+            NF-YC 194 .qvgegqqvqi.vqaqaq.gqaqqaqsgtgqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtqvvqgq 266
+                       ++g++       q+     q+q+  +++   +q++qqi+t  ge+qqip+ql+  qlq i++  +  ++q v  q
+  Q_LDEC008971-PA 215 qNTGDSSPTATtTQTPVIiQQSQTIPQSQQGNVQIIQQIVTPNGEVQQIPIQLTPQQLQMIKMQLQGNSSQPVIIQ 290
+                      256766554440444433145555557888889*****************************98777777765544 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 0.15
+            NF-YC 187 qttpvtmq...vgegqqvqivqaqaqgqaqqaq 216
+                       ++pv +q   +g+g q q++q ++ + + ++q
+  Q_LDEC008971-PA 283 SSQPVIIQtapIGTGAQPQLIQVAQPATTGTQQ 315
+                      344554443334666666666644333333322 PP
+

@@ -1,0 +1,29 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	74.4	0.1	7.2e-24	4.4e-22	8	107	205	300
+2	23.3	0.0	3.2e-08	1.9e-06	139	193	299	352
+
+  Alignments for each domain:
+  == domain 1  score: 74.4 bits;  conditional E-value: 7.2e-24
+         THR-like   8 vekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkfak 101
+                      + +++e++  ++q +veFaK++pgF++l  eDQi+LLk+++ evm+ r+ar+++ ++d + + + + ++rd+   +g    +ge ie +++f +
+  Q_LDEC009466-PA 205 FRHITEITILTVQLIVEFAKRLPGFDKLLREDQIALLKACSSEVMMFRMARRYDFQTDSILFVNNQPYSRDSYNLAG----MGETIEDLLHFCR 294
+                      789***********************************************************9***********999....9************ PP
+
+         THR-like 102 slasln 107
+                      +++s++
+  Q_LDEC009466-PA 295 TMYSMK 300
+                      ***985 PP
+
+  == domain 2  score: 23.3 bits;  conditional E-value: 3.2e-08
+         THR-like 139 lqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkveep 193
+                      ++e +leal+ y+  r+++ +   +fakLl+ ltelR+l ++ se+   lk +++
+  Q_LDEC009466-PA 299 MKEIYLEALRAYVDNRRKP-KPGTIFAKLLSVLTELRTLGNQNSEMCFSLKLKNK 352
+                      68899********999996.589**********************9776666664 PP
+

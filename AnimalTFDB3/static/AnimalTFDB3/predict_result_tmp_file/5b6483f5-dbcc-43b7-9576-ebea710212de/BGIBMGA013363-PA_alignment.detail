@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	86.7	0.2	1.7e-27	9.8e-26	2	196	240	447
+
+  Alignments for each domain:
+  == domain 1  score: 86.7 bits;  conditional E-value: 1.7e-27
+          RXR-like   2 cetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsda..................qlllasglsvarnsaek... 73 
+                       ce+aarlL  + +     pa + Lp+e qv+L+++sWael++L+l++ s ++s+                      +a               
+  BGIBMGA013363-PA 240 CESAARLLAGTARALAALPAATALPFEIQVTLFKKSWAELFVLGLCKLSHEMSLCtllpsmaghlhavlreraSGAAA-----------Ahap 321
+                       9******************************************************77777776666666554433333...........1344 PP
+
+          RXR-like  74 ...............evekildleevrvLqelvtklrdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqp 151
+                                      e ++ + ++   +Lq+lv  +++l+++++Eya+L+a+ +f+p  d a    ++  ++  e++qa+++++      +  
+  BGIBMGA013363-PA 322 lddhapeisvwdytdERIA-EIISLLSRLQQLVAAMEQLRVTDREYAQLRALCFFSP--DGA----PACAAARLEEAQARVSRAL-----GGG 402
+                       4444444467767553333.3444999******************************..555....3333333344555666665.....99* PP
+
+          RXR-like 152 grFgklLlrLpalrsissktieelffskliGdtpietlllemles 196
+                       gr ++lLl Lpalr + ++ ie +ff +++Gd+ i+  ++++l +
+  BGIBMGA013363-PA 403 GRAARLLLQLPALRAFPPAFIEDVFFVGFLGDVCIDDAIPYLLNA 447
+                       *****************************************9987 PP
+

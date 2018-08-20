@@ -1,0 +1,34 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	2.8	0.2	0.02	4.3	78	133	136	191
+2	337.5	3.2	1.3e-104	2.8e-102	1	248	332	582
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.02
+                STAT  78 eyqeetkqlsaefrnlsLkeikrserkgaesVteekfallFeteftlgelkfkvet 133
+                          +++++ q++ +f++l+L  ++++++ +++  t e f++ ++ +++++    ++ +
+  PrHsapXP_005257681 136 AMSQKHLQINQTFEELRLVTQDTENELKKLQQTQEYFIIQYQESLRIQAQFAQLAQ 191
+                         456677788999***********999889999**********99999766655555 PP
+
+  == domain 2  score: 337.5 bits;  conditional E-value: 1.3e-104
+                STAT   1 fvvekqPpqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkqlsaefr 91 
+                         f++ekqPpqVlktqtkF+a+vRlLvg+kl++h+n+++vk++iise+qak+llk+e     ++++e sgeilnn+  +ey+++t++lsa+fr
+  PrHsapXP_005257681 332 FIIEKQPPQVLKTQTKFAATVRLLVGGKLNVHMNPPQVKATIISEQQAKSLLKNE-----NTRNECSGEILNNCCVMEYHQATGTLSAHFR 417
+                         9******************************************************.....68999************************** PP
+
+                STAT  92 nlsLkeikrserkgaesVteekfallFeteftl..gelkfkvetlSlPvvvivhgsQepsAwAtilWdnafaepkrlpffvpekvsWkqla 180
+                         n+sLk+ikr++r+gaesVteekf++lFe++f++  +el f+v+tlSlPvvvivhgsQ+++A+At+lWdnafaep r+pf+vp+kv W+ql+
+  PrHsapXP_005257681 418 NMSLKRIKRADRRGAESVTEEKFTVLFESQFSVgsNELVFQVKTLSLPVVVIVHGSQDHNATATVLWDNAFAEPGRVPFAVPDKVLWPQLC 508
+                         **********************************9******************************************************** PP
+
+                STAT 181 eaLswkFss..atergLseeqlkyLaekllgkksske....qklvswsqfskenlpgrnftfWeWfdgilelik 248
+                         eaL++kF++  +++rgL++e+l +La+kl++++ss+       +vswsqf++enlpg n+tfW+Wfdg++e+ k
+  PrHsapXP_005257681 509 EALNMKFKAevQSNRGLTKENLVFLAQKLFNNSSSHLedysGLSVSWSQFNRENLPGWNYTFWQWFDGVMEVLK 582
+                         *********98999*****************9887767888899***************************987 PP
+

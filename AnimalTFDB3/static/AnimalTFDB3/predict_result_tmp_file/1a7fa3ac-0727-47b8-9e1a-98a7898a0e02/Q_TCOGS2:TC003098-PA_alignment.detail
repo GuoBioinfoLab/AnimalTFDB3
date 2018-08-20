@@ -1,0 +1,82 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.1	0.7	0.51	1.8	6	21	2	17
+2	1.1	0.2	9.1	31	1	16	26	43
+3	8.5	1.2	0.041	0.14	1	21	54	74
+4	6.7	0.5	0.15	0.52	1	20	94	113
+5	10.7	3.1	0.0083	0.029	1	21	181	201
+6	12.0	1.5	0.0032	0.011	1	23	210	233
+7	12.8	1.1	0.0018	0.0062	1	23	239	262
+8	10.0	1.0	0.014	0.048	1	21	292	312
+9	12.8	2.9	0.0018	0.0062	1	20	379	398
+
+  Alignments for each domain:
+  == domain 1  score: 5.1 bits;  conditional E-value: 0.51
+                          TTEEESSHHHHHHHHH CS
+               zf-C2H2  6 CgksFkrksnLkrHir 21
+                          C++++k k nL++H++
+  Q_TCOGS2:TC003098-PA  2 CHRVYKWKKNLRQHQK 17
+                          **************97 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 9.1
+                          EEET..TTTEEESSHHHH CS
+               zf-C2H2  1 ykCp..dCgksFkrksnL 16
+                          ++Cp  +C+++ k ks+L
+  Q_TCOGS2:TC003098-PA 26 FVCPfeGCTYKAKVKSLL 43
+                          89******9987777765 PP
+
+  == domain 3  score: 8.5 bits;  conditional E-value: 0.041
+                          EEETTTTEEESSHHHHHHHHH CS
+               zf-C2H2  1 ykCpdCgksFkrksnLkrHir 21
+                          ++C  C++s++ k  L++H++
+  Q_TCOGS2:TC003098-PA 54 HVCVNCNRSYRWKRGLRQHQK 74
+                          79*****************97 PP
+
+  == domain 4  score: 6.7 bits;  conditional E-value: 0.15
+                           EEETTTTEEESSHHHHHHHH CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHi 20 
+                           y C++C+ks++ k  L  H 
+  Q_TCOGS2:TC003098-PA  94 YACDKCSKSYRWKRGLWEHK 113
+                           88********9888887775 PP
+
+  == domain 5  score: 10.7 bits;  conditional E-value: 0.0083
+                           EEETTTTEEESSHHHHHHHHH CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                           ++C  Cg+++++  +L +H++
+  Q_TCOGS2:TC003098-PA 181 FECATCGRKYRHVRSLHKHQK 201
+                           89*****************97 PP
+
+  == domain 6  score: 12.0 bits;  conditional E-value: 0.0032
+                           EEETTTTEEESSHHHHHHHHHC.C CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                           + C  C+++ k+k nLk H +  H
+  Q_TCOGS2:TC003098-PA 210 FFCQFCSYRSKTKGNLKIHVNNvH 233
+                           77*****************99888 PP
+
+  == domain 7  score: 12.8 bits;  conditional E-value: 0.0018
+                           EEETTTTEEESSHHHHHHHHHC.C CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                           + C+ C+++ ++k nLk H +  H
+  Q_TCOGS2:TC003098-PA 239 FDCEFCSYKSTTKGNLKIHVKNmH 262
+                           78******************9988 PP
+
+  == domain 8  score: 10.0 bits;  conditional E-value: 0.014
+                           EEETTTTEEESSHHHHHHHHH CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                           y+C++C+k++ rks+ +rH +
+  Q_TCOGS2:TC003098-PA 292 YPCEKCDKVYLRKSSKMRHVK 312
+                           99*****************76 PP
+
+  == domain 9  score: 12.8 bits;  conditional E-value: 0.0018
+                           EEETTTTEEESSHHHHHHHH CS
+               zf-C2H2   1 ykCpdCgksFkrksnLkrHi 20 
+                           + C  C+++ krk+n++rH+
+  Q_TCOGS2:TC003098-PA 379 FACALCNYTSKRKYNYVRHM 398
+                           78*****************9 PP
+

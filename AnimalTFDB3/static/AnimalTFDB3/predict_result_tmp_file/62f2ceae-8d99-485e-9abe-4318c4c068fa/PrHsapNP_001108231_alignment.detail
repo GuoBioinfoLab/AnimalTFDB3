@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.2	0.1	0.031	0.08	11	25	318	332
+2	31.6	0.2	2.7e-09	7e-09	1	25	336	360
+3	24.2	7.5	5.9e-07	1.5e-06	1	26	364	389
+4	26.5	0.4	1.1e-07	2.8e-07	1	25	392	416
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.031
+           zf-H2C2_2  11 gekpyeCplCdkaFk 25 
+                         g+  yeC  C+k+F 
+  PrHsapNP_001108231 318 GKILYECNICGKSFG 332
+                         4445**********7 PP
+
+  == domain 2  score: 31.6 bits;  conditional E-value: 2.7e-09
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         nL+ Hlr+H ge+p++C lC k+F+
+  PrHsapNP_001108231 336 NLKVHLRVHSGERPFQCALCQKSFT 360
+                         899*********************8 PP
+
+  == domain 3  score: 24.2 bits;  conditional E-value: 5.9e-07
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                         +L++H  +Htge+p++C++C+k+F++
+  PrHsapNP_001108231 364 HLQKHHLVHTGERPHKCSVCHKRFSS 389
+                         79**********************85 PP
+
+  == domain 4  score: 26.5 bits;  conditional E-value: 1.1e-07
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         nL+ Hlr H g +p++C++C+ +F+
+  PrHsapNP_001108231 392 NLKTHLRLHSGARPFQCSVCRSRFT 416
+                         89**********************8 PP
+

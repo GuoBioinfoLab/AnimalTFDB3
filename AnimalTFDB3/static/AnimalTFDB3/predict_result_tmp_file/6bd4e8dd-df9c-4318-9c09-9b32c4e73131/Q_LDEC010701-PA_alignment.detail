@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	14.8	0.8	0.00034	0.0015	9	26	213	234
+2	25.0	3.6	2e-07	8.4e-07	2	26	238	262
+3	31.9	2.2	1.3e-09	5.8e-09	1	24	265	288
+4	23.5	4.1	6.1e-07	2.6e-06	1	26	293	318
+5	34.1	0.5	2.7e-10	1.2e-09	1	24	321	344
+6	28.5	0.5	1.6e-08	6.9e-08	1	26	349	374
+7	31.8	2.3	1.5e-09	6.3e-09	1	24	377	400
+8	31.9	0.3	1.4e-09	5.9e-09	2	25	406	429
+9	37.8	0.6	1.7e-11	7.5e-11	1	24	433	456
+10	22.8	1.0	1e-06	4.4e-06	1	24	461	484
+11	3.2	0.1	1.6	6.7	2	14	490	502
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 0.00034
+        zf-H2C2_2   9 Ht....gekpyeCplCdkaFkt 26 
+                      H     ++kp++C+ C+k+F +
+  Q_LDEC010701-PA 213 HEkilaSKKPFQCKICSKSFIH 234
+                      44444489************65 PP
+
+  == domain 2  score: 25.0 bits;  conditional E-value: 2e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L+ H + Htge+ y+C+ C+k+F +
+  Q_LDEC010701-PA 238 LKHHEKIHTGENLYQCKICSKSFLH 262
+                      889********************86 PP
+
+  == domain 3  score: 31.9 bits;  conditional E-value: 1.3e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+rH + Htge+p++C+ C+k+F
+  Q_LDEC010701-PA 265 HLKRHEKIHTGERPFQCKMCSKSF 288
+                      79*********************9 PP
+
+  == domain 4  score: 23.5 bits;  conditional E-value: 6.1e-07
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+ H   Htgek y+C+ C+k+F++
+  Q_LDEC010701-PA 293 HLKHHETIHTGEKLYQCKICSKSFTR 318
+                      6899********************85 PP
+
+  == domain 5  score: 34.1 bits;  conditional E-value: 2.7e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+rH r H gekp++C+ C+k+F
+  Q_LDEC010701-PA 321 SLKRHERIHNGEKPFQCKICSKSF 344
+                      69*********************9 PP
+
+  == domain 6  score: 28.5 bits;  conditional E-value: 1.6e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+ H + Htg+k ++C+ C+k+F +
+  Q_LDEC010701-PA 349 DLKNHEKIHTGDKSFQCKICSKSFLN 374
+                      699*********************86 PP
+
+  == domain 7  score: 31.8 bits;  conditional E-value: 1.5e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L+rH + Htge+p++C+ C k+F
+  Q_LDEC010701-PA 377 HLKRHEKIHTGERPFQCKICFKSF 400
+                      79*********************9 PP
+
+  == domain 8  score: 31.9 bits;  conditional E-value: 1.4e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ H r Htgekp++C  C+k+F+
+  Q_LDEC010701-PA 406 LKGHERIHTGEKPFQCRICSKTFA 429
+                      888********************8 PP
+
+  == domain 9  score: 37.8 bits;  conditional E-value: 1.7e-11
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      nL+rH r Htgekp++C+ C+k+F
+  Q_LDEC010701-PA 433 NLKRHERIHTGEKPFQCKICSKSF 456
+                      8**********************9 PP
+
+  == domain 10  score: 22.8 bits;  conditional E-value: 1e-06
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +L++H   Ht++k ++C+ C+k+F
+  Q_LDEC010701-PA 461 DLKKHENIHTSDKSFQCKICSKSF 484
+                      69*********************9 PP
+
+  == domain 11  score: 3.2 bits;  conditional E-value: 1.6
+        zf-H2C2_2   2 LrrHlrkHtgekp 14 
+                      L+ H + Ht ekp
+  Q_LDEC010701-PA 490 LKIHEKIHTAEKP 502
+                      778********98 PP
+

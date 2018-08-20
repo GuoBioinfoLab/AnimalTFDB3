@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	15.6	2.1	1e-05	0.00091	1	23	152	174
+2	19.5	2.5	5.6e-07	5.1e-05	3	23	518	538
+3	22.5	0.3	6.7e-08	6.1e-06	2	23	545	566
+4	19.9	1.9	4.2e-07	3.8e-05	1	23	573	596
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 1e-05
+                   EEETTTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                   y C +C ++Fk +  Lk+Hi  H
+  Npar_R020099 152 YICWYCWRTFKFPNTLKAHIHFH 174
+                   89******************877 PP
+
+  == domain 2  score: 19.5 bits;  conditional E-value: 5.6e-07
+                   ETTTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   3 CpdCgksFkrksnLkrHirtH 23 
+                   C +Cgk ++rk+ Lk H+rtH
+  Npar_R020099 518 CLYCGKLYSRKYGLKIHMRTH 538
+                   99******************9 PP
+
+  == domain 3  score: 22.5 bits;  conditional E-value: 6.7e-08
+                   EETTTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                   kC++C ++F ++snL++Hir H
+  Npar_R020099 545 KCKVCLRPFGDPSNLNKHIRLH 566
+                   8********************9 PP
+
+  == domain 4  score: 19.9 bits;  conditional E-value: 4.2e-07
+                   EEETTTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                   y+C++Cgk+  r+ +L+rH ++ H
+  Npar_R020099 573 YRCEHCGKVLVRRRDLERHVKSrH 596
+                   9********************999 PP
+

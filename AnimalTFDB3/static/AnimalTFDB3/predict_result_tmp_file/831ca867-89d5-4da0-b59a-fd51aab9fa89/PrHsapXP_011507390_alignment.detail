@@ -1,0 +1,53 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	302.9	5.5	4.6e-94	1.3e-91	1	334	712	1042
+2	13.2	0.2	6e-06	0.0017	75	127	1175	1227
+3	12.5	0.0	1e-05	0.0029	13	62	1179	1227
+4	0.4	0.1	0.048	14	136	160	1300	1324
+
+  Alignments for each domain:
+  == domain 1  score: 302.9 bits;  conditional E-value: 4.6e-94
+               PLU-1    1 eWaekveelle..eeskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllskkqrtRrkneaeeeeeekeklsleel 87  
+                          eWa +v+e+le   ++k sL ++++l++e+e +kfp+++ll++L+ + ++aek++++aqqll+ k++tR+++      +++++l+++el
+  PrHsapXP_011507390  712 EWALNVNEALEakINKKKSLVSFKALIEESEMKKFPDNDLLRHLRLVTQDAEKCASVAQQLLNGKRQTRYRSG---GGKSQNQLTVNEL 797 
+                          6***********999********************************************************88...8899999****** PP
+
+               PLU-1   88 ekLleeldslpFdlpeieqLkelleeieefrkkarellseesedssieeleklieeGksfnvelpeleeLkrvleqlkWleevrev..r 174 
+                          ++++ +l +lp++l++++ Lk+ll+++e+f++++++llsee  + s  el++l++ + +f+velp+l e++ +leq++Wleev+++  +
+  PrHsapXP_011507390  798 RQFVTQLYALPCVLSQTPLLKDLLNRVEDFQQHSQKLLSEE--TPSAAELQDLLDVSFEFDVELPQLAEMRIRLEQARWLEEVQQAclD 884 
+                          ***************************************96..556****************************************655 PP
+
+               PLU-1  175 eekkqltleevkeLieeGeslaispek.eellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaaleealk 262 
+                             ++ltl+++++Li+ G+ la +  + e+++a+lqell+ +e+w +kak lL+ar+++sl++L   ++e++eip++lp+ aal++ ++
+  PrHsapXP_011507390  885 --PSSLTLDDMRRLIDLGVGLA-PYSAvEKAMARLQELLTVSEHWDDKAKSLLKARPRHSLNSLATAVKEIEEIPAYLPNGAALKDSVQ 970 
+                          ..456*****************.56666************************************************************* PP
+
+               PLU-1  263 karelqrkveeliksaer.ptlseleellkkgeslpvkleeleeLekelsraedWlekakklFlkknaplsll 334 
+                          +ar++ ++ve l +++ r p+l++l el+++g+s+pv+l++l++Le  ++++++W+e a ++Fl  n+p+sll
+  PrHsapXP_011507390  971 RARDWLQDVEGL-QAGGRvPVLDTLIELVTRGRSIPVHLNSLPRLETLVAEVQAWKECAVNTFLTENSPYSLL 1042
+                          ************.676677****************************************************97 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 6e-06
+               PLU-1   75 eeeekeklsleelekLleeldslpFdlpeieqLkelleeieefrkkarellse 127 
+                          + +++ek  le++  Ll++l+++   lpe ++L+ + e+  +++ +a++lls 
+  PrHsapXP_011507390 1175 HCRRSEKPPLEKILPLLASLQRIRVRLPEGDALRYMIERTVNWQHRAQQLLSS 1227
+                          45666777777777777777777777777777777777777777777777775 PP
+
+  == domain 3  score: 12.5 bits;  conditional E-value: 1e-05
+               PLU-1   13 eskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllsk 62  
+                          ++kp+L+++  ll   ++i+  l+e  ++L+ ++++   w+++aqqlls+
+  PrHsapXP_011507390 1179 SEKPPLEKILPLLASLQRIRVRLPEG-DALRYMIERTVNWQHRAQQLLSS 1227
+                          45555555555555555555555555.55555555555555555555543 PP
+
+  == domain 4  score: 0.4 bits;  conditional E-value: 0.048
+               PLU-1  136 eleklieeGksfnvelpeleeLkrv 160 
+                          e+++l+ e++ ++v lpe++eL + 
+  PrHsapXP_011507390 1300 EVNELLMEAQLLQVSLPEIQELYQT 1324
+                          5667777777777777777777554 PP
+

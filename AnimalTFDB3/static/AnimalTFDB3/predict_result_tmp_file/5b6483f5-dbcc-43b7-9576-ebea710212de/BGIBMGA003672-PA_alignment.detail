@@ -1,0 +1,50 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	16.6	0.8	0.00012	0.00046	1	23	146	168
+2	8.7	1.7	0.036	0.14	6	21	179	194
+3	9.9	0.0	0.015	0.058	2	20	423	441
+4	23.6	2.2	7.1e-07	2.7e-06	1	23	1192	1214
+5	20.3	3.0	7.8e-06	2.9e-05	1	23	1220	1244
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 0.00012
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       y Cp+C+ s+  +s L++Hir H
+  BGIBMGA003672-PA 146 YICPYCKLSCAKPSVLQKHIRAH 168
+                       89*******************99 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.036
+                       TTEEESSHHHHHHHHH CS
+           zf-C2H2   6 CgksFkrksnLkrHir 21 
+                       Cg  Fk+ksnL +H r
+  BGIBMGA003672-PA 179 CGFAFKTKSNLYKHCR 194
+                       **************65 PP
+
+  == domain 3  score: 9.9 bits;  conditional E-value: 0.015
+                       EETTTTEEESSHHHHHHHH CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHi 20 
+                        Cp+C  ++++ +nL+ H+
+  BGIBMGA003672-PA 423 LCPVCQIMYRSADNLEIHR 441
+                       5*****************7 PP
+
+  == domain 4  score: 23.6 bits;  conditional E-value: 7.1e-07
+                        EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2    1 ykCpdCgksFkrksnLkrHirtH 23  
+                        y+C++Cg ++k +s+Lk+HirtH
+  BGIBMGA003672-PA 1192 YVCSECGIRCKKPSMLKKHIRTH 1214
+                        9*********************9 PP
+
+  == domain 5  score: 20.3 bits;  conditional E-value: 7.8e-06
+                        EEETTTTEEESSHHHHHHHHHC..C CS
+           zf-C2H2    1 ykCpdCgksFkrksnLkrHirt..H 23  
+                        y+C +C  sFk+k nL++H+++  H
+  BGIBMGA003672-PA 1220 YTCVHCAFSFKTKGNLTKHMKSkaH 1244
+                        9*******************98666 PP
+

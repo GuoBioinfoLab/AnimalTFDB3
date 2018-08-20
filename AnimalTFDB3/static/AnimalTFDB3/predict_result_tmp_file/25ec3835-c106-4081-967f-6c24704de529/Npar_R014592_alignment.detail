@@ -1,0 +1,29 @@
+HMM length of domain: 205 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	400.1	0.5	8.8e-125	8.8e-122	1	197	52	248
+
+  Alignments for each domain:
+  == domain 1  score: 400.1 bits;  conditional E-value: 8.8e-125
+         NF-YB   1 mdgdssttdasqlgisedyiagshyviqphddtedslndhedtngskesfreqdiylPianvarimknaiPqtGkiakdakecvqecvsefisfits 97 
+                   mdgdssttd+sqlgis+dyi+gshyviqphddtedslnd +dtngske+freqdiylPianvarimknaiPqtGkiakdakecvqecvsefisfits
+  Npar_R014592  52 MDGDSSTTDTSQLGISADYIGGSHYVIQPHDDTEDSLNDPDDTNGSKETFREQDIYLPIANVARIMKNAIPQTGKIAKDAKECVQECVSEFISFITS 148
+                   9************************************************************************************************ PP
+
+         NF-YB  98 easerchqekrktinGedilfamstlGfdsyvePlklylqkfreamkgekgiggavvatdglseelteeaftnqlpaglitadGqqqnvlvyttsyq 194
+                   easerchqekrktinGedilfamstlGfdsyvePlklylqkfreamkgekg+ggav+++dgl+eel eeaft qlpaglit+dGqqqnv+vyttsyq
+  Npar_R014592 149 EASERCHQEKRKTINGEDILFAMSTLGFDSYVEPLKLYLQKFREAMKGEKGLGGAVTTADGLGEELSEEAFTGQLPAGLITTDGQQQNVMVYTTSYQ 245
+                   ************************************************************************************************* PP
+
+         NF-YB 195 qis 197
+                   q+ 
+  Npar_R014592 246 QVQ 248
+                   986 PP
+
+
+

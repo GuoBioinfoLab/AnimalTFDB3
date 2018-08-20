@@ -1,0 +1,26 @@
+HMM length of domain: 196 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	379.4	1.2	1.8e-118	1.8e-118	1	195	95	288
+
+  Alignments for each domain:
+  == domain 1  score: 379.4 bits;  conditional E-value: 1.8e-118
+                 SSS---S-B-TTTTEEEEESSBSSSTTTSEEEETTTTEEEEETTSEEEEEEEESS-SSTTEEEEEEEEESSCCCTTSB-B--HHHHHSSTTTTSSS-TT CS
+         P53   1 savpstkdypgsyelklrfqksgtaksvtctysealnklfcqlaktcpvqvkvdkeppkgsilratavykksehvaevvkrcphherssdaddglapas 99 
+                 s+vps+k+y+gsy+++l f +sgtaksvtctys+alnk+fcqlaktcpvq++vd++pp+g+++ra+a+yk+s+h++evv+rcphher+sd +dglap++
+  BAC16799.1  95 SSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSD-SDGLAPPQ 192
+                 68****************************************************************************************.999***** PP
+
+                 BSEEECS-TT-EEEEETTTTEEEEEEE---SSTTSSSEEEEEEESS-TTCTTTTTTS-EEEEEEEEETTSCEEEEEEEEEEEESSHHHHHHHHHHH CS
+         P53 100 hlirvegnqkaeyledkvtkrqsvvvpyeppqvgselttilynymcnssclggmnrrpiltiitletkegqllgrrsfevrvcacpgrdrkteeen 195
+                 hlirvegn ++eyl+d++t+r+svvvpyepp+vgs++tti+ynymcnssc+ggmnrrpiltiitle+++g+llgr+sfev vcacpgrdr+teeen
+  BAC16799.1 193 HLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVHVCACPGRDRRTEEEN 288
+                 **********************************************************************************************98 PP
+
+
+

@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	134.2	0.0	2.7e-42	2.2e-40	6	199	110	293
+
+  Alignments for each domain:
+  == domain 1  score: 134.2 bits;  conditional E-value: 2.7e-42
+             THR-like   6 slvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgelies 95 
+                          +l+++fa+++t+++q+vveFaK++pgF++l q+DQ +L k + +e++l ++ar+ ++ s +  ++d++ v+r+ql  ++      e+++s
+  Q_AGLA002007-RA-CDS 110 WLWQQFASNITPSVQRVVEFAKRVPGFCDLGQDDQLILIKIGFFEIWLSHVARLTTNTSLM--FDDGTSVSRQQLETMY----DNEFTSS 193
+                          68****************************************************9955555..55**********9655....9****** PP
+
+             THR-like  96 vfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserl 185
+                          v +fa+++++l l+d+e+ L++av+ll  adrpg+++++ +++  ++ +++    + ++h   ++p++f  Ll kl+elR l + h+ +l
+  Q_AGLA002007-RA-CDS 194 VIHFANTFNALSLNDTEVGLFSAVVLLT-ADRPGITDVN-FTSDSDTKAQMSYGAVSRNHA--SEPQIFSNLLIKLPELRNLGARHTAHL 279
+                          ****************************.8*******97.666667778888888888888..57************************* PP
+
+             THR-like 186 vmlkveepktslpp 199
+                           +++++  k  lpp
+  Q_AGLA002007-RA-CDS 280 DWFRMNWTKLTLPP 293
+                          ******99877775 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	234.2	0.4	1.2e-73	1.9e-71	5	227	130	348
+
+  Alignments for each domain:
+  == domain 1  score: 234.2 bits;  conditional E-value: 1.2e-73
+              CP2   5 esdllknkkesasslaseesavssstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrk 98 
+                      +++ l+n+ +s+   a ++++++   e+ rf+++L+a+t++a+k+ne++ltYLN+GQ+Y+i+lk+lg  +ls ++gk lksvir+ F+e+++++
+  Q_AGLA014649-RA 130 DNNNLTNSPNSQDNYAVSSTNYNLIIEDYRFQYVLAAATSIATKQNEDTLTYLNQGQSYEIKLKKLG--DLSLYRGKLLKSVIRICFHERRLQY 221
+                      4555566666666667777778888899***************************************..9************************ PP
+
+              CP2  99 keaklwklWkegrgseavrvvdipls.ggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksK..GvkGvPlrlqieTelis 189
+                      +e+++++ W++ r+ ++   vd+pls g ++  +       +++++ v+f+W++++e++++++vNc+St+F+++K  G+kGvP+r+q+eT+++ 
+  Q_AGLA014649-RA 222 MEKEQMESWQKARPGDRILEVDVPLSyGAYDIIQP------TNAVNLVHFNWDPTKEVGVYIKVNCISTEFTPKKhgGEKGVPFRIQVETYQYP 309
+                      ****************5555566***9*9999988......99**************************************************9 PP
+
+              CP2 190 esvkesa.levafckvKlFrdkGAeRKlkndvakvkkki 227
+                      e+++ ++ l++a c++K+F+ kGA+RK+k+d++k+ k++
+  Q_AGLA014649-RA 310 ENTNGTKrLHAAACQIKVFKLKGADRKHKQDREKIMKRP 348
+                      99887777***************************9985 PP
+

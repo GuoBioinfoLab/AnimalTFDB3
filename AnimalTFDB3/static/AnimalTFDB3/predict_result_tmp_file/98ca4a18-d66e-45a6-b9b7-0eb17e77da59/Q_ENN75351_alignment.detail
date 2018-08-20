@@ -1,0 +1,41 @@
+HMM length of domain: 583 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	354.8	0.1	3.9e-110	3e-107	182	335	14	174
+2	111.9	20.2	1.5e-36	1.1e-33	332	562	197	396
+
+  Alignments for each domain:
+  == domain 1  score: 354.8 bits;  conditional E-value: 3.9e-110
+         COE 182 rfflkfflkcnqnclknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpse.......aatpcikaispsegwttggatviii 273
+                 rfflkfflkcnqnclknagnprdmrrfqvv+st v+vdg +la+sdnmfvhnnskhgrra+rldp+e        atpcikaispsegwt+gg+tvii+
+  Q_ENN75351  14 RFFLKFFLKCNQNCLKNAGNPRDMRRFQVVISTQVAVDGPLLAISDNMFVHNNSKHGRRAKRLDPTEglypplpVATPCIKAISPSEGWTAGGSTVIIV 112
+                 9************************************************************************************************** PP
+
+         COE 274 gdnffdglqvvfgtllvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvyt 335
+                 gdnffdglqvvfgt+lvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvy 
+  Q_ENN75351 113 GDNFFDGLQVVFGTMLVWSELITPHAIRVQTPPRHIPGVVEVTLSYKSKQFCKGAPGRFVYV 174
+                 *************************************************************7 PP
+
+  == domain 2  score: 111.9 bits;  conditional E-value: 1.5e-36
+         COE 332 fvytalneptidygfqrlqkviprhpgdperlpkevllkraadlvealygvphnnqeiilkraadiaealysvprnhnqlpalanssahagllgvnsfs 430
+                 +  +alneptidygfqrlqk+iprhpgdpe+lpke++lkraadl+ealy +p nnq               s pr++    +++n+ + +     n+++
+  Q_ENN75351 197 LFTAALNEPTIDYGFQRLQKLIPRHPGDPEKLPKEIILKRAADLAEALYSMPRNNQLS------------LSAPRSP----TMGNNGMPT---SFNAYT 276
+                 44568**************************************************943............4889985....677776655...57**** PP
+
+         COE 431 sqlavnvseasqa..teqgyarn.sssvsprg..yvp.sstpqqsn...ynsvstslngygsa.alanlgvpgspsflngsaanspyaivpssptlass 519
+                 +qlav+v ++ ++  te+ y r+ sssvsprg  y++ +stp  sn   y++ ++ +ngyg a + +++g     ++l gs+++    i +++pt + s
+  Q_ENN75351 277 GQLAVSVQDTGNGqwTEDEYGRTqSSSVSPRGggYCSnASTPHSSNggsYGGGGSQMNGYGGAtPTSTMG-----NMLPGSPSAG---IFNTTPTCSES 367
+                 *********9766337899*9963789****6557552678888764457788899****8651566777.....4555555543...33345544433 PP
+
+         COE 520 tslpsnasssssilsfspanvvsavkqksafapvvrpqasppp 562
+                                +    v  + k+ksafapv++   +ppp
+  Q_ENN75351 368 --------------YYKNMHVPGTEKEKSAFAPVLKGADTPPP 396
+                 ..............12223344455666666666666666665 PP
+
+
+

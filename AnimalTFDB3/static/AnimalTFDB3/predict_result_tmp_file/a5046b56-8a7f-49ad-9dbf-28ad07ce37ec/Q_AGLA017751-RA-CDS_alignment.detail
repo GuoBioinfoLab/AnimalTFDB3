@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	135.5	6.0	1.1e-42	9.8e-41	1	199	41	237
+
+  Alignments for each domain:
+  == domain 1  score: 135.5 bits;  conditional E-value: 1.1e-42
+             RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqel 90 
+                          +ce aa+lLf++++w+k+i af+ Lp+ dq+ L++++W+el+iL+++q     +++     + l+++r  + ke  k +d      ++el
+  Q_AGLA017751-RA-CDS  41 LCENAAQLLFMNMQWVKNIAAFTSLPFTDQLLLVEECWKELFILGATQFLPFEELS-----AWLETCRVLQLKEYHKLKD------FHEL 119
+                          6***********************************************97665555.....6678899888888888888......**** PP
+
+             RXR-like  91 vtklrdlqldatEyacLkaIvlfnpdt.........daagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsisskt 171
+                          +t + +++ld++E+ +L+ Ivlf+p            ++ l++  +i  +r+  q +l++++++ +p+qp rF +l +++ +l +i  +t
+  Q_AGLA017751-RA-CDS 120 LTDVNQFNLDQYEFTYLRLIVLFSPFVrnkrksdsdRIKMLTNAVYINFVRNYLQLKLNKFVEEVKPNQPLRFKELMQLVLSLNCILDDT 209
+                          *************************768888888888888888889999999999*********************************** PP
+
+             RXR-like 172 ieelffskliGdtpietlllemlesskp 199
+                          ie lff+k+iG++p+ +++++m+++ ++
+  Q_AGLA017751-RA-CDS 210 IEDLFFKKTIGNVPMAKIISDMYKTYST 237
+                          ***********************98766 PP
+

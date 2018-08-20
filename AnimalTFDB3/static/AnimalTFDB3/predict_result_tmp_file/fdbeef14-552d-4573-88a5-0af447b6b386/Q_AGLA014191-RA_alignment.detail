@@ -1,0 +1,66 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	11.7	0.3	0.0045	0.015	1	21	126	146
+2	17.8	3.9	5.5e-05	0.00019	1	23	155	177
+3	27.5	0.8	4.4e-08	1.5e-07	1	23	183	205
+4	14.8	2.5	0.00047	0.0016	1	23	211	233
+5	13.8	0.3	0.00099	0.0034	2	23	244	265
+6	11.6	4.3	0.005	0.017	1	23	273	295
+7	25.5	4.5	2e-07	6.7e-07	1	23	301	323
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.0045
+                      EEETTTTEEESSHHHHHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                      ++C +C+++F +  +L+ H +
+  Q_AGLA014191-RA 126 FTCRVCKQKFADEFELEIHFK 146
+                      89*****************75 PP
+
+  == domain 2  score: 17.8 bits;  conditional E-value: 5.5e-05
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      ykC +C k F+++ +L++H r+H
+  Q_AGLA014191-RA 155 YKCCGCEKQFRDNTQLTVHSRKH 177
+                      9*********************9 PP
+
+  == domain 3  score: 27.5 bits;  conditional E-value: 4.4e-08
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      y C++Cgk+F+ + nL +H+r+H
+  Q_AGLA014191-RA 183 YSCKVCGKKFSVNGNLSKHMRIH 205
+                      89********************9 PP
+
+  == domain 4  score: 14.8 bits;  conditional E-value: 0.00047
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      ++C+ C+  Fk+k  L++H ++H
+  Q_AGLA014191-RA 211 FVCDFCNSAFKTKARLRKHKKSH 233
+                      89*******************99 PP
+
+  == domain 5  score: 13.8 bits;  conditional E-value: 0.00099
+                      EETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                      +Cp+C+k  k+  +L +H+ tH
+  Q_AGLA014191-RA 244 PCPVCNKIMKSTKQLLAHMDTH 265
+                      6********************9 PP
+
+  == domain 6  score: 11.6 bits;  conditional E-value: 0.005
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      + C++Cgk++k+  +L+ H+++H
+  Q_AGLA014191-RA 273 FSCTICGKTYKHMFSLNFHLKMH 295
+                      89******************999 PP
+
+  == domain 7  score: 25.5 bits;  conditional E-value: 2e-07
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      +kC+ C+k F++ s+L+rHi++H
+  Q_AGLA014191-RA 301 FKCNLCDKAFCNASHLRRHINSH 323
+                      8********************99 PP
+

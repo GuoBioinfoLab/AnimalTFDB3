@@ -1,0 +1,31 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.8	0.0	8.7	4e+02	134	151	173	190
+2	62.6	0.0	4e-20	1.8e-18	10	95	221	302
+3	32.7	0.0	5.8e-11	2.6e-09	126	193	305	371
+
+  Alignments for each domain:
+  == domain 1  score: -3.8 bits;  conditional E-value: 8.7
+         THR-like 134 gkveklqegvlealevyl 151
+                      +k++  qe++++ l  + 
+  Q_APLA000859-PA 173 RKISPEQEELIHRLVYFQ 190
+                      455555665555543333 PP
+
+  == domain 2  score: 62.6 bits;  conditional E-value: 4e-20
+         THR-like  10 kfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgelies 95 
+                      +++e++  ++q +veFaK++pgF++l  eDQi+LLk+++ evm+ r+ar+++  +d + + + + +trd+   +g    ++e i+ 
+  Q_APLA000859-PA 221 HITEITILTVQLIVEFAKRLPGFDKLLREDQIALLKACSSEVMMFRMARRYDVHTDSILFVNNQPYTRDSYNLAG----MSETIDD 302
+                      89999******************************************************99999*****998877....5666655 PP
+
+  == domain 3  score: 32.7 bits;  conditional E-value: 5.8e-11
+         THR-like 126 drpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkveep 193
+                      +rp++ +  kvek+qe +leal+ y+  r+++ ++  +fakLl+ ltelR l ++ se+   lk +++
+  Q_APLA000859-PA 305 QRPSLIEGWKVEKIQEIYLEALRAYVDNRRKP-RAGIIFAKLLSVLTELRNLGKQNSEMCFSLKLKNK 371
+                      599999999******************99997.699**********************9766666654 PP
+

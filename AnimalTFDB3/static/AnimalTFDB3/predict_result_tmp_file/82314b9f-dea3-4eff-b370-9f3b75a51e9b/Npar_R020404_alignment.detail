@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.1	0.6	0.92	83	10	24	284	301
+2	26.8	2.7	2.8e-09	2.5e-07	1	25	306	332
+3	29.3	3.0	4.7e-10	4.3e-08	2	25	337	360
+4	17.5	3.5	2.5e-06	0.00022	1	25	364	393
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 0.92
+     zf-H2C2_2  10 tgek.pyeCp..lCdkaF 24 
+                   t+ek p+ C    C+k++
+  Npar_R020404 284 TNEKrPFMCAypGCNKRY 301
+                   566527988755699876 PP
+
+  == domain 2  score: 26.8 bits;  conditional E-value: 2.8e-09
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCp..lCdkaFk 25 
+                   +L+ H rkHtgekpy+C+   C  +F+
+  Npar_R020404 306 HLQMHSRKHTGEKPYQCDfkDCERRFS 332
+                   799***************877999997 PP
+
+  == domain 3  score: 29.3 bits;  conditional E-value: 4.7e-10
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L+rH r Htg kp++C+ C  +F+
+  Npar_R020404 337 LKRHQRRHTGVKPFQCKTCQRKFS 360
+                   99*********************7 PP
+
+  == domain 4  score: 17.5 bits;  conditional E-value: 2.5e-06
+     zf-H2C2_2   1 nLrrHlrkHtgek...pyeCp..lCdkaFk 25 
+                   +L+ H+r+Htg++   p+ C   +C k+F+
+  Npar_R020404 364 HLKTHTRTHTGKTsekPFSCRwpSCQKKFA 393
+                   699*******5554449************8 PP
+

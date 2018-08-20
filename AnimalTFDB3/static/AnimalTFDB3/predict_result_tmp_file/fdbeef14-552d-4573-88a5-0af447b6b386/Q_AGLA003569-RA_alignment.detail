@@ -1,0 +1,38 @@
+HMM length of domain: 45 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.2	0.0	0.00078	0.0063	22	38	260	277
+2	38.9	0.1	3.5e-12	2.9e-11	1	39	293	331
+3	55.4	0.0	2.5e-17	2.1e-16	1	45	348	393
+4	48.8	0.0	2.9e-15	2.4e-14	1	40	400	440
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00078
+              HTH  22 AArkYgiPrsTLw.rrkr 38 
+                      A+  YgiP +TLw r+ r
+  Q_AGLA003569-RA 260 ASATYGIPSTTLWqRAHR 277
+                      7788*********77666 PP
+
+  == domain 2  score: 38.9 bits;  conditional E-value: 3.5e-12
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLwrrkrg 39 
+                      t+e+l+ Alea ++G +S +kA++ YgiP sTL++  r+
+  Q_AGLA003569-RA 293 TEENLNSALEALRTGTISANKASKAYGIPSSTLYKIARR 331
+                      79********************************98877 PP
+
+  == domain 3  score: 55.4 bits;  conditional E-value: 2.5e-17
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLw.rrkrgkyslkr 45 
+                      tpe+l++Ale++++G++S++kA++++giP+ TL+ r+kr++++l+r
+  Q_AGLA003569-RA 348 TPEDLEKALESIRTGQTSVQKASTEFGIPTGTLYgRCKREGIELSR 393
+                      79****************************************9987 PP
+
+  == domain 4  score: 48.8 bits;  conditional E-value: 2.9e-15
+              HTH   1 tpealaaAleavvnGkmSirkAArkYgiPrsTLw.rrkrgk 40 
+                      +++a+ +Aleav+ G mSi++AA +Y+ P+s+L+ r+krg+
+  Q_AGLA003569-RA 400 SEDAMGEALEAVRLGHMSINQAAIHYNLPYSSLYgRFKRGI 440
+                      59********************************8888885 PP
+

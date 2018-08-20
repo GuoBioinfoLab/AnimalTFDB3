@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	420.3	0.1	5.7e-129	1.3e-127	1	261	366	626
+
+  Alignments for each domain:
+  == domain 1  score: 420.3 bits;  conditional E-value: 5.7e-129
+       NGFIB-like   1 sLkGRRGRLpskpksprde.....sqpspPvsllaalvraivdstpstakldyskfqeadekvskedaedvqqfydlLtgslevirklaekiPg 89 
+                      sLkGRRGRLpskpksp ++     s+pspP+++++alvra++dstp  ++ldys+++ +d++++++dae+vqqfy+lLt+s++v+r++aekiPg
+  PrHsapNP_008912 366 SLKGRRGRLPSKPKSPLQQepsqpSPPSPPICMMNALVRALTDSTP--RDLDYSRYCPTDQAAAGTDAEHVQQFYNLLTASIDVSRSWAEKIPG 457
+                      8***************99888888999*******************..********************************************** PP
+
+       NGFIB-like  90 fselqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLke 183
+                      f++l+k+Dq+lL+esaflelfvlRl++Rs+++edk++Fc+GlvlhrlqclrgFgew+dsi+dfs +lqslnldi+A+acl+aL+++terhGLke
+  PrHsapNP_008912 458 FTDLPKEDQTLLIESAFLELFVLRLSIRSNTAEDKFVFCNGLVLHRLQCLRGFGEWLDSIKDFSLNLQSLNLDIQALACLSALSMITERHGLKE 551
+                      ********************************************************************************************** PP
+
+       NGFIB-like 184 pkrveelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                      pkrveel++ki+++Lkdh+s   ++q+ e++ s++lg+l elr++ct gLqrifylkLedLv++P+iidklfldtlpf
+  PrHsapNP_008912 552 PKRVEELCNKITSSLKDHQS---KGQALEPTESKVLGALVELRKICTLGLQRIFYLKLEDLVSPPSIIDKLFLDTLPF 626
+                      *******************8...9*****************************************************9 PP
+

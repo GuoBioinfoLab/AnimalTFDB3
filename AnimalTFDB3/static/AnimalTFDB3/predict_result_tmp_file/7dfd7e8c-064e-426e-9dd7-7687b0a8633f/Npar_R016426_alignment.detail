@@ -1,0 +1,38 @@
+HMM length of domain: 65 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-4.9	1.9	4	1e+03	18	23	58	63
+2	42.0	4.9	1.6e-14	3.9e-12	2	56	72	126
+3	-0.1	0.1	0.21	53	24	47	327	353
+4	0.1	0.0	0.18	45	44	60	429	445
+
+  Alignments for each domain:
+  == domain 1  score: -4.9 bits;  conditional E-value: 4
+       TF_bZIP 18 rcRkkk 23
+                  +cR+k+
+  Npar_R016426 58 SCRRKR 63
+                  799987 PP
+
+  == domain 2  score: 42.0 bits;  conditional E-value: 1.6e-14
+       TF_bZIP   2 eekrrrRrekNrvAAqrcRkkkkerieeLeqeveeLeeenekLkkevesLreelg 56 
+                   +  ++ +r+kN++AA+r+R k++ +   Le+++ +L een+ Lk e  sL+ + g
+  Npar_R016426  72 DAMYWEKRRKNNEAAKRSREKRRLNDMVLENKLLALGEENANLKTELLSLKLKFG 126
+                   6789**********************************************98876 PP
+
+  == domain 3  score: -0.1 bits;  conditional E-value: 0.21
+       TF_bZIP  24 kerieeLeqeveeLeee...nekLkke 47 
+                   + +++ ++ ++e+Le+e    +kL  +
+  Npar_R016426 327 RIKTKAMQVKMEALENEftaTQKLALP 353
+                   556778888888888886666666655 PP
+
+  == domain 4  score: 0.1 bits;  conditional E-value: 0.18
+       TF_bZIP  44 LkkevesLreelgqlkq 60 
+                   Lk+ ++ L  e+++lk+
+  Npar_R016426 429 LKQGIANLSAEVATLKR 445
+                   66667777777777765 PP
+

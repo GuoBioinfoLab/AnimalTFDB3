@@ -1,0 +1,33 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.6	0.0	0.18	1.3e+02	23	46	200	222
+2	83.5	0.1	4.9e-28	3.6e-25	4	79	367	443
+3	72.1	0.2	1.7e-24	1.2e-21	6	78	492	565
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 0.18
+           CUT  23 isqavFAekvlnrsqgtlselLrk 46 
+                   ++q+ +A++    sq ++s + + 
+  Npar_R004606 200 MNQSSLAKEC-PLSQSMISSIVNS 222
+                   6666666664.4566666666653 PP
+
+  == domain 2  score: 83.5 bits;  conditional E-value: 4.9e-28
+           CUT   4 eldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeilk 79 
+                   + +++di+q v++eLkra isqavFA++++nr+qg+lse+Lr   +Pk+     ++nl+a       mqn+L+lpe+erd+i++
+  Npar_R004606 367 TEVSSDIYQWVRDELKRAGISQAVFARVAFNRTQGLLSEILRkeeDPKTasqslLVNLRA-------MQNFLQLPEAERDRIYQ 443
+                   6789********************************************************.......***************97 PP
+
+  == domain 3  score: 72.1 bits;  conditional E-value: 1.7e-24
+           CUT   6 dtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeil 78 
+                   ++++i++++++e+kra++sqa+FA++++++sqg+l+elLr   +P+p     wenl++       ++++L+lp+ erd i+
+  Npar_R004606 492 INASIYDEIQQEMKRAKVSQALFAKVAASKSQGWLCELLRwkeDPSPenrtlWENLSM-------IRRFLSLPQTERDVIY 565
+                   5789***************************************9999***********.......**************99 PP
+
+
+

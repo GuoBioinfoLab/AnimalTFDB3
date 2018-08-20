@@ -9,7 +9,9 @@ function TcfController($scope,$http,$window,AnimalTFDBservice)  {
     $("[data-toggle='popover']").popover();
     var base_url = AnimalTFDBservice.getAPIBaseUrl();
     var family="actin";
-    var species="Ailuropoda_melanoleuca";
+    var screen_width= document.body.clientWidth;
+    document.getElementById("barchart").style.width = screen_width -400+ "px";
+    var species="Homo_sapiens";
     $scope.species_title=species.split("_").join(" ");
     $scope.family=family;
     $scope.species=species;
@@ -71,6 +73,7 @@ function TcfController($scope,$http,$window,AnimalTFDBservice)  {
                 function onClick(params) {
                     species=params.name;
                     $scope.species=species;
+                     $scope.species_title=species.split("_").join(" ");
                     $scope.fetch_tf();
                 };
                 $scope.lineConfig = {

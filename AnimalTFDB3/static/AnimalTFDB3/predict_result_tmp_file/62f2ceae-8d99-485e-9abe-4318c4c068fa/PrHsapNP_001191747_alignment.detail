@@ -1,0 +1,59 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.8	2.5	0.38	1	5	18	110	123
+2	6.0	0.2	0.33	0.85	4	15	137	148
+3	3.4	0.1	2.1	5.5	8	17	191	209
+4	27.9	0.7	3.9e-08	1e-07	2	25	257	280
+5	21.2	0.3	4.9e-06	1.3e-05	2	25	285	308
+6	29.5	0.3	1.2e-08	3e-08	2	26	313	337
+7	33.1	0.9	8.6e-10	2.2e-09	1	25	340	364
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.38
+           zf-H2C2_2   5 HlrkHtgekpyeCp 18 
+                         H  +H+++k + C+
+  PrHsapNP_001191747 110 HQGTHHKQKLHRCE 123
+                         9************7 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.33
+           zf-H2C2_2   4 rHlrkHtgekpy 15 
+                         +H  +H gekpy
+  PrHsapNP_001191747 137 QHQNEHIGEKPY 148
+                         6999*******9 PP
+
+  == domain 3  score: 3.4 bits;  conditional E-value: 2.1
+           zf-H2C2_2   8 kHtgek.........pyeC 17 
+                         +Htgek         p++C
+  PrHsapNP_001191747 191 SHTGEKsnsktecvsPFQC 209
+                         7*****9999999999999 PP
+
+  == domain 4  score: 27.9 bits;  conditional E-value: 3.9e-08
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                         ++ H r+H g++pyeC +C k+F+
+  PrHsapNP_001191747 257 FSNHQRVHSGKRPYECGECEKSFS 280
+                         789********************7 PP
+
+  == domain 5  score: 21.2 bits;  conditional E-value: 4.9e-06
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                         L +H  +Htg kpy C++C+k+F+
+  PrHsapNP_001191747 285 LIQHQQFHTGGKPYGCEECGKYFS 308
+                         778*******************95 PP
+
+  == domain 6  score: 29.5 bits;  conditional E-value: 1.2e-08
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                         LrrH ++H g+ pyeC +C+k+F++
+  PrHsapNP_001191747 313 LRRHQKVHAGKGPYECGECGKSFSS 337
+                         9**********************85 PP
+
+  == domain 7  score: 33.1 bits;  conditional E-value: 8.6e-10
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         nL+ H r Htge+py+C +C k+F+
+  PrHsapNP_001191747 340 NLKSHQRIHTGERPYKCGECEKSFS 364
+                         89**********************8 PP
+

@@ -1,0 +1,34 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	56.8	7.1	3.4e-18	1.1e-16	1	68	100	167
+2	0.4	0.2	1.4	45	15	56	163	201
+3	19.1	2.6	2e-06	6.2e-05	2	63	223	282
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 3.4e-18
+                         --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+                 HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                         pkRpl+a+++f+ke  +++ +  P+++ +e++k+l++k+++l+e+ K+kY+++++kek+++e++ +++
+  PrHsapNP_001137447 100 PKRPLTAYNRFFKESWPQYSQMYPGMRSQELTKILSKKYRELPEQMKQKYIQDFRKEKQEFEEKLARF 167
+                         8**************************************************************99987 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 1.4
+                         HHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHH CS
+                 HMG  15 qraklkaenPelknaeiskklgekWkalseeeKkkYeekaek 56 
+                         + a +++e+P+l  ++ ++ ++++    + +++kk+++  e+
+  PrHsapNP_001137447 163 KLARFREEHPDLVQKAKKSSVSKR---TQNKVQKKFQKNIEE 201
+                         567788888887666655555543...445566666666555 PP
+
+  == domain 3  score: 19.1 bits;  conditional E-value: 2e-06
+                         -SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHH CS
+                 HMG   2 kRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryek 63 
+                         k p++ +  f ++      +e+ +l+++e ++++g++W+  ++++K +++ +ae+++++y+ 
+  PrHsapNP_001137447 223 KPPMNGYHKFHQDSWS--SKEMQHLSVRERMVEIGRRWQRIPQSQKDHFKSQAEELQKQYKV 282
+                         7899999999988876..589999************************************86 PP
+

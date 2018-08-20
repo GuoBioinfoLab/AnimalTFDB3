@@ -1,0 +1,59 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.6	0.0	8.3	2.4e+02	7	16	28	37
+2	9.4	0.4	0.0029	0.085	11	26	133	148
+3	29.6	0.1	1.2e-09	3.4e-08	2	24	152	174
+4	32.3	0.7	1.7e-10	4.9e-09	1	25	179	203
+5	13.9	0.1	0.00011	0.0032	1	24	207	230
+6	17.4	1.2	8.2e-06	0.00024	1	24	235	258
+7	3.0	0.0	0.29	8.4	2	15	264	277
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 8.3
+     zf-H2C2_2  7 rkHtgekpye 16
+                   +H+g++ ++
+  Npar_R019880 28 QEHPGPRLFK 37
+                  58***99875 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0029
+     zf-H2C2_2  11 gekpyeCplCdkaFkt 26 
+                   ++kp+ C +C+  Fk+
+  Npar_R019880 133 SDKPFSCTECGGFFKH 148
+                   78************98 PP
+
+  == domain 3  score: 29.6 bits;  conditional E-value: 1.2e-09
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                   L+ H r H gekpy C++C+k F
+  Npar_R019880 152 LVLHRRIHSGEKPYSCSECGKQF 174
+                   899*******************9 PP
+
+  == domain 4  score: 32.3 bits;  conditional E-value: 1.7e-10
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   n+ rH r Htgekpy+C +C+k ++
+  Npar_R019880 179 NYLRHQRLHTGEKPYKCAECGKEYA 203
+                   678*******************986 PP
+
+  == domain 5  score: 13.9 bits;  conditional E-value: 0.00011
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                   +L+ H ++H    p+ Cp+C+  F
+  Npar_R019880 207 SLVMHEKFHAENEPFSCPECGANF 230
+                   5899******999*******9988 PP
+
+  == domain 6  score: 17.4 bits;  conditional E-value: 8.2e-06
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                   +L+ H ++H+g ++y+C  C++ F
+  Npar_R019880 235 HLVNHRKTHRGLRRYTCADCGDFF 258
+                   699******************988 PP
+
+  == domain 7  score: 3.0 bits;  conditional E-value: 0.29
+     zf-H2C2_2   2 LrrHlrkHtgekpy 15 
+                   L+ H r+H  ek +
+  Npar_R019880 264 LVIHQRVHSAEKSF 277
+                   778******99976 PP
+

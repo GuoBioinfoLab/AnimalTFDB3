@@ -1,0 +1,31 @@
+HMM length of domain: 509 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	45.1	0.0	4e-16	3.8e-13	57	109	19	74
+2	-1.5	0.0	0.053	49	161	277	164	280
+
+  Alignments for each domain:
+  == domain 1  score: 45.1 bits;  conditional E-value: 4e-16
+              TEA  57 arprrd.tgkdgepvWsdeledaFqqaLeanppmGrrkw..seRgksyGRneLiae 109
+                       ++ +d  + d+e vWs ++e+ Fq+aL + pp Grrk+  s  gk yGRneLia 
+  Q_OTAU008226-PA  19 LQDEKDmSAADAEGVWSPDIEQSFQEALAIYPPCGRRKIilSDEGKMYGRNELIAR 74 
+                      44455514579***************************766899**********96 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 0.053
+              TEA 161 gPkwrtsldhqlsskykehlhsayh...dslrsvqdysgeLppknltlssnitesnekkieglnFdmwvsapqqkdrldkalHvYtrlqgdkrv 251
+                         w+++l+   s+  k   +s+y+    s++  q  +g L+p++  + +  ++ +++k++ ++F  +  + ++ ++  +  H++ ++ g    
+  Q_OTAU008226-PA 164 MQFWQPGLQPGTSQDVKPFPQSSYPsgkPSTAVSQGDVGALQPPHPPVWE-GRAIATHKLRLVEFSAFMESQNRDEP--YPRHLFVHIGGPAIS 254
+                      55688888888888888888888884433333445557888888766644.45666777777778877765555544..677888888888777 PP
+
+              TEA 252 PvarpmpLenlsewrasFpnlkslle 277
+                       + + +   ++++  ++Fp++k  l+
+  Q_OTAU008226-PA 255 YADPLLEAVDVRQIYDKFPEKKGGLK 280
+                      76655555566777788888877665 PP
+
+
+

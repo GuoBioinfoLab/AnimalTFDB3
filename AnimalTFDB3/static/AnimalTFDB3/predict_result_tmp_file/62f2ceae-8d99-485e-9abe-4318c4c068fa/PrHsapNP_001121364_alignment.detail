@@ -1,0 +1,82 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.1	1.1	0.0041	0.01	1	23	352	374
+2	20.8	1.4	7.1e-06	1.8e-05	1	23	380	402
+3	3.6	3.1	2	5.1	5	23	613	631
+4	25.2	1.1	2.8e-07	7.1e-07	1	23	637	659
+5	18.4	0.9	4.1e-05	0.0001	1	23	669	691
+6	12.5	0.5	0.0031	0.0077	3	23	906	926
+7	23.8	0.7	7.7e-07	1.9e-06	1	23	932	954
+8	22.4	2.1	2.2e-06	5.5e-06	1	23	1037	1059
+9	25.3	0.2	2.6e-07	6.5e-07	1	23	1065	1087
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.0041
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         +kC  C k+F + s L+ H+r+H
+  PrHsapNP_001121364 352 HKCRFCAKVFGSDSALQIHLRSH 374
+                         79********************9 PP
+
+  == domain 2  score: 20.8 bits;  conditional E-value: 7.1e-06
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         +kC++Cg +F++k nLk+H ++H
+  PrHsapNP_001121364 380 FKCNICGNRFSTKGNLKVHFQRH 402
+                         8********************99 PP
+
+  == domain 3  score: 3.6 bits;  conditional E-value: 2
+                         TTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   5 dCgksFkrksnLkrHirtH 23 
+                         +C+++ + +s Lk H+rtH
+  PrHsapNP_001121364 613 ICHRVLSCQSALKMHYRTH 631
+                         8*****************9 PP
+
+  == domain 4  score: 25.2 bits;  conditional E-value: 2.8e-07
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         +kC++Cg+ F++k nLk+H+++H
+  PrHsapNP_001121364 637 FKCKICGRAFTTKGNLKTHYSVH 659
+                         8********************99 PP
+
+  == domain 5  score: 18.4 bits;  conditional E-value: 4.1e-05
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         + Cp+C k+F++   L++Hir+H
+  PrHsapNP_001121364 669 HSCPICQKKFTNAVVLQQHIRMH 691
+                         68********************9 PP
+
+  == domain 6  score: 12.5 bits;  conditional E-value: 0.0031
+                         ETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   3 CpdCgksFkrksnLkrHirtH 23 
+                         C++Cgk+F  +s L  H+r+H
+  PrHsapNP_001121364 906 CDICGKTFACQSALDIHYRSH 926
+                         ********************9 PP
+
+  == domain 7  score: 23.8 bits;  conditional E-value: 7.7e-07
+                         EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                         + C++C++ F++k nLk+H+ tH
+  PrHsapNP_001121364 932 FICTVCNRGFSTKGNLKQHMLTH 954
+                         78********************9 PP
+
+  == domain 8  score: 22.4 bits;  conditional E-value: 2.2e-06
+                          EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2    1 ykCpdCgksFkrksnLkrHirtH 23  
+                          ++C+ Cgk+F+++s L+ H rtH
+  PrHsapNP_001121364 1037 HYCNTCGKTFSSSSALQIHERTH 1059
+                          68********************9 PP
+
+  == domain 9  score: 25.3 bits;  conditional E-value: 2.6e-07
+                          EEETTTTEEESSHHHHHHHHHCC CS
+             zf-C2H2    1 ykCpdCgksFkrksnLkrHirtH 23  
+                          + C++Cg+ F++k nLk+H+ tH
+  PrHsapNP_001121364 1065 FACTICGRAFTTKGNLKVHMGTH 1087
+                          78******************999 PP
+

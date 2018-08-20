@@ -1,0 +1,36 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.9	0.1	0.28	2.2e+02	14	48	13	47
+2	325.8	4.6	1.2e-101	9.5e-99	1	248	145	393
+
+  Alignments for each domain:
+  == domain 1  score: -2.9 bits;  conditional E-value: 0.28
+        STAT 14 qtkFsakvRlLvgdklqeh.lnslkvkvsiiseeqa 48
+                  +F  +  +L  ++l+ +  n ++++v+ii+e + 
+  Q_ENN74873 13 VAQFISTKEYLE-SELNGQvANVIEIRVKIIEEFSI 47
+                556666666666.55554447777888888877544 PP
+
+  == domain 2  score: 325.8 bits;  conditional E-value: 1.2e-101
+        STAT   1 fvvekqPpqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkqlsaefrnlsLkeik 99 
+                 f+++kqPpqV+kt+t+F+a vRlLvg+kl++ +  + vkv+iise+qa+ llk+e k+l  ++ ++ geilnn++++e+q ++kql+++frn++Lk+ik
+  Q_ENN74873 145 FIIDKQPPQVMKTHTRFTAGVRLLVGNKLNVYMSTPVVKVCIISETQANLLLKNE-KSLP-KTGDTAGEILNNNANMEIQGANKQLTVSFRNMQLKRIK 241
+                 9****************************************************99.5555.8889********************************** PP
+
+        STAT 100 rserkgaesVteekfallFeteftl..gelkfkvetlSlPvvvivhgsQepsAwAtilWdnafaepkrlpffvpekvsWkqlaeaLswkFssatergLs 196
+                 r+e+kg+esV++ekf+llF+++f +  g++ ++v+tlSlPvvvivhg+Qep+AwAt++Wdnaf+e++r+pf+vp+kv+W+++ e+Ls+kF++at+r Ls
+  Q_ENN74873 242 RAEKKGTESVMDEKFSLLFKSQFAIggGQMVYQVWTLSLPVVVIVHGNQEPHAWATVTWDNAFSESNRTPFQVPDKVPWSKVRETLSQKFKAATGRALS 340
+                 *************************988899******************************************************************** PP
+
+        STAT 197 eeqlkyLaekllgkksske.qklvswsqfskenlpgrnftfWeWfdgilelik 248
+                 e++l++La+kl++ +  ++ ++ vsw qf+ke+lp+r+ftfWeWf++i++l+k
+  Q_ENN74873 341 EDNLHFLADKLFRGNFMQStTQAVSWGQFCKEPLPERTFTFWEWFYAIMKLTK 393
+                 *************998888799*****************************98 PP
+
+
+

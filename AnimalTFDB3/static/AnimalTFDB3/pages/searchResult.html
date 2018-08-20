@@ -2,149 +2,181 @@
     <div ng-show="loading" style="text-align: center">
         <img src="/static/AnimalTFDB3/image/loading.gif" style="width: 100px;height: 100px;" alt="loading...">
     </div>
-    <div ng-hide="loading">
-        <div class="well" ng-hide="tf_count+tf_cofactors_count">Sorry, there is no such data</div>
+    <div ng-hide="tf_cofactors_zero+tf_zero">
+        <div ng-hide="loading">
+            <div class="well">Sorry, there is no such data</div>
+        </div>
     </div>
+
     <div ng-show="tf_list.length">
-        <div class="well"><span style="font-weight: bold">There are <span style="color: #FF6666">{$ tf_list.length $}</span> TFs relate to <span style="font-weight: bold; color: #FF6666">{$ query $}</span></span></div>
-        <hr class="divider">
-        <table ng-show="tf_count"  class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"   ts-wrapper>
-            <thead>
-            <tr>
-                <th ts-criteria="ensembl" ts-default style="width: 10%">Ensembl ID</th>
-                <th ts-criteria="entrez" style="width: 5%">Entrez ID</th>
-                <th style="width:5%" ts-criteria="symbl">Symbol</th>
-                <th ts-criteria="alia" style="width: 5%">Alias</th>
-                <th ts-criteria="fullname" style="width: 5%">Full Name</th>
-                <th ts-criteria="species" style="width: 9%">Species</th>
-                <th ts-criteria="family" style="width: 5%">Family</th>
-                <th ts-criteria="protein" style="width: 10%">Protein<span class="glyphicon glyphicon-question-sign" data-placement="top"  data-container="body" data-toggle="popover" style="color: dodgerblue" data-trigger="hover" data-content="Protein with DBD predicted"></span></th>
-                <th style="width: 5%">Alignment</th>
-                <th style="width: 5%">Phy logenetic Tree</th>
-                <th style="width: 5%">WebLogo</th>
-                <th style="width: 5%">Domain</th>
-                <th style="width: 5%">GO</th>
-                <th style="width: 5%">Pathway</th>
-                <th style="width: 5%">Phenotype</th>
-                <th style="width: 5%">PPI</th>
-                <th style="width: 5%">Paralog</th>
-                <th style="width: 5%">Ortholog</th>
-                <th style="width: 5%">Expression</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="item in tf_list" ts-repeat>
-                <td title="{$ item.ensembl $}"><a href="#!tf_gene_info?tf={$item.ensembl$}">{$ item.ensembl $}</a></td>
-                <td title="{$ item.entrez$}"><a href="http://www.ncbi.nlm.nih.gov/gene/{$item.entrez$}" target="_blank">{$ item.entrez$}</a></td>
-                <td title="{$ item.symbl $}">{$ item.symbl $}</td>
-                <td title="{$ item.alia $}">{$ item.alia $}</td>
-                <td title="{$item.fullname$}">{$ item.fullname $}</td>
-                <td title="{$item.species$}">{$ item.species $}</td>
-                <td title="{$item.family$}">{$ item.family $}</td>
-                <td title="{$item.protein$}">{$item.protein$}</td>
-                <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
-                <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
-                <td> <button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="show_modal(item)">show</button></td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.domain"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.domain"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.go"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.go"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.pathway"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.pathway"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Pheanotype"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Pheanotype"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.PPI"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.PPI"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Paralog"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Paralog"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Ortholog"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Ortholog"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Expression"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Expression"></span>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-lg-1 control-label" style="width: 180px"><h4><span class="glyphicon glyphicon-filter"></span>Filter by species</h4></label>
+                <div class="col-lg-1">
+                    <select class="form-control col-lg-2" id="filter_species" style="width: 150px" ng-click="filter_species()">
+                        <option ng-repeat="item in species_list">{$ item.species $}</option>
+                        <option>All</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading row" data-toggle="collapse"  data-target="#collapsetf">
+                <strong>
+                    <span style="font-weight: bold;" ng-show="query">There are <span style="color: #FF6666">{$ tf_list.length $}</span> TFs relate to <span style="font-weight: bold; color: #FF6666">{$ query $}</span></span>
+                    <span style="font-weight: bold;" ng-hide="query">There are <span style="color: #FF6666">{$ tf_list.length $}</span> TFs</span>
+                </strong>
+            </div>
+            <div id="collapsetf" class="panel-collapse collapse in">
+                <div class="pre-scrollable">
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed" ts-wrapper>
+                        <thead>
+                        <tr>
+                            <th ts-criteria="ensembl" style="width: 12%">Ensembl ID</th>
+                            <th ts-criteria="entrez">Entrez ID</th>
+                            <th style="width:5%" ts-criteria="symbl" ts-default>Symbol</th>
+                            <th ts-criteria="alia">Alias</th>
+                            <th ts-criteria="fullname">Full Name</th>
+                            <th ts-criteria="species" >Species</th>
+                            <th style="width: 5%">Pathway</th>
+                            <th style="width: 5%">Phenotype</th>
+                            <th style="width: 5%">Disease</th>
+                            <th style="width: 5%">PPI</th>
+                            <th style="width: 5%">Paralog</th>
+                            <th style="width: 5%">Ortholog</th>
+                            <th style="width: 5%">Expression</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in tf_list" ts-repeat>
+                            <td title="{$ item.ensembl $}"><a href="#!tf_gene_info?tf={$item.ensembl$}" target="_self">{$ item.ensembl $}</a></td>
+                            <td title="{$ item.entrez$}"><a href="http://www.ncbi.nlm.nih.gov/gene/{$item.entrez$}" target="_blank">{$ item.entrez$}</a></td>
+                            <td title="{$ item.symbl $}">{$ item.symbl $}</td>
+                            <td title="{$ item.alia $}">{$ item.alia $}</td>
+                            <td title="{$item.fullname$}">{$ item.fullname $}</td>
+                            <td title="{$item.species$}">{$ item.species $}</td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.pathway"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.pathway"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.phenotype"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.phenotype"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.gwas"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.gwas"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.ppi"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.ppi"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.paralog"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.paralog"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.ortholog"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.ortholog"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.expression"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.expression"></span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
     <div ng-show="tf_cofactors_list.length">
-        <hr class="divider">
-        <div class="well"><span style="font-weight: bold">There are <span style="color: #FF6666">{$ tf_cofactors_list.length $}</span> TF Cofactors relate to <span style="font-weight: bold; color: #FF6666">{$ query $}</span></span></div>
-        <table ng-show="tf_cofactors_count" ts-wrapper class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed" >
-            <thead>
-            <tr>
-                <th ts-criteria="ensembl" ts-default style="width: 12%">Ensembl ID</th>
-                <th ts-criteria="entrez">Entrez ID</th>
-                <th style="width:5%" ts-criteria="symbl">Symbol</th>
-                <th ts-criteria="alia">Alias</th>
-                <th ts-criteria="fullname">Full Name</th>
-                <th ts-criteria="family">Family</th>
-                <th style="width: 5%">Domain</th>
-                <th style="width: 5%">GO</th>
-                <th style="width: 5%">Pathway</th>
-                <th style="width: 5%">Phenotype</th>
-                <th style="width: 5%">PPI</th>
-                <th style="width: 5%">Paralog</th>
-                <th style="width: 5%">Ortholog</th>
-                <th style="width: 5%">Expression</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="item in tf_cofactors_list" ts-repeat ts-hide-no-data>
-                <td title="{$ item.ensembl $}"><a href="#!tf_gene_info?tf={$item.ensembl$}&cofactors=1">{$ item.ensembl $}</a></td>
-                <td title="{$ item.entrez$}"><a href="http://www.ncbi.nlm.nih.gov/gene/{$item.entrez$}" target="_blank">{$ item.entrez$}</a></td>
-                <td title="{$ item.symbl $}">{$ item.symbl $}</td>
-                <td title="{$ item.alia $}">{$ item.alia $}</td>
-                <td title="{$item.fullname$}">{$ item.fullname $}</td>
-                <td title="{$item.family$}">{$ item.family $}</td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.domain"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.domain"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.go"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.go"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.pathway"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.pathway"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Pheanotype"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Pheanotype"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.PPI"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.PPI"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Paralog"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Paralog"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Ortholog"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Ortholog"></span>
-                </td>
-                <td>
-                    <span class="glyphicon glyphicon-ok" style="color: dodgerblue" ng-show="item.Expression"></span>
-                    <span class="glyphicon glyphicon-remove" style="color: red" ng-show="!item.Expression"></span>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-lg-1 control-label" style="width: 180px"><h4><span class="glyphicon glyphicon-filter"></span>Filter by species</h4></label>
+                <div class="col-lg-1">
+                    <select class="form-control col-lg-2" id="filter_cofactor_species" style="width: 150px" ng-click="filter_cofactor_species()">
+                        <option ng-repeat="item in cofactor_species_list">{$ item.species $}</option>
+                        <option>All</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading row" data-toggle="collapse" data-target="#collapsetfcof" >
+                <strong>
+                    <span style="font-weight: bold;" ng-show="query">There are <span style="color: #FF6666">{$ tf_cofactors_list.length $}</span> TF Cofactors relate to <span style="font-weight: bold; color: #FF6666">{$ query $}</span></span>
+                    <span style="font-weight: bold;" ng-hide="query">There are <span style="color: #FF6666">{$ tf_cofactors_list.length $}</span> TF Cofactors</span></span>
+                </strong>
+            </div>
+            <div id="collapsetfcof" class="panel-collapse collapse in">
+                <div class="pre-scrollable">
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap" style="table-layout: fixed"  ts-wrapper>
+                        <thead>
+                        <tr>
+                            <th ts-criteria="ensembl"  style="width: 12%">Ensembl ID</th>
+                            <th ts-criteria="entrez">Entrez ID</th>
+                            <th style="width:5%" ts-criteria="symbl" ts-default>Symbol</th>
+                            <th ts-criteria="alia" >Alias</th>
+                            <th ts-criteria="fullname">Full Name</th>
+                            <th ts-criteria="species" >Species</th>
+                            <th style="width: 5%">Pathway</th>
+                            <th style="width: 5%">Phenotype</th>
+                            <th style="width: 5%">Disease</th>
+                            <th style="width: 5%">PPI</th>
+                            <th style="width: 5%">Paralog</th>
+                            <th style="width: 5%">Ortholog</th>
+                            <th style="width: 5%">Expression</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in tf_cofactors_list" ts-repeat>
+                            <td title="{$ item.ensembl $}"><a href="#!tf_gene_info?tf={$item.ensembl$}&cofactors=1" target="_self">{$ item.ensembl $}</a></td>
+                            <td title="{$ item.entrez$}"><a href="http://www.ncbi.nlm.nih.gov/gene/{$item.entrez$}" target="_blank">{$ item.entrez$}</a></td>
+                            <td title="{$ item.symbl $}">{$ item.symbl $}</td>
+                            <td title="{$ item.alia $}">{$ item.alia $}</td>
+                            <td title="{$item.fullname$}">{$ item.fullname $}</td>
+                            <td title="{$item.species$}">{$ item.species $}</td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.pathway"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.pathway"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.phenotype"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.phenotype"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.gwas"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.gwas"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.ppi"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.ppi"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.paralog"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.paralog"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.ortholog"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.ortholog"></span>
+                            </td>
+                            <td>
+                                <span class="glyphicon glyphicon-ok" style="color: #1E90FF" ng-show="item.expression"></span>
+                                <span class="glyphicon glyphicon-remove" style="color: #FF9999" ng-show="!item.expression"></span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="fade" tabindex="-1">
+    <div class="dialog">
+        <div class="content"></div>
     </div>
 </div>

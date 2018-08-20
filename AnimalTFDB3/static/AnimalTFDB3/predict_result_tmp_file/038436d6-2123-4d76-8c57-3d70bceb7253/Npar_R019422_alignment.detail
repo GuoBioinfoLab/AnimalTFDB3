@@ -1,0 +1,29 @@
+HMM length of domain: 183 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	241.8	0.1	1.3e-75	3.2e-73	1	183	81	264
+2	-4.2	0.4	3.9	9.6e+02	88	122	1774	1808
+
+  Alignments for each domain:
+  == domain 1  score: 241.8 bits;  conditional E-value: 1.3e-75
+         T-box   1 velenkelWekfhelgtEmiitksGrrmfpslkvsvsgldpkakYlvlldivpvddkrykftsskWevagkaepelpkrlyihpdspatgekwmkqk 97 
+                   v+l+n+++W++f++++tEm++tk+Grrmfp++++ +sg+dp +kY++++di+p d+++yk++ + We+ gka+p++  r++ihp+sp+tg+ wm+q+
+  Npar_R019422  81 VSLDNNNMWNEFYRCSTEMVLTKQGRRMFPYCRYWISGMDPYQKYILAMDITPLDTHKYKWNGKWWESGGKADPHVLGRAFIHPESPSTGQYWMHQP 177
+                   89*************************************************************************999******************* PP
+
+         T-box  98 vsfeklkltnnkedkkkghiilnsmhkYqprlhivel..aeeekelseekvktfvfpeteFiaVtaYqneeitkLKidnNpFAkgfrd 183
+                   vsf klkltnn +d+ +ghiil+smh+Y prlh++ +  a+e  +l+  +v+tf+fp+teF+aVtaYqn +it+LKid NpFAkgfr+
+  Npar_R019422 178 VSFYKLKLTNNVMDQ-EGHIILHSMHRYLPRLHVIPAdkATEVIQLNGPDVHTFTFPQTEFFAVTAYQNLQITQLKIDCNPFAKGFRE 264
+                   ***************.99*****************987777788999999*************************************7 PP
+
+  == domain 2  score: -4.2 bits;  conditional E-value: 3.9
+         T-box   88 atgekwmkqkvsfeklkltnnkedkkkghiilnsm 122 
+                    +t e++ k+ +   k+k t+n+++++k ++++ns 
+  Npar_R019422 1774 ETVEELSKNYLAQLKAKATTNTSHNDKCTTLVNSS 1808
+                    46677888888888888888888887777888875 PP
+

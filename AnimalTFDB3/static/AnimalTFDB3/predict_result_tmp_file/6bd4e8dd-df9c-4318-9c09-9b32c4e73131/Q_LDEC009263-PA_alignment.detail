@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	7.9	0.6	0.051	0.22	13	24	258	269
+2	32.5	1.6	8.4e-10	3.6e-09	1	25	274	298
+3	30.4	2.2	4.1e-09	1.8e-08	1	25	302	327
+4	5.8	0.0	0.24	1	1	12	331	344
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.051
+        zf-H2C2_2  13 kpyeCplCdkaF 24 
+                       +y C++C+k+F
+  Q_LDEC009263-PA 258 DRYACKFCGKVF 269
+                      57********99 PP
+
+  == domain 2  score: 32.5 bits;  conditional E-value: 8.4e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL+rHlr+Htge py+C +C  +F+
+  Q_LDEC009263-PA 274 NLTRHLRTHTGEQPYKCRYCERSFS 298
+                      8*********************995 PP
+
+  == domain 3  score: 30.4 bits;  conditional E-value: 4.1e-09
+        zf-H2C2_2   1 nLrrHlrk.HtgekpyeCplCdkaFk 25 
+                      nL+rH r+ H +ekp++CplC   F 
+  Q_LDEC009263-PA 302 NLQRHVRNiHNKEKPFKCPLCERCFG 327
+                      8******77************99996 PP
+
+  == domain 4  score: 5.8 bits;  conditional E-value: 0.24
+        zf-H2C2_2   1 nLrrHlrkHt..ge 12 
+                      nL rHl+kH   g+
+  Q_LDEC009263-PA 331 NLDRHLKKHEadGP 344
+                      89*******85555 PP
+

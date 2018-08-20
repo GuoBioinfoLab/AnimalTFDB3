@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	10.3	0.1	0.015	0.036	12	25	47	60
+2	36.6	1.8	7.4e-11	1.8e-10	1	26	64	89
+3	31.8	0.2	2.4e-09	5.9e-09	1	25	92	116
+4	29.4	0.6	1.3e-08	3.3e-08	1	25	120	144
+5	30.6	0.4	5.6e-09	1.4e-08	2	25	149	172
+6	25.3	2.9	2.7e-07	6.7e-07	1	24	176	199
+7	34.1	0.2	4.5e-10	1.1e-09	4	24	207	227
+8	29.9	1.4	9.6e-09	2.3e-08	2	26	233	257
+9	37.4	0.5	4.1e-11	9.9e-11	1	25	260	284
+10	29.7	2.5	1.1e-08	2.7e-08	5	25	292	312
+11	2.9	0.2	3.2	7.9	2	13	317	328
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.015
+        zf-H2C2_2 12 ekpyeCplCdkaFk 25
+                     ++ y C +C+kaF+
+  PrHsapNP_775929 47 KRQYVCTECGKAFS 60
+                     456**********7 PP
+
+  == domain 2  score: 36.6 bits;  conditional E-value: 7.4e-11
+        zf-H2C2_2  1 nLrrHlrkHtgekpyeCplCdkaFkt 26
+                     nL+ H r Htgekpy+C++C+kaF++
+  PrHsapNP_775929 64 NLTVHERIHTGEKPYKCKECGKAFSH 89
+                     7999********************97 PP
+
+  == domain 3  score: 31.8 bits;  conditional E-value: 2.4e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL+ H r Htg kpy+C++C+k+F+
+  PrHsapNP_775929  92 NLVVHRRIHTGLKPYTCSECGKSFS 116
+                      8999********************5 PP
+
+  == domain 4  score: 29.4 bits;  conditional E-value: 1.3e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L rH   H gek yeC++C+kaF+
+  PrHsapNP_775929 120 HLIRHQGIHSGEKTYECKECGKAFS 144
+                      688*********************8 PP
+
+  == domain 5  score: 30.6 bits;  conditional E-value: 5.6e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L  H r+Htgekpy C +C+kaF+
+  PrHsapNP_775929 149 LISHHRVHTGEKPYSCIECGKAFS 172
+                      678********************8 PP
+
+  == domain 6  score: 25.3 bits;  conditional E-value: 2.7e-07
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      nL++H r H+g+k y+C++C+k+ 
+  PrHsapNP_775929 176 NLTQHQRMHRGKKVYKCKECGKTC 199
+                      89********************96 PP
+
+  == domain 7  score: 34.1 bits;  conditional E-value: 4.5e-10
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaF 24 
+                       H r HtgekpyeC++C+k+F
+  PrHsapNP_775929 207 DHQRIHTGEKPYECDECGKTF 227
+                      6*******************9 PP
+
+  == domain 8  score: 29.9 bits;  conditional E-value: 9.6e-09
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L+ H r H+ ekpy+C +C+kaF++
+  PrHsapNP_775929 233 LNEHQRLHRREKPYKCNECGKAFTS 257
+                      899********************86 PP
+
+  == domain 9  score: 37.4 bits;  conditional E-value: 4.1e-11
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL+ H r+Htgekpy+C +C+k+F 
+  PrHsapNP_775929 260 NLVDHQRVHTGEKPYKCNECGKTFR 284
+                      899*********************6 PP
+
+  == domain 10  score: 29.7 bits;  conditional E-value: 1.1e-08
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      Hlr+Ht+ekpy+C++C+ka+ 
+  PrHsapNP_775929 292 HLRTHTKEKPYKCSECGKAYR 312
+                      ******************996 PP
+
+  == domain 11  score: 2.9 bits;  conditional E-value: 3.2
+        zf-H2C2_2   2 LrrHlrkHtgek 13 
+                      L +H rkH  ek
+  PrHsapNP_775929 317 LIQHQRKHNEEK 328
+                      568*****9998 PP
+

@@ -1,0 +1,33 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	83.9	0.0	3.6e-28	3.6e-25	3	73	534	605
+2	82.5	0.0	9.9e-28	9.9e-25	3	70	918	986
+3	86.8	0.0	4.5e-29	4.5e-26	3	75	1101	1174
+
+  Alignments for each domain:
+  == domain 1  score: 83.9 bits;  conditional E-value: 3.6e-28
+           CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpese 73 
+                   e++dt++ia++vke+L +++i q++F++ vl+ sqg++se+L++Pkpw++l+  g+e++++m+++L+++++ 
+  Npar_R005437 534 EDIDTAEIARQVKEQLIKHNIGQRIFGHYVLGLSQGSVSEILARPKPWNKLTVrGKEPFHKMKQFLSDEQNI 605
+                   789*****************************************************************9975 PP
+
+  == domain 2  score: 82.5 bits;  conditional E-value: 9.9e-28
+           CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlp 70 
+                   +e+dt +++++vke+L ++ i q++F+ekvl+ sqg++s++L++Pkpw++l++ gre++irmq wLn +
+  Npar_R005437 918 QEVDTIELTRQVKEKLAKNGICQRIFGEKVLGLSQGSVSDMLSRPKPWSKLTQkGREPFIRMQLWLNGE 986
+                   689***************************************************************965 PP
+
+  == domain 3  score: 86.8 bits;  conditional E-value: 4.5e-29
+           CUT    3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpeserd 75  
+                     eldt  i+++vke L++++  q++F+e +l+ +qg++s+lL++Pkpw++l+  gre+++rmq wLn+p+++ +
+  Npar_R005437 1101 PELDTYGITKRVKEVLTDNNLGQRLFGETILGLTQGSVSDLLARPKPWHKLSLkGREPFVRMQLWLNDPNNVDK 1174
+                    689*******************************************************************9876 PP
+
+
+

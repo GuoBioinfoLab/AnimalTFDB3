@@ -1,0 +1,38 @@
+HMM length of domain: 196 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.8	0.0	0.34	99	97	134	7	43
+2	376.3	0.2	4.8e-117	1.4e-114	2	196	65	260
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 0.34
+                         -TTBSEEECS-TT-EEEEETTTTEEEEEEE---SSTTS CS
+                 P53  97 pashlirvegnqkaeyledkvtkrqsvvvpyeppqvgs 134
+                         pa hl   + n +++ + d+++ r +   py p +  s
+  PrHsapNP_001191118   7 PARHLATAQFNLLSSTM-DQMSSRAASASPYTPEHAAS 43 
+                         66777777777777666.55677777788887655444 PP
+
+  == domain 2  score: 376.3 bits;  conditional E-value: 4.8e-117
+                         SS---S-B-TTTTEEEEESSBSSSTTTSEEEETTTTEEEEETTSEEEEEEEESS-SSTTEEEEEEEEESSCCCTTSB-B--HHHHHSSTTT CS
+                 P53   2 avpstkdypgsyelklrfqksgtaksvtctysealnklfcqlaktcpvqvkvdkeppkgsilratavykksehvaevvkrcphherssdad 92 
+                         ++ps++dypg+++++++fq+s+taks+t+tys+ l+kl+cq+aktcp+q+kv+++pp+g+++ra++vykk+ehv++vvkrcp+he  +d++
+  PrHsapNP_001191118  65 VIPSNTDYPGPHHFEVTFQQSSTAKSATWTYSPLLKKLYCQIAKTCPIQIKVSTPPPPGTAIRAMPVYKKAEHVTDVVKRCPNHELGRDFN 155
+                         79***************************************************************************************** PP
+
+                         TS.SS-TTBSEEECS-TT-EEEEETTTTEEEEEEE---SSTTSSSEEEEEEESS-TTCTTTTTTS-EEEEEEEEETTSCEEEEEEEEEEEE CS
+                 P53  93 dg.lapashlirvegnqkaeyledkvtkrqsvvvpyeppqvgselttilynymcnssclggmnrrpiltiitletkegqllgrrsfevrvc 182
+                         +g +apashlirvegn++++y++d+vt+rqsvvvpyeppqvg+e+ttilyn+mcnssc+ggmnrrpil+iitle+++gq+lgrrsfe+r+c
+  PrHsapNP_001191118 156 EGqSAPASHLIRVEGNNLSQYVDDPVTGRQSVVVPYEPPQVGTEFTTILYNFMCNSSCVGGMNRRPILIIITLEMRDGQVLGRRSFEGRIC 246
+                         *989*************************************************************************************** PP
+
+                         SSHHHHHHHHHHHH CS
+                 P53 183 acpgrdrkteeenl 196
+                         acpgrdrk++e+++
+  PrHsapNP_001191118 247 ACPGRDRKADEDHY 260
+                         ************86 PP
+

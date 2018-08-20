@@ -1,0 +1,50 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	17.2	0.5	7.3e-05	0.00025	3	23	319	342
+2	19.5	0.2	1.4e-05	4.7e-05	1	23	350	377
+3	15.1	1.9	0.00033	0.0011	1	23	383	407
+4	16.3	0.4	0.00014	0.00049	1	23	413	438
+5	21.2	0.4	3.7e-06	1.3e-05	1	23	444	469
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 7.3e-05
+                           ET..TTTEEESSHHHHHHHHHC.C CS
+               zf-C2H2   3 Cp..dCgksFkrksnLkrHirt.H 23 
+                           C+  dCg  F ++++L++Hi+  H
+  Q_TCOGS2:TC003000-PA 319 CHwkDCGTEFQTQDELVKHINNdH 342
+                           9999****************9988 PP
+
+  == domain 2  score: 19.5 bits;  conditional E-value: 1.4e-05
+                           EEET..TTT...EEESSHHHHHHHHHCC CS
+               zf-C2H2   1 ykCp..dCg...ksFkrksnLkrHirtH 23 
+                           ++C   +C+   k+Fk +++L++H+r+H
+  Q_TCOGS2:TC003000-PA 350 FVCRwdGCSraeKPFKAQYMLVVHMRRH 377
+                           899999*********************9 PP
+
+  == domain 3  score: 15.1 bits;  conditional E-value: 0.00033
+                           EEET..TTTEEESSHHHHHHHHHCC CS
+               zf-C2H2   1 ykCp..dCgksFkrksnLkrHirtH 23 
+                           +kC+  +C k ++r +nLk+H+r+H
+  Q_TCOGS2:TC003000-PA 383 HKCTfeGCVKAYSRLENLKTHLRSH 407
+                           79**********************9 PP
+
+  == domain 4  score: 16.3 bits;  conditional E-value: 0.00014
+                           EEET..TTTEEESSHHHHHHHHHC.C CS
+               zf-C2H2   1 ykCp..dCgksFkrksnLkrHirt.H 23 
+                           y+C+  +C+k F++ s+  +H+++ H
+  Q_TCOGS2:TC003000-PA 413 YTCEypGCSKAFSNASDRAKHQNRtH 438
+                           99*********************999 PP
+
+  == domain 5  score: 21.2 bits;  conditional E-value: 3.7e-06
+                           EEET..TTTEEESSHHHHHHHHHC.C CS
+               zf-C2H2   1 ykCp..dCgksFkrksnLkrHirt.H 23 
+                           y+C+  +C+k+++++s+L++H +t H
+  Q_TCOGS2:TC003000-PA 444 YVCKapGCTKRYTDPSSLRKHVKTvH 469
+                           99**********************99 PP
+

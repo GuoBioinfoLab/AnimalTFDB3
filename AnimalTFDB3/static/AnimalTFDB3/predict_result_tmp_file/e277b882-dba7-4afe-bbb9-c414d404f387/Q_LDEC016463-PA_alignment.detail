@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.5	0.1	0.13	0.49	15	26	243	254
+2	27.5	0.6	1.4e-08	5.3e-08	2	26	258	283
+3	-0.1	6.7	7.5	29	15	26	323	334
+4	27.5	0.6	1.4e-08	5.3e-08	2	26	338	363
+
+  Alignments for each domain:
+  == domain 1  score: 5.5 bits;  conditional E-value: 0.13
+        zf-H2C2_2  15 yeCplCdkaFkt 26 
+                      y C +C k F+t
+  Q_LDEC016463-PA 243 YSCIKCEKMFST 254
+                      89********86 PP
+
+  == domain 2  score: 27.5 bits;  conditional E-value: 1.4e-08
+        zf-H2C2_2   2 LrrHlr.kHtgekpyeCplCdkaFkt 26 
+                      L+ H r +H g++p+ C+lC+k+F +
+  Q_LDEC016463-PA 258 LEVHARrSHNGKRPFACELCNKTFGH 283
+                      88898736****************87 PP
+
+  == domain 3  score: -0.1 bits;  conditional E-value: 7.5
+        zf-H2C2_2  15 yeCplCdkaFkt 26 
+                      y C +C k F+t
+  Q_LDEC016463-PA 323 YSCIKCEKMFST 334
+                      69********86 PP
+
+  == domain 4  score: 27.5 bits;  conditional E-value: 1.4e-08
+        zf-H2C2_2   2 LrrHlr.kHtgekpyeCplCdkaFkt 26 
+                      L+ H r +H g++p+ C+lC+k+F +
+  Q_LDEC016463-PA 338 LEVHARrSHNGKRPFACELCNKTFGH 363
+                      88898736****************87 PP
+

@@ -1,0 +1,50 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	21.1	0.1	1.2e-06	9.7e-06	14	55	318	359
+2	34.3	0.1	9.1e-11	7.4e-10	7	56	501	550
+3	30.5	0.4	1.3e-09	1.1e-08	8	54	620	666
+4	19.8	0.1	3.1e-06	2.5e-05	8	56	772	820
+5	17.0	0.1	2.3e-05	0.00019	12	49	847	884
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 1.2e-06
+                      HHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHH CS
+         Homeobox  14 eLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRake 55 
+                       L++ F++ +yp+++e   L+  ++ +e+q k+WF  +R k+
+  PrHsapNP_055850 318 FLKNSFHKFPYPTKAELCYLTVVTKYPEEQLKIWFTAQRLKQ 359
+                      699*********************************999985 PP
+
+  == domain 2  score: 34.3 bits;  conditional E-value: 9.1e-11
+                      S-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHH CS
+         Homeobox   7 ftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakek 56 
+                       ++eql +L+  F +n+ p ++e e+L+k +gL++r V+ WF  rR+  +
+  PrHsapNP_055850 501 KSHEQLSALKGSFCRNQFPGQSEVEHLTKVTGLSTREVRKWFSDRRYHCR 550
+                      589*******************************************9877 PP
+
+  == domain 3  score: 30.5 bits;  conditional E-value: 1.3e-09
+                      -HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHH CS
+         Homeobox   8 tkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRak 54 
+                       +eql++Le+ F++n+ p  ee  +L ++++++ r +  WF  rR k
+  PrHsapNP_055850 620 APEQLRALESSFAQNPLPLDEELDRLRSETKMTRREIDSWFSERRKK 666
+                      589******************************************87 PP
+
+  == domain 4  score: 19.8 bits;  conditional E-value: 3.1e-06
+                      -HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHH CS
+         Homeobox   8 tkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakek 56 
+                      t++q + L +lF +++ ps ++   + +++gL+   V  WF   R+  k
+  PrHsapNP_055850 772 TAQQRHLLRQLFVQTQWPSNQDYDSIMAQTGLPRPEVVRWFGDSRYALK 820
+                      89****************************************9998766 PP
+
+  == domain 5  score: 17.0 bits;  conditional E-value: 2.3e-05
+                      HHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHH CS
+         Homeobox  12 leeLeelFeenrypsaeereeLAkklgLeerqVkvWFq 49 
+                       e L++++  ++ + +e+ + L +k++++ +qVk WF 
+  PrHsapNP_055850 847 RELLQDYYMTHKMLYEEDLQNLCDKTQMSSQQVKQWFA 884
+                      6789*********************************5 PP
+

@@ -1,0 +1,31 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.6	0.0	0.34	1.5e+02	28	56	4	32
+2	92.4	0.0	1.6e-30	6.8e-28	3	76	301	375
+3	86.7	0.0	9.9e-29	4.3e-26	3	74	530	602
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 0.34
+              CUT 28 FAekvlnrsqgtlselLrkPkpwenlkag 56
+                     F++     +   l+ +L++  +++ +k+ 
+  Q_AGLA008981-RA  4 FGRSESDLTEERLAHILNEANQFQHMKQQ 32
+                     666666678889999****9999999983 PP
+
+  == domain 2  score: 92.4 bits;  conditional E-value: 1.6e-30
+              CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpeserde 76 
+                      ++l+t+di++kvke+L+++sisq++F+e+vl+ sqg++s+lL++Pkpw++l++ gre++irm+ +L+++++++++
+  Q_AGLA008981-RA 301 NNLNTEDIVKKVKEQLSQYSISQRLFGENVLGLSQGSVSDLLARPKPWHMLTQkGREPFIRMKMFLEDDNAVHKL 375
+                      579******************************************************************998876 PP
+
+  == domain 3  score: 86.7 bits;  conditional E-value: 9.9e-29
+              CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLrkPkpwenlka.grevyirmqnwLnlpeser 74 
+                      ++ldt+ i+ k+ke L +++i q++F+e vl+ sqg++selL+kPkpw++l+  gre++irmq wLn+ +++ 
+  Q_AGLA008981-RA 530 QDLDTQVITTKIKEALLANNIGQKIFGEAVLGLSQGSVSELLSKPKPWHMLSIkGREPFIRMQLWLNDAHNVD 602
+                      689*****************************************************************99876 PP
+

@@ -1,0 +1,41 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.1	0.2	1.5	1.1e+02	92	114	117	139
+2	18.8	0.1	6.7e-07	4.8e-05	1	19	432	450
+3	205.5	0.0	1.4e-63	1e-61	164	408	493	749
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 1.5
+           SF-like  92 eslsrsvppllretlpaayqyee 114
+                       +s ++s + l + t++a+ + +e
+  BGIBMGA007914-PA 117 QSSRDSIDTLRNVTIKAEPLKNE 139
+                       22333333333333333222221 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 6.7e-07
+           SF-like   1 AVRaDRmRGGRnkFgplYk 19 
+                       A+R+DR+RGGR++++++Y 
+  BGIBMGA007914-PA 432 AIREDRTRGGRSTYQCSYP 450
+                       9*****************5 PP
+
+  == domain 3  score: 205.5 bits;  conditional E-value: 1.4e-63
+           SF-like 164 easstvpiLilellklekdedqvknkilA.klqqeqasr...........kktekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmk 244
+                       + +  +p+L+ e++ +e+  +  +++++    + + + +           ++++ p+  a lc++Ad++L++iV+W+ks +lFk++++dDQ++
+  BGIBMGA007914-PA 493 RVTPDIPPLLQEIMDVEHLWQYNESELNRlG-SSPGSPSanpllaasgitAQNSNPDFLADLCNIADHRLYKIVKWCKSLPLFKNISIDDQIC 584
+                       4566777777777777765555444444431.22222222355666666688999************************************** PP
+
+           SF-like 245 LLqnsWsellildhiarqvkhgkegsiklvtGqevelstvlsqagltlqtlvsraqdlvkrLrsLqldrrefvclkfLvLfdsdvkllenale 337
+                       LL+nsW+ell+l++++r v++  +g++ +  G+ ++   + + a l+l  +++r+   +++Lr+L++dr+e+v+lk++vL+ sd  +l +  +
+  BGIBMGA007914-PA 585 LLINSWCELLVLSCCYRGVST--PGEVRVGGGRGIT---LHQSAKLGLTPCIERMLSFTDHLRRLRVDRYEYVALKVIVLLTSDAPELRESEK 672
+                       *********************..*************...****************************************************** PP
+
+           SF-like 338 veevqekvnaalleYtlanypqcpdkfeqlllrlpevralss....qaeeyl..aykhlegevpvnnLliellqAkr 408
+                       v+  qek+ aal++Y+  + p +p kf++lllr+pe++++++      +e+l  a k  +g+ +  nLl+ell++ +
+  BGIBMGA007914-PA 673 VRASQEKALAALQAYIATHSPGTPAKFGELLLRIPELQRTCQffmqVGKEMLnpANKNKDGDGQSFNLLMELLRGDH 749
+                       ***************************************9963332579999556899***************9875 PP
+

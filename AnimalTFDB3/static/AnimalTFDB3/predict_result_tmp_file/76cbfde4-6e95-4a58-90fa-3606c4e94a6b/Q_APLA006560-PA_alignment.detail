@@ -1,0 +1,93 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	25.3	0.0	2.3e-10	2.1e-07	4	60	7	68
+2	16.4	28.3	1.1e-07	0.0001	325	564	195	423
+3	162.0	87.1	1.2e-51	1.1e-48	473	1226	452	1377
+
+  Alignments for each domain:
+  == domain 1  score: 25.3 bits;  conditional E-value: 2.3e-10
+             AF-4  4 dRnlLrlrewerRnQ...EvqqekelfsenvpLFgePYK..tnKgDeLssriQnmLGnYeev 60
+                     +R+ Lr re++ R Q    v++++e  ++++pLFg P K   +  D   ++iQ+ LG+Y  v
+  Q_APLA006560-PA  7 ERDRLRERERQARAQmssQVSEDTESDASGAPLFGTPIKvnPSPADRVTQQIQSKLGDYSRV 68
+                     89*************444456678888999*********544578**************866 PP
+
+  == domain 2  score: 16.4 bits;  conditional E-value: 1.1e-07
+             AF-4 325 klselkanaKakLtklkipsqsleqsl.sn.eascVeeILrEMthsWPPpLtAih.TPskaEpskfpfptkesqhvtsalqnqkqydtsskkvs 415
+                       +  l  n+ + L++ ++p   +  s+ sn  ++ Ve+IL+EMt    +pLtAi  TP +    kf f + +++ ++sa++      t  k+ +
+  Q_APLA006560-PA 195 RMHVLSRNSVPTLPDQNLPDSAIGGSVmSNtGVQDVENILKEMTEV-QTPLTAIAaTPRTELDNKFTFNPANTRISESATSP-----TLIKRRP 282
+                      5555666777778888888766666554652599**********87.5889**9549999999**********999999998.....5788999 PP
+
+             AF-4 416 tsqqsksmLeddLklsssedsdeeqapekpksssapssapqstpesvesahsssaeSeSsSeSeSSSeSDSesEssssdseanepp.rtatpep 508
+                      ts q +sm+ + +        ++ +  +k + +         +p  +    ss++ S S S+S+SSS+    +  +s+ds++   + +++   p
+  Q_APLA006560-PA 283 TSLQPTSMILSPIA-------STPVSNSKMDRER--------SPCFPVLSSSSGSCSDSASDSDSSSNASGTGTRNSTDSKIRPISnQSSHVSP 361
+                      99999998765432.......1112222222222........222244566789999*********9988888888****99987745555578 PP
+
+             AF-4 509 eppstn.kWqLdnwlnkvn.....qlassqeessaessseteesespkkeskeqsegkskss 564
+                      +p +++ +W L ++l +        + +s+ ++s  s  + e s++++ +sk++ +  ++++
+  Q_APLA006560-PA 362 KPEEAKlRWNLASYLDQNGvkmkhDFSPSSRSPSRISLLDNEVSNNNCLNSKNNYNCDKSND 423
+                      8888666********96445576645555555555566666666666666666654333333 PP
+
+  == domain 3  score: 162.0 bits;  conditional E-value: 1.2e-51
+             AF-4  473 eSsSeSeSSSeSDSe.....sEs..sssdseanepprtatpepeppstnkWqLdnwlnkvn..............qlassqeessaessset 543 
+                       +S S+S+SS + +S      s    s sds+ +++++++   p    + k + ++wln                 +   + ++++  s  ++
+  Q_APLA006560-PA  452 SSFSDSDSSVKYESKertfpSAAviSDSDSDDEQRTNNKVCRPVNRPSPKTKSNKWLNESDnnnyfqisdvkgclS---PFNKQNVFSIPKS 540 
+                       4667788877766653322233222344444444443333334333344444445555443444444445554441...3333332222222 PP
+
+             AF-4  544 eesespkkeskeqsegkskssssevvees.......................seskpkakskaeqkkseekqdk........rskqkspaqk 604 
+                       ++++++  ++k +s      s+ ev  +                        +  +p +++k++ ++s ++ d+        +   +s  +k
+  Q_APLA006560-PA  541 KSNRGRPRKNKPNSG-----SEGEVRIKRrgrpplnknrysisgsdneivfkKRGRPPNRPKRATTPSTSE-DEsyalekiiS---SSLLSK 623 
+                       222222111111111.....111222211122224444555555555555554444444444444444222.11234332331...222222 PP
+
+             AF-4  605 eseepntrktvgkkqPkksek.asveeepksslkveke......vpveekdqsskdrpkvktkgrrktaprkepksslasekkkkrssskka 689 
+                       +s + +  +++ ++  +kse  + +++++ks+++v+ +        ++  ++s  +r+  ++++ + t  r ++++s++ + +k+ ++ k +
+  Q_APLA006560-PA  624 KSVSDSGTRKTKTRGRNKSEEsNLMSQKSKSCVEVNAVdereqkIHHRWDEDSGSPRNVQENGSDTATVGRYKNRKSSNLSTRKQSTKLKVS 715 
+                       22222222233333333444434444445555555444333333555555566666666666666666666666666544444444433344 PP
+
+             AF-4  690 apksre.fveteksesesdseellplsplk.............................................................. 718 
+                       ++ks+  +v++ ++ s sdse++ + ++++                                                              
+  Q_APLA006560-PA  716 EKKSTTvDVKSPPDTSSSDSENKYSNVSISsrhypkrrcssssesdtsikreysssphnqinisqisnksetivklnnegkniadkkksdtl 807 
+                       4444331344445555555555555555556788888888888888888888899999999999999************************* PP
+
+             AF-4  719 .....................................qsqtpsssess...rtsskkksevveeklt....keklplpvrekkllsplrds. 765 
+                                                            +   ++ss+s+     +  ++++ +    t    k+  ++ +++k    +++d  
+  Q_APLA006560-PA  808 rklftpkrdseggkgggkgggkggkgkggvnvirideN--YEQSSSSVdeeAVPPITNPVLLSPIPTteipKKESVSSLENKYNVDAVKDAg 897 
+                       ************************99999987766431..2222222222222222222222211112332444455556666677888889 PP
+
+             AF-4  766 eepqsLlVKIdLsl.....LsrvPqrpekesqskkaesksepeegkkkeskqkskkssskskrkrK...........eeeenksd.skklrl 840 
+                       +e    lV+IdL+      L ++   p+++  ++k+e+  e+  +++++ + k++ ++ k  + +            ++++      kk  l
+  Q_APLA006560-PA  898 NEKIRVLVRIDLKRiditkLAKIND-PKRQILEEKQEKIGEQLFHNASSVNIKTEANQPKPCTFNLdssatyvdnsiVQSD--DLgGKKHAL 986 
+                       6666778999886422111555533.3333444444444333333333333333322222222222222222222111111..112333333 PP
+
+             AF-4  841 eketksllsppvissshkesskkksskkkseekkkekllppllsplsseskskkpakkrsssessslsqessksaketkssskkssssskhk 932 
+                       ++++             k+++++ +sk+k+ ++ ++  +   +s++s+ s ++k++kk++++++s+ +++++ s++ +k++++   + ++ +
+  Q_APLA006560-PA  987 KDDK------------VKQTEQT-NSKRKRRTSCSSVSSLSTISNISHGSGRQKEHKKEKCDHKSKRRKDEN-SERYQKTNKNG-ITIKNFR 1063
+                       3333............2222222.222222233333333333444455555555555555544444444444.22222222222.4444444 PP
+
+             AF-4  933 ksegkasessk......enkksskseaklfpvpslpngkskprrpklkfedrqhsadyylkEAKkLKhkADalsdKlgKAvkYlDAalsFiE 1018
+                        ++++++e+ +      e+ ++s   +k f +++   ++   +  +l  +d+ +  + yl+EAK+LKh AD ++d ++  + Yl+A+l+F  
+  Q_APLA006560-PA 1064 NTNHDRKEPRTpplpptEQTNNSDW-SKNFQPIRE-YHSYFEQMDEL-SDDEERDQNRYLNEAKRLKHLADKETDTIKQCMLYLEAVLFFLL 1152
+                       4444444443333322133333332.222333222.23333344444.566788999*********************************** PP
+
+             AF-4 1019 cGiAmEkdpqeakSaYtmyseTVeLikfvlkLKnfvdasatsaekklavLClrCqSLLylamFrlKkdtAlKYSrtLtehfknsskstqaps 1110
+                        G+AmE ++ + k+a+tmy +T+ Lik++ + K    ++++s   kla+L +rCq+LLy ++F+++k +   Y +  +++  +s++++   s
+  Q_APLA006560-PA 1153 TGNAMEHESVTEKAAFTMYKDTLSLIKYISS-KFRNHQDTSSFHTKLAILSYRCQALLYNKLFKMRKHEMRDYQKLINDYCTKSANVAPIQS 1243
+                       ****************************954.6666677789999*******************************************9999 PP
+
+             AF-4 1111 pcvangkkstgtPSPlspspSPassvssssgssss...................ssvsssVsiPqrIhqmaaSyVnITsniLrayeiWeqAe 1183
+                          a   + +gtPS lsp+pSPa+sv+s  ++ss+                    +++    +P+++ +  +   +  s++++  ++W+qA+
+  Q_APLA006560-PA 1244 DHQAI--NGQGTPS-LSPTPSPAGSVGSVGSQSSGyssgeltrgnangqpppaaATTTPCMLVPVSVYNAMSKQNQHISYLISYQDLWDQAD 1332
+                       98885..679***8.9**********9965544448899***********998777777899*****99999999999************** PP
+
+             AF-4 1184 eLarkn..keffaeLdtvmgpLalnSsmteLVrYtRQGlhwLrle 1226
+                        L  k+  k+ff eLd+  +pL+l+Ss+ +LV+Y+R G+ +L+ +
+  Q_APLA006560-PA 1333 SLIMKGrhKNFFIELDRSCRPLTLHSSLIDLVKYVRSGIAKLKKD 1377
+                       **9875227*********************************986 PP
+
+
+

@@ -1,0 +1,82 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	7.8	0.3	0.07	0.27	2	23	265	286
+2	14.8	1.8	0.00042	0.0016	1	23	292	315
+3	17.9	0.1	4.4e-05	0.00017	2	20	322	340
+4	18.7	1.1	2.4e-05	9.2e-05	2	23	363	384
+5	18.3	0.6	3.5e-05	0.00013	3	23	393	413
+6	18.3	0.3	3.3e-05	0.00013	1	23	419	441
+7	19.0	3.0	2e-05	7.4e-05	1	23	447	469
+8	10.6	2.2	0.0096	0.036	1	23	475	497
+9	13.5	2.5	0.0011	0.0041	1	23	503	526
+
+  Alignments for each domain:
+  == domain 1  score: 7.8 bits;  conditional E-value: 0.07
+                       EETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                       kC +C k  ++  +L +H r+H
+  BGIBMGA003226-PA 265 KCLICAKISSNYRLLINHARSH 286
+                       7********************9 PP
+
+  == domain 2  score: 14.8 bits;  conditional E-value: 0.00042
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       y C++C+k  ++ s+Lk+H++t H
+  BGIBMGA003226-PA 292 YHCEYCNKYIPSISELKKHRNTaH 315
+                       89********************99 PP
+
+  == domain 3  score: 17.9 bits;  conditional E-value: 4.4e-05
+                       EETTTTEEESSHHHHHHHH CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHi 20 
+                       +C+ Cg++F ++++L+ H+
+  BGIBMGA003226-PA 322 YCHNCGEKFDTPESLEDHM 340
+                       6*****************9 PP
+
+  == domain 4  score: 18.7 bits;  conditional E-value: 2.4e-05
+                       EETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                       kC+ C++ Fk+ snL +H ++H
+  BGIBMGA003226-PA 363 KCDMCSRDFKSLSNLIQHKKVH 384
+                       8*******************99 PP
+
+  == domain 5  score: 18.3 bits;  conditional E-value: 3.5e-05
+                       ETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   3 CpdCgksFkrksnLkrHirtH 23 
+                       C++Cgk+F +k  L++H+ +H
+  BGIBMGA003226-PA 393 CHKCGKMFFTKGALVNHLAIH 413
+                       ******************999 PP
+
+  == domain 6  score: 18.3 bits;  conditional E-value: 3.3e-05
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       +kC++C+  F+ + nL++H+  H
+  BGIBMGA003226-PA 419 HKCEYCPLAFRARGNLQAHLVLH 441
+                       79*****************9888 PP
+
+  == domain 7  score: 19.0 bits;  conditional E-value: 2e-05
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       ++C+ CgksF+ k +Lk+H  +H
+  BGIBMGA003226-PA 447 FVCEQCGKSFRMKRHLKSHSIMH 469
+                       89*****************8888 PP
+
+  == domain 8  score: 10.6 bits;  conditional E-value: 0.0096
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       y C+ C+k F+ k  L+ H+r H
+  BGIBMGA003226-PA 475 YACEFCNKLFRFKTRLNLHLRQH 497
+                       88*******************99 PP
+
+  == domain 9  score: 13.5 bits;  conditional E-value: 0.0011
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       y C  C + F++ sn+k+H+++ H
+  BGIBMGA003226-PA 503 YNCIQCQRDFTNGSNFKKHMKRrH 526
+                       67779*****************99 PP
+

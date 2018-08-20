@@ -1,0 +1,36 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	22.6	0.1	2.3e-08	4.2e-06	1	42	46	84
+2	13.9	0.0	1.1e-05	0.002	129	168	91	129
+3	-2.4	0.0	1.1	2e+02	45	65	184	204
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 2.3e-08
+                     EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEE CS
+              RHD  1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvk 42
+                     le + qP  + fR+rY++Eg +   +    s++ +k++Ptvk
+  Q_APLA013460-PA 46 LELIVQPSTK-FRYRYESEGATIHRLLH--SQNGAKSYPTVK 84
+                     7899******.**********9999987..9**********8 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 1.1e-05
+                      TSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEE CS
+              RHD 129 eeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiyd 168
+                      ++ k+i++n+v l F a+    +g++ + ++pv+S+pi +
+  Q_APLA013460-PA  91 DDFKNININKVVLRFDAYE-YLNGQMIQICKPVYSQPILN 129
+                      56789************98.89****************86 PP
+
+  == domain 3  score: -2.4 bits;  conditional E-value: 1.1
+                      S--SSEEEEEEEEESSST--B CS
+              RHD  45 nydgeakirvslvtkdeplrp 65 
+                      n+d ++k++v+lv  de+ +p
+  Q_APLA013460-PA 184 NIDSPVKVKVELVRGDERSEP 204
+                      67888999****999988665 PP
+
+
+

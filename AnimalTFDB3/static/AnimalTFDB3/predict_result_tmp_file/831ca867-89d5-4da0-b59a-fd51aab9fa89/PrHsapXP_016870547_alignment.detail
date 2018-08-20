@@ -1,0 +1,50 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.4	0.1	0.0017	0.056	19	45	254	286
+2	33.7	1.2	4e-11	1.4e-09	1	46	294	340
+3	18.5	0.1	2.3e-06	7.8e-05	1	45	346	393
+4	52.8	0.1	4.6e-17	1.6e-15	1	45	401	445
+5	45.9	1.0	6.2e-15	2.1e-13	1	44	453	496
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0017
+                         HTTT....THHHHHHHHS...SS-HHHHHHHHHH CS
+                 MYB  19 lGng....nWkkIakelg...gRtakqcrsrwqn 45 
+                         lGn+    +W+kI++  +    R+a+++r +wqn
+  PrHsapXP_016870547 254 LGNRldshDWEKISNI-NfegSRSAEEIRKFWQN 286
+                         677777779****974.3357************8 PP
+
+  == domain 2  score: 33.7 bits;  conditional E-value: 4e-11
+                         CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHS.SS-HHHHHHHHHHH CS
+                 MYB   1 rgkWteeEdelLleaveklGngnWkkIakelg.gRtakqcrsrwqny 46 
+                         ++ W+ eE+e+L    + +G   W kIa+elg  R+a qc  ++q++
+  PrHsapXP_016870547 294 KQEWSREEEERLQAIAAAHGHLEWQKIAEELGtSRSAFQCLQKFQQH 340
+                         789******************************************97 PP
+
+  == domain 3  score: 18.5 bits;  conditional E-value: 2.3e-06
+                         CSSS-HHHHHHHHHHHHHHTTT...THHHHHHHHSSS-HHHHHHHHHH CS
+                 MYB   1 rgkWteeEdelLleaveklGng...nWkkIakelggRtakqcrsrwqn 45 
+                         r+ WteeEd  L ++v+++  g    +++I  ++ gR   q ++rw +
+  PrHsapXP_016870547 346 RKEWTEEEDRMLTQLVQEMRVGshiPYRRIVYYMEGRDSMQLIYRWTK 393
+                         789*****************999999********************76 PP
+
+  == domain 4  score: 52.8 bits;  conditional E-value: 4.6e-17
+                         CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHH CS
+                 MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqn 45 
+                         +g W +eEd +Ll+av+k+G  +W kI +e++gR++ qcr+r++ 
+  PrHsapXP_016870547 401 KGYWAPEEDAKLLQAVAKYGEQDWFKIREEVPGRSDAQCRDRYLR 445
+                         799****************************************85 PP
+
+  == domain 5  score: 45.9 bits;  conditional E-value: 6.2e-15
+                         CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHH CS
+                 MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwq 44 
+                         +g+W   E+e+L+e++ek+G g W+kIa+el+ R++ qc s+w+
+  PrHsapXP_016870547 453 KGRWNLKEEEQLIELIEKYGVGHWAKIASELPHRSGSQCLSKWK 496
+                         79*****************************************5 PP
+

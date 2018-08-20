@@ -1,0 +1,40 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.1	0.7	0.035	32	85	124	70	116
+2	0.8	0.2	0.02	18	8	50	99	142
+3	16.0	0.1	4.7e-07	0.00043	1	18	220	237
+4	86.6	1.4	1.3e-28	1.2e-25	173	248	242	318
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.035
+             STAT  85 qlsaefrnlsLkeikr.serkga......esVteekfallFeteftl 124
+                      +++a+++++s ++  + + +k +      e V ++k a l + ++ l
+  Q_LDEC015568-PA  70 KINAHLQQMSSQQNSQaNIQKLQrqkellEQVLNQKIAGLMQLRLAL 116
+                      23344444444333332222222333445666666666666666655 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.02
+             STAT   8 pqVlktqtkFsakvRlLvgdklqeh.lnslkvkvsiiseeqaka 50 
+                      +qVl ++    +++Rl +g+kl+e  +  +++++++  ee  k 
+  Q_LDEC015568-PA  99 EQVLNQKIAGLMQLRLALGEKLKETyQLLMQLQTHVLDEELIKW 142
+                      68888888888999999999999986667778887777764333 PP
+
+  == domain 3  score: 16.0 bits;  conditional E-value: 4.7e-07
+             STAT   1 fvvekqPpqVlktqtkFs 18 
+                      f++ekqPpqV+kt+t+ +
+  Q_LDEC015568-PA 220 FIIEKQPPQVMKTNTRLC 237
+                      9**************965 PP
+
+  == domain 4  score: 86.6 bits;  conditional E-value: 1.3e-28
+             STAT 173 kvsWkqlaeaLswkFssatergLseeqlkyLaekllgkksske.qklvswsqfskenlpgrnftfWeWfdgilelik 248
+                      +v W+++ae+Ls+kF +at+r L+e++l++Laek+++ + +++ + ++sw+qf+ke+l++rnftfWeWf++i++l++
+  Q_LDEC015568-PA 242 AVAWNKVAETLSIKFRAATNRCLTEDNLRFLAEKAFRGNYNETsNAMLSWAQFCKEPLSERNFTFWEWFYAIMKLTR 318
+                      79***********************************99888789******************************96 PP
+
+
+

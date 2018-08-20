@@ -1,0 +1,88 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	22.3	42.4	1.8e-09	1.7e-06	421	718	10	348
+2	102.1	74.6	1.4e-33	1.3e-30	539	1086	332	937
+3	10.8	13.8	5.2e-06	0.0049	1119	1189	999	1110
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 1.8e-09
+             AF-4 421 ksmLeddLklsssedsdee...........qapekpksssapssapqstpesvesahsssaeSeSsSeSeSSSeSDSesEssssdseanepprt 503
+                      +  L++dL++s+s+d++++           +  +  ++++ap s+++  ++ + + + +s + +S S+S+SS +SDS+s s  s  e+    + 
+  Q_OTAU004428-PA  10 SAGLQSDLEISDSDDEQKRrgilhphkpiiRMLSPIAQTPAPHSSSSMHQDIPDPQEVRSPQGTS-SGSDSS-GSDSDSSSDDSLDEVAPSLKH 101
+                      4679************9999999999999877777777778877777777767777777777655.9****9.999998887666677666655 PP
+
+             AF-4 504 atp..ep....eppstnkWqLdnwlnkvnqlassqeessaessseteesespkkeskeqsegkskssssevvees.........seskpkaksk 582
+                      + p  ep    e+     W L ++l    q+ ++q   ++ +s + ++++++   +++ +e+ ++ + +ev +e          s+  +++k +
+  Q_OTAU004428-PA 102 SPPppEPkveeEKEGRYTWNLSSYLP---QPNNPQLGRRTGQSPNQPSPNNA---ESDDEEMVKNLDIKEVINEVrtvpllanlSDTDESDKLS 189
+                      555233322112233448********...56666665553333333333222...222223334444455555544445776553333333333 PP
+
+             AF-4 583 aeqkkseekqdk..............rskqkspaqkeseepntrktvgkkqPkksekasveee...................pksslkvekevp 643
+                      ++++ ++++ +k              +               t  ++ k +P  s++a+v+++                   ++s+++  k+  
+  Q_OTAU004428-PA 190 NNNNVNSGNVKKksglvvlsdnsdseN--------------DTG-RTPKVKP--SNRATVRAKlidsdssekeevidkeaevRTSTVQLPKNNN 266
+                      333333333222233343333322221..............111.1122222..2222222222222333323333334555444444444433 PP
+
+             AF-4 644 veekdqsskdrpkvktkgrr.....ktaprkepkssl...asekkkkrssskkaapksrefveteksesesdseellplsplk 718
+                      + e ++s k+r ++k++  +     k+++ + pk+ +    sekk+ r +sk  +p s+  ++ + ++s++ +++ +  ++  
+  Q_OTAU004428-PA 267 AVESSPSKKQRGRPKKNVDNnvvgsKPKRGRPPKTPAdlsGSEKKRGRPPSKPKPPLSPYSSD-DDDNSNKPPNQVFGKPHPG 348
+                      333333344443333333330011144444444433366667777777766555544444333.4666777777766655543 PP
+
+  == domain 2  score: 102.1 bits;  conditional E-value: 1.4e-33
+             AF-4  539 ssseteesespkkeskeqsegkskssssev.veesseskpkakskaeqkkseek.qdk..rskqkspaqkeseepntrktvgkkqPkkseka 626 
+                        +s+ ++++   k++    + k ++  s+  ++es   ++k++s+++qk+s+ + +d+  ++++++p  ke+++  ++k++ +++ k+    
+  Q_OTAU004428-PA  332 DNSNKPPNQVFGKPHPGRRRRKDSRGISNSsSDESYYHNKKESSRKTQKSSNYSdSDEevENRNRAPL-KENQSLRNQKHIESQKKKR---- 418 
+                       22333333322222222222222222222202222222233344444444432221212234444443.2333333333333222211.... PP
+
+             AF-4  627 sveeepksslkvekevpveekdqsskdrpkvktkgrrktaprkepkssl.asekkkkrssskkaapksrefveteksesesdseellplspl 717 
+                       sv ++p++s   +  v++ + d+ s   +k   k   k  p++ +++ + +s+ +  r s+  ++++ r++++ +                 
+  Q_OTAU004428-PA  419 SVPKKPPKS---DAIVKTSDSDSDSDVTNKSLPK---KLPPQRSNRTISsSSDSDDSRRSD--SSDRERKNIKLD----------------- 485 
+                       222222222...2222223344444444444443...556666666444355555555533..333444444444................. PP
+
+             AF-4  718 k..............................................qsqtpsssessrtsskkksevveekltkeklplpvrekkllsplr 763 
+                                                                      +++t ++s+   +s++++ + ++ +  ++  +     +k+  p +
+  Q_OTAU004428-PA  486 IdsntvqdkkksdtirklfqppkgggkgggkggkggkggkggveviiKDETYQRSS---SSVEDEIVPIRTNNNNNNSTETKTTTKTELPEK 574 
+                       03333333333333333336788999999999998888877765543233333332...334445555555555444455555556788889 PP
+
+             AF-4  764 dseepqsLlVKIdLslLsrvPq...rpekesqsk.kaesksepeegkkkeskqkskkssskskrkrK......................eee 829 
+                           ++ L V+I+Ls Ls   +   + +k+s++  k +s s+ ++++ ++++++++++s+++++++                       +  
+  Q_OTAU004428-PA  575 SKTLIKRLPVRIELSRLSNLTKqliN-KKKSEELrKWSSLSNTRQQQPQQQQHQQQNQSNQNNNSNNnsnnttfelpndnnsnnsrqssTLI 665 
+                       9999****************997642.33333332444443333333333333333222222222222233444444332222111111111 PP
+
+             AF-4  830 enksd.skklrleketksllsppvissshkesskk..............ksskkkseekkkekllppllsplsseskskkpakkrsssesss 906 
+                       +++ d + k   e+++  ++              k              ++++  +++kk++ + ++ll+p+ ++ k+    +kr++s+sss
+  Q_OTAU004428-PA  666 QSDCDrRTKNLNENTNDKFK--------------KiplatkppvynnkiNENSDVESTKKSSSWKMDLLEPMDQKIKK----RKRHNSSSSS 739 
+                       11111122222222222222..............13333444444432244555555566666666666555544433....3788888888 PP
+
+             AF-4  907 lsqessksaketkssskkssssskhkksegkasessk...........enkkssk.................seaklfpvpslpngkskprr 970 
+                       ls  s+ s++++ + +   + ++k k+ ++++ ++s+           +     +                 +e++ +p  s   g+ +p  
+  Q_OTAU004428-PA  740 LSTTSNLSHNSSGRRR--DKVDHKSKRRKEECISRSQdtyhqignapsS-----NhemeeykmnihdlggdsHEERNWPHRSR--GEYNPYF 822 
+                       8877774444433333..3677777777777777777556665444431.....26666777777777775447778888888..6666666 PP
+
+             AF-4  971 pklkfedrqhsadyylkEAKkLKhkADalsdKlgKAvkYlDAalsFiEcGiAmEkdpqeakSaYtmyseTVeLikfvl.kLKnfvdasatsa 1061
+                       +    ed+ +  d +l+EAK+LKh AD++ d ++  + Yl+A+l+Fi  G+AmE+++q   +a+tmy +T++Lik++  k Kn  ++s    
+  Q_OTAU004428-PA  823 EPPDEEDSDRDKDRFLNEAKRLKHLADSEADAIQQCMLYLEAILYFILTGNAMEQEAQSDTAAFTMYKDTLNLIKYISsKFKNQQNPSL--T 912 
+                       66667778888*****************************************************************9636888777765..5 PP
+
+             AF-4 1062 ekklavLClrCqSLLylamFrlKkd 1086
+                         kl+ L lrCq+LLy ++++++ +
+  Q_OTAU004428-PA  913 GTKLVALSLRCQALLYYKLYKIRAQ 937 
+                       789******************9865 PP
+
+  == domain 3  score: 10.8 bits;  conditional E-value: 5.2e-06
+             AF-4 1119 stgtPSPlspspSPassvssssgssss.........................................ssvsssVsiPqrIhqmaaSyVnIT 1169
+                        +gtPSPlsp+pSPass++s  gss+s                                          + +  V +P  I  +     +  
+  Q_OTAU004428-PA  999 GQGTPSPLSPTPSPASSIGSVGGSSQSsgyssgelagpprhhhhpvvapvppqqggvgpqqptvgppqPAPTPCVLVPLPIYTLIQKQTQNI 1090
+                       589*****************888877778999999999999999999999999999999999999887677888999999999999999999 PP
+
+             AF-4 1170 sniLrayeiWeqAeeLarkn 1189
+                       s++++  ++WeqAeeL++k+
+  Q_OTAU004428-PA 1091 SYFINYQDLWEQAEELTKKH 1110
+                       99999999999999999987 PP
+
+
+

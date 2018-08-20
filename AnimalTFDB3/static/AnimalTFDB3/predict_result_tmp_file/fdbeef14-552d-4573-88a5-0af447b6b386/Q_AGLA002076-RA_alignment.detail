@@ -1,0 +1,38 @@
+HMM length of domain: 70 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.8	0.2	1.9	9.3e+02	41	45	25	28
+2	47.5	9.7	1.8e-16	9e-14	2	66	50	111
+3	-4.1	0.5	2	9.8e+02	58	62	159	163
+4	64.6	19.3	8.2e-22	4e-19	2	70	198	266
+
+  Alignments for each domain:
+  == domain 1  score: -3.8 bits;  conditional E-value: 1.9
+    zf-LITAF-like 41 lccli 45
+                     +cc +
+  Q_AGLA002076-RA 25 FCC-F 28
+                     233.3 PP
+
+  == domain 2  score: 47.5 bits;  conditional E-value: 1.8e-16
+    zf-LITAF-like   2 eptpvdCpaCqqrvvTsveyksgkltwllalllclfgcllccliPfcvdslkdvehyCpnCgall 66 
+                      +p  ++Cp+C++ ++T v  k +k t+++a+ll l+++   c++P+c ++++ + hyC  C+a l
+  Q_AGLA002076-RA  50 RPKLITCPNCRAVQETYVVLKCTKKTHFMAALLTLVLL---CWLPYCTRRCRIAVHYCRACKAAL 111
+                      6999***********************99999999886...99*******************987 PP
+
+  == domain 3  score: -4.1 bits;  conditional E-value: 2
+    zf-LITAF-like  58 yCpnC 62 
+                       C++C
+  Q_AGLA002076-RA 159 NCSSC 163
+                      57777 PP
+
+  == domain 4  score: 64.6 bits;  conditional E-value: 8.2e-22
+    zf-LITAF-like   2 eptpvdCpaCqqrvvTsveyksgkltwllalllclfgcllccliPfcvdslkdvehyCpnCgallgtyk 70 
+                       pt + Cp+C++ vvT+v+ + + +t+l+al+lcl++c+ ccl+P+c++s++  +h+Cp+C  + g+y+
+  Q_AGLA002076-RA 198 DPTYMICPRCRTAVVTEVQVHRSITTHLIALFLCLCLCWPCCLMPYCLRSCNYSHHTCPHCSYYFGMYR 266
+                      69****************************************************************996 PP
+

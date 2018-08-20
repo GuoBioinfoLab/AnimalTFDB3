@@ -1,0 +1,27 @@
+HMM length of domain: 205 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	232.2	2.3	7e-73	2e-70	20	192	16	193
+
+  Alignments for each domain:
+  == domain 1  score: 232.2 bits;  conditional E-value: 7e-73
+                 NF-YB  20 iagshyviqphd.dtedsl...n.....dhedtngskesfreqdiylPianvarimknaiPqtGkiakdakecvqecvsefisfitsea 99 
+                           ++++hy++q ++ d+e ++   +     +h+        +reqd++lPianva+imk+aiP+tGkiakda+ecvqecvsefisfitsea
+  Q_TCOGS2:TC012106-PA  16 LSDQHYMVQVEEmDDETEQltaEntddsNHDPIDKVGAPLREQDRFLPIANVAKIMKKAIPETGKIAKDARECVQECVSEFISFITSEA 104
+                           567889888876654443312221111123333345678************************************************** PP
+
+                 NF-YB 100 serchqekrktinGedilfamstlGfdsyvePlklylqkfreamkgekgiggavvatdglseelteeaftnqlpaglitad.Gqqqnvl 187
+                           s+rc  ekrktinGedil+ams+lGfd+yvePlklyl k+rea k++k+++ + +a d    e  +e++ +  + ++i+a+ G +++v+
+  Q_TCOGS2:TC012106-PA 105 SDRCYMEKRKTINGEDILYAMSSLGFDNYVEPLKLYLLKYREAAKSDKNLQPSEMAFD----ETSDESYNSTVTRNVIAAEpGGTETVI 189
+                           ************************************************8887777666....566667777777777766524444444 PP
+
+                 NF-YB 188 vytts 192
+                            yt +
+  Q_TCOGS2:TC012106-PA 190 -YTYQ 193
+                           .4433 PP
+

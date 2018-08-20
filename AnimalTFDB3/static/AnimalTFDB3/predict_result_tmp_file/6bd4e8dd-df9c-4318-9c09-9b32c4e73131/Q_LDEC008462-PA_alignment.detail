@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	28.8	0.9	1.3e-08	5.6e-08	2	25	5	28
+2	32.3	2.5	9.6e-10	4.1e-09	2	25	33	56
+3	32.7	0.3	7.2e-10	3.1e-09	1	25	60	84
+4	13.7	0.2	0.00076	0.0033	1	15	88	102
+
+  Alignments for each domain:
+  == domain 1  score: 28.8 bits;  conditional E-value: 1.3e-08
+        zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdkaFk 25
+                     L  H r+H gekpy+C++C  +F+
+  Q_LDEC008462-PA  5 LLVHQRTHSGEKPYTCEFCEISFS 28
+                     667****************98886 PP
+
+  == domain 2  score: 32.3 bits;  conditional E-value: 9.6e-10
+        zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdkaFk 25
+                     L  H r+Htgekpy+C  C+k+F+
+  Q_LDEC008462-PA 33 LLVHQRTHTGEKPYNCTICKKSFS 56
+                     667********************7 PP
+
+  == domain 3  score: 32.7 bits;  conditional E-value: 7.2e-10
+        zf-H2C2_2  1 nLrrHlrkHtgekpyeCplCdkaFk 25
+                     nL  H r Ht+ekp++C  C+k+F+
+  Q_LDEC008462-PA 60 NLINHQRIHTNEKPFNCIICKKSFN 84
+                     7889********************8 PP
+
+  == domain 4  score: 13.7 bits;  conditional E-value: 0.00076
+        zf-H2C2_2   1 nLrrHlrkHtgekpy 15 
+                      nL++H ++Ht ekp+
+  Q_LDEC008462-PA  88 NLKKHQKSHTEEKPV 102
+                      8************96 PP
+

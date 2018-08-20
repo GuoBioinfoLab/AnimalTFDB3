@@ -1,0 +1,32 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	80.7	0.2	5.1e-26	5.4e-24	1	169	433	592
+2	-0.8	0.0	0.56	60	80	114	1010	1044
+
+  Alignments for each domain:
+  == domain 1  score: 80.7 bits;  conditional E-value: 5.1e-26
+                      EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEE.EEEEEEESSST.--B-S....SEEESTTEETT.......... CS
+              RHD   1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeak.irvslvtkdep.lrpHa....hslvgkdckdg.......... 78 
+                      l+I  qPk + +R++Y++E +s+G++++     s+ ++P vk+l+y+++ + ++++++t+d++ lrpHa    h+++gk+  ++          
+  PrHsapNP_775188 433 LKIEVQPKTH-HRAHYETE-GSRGAVKA-----STGGHPVVKLLGYNEKPInLQMFIGTADDRyLRPHAfyqvHRITGKTVATAsqeiiiastk 519
+                      79********.********.9******9.....999************7777***********99**************744444678999999 PP
+
+                      EEEEEE-TT.TSEEE-SSEEEEE--CGGHHHHHHHHHHCT--TTS-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEES CS
+              RHD  79 vcevelkpe.dmvasfqnlGIlcvkkkeveealkerielkekeknvekeakeeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiydk 169
+                      v+e+ l pe +m as+++ GIl+++++++e +     e+++ +kn              ++vrl+F++++   ++++++   +++S p++++
+  PrHsapNP_775188 520 VLEIPLLPEnNMSASIDCAGILKLRNSDIELRKG---ETDIGRKN--------------TRVRLVFRVHI--PQPSGKVLSLQIASIPVECS 592
+                      *********9********************9877...99999999..............99*********..8888889999******9985 PP
+
+  == domain 2  score: -0.8 bits;  conditional E-value: 0.56
+                       EEEEE-TTTSEEE-SSEEEEE--CGGHHHHHHHHH CS
+              RHD   80 cevelkpedmvasfqnlGIlcvkkkeveealkeri 114 
+                       ++++ +ped+   f+ +G++ ++  +v+e + + +
+  PrHsapNP_775188 1010 VSIKPEPEDREPNFATIGLQDITLDDVNEIIGRDM 1044
+                       45666677999****************99998666 PP
+

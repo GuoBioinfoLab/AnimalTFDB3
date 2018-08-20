@@ -1,0 +1,34 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	42.7	0.2	3.2e-14	2.5e-12	1	35	375	409
+2	263.9	1.6	1.9e-81	1.5e-79	154	375	497	707
+
+  Alignments for each domain:
+  == domain 1  score: 42.7 bits;  conditional E-value: 3.2e-14
+         GCNF-like   1 AvREDrmPGGRNksivyvqikekeierkksgqefe 35 
+                       AvREDrmPGGRN+++vy+++k+k+++ kk+++   
+  BGIBMGA007888-PA 375 AVREDRMPGGRNSGAVYNLYKVKYKKNKKANKTAT 409
+                       9*****************************99765 PP
+
+  == domain 2  score: 263.9 bits;  conditional E-value: 1.9e-81
+         GCNF-like 154 lvdkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalpls.tpiPspaqpldkddeelvvesnqllge 245
+                       l d se+s+kLc+i+D++v+++v+W+KkLPF +e+++e+h kLL +kW+e+ +L++aayqa+    t  P    p  + ++ ++ e+n +l++
+  BGIBMGA007888-PA 497 LHDTSEISDKLCKIGDSIVHKMVAWTKKLPFIMEIPMEIHSKLLMEKWHEISVLTTAAYQAMHGKqTHAP----PSSDHEQDFMQEVNANLRT 585
+                       6799*********************************************************853303333....33445667*********** PP
+
+         GCNF-like 246 LadvlskllgseeelerlkedagevvekltqllrkFrrlkvskEeYvclKviilLnkdekglseveeleslqeryvkvlrsylenkspqnpka 338
+                       L+++l+ l+g +++le+l +d+g vvek+tq++  Frr+++ +EeYvclKv+ilLn++ +       le +q+ryv+vlrsyle+ +p++p  
+  BGIBMGA007888-PA 586 LQNCLTSLMGRPITLEQLRLDVGLVVEKMTQITCVFRRIQLRMEEYVCLKVYILLNQEVE-------LEGIQDRYVQVLRSYLEHANPHHPG- 670
+                       *********************************************************998.......************************9. PP
+
+         GCNF-like 339 rlsellsclpeiraaaskllesklfyvPlllkavlir 375
+                       rl+el+  +pei+aaa +llesk+fyvP++l+++ ir
+  BGIBMGA007888-PA 671 RLQELFARIPEIQAAANLLLESKMFYVPFVLNSAEIR 707
+                       *********************************9875 PP
+

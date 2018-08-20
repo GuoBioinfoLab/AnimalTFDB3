@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.6	1.8	4.2	20	14	26	223	236
+2	11.5	4.0	0.0031	0.015	1	25	239	263
+3	19.9	1.6	6.8e-06	3.2e-05	4	25	270	291
+4	35.3	0.6	9.1e-11	4.3e-10	1	25	295	319
+5	15.1	0.1	0.00022	0.001	2	25	324	347
+6	23.0	0.6	7.1e-07	3.4e-06	2	26	355	379
+7	25.6	1.4	1e-07	4.8e-07	2	24	383	405
+8	18.0	0.3	2.6e-05	0.00012	2	22	411	431
+9	36.4	1.2	4e-11	1.9e-10	2	24	439	461
+10	18.5	0.9	1.9e-05	8.9e-05	1	24	466	489
+11	34.0	0.2	2.3e-10	1.1e-09	2	25	495	518
+
+  Alignments for each domain:
+  == domain 1  score: 1.6 bits;  conditional E-value: 4.2
+        zf-H2C2_2  14 p.yeCplCdkaFkt 26 
+                      p y C++C   F+t
+  Q_AGLA005499-RA 223 PiYPCEECTHCFTT 236
+                      56******999986 PP
+
+  == domain 2  score: 11.5 bits;  conditional E-value: 0.0031
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +Lr H r+H +++++ C+ C+  F+
+  Q_AGLA005499-RA 239 DLRIHARSHLKKTRHLCKTCKQCFA 263
+                      5899*****************9997 PP
+
+  == domain 3  score: 19.9 bits;  conditional E-value: 6.8e-06
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                      rH+++H g k++ C++C+k F+
+  Q_AGLA005499-RA 270 RHMKVHDGAKRHLCSECGKGFA 291
+                      9********************7 PP
+
+  == domain 4  score: 35.3 bits;  conditional E-value: 9.1e-11
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L+rHlr+Htgekp+ C+ C k+F+
+  Q_AGLA005499-RA 295 DLTRHLRTHTGEKPFSCKICEKSFA 319
+                      69**********************7 PP
+
+  == domain 5  score: 15.1 bits;  conditional E-value: 0.00022
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L  H+r H +ek + C++C+kaF+
+  Q_AGLA005499-RA 324 LLEHMRAHANEKTFICSVCGKAFS 347
+                      668********************8 PP
+
+  == domain 6  score: 23.0 bits;  conditional E-value: 7.1e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L  H+++Htg k + Cp+C+k F+t
+  Q_AGLA005499-RA 355 LAMHMKTHTGLKDHICPFCGKGFTT 379
+                      778********************96 PP
+
+  == domain 7  score: 25.6 bits;  conditional E-value: 1e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                      L  H r+Htge+py C+ C+k F
+  Q_AGLA005499-RA 383 LIIHKRTHTGERPYVCKHCGKGF 405
+                      556******************98 PP
+
+  == domain 8  score: 18.0 bits;  conditional E-value: 2.6e-05
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdk 22 
+                      L+ H r+H gekpy C  C+ 
+  Q_AGLA005499-RA 411 LTVHARSHSGEKPYVCNMCGR 431
+                      788****************86 PP
+
+  == domain 9  score: 36.4 bits;  conditional E-value: 4e-11
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                      L++H+r Htgekpy+C+ C+kaF
+  Q_AGLA005499-RA 439 LKKHMRIHTGEKPYQCSMCPKAF 461
+                      89********************9 PP
+
+  == domain 10  score: 18.5 bits;  conditional E-value: 1.9e-05
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaF 24 
+                      +Lr H+++Htg++ + C++C+k F
+  Q_AGLA005499-RA 466 DLRIHIKTHTGDRNHICSYCKKGF 489
+                      5899******************99 PP
+
+  == domain 11  score: 34.0 bits;  conditional E-value: 2.3e-10
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ Hlr Htgekpy+C  CdkaF+
+  Q_AGLA005499-RA 495 LKVHLRIHTGEKPYTCNICDKAFS 518
+                      788********************7 PP
+

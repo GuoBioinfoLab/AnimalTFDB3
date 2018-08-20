@@ -1,0 +1,59 @@
+HMM length of domain: 29 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	45.1	10.0	1.4e-15	4.2e-13	1	28	380	407
+2	49.3	6.2	7e-17	2.2e-14	1	29	439	467
+3	-3.4	0.2	2	6.1e+02	11	15	816	820
+4	2.2	0.1	0.037	11	22	29	1087	1094
+5	55.8	8.3	6.2e-19	1.9e-16	1	29	1107	1135
+6	1.3	0.2	0.07	22	22	29	1152	1159
+7	51.3	5.5	1.6e-17	5e-15	1	29	1192	1220
+
+  Alignments for each domain:
+  == domain 1  score: 45.1 bits;  conditional E-value: 1.4e-15
+          zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPl 28 
+                      kCPtpGC+G+GHv+G y++HrslsgCP+
+  Q_OTAU003966-PA 380 KCPTPGCTGQGHVTGLYSHHRSLSGCPR 407
+                      7**************************6 PP
+
+  == domain 2  score: 49.3 bits;  conditional E-value: 7e-17
+          zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                      kCPtpGC+G+GHv++++ sHrslsgCP+a
+  Q_OTAU003966-PA 439 KCPTPGCNGRGHVSSNRNSHRSLSGCPVA 467
+                      7**************************97 PP
+
+  == domain 3  score: -3.4 bits;  conditional E-value: 2
+          zf-C2HC  11 GHvkG 15 
+                      GH+kG
+  Q_OTAU003966-PA 816 GHMKG 820
+                      ****9 PP
+
+  == domain 4  score: 2.2 bits;  conditional E-value: 0.037
+          zf-C2HC   22 slsgCPla 29  
+                       slsgCP+a
+  Q_OTAU003966-PA 1087 SLSGCPRA 1094
+                       89****97 PP
+
+  == domain 5  score: 55.8 bits;  conditional E-value: 6.2e-19
+          zf-C2HC    1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29  
+                       kCPtpGCdGsGHv+G+y+sHrslsgCP+a
+  Q_OTAU003966-PA 1107 KCPTPGCDGSGHVTGNYSSHRSLSGCPRA 1135
+                       7**************************97 PP
+
+  == domain 6  score: 1.3 bits;  conditional E-value: 0.07
+          zf-C2HC   22 slsgCPla 29  
+                       s+sgCP+a
+  Q_OTAU003966-PA 1152 SASGCPIA 1159
+                       79****97 PP
+
+  == domain 7  score: 51.3 bits;  conditional E-value: 1.6e-17
+          zf-C2HC    1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29  
+                       +CPtpGCdG+GH++G + +HrslsgCP+a
+  Q_OTAU003966-PA 1192 NCPTPGCDGTGHINGSFLTHRSLSGCPVA 1220
+                       5**************************97 PP
+

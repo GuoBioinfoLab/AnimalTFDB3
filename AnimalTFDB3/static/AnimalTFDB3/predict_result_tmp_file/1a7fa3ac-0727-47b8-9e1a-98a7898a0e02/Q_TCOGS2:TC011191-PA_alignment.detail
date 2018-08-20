@@ -1,0 +1,30 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	128.2	0.5	6.5e-41	1.4e-38	1	168	61	251
+
+  Alignments for each domain:
+  == domain 1  score: 128.2 bits;  conditional E-value: 6.5e-41
+                           EEEEE-B-TTSE--EECCC.TSSSS---BTT--SS.S----EEEEES--SSEEEEEEEEESSST..--B-SSEEESTTEETT...EEEE CS
+                   RHD   1 leIleqPkqrgfRfrYkcE.grsaGsipgesseks.kktfPtvkilnydgeakirvslvtkdep..lrpHahslvgkdckdg...vcev 82 
+                           l+I+eqP +r fRfrYk+E  +++Gs+ g++s +s k+t+Pt++++n+  +a++r+s+ + + +   +pH+h+l+ k+ k +    +++
+  Q_TCOGS2:TC011191-PA  61 LRIIEQPIDR-FRFRYKSEmTGTHGSLCGQNSDRSrKQTYPTIELCNFYKRAVVRCSIYQYNTKedQKPHPHRLIKKQGKGEvddPHDA 148
+                           79********.********99***********9872569*******************986544459**********866544559*** PP
+
+                           EE-TT.TSEEE-SSEEEEE--CGGHHHHHHHHH................HCT--TTS.-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTS CS
+                   RHD  83 elkpe.dmvasfqnlGIlcvkkkeveealkeri................elkekekn.vekeakeeakeidlnvvrlcFqaflpdstgn 153
+                            ++pe  +v++f+ +GI++++kk++  +l +++                el++ke+  ++  a+ e k i+lnvv l F af+ +++g 
+  Q_TCOGS2:TC011191-PA 149 YVSPEdGYVYTFHSMGIIHTAKKNLVPELVKKKtqlkkeevarlegkmrELTQKEEIeIKGLAEAESKFINLNVVVLRFDAFY-ENNGI 236
+                           *****99*********************999999**************9666666655999999999****************.99999 PP
+
+                           CEEE---EEEEEEEE CS
+                   RHD 154 fttalepvvSnpiyd 168
+                               ++pv+S+ i++
+  Q_TCOGS2:TC011191-PA 237 LHPICPPVYSHTINN 251
+                           99**********986 PP
+

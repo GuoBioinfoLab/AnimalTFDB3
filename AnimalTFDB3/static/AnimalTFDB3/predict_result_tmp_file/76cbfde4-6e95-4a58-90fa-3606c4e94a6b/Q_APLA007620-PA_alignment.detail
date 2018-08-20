@@ -1,0 +1,36 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.4	0.0	3.1	1.4e+02	137	181	41	85
+2	85.1	0.1	5.1e-27	2.3e-25	5	119	134	242
+3	19.2	0.0	7.7e-07	3.5e-05	154	199	245	288
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 3.1
+         THR-like 137 eklqegvlealevylqkrhpasndpdlfakLlgkltelRslneeh 181
+                      ++ +e+  e  ++++ ++  a+++pd+ +k+l+    + +++++h
+  Q_APLA007620-PA  41 KRSRERSSEDGNNRVSTTDAADQSPDMETKHLAVYDVILTVSQAH 85 
+                      455555555555556666666678888888887665555555555 PP
+
+  == domain 2  score: 85.1 bits;  conditional E-value: 5.1e-27
+         THR-like   5 qslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfk 98 
+                       +++++fa ++t+++q+vveFaK++pgF++l q+DQ +L k + +ev+l +++ + ++ s++++  d+++vtr+ql  ++      ++++++ +
+  Q_APLA007620-PA 134 CWYFQQFAANVTPCVQRVVEFAKRVPGFCDLGQDDQLILIKIGFFEVWLSHVSKLTSNTSMMFD--DGTTVTRQQLEIMY----DTDFVSALIH 221
+                      579****************************************************996666655..**********9876....99******** PP
+
+         THR-like  99 fakslaslnlddeemaLlvav 119
+                      fa+++++l l+d+e+ L++av
+  Q_APLA007620-PA 222 FANTFNALSLNDTELGLFSAV 242
+                      *******************97 PP
+
+  == domain 3  score: 19.2 bits;  conditional E-value: 7.7e-07
+         THR-like 154 rhpasndpdlfakLlgkltelRslneehserlvmlkveepktslpp 199
+                      +h   ++p+lf  Ll kl+elR l ++h+ +l +++v+  k  lpp
+  Q_APLA007620-PA 245 NHA--SEPQLFSNLLVKLPELRNLGAKHTAHLDWFRVNWTKLTLPP 288
+                      344..48*******************************99877775 PP
+

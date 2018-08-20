@@ -1,0 +1,31 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	234.5	0.2	1.9e-73	6.9e-71	2	189	241	432
+2	78.2	0.4	8.7e-26	3.1e-23	187	271	610	694
+
+  Alignments for each domain:
+  == domain 1  score: 234.5 bits;  conditional E-value: 1.9e-73
+      ESR-like   2 rldrgklkvrgerqkykrk..pesessetlqlltqsptkslellpaeklvsvlleaEPekvyagedsskpdteasllssLtdLadrelvvvikWAkk 96 
+                   r++r++++  ++r++++ +     +s++t +++  ++   ++ + +e++v  l eaEP++v++++ + kp+teas+++sLt+Lad+elv++i WAkk
+  Npar_R003024 241 RRERCGYRIIRHRRHSEDQmhCLGKSKKTIENIGRVKDVLPCAMGPEQFVLSLIEAEPPNVLLMNRPCKPFTEASMMMSLTKLADKELVHMIAWAKK 337
+                   899*99988777776665533445555666666666666666666**************************************************** PP
+
+      ESR-like  97 iPGFsdLsleDQmkLlqssWmeilvlglvwRSlkhegkLiFApdlvlde.ekkkvegllelfdallqlsqrfreLklereEyvclKallLlns.p 189
+                   iPGF++Lsl DQ++Ll+s+W+e+l++gl+wRS++++gkLiFApdl ld+ e+k+veg+le+fd+ll++++rfreLkl++ Ey+clK+++Llns +
+  Npar_R003024 338 IPGFVELSLYDQVRLLESCWLEVLMMGLMWRSIDQPGKLIFAPDLSLDRdEGKCVEGILEIFDMLLATTSRFRELKLQHREYLCLKVMILLNSsE 432
+                   ************************************************9999****************************************931 PP
+
+  == domain 2  score: 78.2 bits;  conditional E-value: 8.7e-26
+      ESR-like 187 nspsegledqekleelrdalieaLkkviaksrkssqqrssrlakLLllLpelrqasnklvehllsekrkekVelpklllemleaq 271
+                   ++ +e+ ++++kl++l++++++ L++vi ks+    q+s+rla+LL+lL+++r+asnk++ehlls+k+k++V++++llleml+a+
+  Npar_R003024 610 STSEEESDSSKKLHHLLNTVTDGLVWVIGKSGIPFRQQSTRLANLLMLLSHVRHASNKGMEHLLSMKCKNVVPVYDLLLEMLNAH 694
+                   55688899***************************************************************************98 PP
+
+
+

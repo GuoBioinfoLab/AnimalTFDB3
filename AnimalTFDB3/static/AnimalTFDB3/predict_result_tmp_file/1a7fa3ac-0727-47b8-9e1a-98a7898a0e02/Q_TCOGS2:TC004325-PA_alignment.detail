@@ -1,0 +1,38 @@
+HMM length of domain: 29 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	3.5	0.0	0.018	4	22	29	15	22
+2	58.2	8.3	1.5e-19	3.3e-17	1	29	35	63
+3	52.0	5.2	1.3e-17	2.8e-15	1	29	80	108
+4	53.7	5.5	3.9e-18	8.5e-16	1	29	141	169
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.018
+               zf-C2HC 22 slsgCPla 29
+                           lsgCP+a
+  Q_TCOGS2:TC004325-PA 15 DLSGCPRA 22
+                          59****97 PP
+
+  == domain 2  score: 58.2 bits;  conditional E-value: 1.5e-19
+               zf-C2HC  1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29
+                          kCPtpGCdGsGHv+G+y+sHrslsgCP+a
+  Q_TCOGS2:TC004325-PA 35 KCPTPGCDGSGHVTGNYSSHRSLSGCPRA 63
+                          7**************************97 PP
+
+  == domain 3  score: 52.0 bits;  conditional E-value: 1.3e-17
+               zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                           +CP+pGCdGsGH +Gk+ sHrs+sgCP+a
+  Q_TCOGS2:TC004325-PA  80 RCPIPGCDGSGHATGKFLSHRSASGCPIA 108
+                           7**************************97 PP
+
+  == domain 4  score: 53.7 bits;  conditional E-value: 3.9e-18
+               zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                           +CPtpGCdG+GH++G + +HrslsgCP+a
+  Q_TCOGS2:TC004325-PA 141 NCPTPGCDGTGHINGSFLTHRSLSGCPVA 169
+                           5**************************97 PP
+

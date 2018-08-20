@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	386.0	0.1	7.8e-119	4e-117	1	254	389	642
+
+  Alignments for each domain:
+  == domain 1  score: 386.0 bits;  conditional E-value: 7.8e-119
+            NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiP 88 
+                           sLkGRRGRLpskpksp++ s+pspPvsl++alvra+vd+tp+ a+ldys++ e +  +   ++ae++qqfy lLt+s++vi+++a+kiP
+  Q_TCOGS2:TC013146-PA 389 SLKGRRGRLPSKPKSPQE-SPPSPPVSLITALVRAHVDTTPDLANLDYSQYLEpSPIEPVISEAEKIQQFYTLLTTSVDVIKNFADKIP 476
+                           8***************99.**********************************55567889**************************** PP
+
+            NGFIB-like  89 gfselqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllte 177
+                           gf+el+++D elL++sa lelfvlRlayR++++++kl Fc+G+vl ++qc r+Fg+w++ i++f +sl  +++disAfacl+aL+l+te
+  Q_TCOGS2:TC013146-PA 477 GFQELCPEDRELLFQSASLELFVLRLAYRTHPNDTKLTFCNGVVLDKQQCQRSFGDWLHAIMEFCSSLMAMEIDISAFACLCALTLITE 565
+                           ***************************************************************************************** PP
+
+            NGFIB-like 178 rhGLkepkrveelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidkl 254
+                           rhGLkep+rve+lq+kii++L+dhv+++a++q+k++++srllgkl+elr+l++qgLqrifylkLedLvpaP++i+k+
+  Q_TCOGS2:TC013146-PA 566 RHGLKEPHRVEQLQMKIISSLRDHVTYNAEAQRKAHYFSRLLGKLPELRSLSVQGLQRIFYLKLEDLVPAPPLIEKM 642
+                           ***************************************************************************98 PP
+

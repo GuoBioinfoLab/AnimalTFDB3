@@ -1,0 +1,27 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	300.6	0.0	9.1e-94	4.5e-91	2	231	143	381
+
+  Alignments for each domain:
+  == domain 1  score: 300.6 bits;  conditional E-value: 9.1e-94
+               Tub   2 pgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgvkp 90 
+                       p+++++l++c+i Rd++    +l++tY L+le++ +k+ fLlaarkr++s+ts+Ylis+d+++l+r+++s+ Gklrsn+lgt ft+yd+g+  
+  BGIBMGA009293-PA 143 PAKHGTLYKCRIARDRKgmdrGLYPTYFLHLEKDYGKKVFLLAARKRKKSATSNYLISTDPTELTRQADSFAGKLRSNLLGTAFTVYDNGKAW 235
+                       888999**************99**********999********************************************************** PP
+
+               Tub  91 kksaaekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneqlqayvLnFrgRvt 178
+                       +k++++k+r+ela+++Y++nvlg++gpr+m+v++p +     +v++ p++++e+l e+ k+++ +d++vl+nk+p wne++q+yvLnF+gRvt
+  BGIBMGA009293-PA 236 RKHDHAKTRYELASIIYDTNVLGFKGPRKMTVILPGMtpdrqRVAIVPQDDSETLLERLKSQNYDDIVVLHNKTPVWNEETQSYVLNFHGRVT 328
+                       *****************************************989999********************************************** PP
+
+               Tub 179 vaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfdt 231
+                       +aSvKNfq+v+++d e+v++qfG++++dvFtmD+ryPl+alqAF+i+lssfd+
+  BGIBMGA009293-PA 329 QASVKNFQIVHDSDPEYVVMQFGRISEDVFTMDFRYPLCALQAFGIALSSFDS 381
+                       ***************************************************96 PP
+

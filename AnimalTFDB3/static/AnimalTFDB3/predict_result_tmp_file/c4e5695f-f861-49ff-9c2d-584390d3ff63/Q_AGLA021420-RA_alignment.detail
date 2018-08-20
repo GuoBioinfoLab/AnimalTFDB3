@@ -1,0 +1,52 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.6	0.4	0.0038	0.022	9	25	214	230
+2	34.4	1.0	5.8e-11	3.2e-10	2	26	235	259
+3	22.0	4.1	4.8e-07	2.7e-06	4	26	265	287
+4	22.5	0.4	3.1e-07	1.8e-06	2	26	291	316
+5	32.6	0.5	2e-10	1.1e-09	1	26	319	344
+6	25.0	0.3	5.1e-08	2.9e-07	2	25	348	371
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.0038
+        zf-H2C2_2   9 HtgekpyeCplCdkaFk 25 
+                       ++ k ++C++C+k F 
+  Q_AGLA021420-RA 214 KKPNKHHQCDACGKIFR 230
+                      334455********886 PP
+
+  == domain 2  score: 34.4 bits;  conditional E-value: 5.8e-11
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFkt 26 
+                      L+ H+r Htge+py C lCdk+F++
+  Q_AGLA021420-RA 235 LVHHIRIHTGERPYVCHLCDKRFTN 259
+                      889********************97 PP
+
+  == domain 3  score: 22.0 bits;  conditional E-value: 4.8e-07
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFkt 26 
+                       H+r+Htgek + C +C+kaF+t
+  Q_AGLA021420-RA 265 THMRTHTGEKNHICTVCNKAFAT 287
+                      6********************86 PP
+
+  == domain 4  score: 22.5 bits;  conditional E-value: 3.1e-07
+        zf-H2C2_2   2 LrrHlr.kHtgekpyeCplCdkaFkt 26 
+                      L++H+   Ht+e+py C +C+k+F++
+  Q_AGLA021420-RA 291 LTKHTIaIHTSERPYGCTYCSKRFAS 316
+                      899*644*****************85 PP
+
+  == domain 5  score: 32.6 bits;  conditional E-value: 2e-10
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      nL+ H++ Htgek y C+ C+kaF+t
+  Q_AGLA021420-RA 319 NLNTHTKIHTGEKNYRCDQCGKAFST 344
+                      89**********************86 PP
+
+  == domain 6  score: 25.0 bits;  conditional E-value: 5.1e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L +H+ +H gek y C++C+k+F+
+  Q_AGLA021420-RA 348 LYQHMLVHSGEKAYLCEYCNKRFS 371
+                      789********************7 PP
+

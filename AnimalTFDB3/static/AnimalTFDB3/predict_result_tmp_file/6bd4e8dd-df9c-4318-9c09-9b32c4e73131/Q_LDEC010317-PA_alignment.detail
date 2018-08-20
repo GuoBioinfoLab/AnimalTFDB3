@@ -1,0 +1,41 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	21.7	0.0	8.8e-08	5.7e-06	1	25	132	156
+2	4.2	0.0	0.018	1.2	69	118	174	224
+3	233.5	0.1	4.4e-72	2.8e-70	205	408	263	461
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 8.8e-08
+          SF-like   1 AVRaDRmRGGRnkFgplYkrdralk 25 
+                      A+R+DR+RGGR++++++Y  + +l 
+  Q_LDEC010317-PA 132 AIREDRTRGGRSTYQCSYSLPPSLT 156
+                      9*****************9887665 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.018
+          SF-like  69 asyedltkssllp.ssteqslsvseslsrsvppllretlpaayqyeefdls 118
+                      +s++ lt + ++p ss  +++  + + s++vppll+e+++++++++  +++
+  Q_LDEC010317-PA 174 ESHSGLTVKLEPPdSSLSHQKRTTYPGSQGVPPLLQEIMDVEHLWHYNETE 224
+                      444444443333314456677777788888**************9743333 PP
+
+  == domain 3  score: 233.5 bits;  conditional E-value: 4.4e-72
+          SF-like 205 ekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmkLLqnsWsellildhiarqvkhgkegsiklvtGqevelstvlsqagltlqtlvsr 298
+                        p+  a lc++Ad++L++iV+W+ks +lFk++++dDQ++LL+nsW+ell++++++r++++  +g+i ++ G+ ++   ++++ ++++q +++r
+  Q_LDEC010317-PA 263 TNPDFVANLCNIADHRLYKIVKWCKSLPLFKNISIDDQICLLINSWCELLLFSCCFRSMST--PGEIRVSLGKSIT---LAQAREMGMQPCIER 351
+                      4688999******************************************************..*************...99************* PP
+
+          SF-like 299 aqdlvkrLrsLqldrrefvclkfLvLfdsdvkllenaleveevqekvnaalleYtlanypqcpdkfeqlllrlpevralssqaeeylaykhleg 392
+                      + + +++Lr+L++d++e++++k++ L+ sd+ +l++a  v+  qek+ +al++Ytl +yp+ p+kf++lllr+pe++++++  +e+l++k+ +g
+  Q_LDEC010317-PA 352 MLNFTEQLRRLRVDQYEYIAMKVILLLTSDTSELKEAERVRVSQEKALKALQDYTLSHYPESPSKFGELLLRIPELQRTCQVGKEMLTIKSKDG 445
+                      ********************************************************************************************** PP
+
+          SF-like 393 evpvnnLliellqAkr 408
+                      e p  nLl+ell++ +
+  Q_LDEC010317-PA 446 EGPSFNLLMELLRGDH 461
+                      ************9875 PP
+

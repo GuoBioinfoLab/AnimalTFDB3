@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.2	0.4	0.39	1.8	12	25	419	432
+2	21.5	1.8	2.7e-06	1.3e-05	2	25	437	460
+3	34.7	1.5	1.8e-10	8.4e-10	1	25	464	488
+4	2.8	2.3	2.1	9.8	2	24	493	526
+
+  Alignments for each domain:
+  == domain 1  score: 5.2 bits;  conditional E-value: 0.39
+         zf-H2C2_2  12 ekpyeCplCdkaFk 25 
+                       ++++ C +C+k F+
+  BGIBMGA000988-PA 419 PTKFVCRVCSKNFS 432
+                       578*********95 PP
+
+  == domain 2  score: 21.5 bits;  conditional E-value: 2.7e-06
+         zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                       L+rH++ H   k+y C +C+k F+
+  BGIBMGA000988-PA 437 LNRHMKCHSDVKRYLCTFCGKGFN 460
+                       89********************96 PP
+
+  == domain 3  score: 34.7 bits;  conditional E-value: 1.8e-10
+         zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                       +L+rH+r+Htg +py+C lC k+F+
+  BGIBMGA000988-PA 464 DLKRHTRTHTGVRPYKCNLCEKSFT 488
+                       69**********************8 PP
+
+  == domain 4  score: 2.8 bits;  conditional E-value: 2.1
+         zf-H2C2_2   2 LrrHl.rkHt.......gekp...yeCplCdkaF 24 
+                       L+ H+ ++H        +e++   y C++C+ ++
+  BGIBMGA000988-PA 493 LESHClKVHGvqhtyayKERRtkmYVCEECGHTT 526
+                       6667523344333355544333349*****9775 PP
+

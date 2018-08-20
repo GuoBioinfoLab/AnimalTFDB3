@@ -1,0 +1,24 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	54.5	0.5	1.2e-17	7.7e-16	1	89	31	119
+2	39.4	0.0	5.7e-13	3.7e-11	3	89	219	292
+
+  Alignments for each domain:
+  == domain 1  score: 54.5 bits;  conditional E-value: 1.2e-17
+        THAP   1 CvvpgCknr....kkkkskkk..vsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekkeskkrrkLkkdavPtif 89 
+                 C+v+gC n+    k+++   +  ++fh+fP+ +++r++Wl+a++  +++  ++    ++Cs+HF+ ++ ++k +ee  ++  +r L ++avP+++
+  Q_ENN72353  31 CAVYGCANEftdfKSHQ---SatFKFHNFPTCERTRRQWLDACGLPEETGITNA---KICSDHFTLNDYSRKLKEELLNPGYKRLLSESAVPSVN 119
+                 ********976542222...245**********************988877766...9******988644444566777888888*******986 PP
+
+  == domain 2  score: 39.4 bits;  conditional E-value: 5.7e-13
+        THAP   3 vpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekkeskkrrkLkkdavPtif 89 
+                 v gC+n+kk     +++f+ +Pkdk +r+ W++a++ +   ++   ++ ++C +HFe++           + + +r Lkk++vP+if
+  Q_ENN72353 219 VIGCSNGKKAAM-DYITFYYLPKDKFRRNTWMQALNGHILDDTPL-SNILICANHFEKN-----------NFEANRSLKKSVVPSIF 292
+                 679***877665.45********************9987666665.469*******533...........2233556********98 PP
+

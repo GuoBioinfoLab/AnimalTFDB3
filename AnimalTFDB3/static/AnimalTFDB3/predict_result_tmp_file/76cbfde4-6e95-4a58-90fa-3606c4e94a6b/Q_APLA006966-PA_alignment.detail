@@ -1,0 +1,27 @@
+HMM length of domain: 273 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	290.0	25.5	2e-90	9e-88	10	264	27	294
+
+  Alignments for each domain:
+  == domain 1  score: 290.0 bits;  conditional E-value: 2e-90
+            NF-YC  10 asssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtednkrrtlqrndiam 103
+                       + s+aq  lq fw +vme+ir + v d++ q lplarikkimklde+vkmisaeap+lfakaa+ifi eltlrawihtednkrrtlqrndiam
+  Q_APLA006966-PA  27 QTQSEAQAELQQFWSKVMEDIRGIGVMDLKQQVLPLARIKKIMKLDEEVKMISAEAPLLFAKAAEIFIHELTLRAWIHTEDNKRRTLQRNDIAM 120
+                      56789***************************************************************************************** PP
+
+            NF-YC 104 aitkfdqfdflidivprdelkppkrqeevrqs.vtpaepvqyyftlaqqpaavqvqgq...qqgqqttsstttiqpgq.iiiaqpq..qgqttp 190
+                      aitk+dqfdflidivprd++kp k +ee       +a+ v yyf+laqq  a  +q++   q g +tt++ttt qp + i i qpq    q+++
+  Q_APLA006966-PA 121 AITKYDQFDFLIDIVPRDDIKPTKVKEEGTGKlSVNADQVHYYFSLAQQHQAGSLQSNsttQSGASTTAATTTAQPQNaIQIVQPQvqTVQVSS 214
+                      ************************9999765415689*************99999875222667778999999999752447788621445555 PP
+
+            NF-YC 191 vtmqv..gegqqvqivqaqaqgqaqqaq..sgtgqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtq..vvq 264
+                      v  +    ++   ++ qaq     + ++  +++   +q++qqi+t +geiqqip+ql+  qlq ir+  +  ++q  ++q
+  Q_APLA006966-PA 215 VDQNAsaSTTSSTNVTQAQVMLPQSPTSpsQAQTGGIQIVQQIVTPSGEIQQIPIQLSPQQLQMIRMQLQNNTSQplIIQ 294
+                      5444311344455666666443222222013333458*****************************87555544411444 PP
+

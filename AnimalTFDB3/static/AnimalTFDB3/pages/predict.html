@@ -10,7 +10,7 @@
                     used to identify transcription factors from the input protein sequences.</p>
                 <p>Input the protein sequences in <a href="http://en.wikipedia.org/wiki/FASTA_format">FASTA</a>
                     format( less than 1000 protein sequences):<a href="#!/predict" ng-click="load()">example</a></p>
-                <textarea class="form-control" id="input_seq" style="width: 97%;height: 250px"></textarea>
+                <textarea class="form-control" ng-model="input_seq" style="width: 97%;height: 250px"></textarea>
                 <br>
                 <div style="text-align: right;margin-right: 27px">
                     <button class="btn btn-default" type="reset" ng-click="reset()">Reset</button>

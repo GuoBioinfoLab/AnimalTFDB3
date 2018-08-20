@@ -1,0 +1,34 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	100.2	0.2	1.3e-31	6.6e-30	1	112	197	300
+2	149.5	0.0	1.1e-46	5.5e-45	31	195	299	453
+
+  Alignments for each domain:
+  == domain 1  score: 100.2 bits;  conditional E-value: 1.3e-31
+         RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqelvtkl 94 
+                      + et+arlLf++V+wak+ p f+ Lp++dqviLL+++W+el++L+++q+ +pl+++   l + ++ a+    ++ ++      vr+L + + ++
+  Q_OTAU009164-PA 197 VYETSARLLFMAVKWAKNLPSFASLPFRDQVILLEEAWSELFLLNAIQWCMPLDVQASPLFNANEHAK----NGHSATD----VRTLADTLMRF 282
+                      68*****************************************************9555555433333....4555544....5********** PP
+
+         RXR-like  95 rdlqldatEyacLkaIvl 112
+                      + +++d++E+acLkaIv+
+  Q_OTAU009164-PA 283 KAVHVDPAEFACLKAIVI 300
+                      ****************95 PP
+
+  == domain 2  score: 149.5 bits;  conditional E-value: 1.1e-46
+         RXR-like  31 viLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqelvtklrdlqldatEyacLkaIvlfnpdtdaaglee 124
+                      viLL+++W+el++L+++q+ +pl+++   l + ++ a+    ++ ++      vr+L + + +++ +++d++E+acLkaIvlf+   + +gl++
+  Q_OTAU009164-PA 299 VILLEEAWSELFLLNAIQWCMPLDVQASPLFNANEHAK----NGHSATD----VRTLADTLMRFKAVHVDPAEFACLKAIVLFRA--ETRGLKD 382
+                      79***********************9555555433333....4555544....5*******************************..66***** PP
+
+         RXR-like 125 rskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietlllemle 195
+                      +++ie+l++++q  l ++++ q+p+q grFg+lLl+Lp lr++ +  ie +ff+k+iG+tp+e++l++m++
+  Q_OTAU009164-PA 383 PGQIENLQDQAQIMLWQHCRAQFPGQVGRFGRLLLMLPLLRNVPACRIETVFFQKTIGNTPMEKVLCDMYK 453
+                      *********************************************************************98 PP
+

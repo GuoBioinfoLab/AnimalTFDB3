@@ -1,0 +1,33 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.5	0.0	0.093	14	8	55	427	476
+2	14.0	0.0	3.7e-06	0.00057	69	128	569	649
+3	89.8	0.2	2.5e-29	3.8e-27	151	229	1210	1285
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.093
+              Tub   8 liqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlis 55 
+                       ++c++ R+++    +  + Y+Lyle   +    Ll ++++++  + e++i+
+  Q_AGLA020433-RA 427 RLHCTMIRHDEennlTSGTCYTLYLEYL-GGLVPLLKGKRTSKI-RPEFVIF 476
+                      67899888888787777789****9965.788888888887765.5567765 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 3.7e-06
+              Tub  69 vGklrsnflgtkftiydkgvkpkksaaekvrkelaavvYelnvlgtrgprrmkvlipsi..............................k 128
+                      + ++ sn++gtkf i+           ++v  +l++v+Y++++l+  +pr+m+ ++ ++                              +
+  Q_AGLA020433-RA 569 LVEVTSNIWGTKFKIHGLA--------TSVPVNLGQVTYKTSLLH-LQPRQMTLVMTELrddfpvgpdptfnpnlfsedeeevvqpeerS 649
+                      6678899999999997766........456889**********99.67********9887777777777776655555554444443330 PP
+
+  == domain 3  score: 89.8 bits;  conditional E-value: 2.5e-29
+              Tub  151 dllvlknkaprwneqlqayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssf 229 
+                       + +v++nkap wne+ q y L+F gRvt+ S KNfq+       k ++qfG+++ + +t+D++yP+salqAFa++l+++
+  Q_AGLA020433-RA 1210 REFVMHNKAPMWNENSQVYQLDFGGRVTQESAKNFQIEF---RGKQVMQFGRIDGNAYTLDFQYPFSALQAFAVALANV 1285
+                       5689********************************965...5788******************************975 PP
+
+
+

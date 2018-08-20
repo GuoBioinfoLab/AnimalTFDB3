@@ -1,0 +1,82 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	7.5	1.5	0.087	0.33	1	23	218	241
+2	8.8	0.4	0.035	0.13	2	23	266	288
+3	11.6	1.6	0.0045	0.017	2	23	309	330
+4	11.9	1.2	0.0037	0.014	1	23	334	357
+5	7.2	0.4	0.11	0.42	2	23	361	383
+6	3.4	0.5	1.8	6.7	1	12	393	404
+7	16.7	1.6	0.00011	0.00041	1	23	423	446
+8	10.5	2.2	0.0098	0.037	1	23	452	474
+9	19.2	1.6	1.7e-05	6.6e-05	1	23	480	503
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.087
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       y+C  C+++F++ ++L++H    H
+  BGIBMGA008769-PA 218 YRCFCCKEPFSDIDLLRQHTDNaH 241
+                       89999**************87766 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 0.035
+                       EETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                        C  Cg +  + s L+rH++  H
+  BGIBMGA008769-PA 266 SCRMCGITMDSLSTLRRHLSDeH 288
+                       6*****************99777 PP
+
+  == domain 3  score: 11.6 bits;  conditional E-value: 0.0045
+                       EETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                       kC +C+++F+   +L+ H ++H
+  BGIBMGA008769-PA 309 KCQICHERFSVFRLLNIHVNKH 330
+                       8*******************99 PP
+
+  == domain 4  score: 11.9 bits;  conditional E-value: 0.0037
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       ++C++Cg  F++   L+ H+ + H
+  BGIBMGA008769-PA 334 HVCHVCGAGFTSLVFLNLHRTRaH 357
+                       79******************9988 PP
+
+  == domain 5  score: 7.2 bits;  conditional E-value: 0.11
+                       EETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                       +C  C+ +F ++ + k+H    H
+  BGIBMGA008769-PA 361 TCRQCDATFVTRNDKKQHEINvH 383
+                       8*************999977666 PP
+
+  == domain 6  score: 3.4 bits;  conditional E-value: 1.8
+                       EEETTTTEEESS CS
+           zf-C2H2   1 ykCpdCgksFkr 12 
+                       ++Cp+C  +F +
+  BGIBMGA008769-PA 393 FPCPYCEDRFYQ 404
+                       89****955533 PP
+
+  == domain 7  score: 16.7 bits;  conditional E-value: 0.00011
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       ++C +C k+F ++s+L++H +  H
+  BGIBMGA008769-PA 423 HRCVVCAKTFVTRSLLNNHTKNvH 446
+                       79******************9988 PP
+
+  == domain 8  score: 10.5 bits;  conditional E-value: 0.0098
+                       EEETTTTEEESSHHHHHHHHHCC CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                       +kC++C   F +ks+L rH+ tH
+  BGIBMGA008769-PA 452 HKCDICQNLFYTKSDLGRHRVTH 474
+                       79******************999 PP
+
+  == domain 9  score: 19.2 bits;  conditional E-value: 1.7e-05
+                       EEETTTTEEESSHHHHHHHHHC.C CS
+           zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                       + C++C+ +F++k++L+rH ++ H
+  BGIBMGA008769-PA 480 HNCGVCNAKFTTKDSLRRHAKRaH 503
+                       68*******************999 PP
+

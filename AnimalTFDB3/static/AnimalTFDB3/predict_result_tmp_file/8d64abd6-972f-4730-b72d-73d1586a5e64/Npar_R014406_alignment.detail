@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.8	0.1	0.1	50	74	102	59	90
+2	181.7	0.1	1.2e-57	6.2e-55	2	193	161	351
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 0.1
+      THR-like  74 lvtrdqlrslgr...pglqgeliesvfkfaks 102
+                    + +++lr+++r   + +q+ +i+ +++++k+
+  Npar_R014406  59 RKEEEALRESQRpkmSEEQQKIISMLLEAHKK 90 
+                   45566777766666677777777777777775 PP
+
+  == domain 2  score: 181.7 bits;  conditional E-value: 1.2e-57
+      THR-like   2 kseqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvt..lndaelvtrdqlrslgrpglqgeliesv 96 
+                   ++++s+++++a+l+ ++iq+v+ FaK ipgF +l+ eDQi+LLk++++ev++lr ++ f+ e++ +t   +d +++ +d  ++++    + el+e++
+  Npar_R014406 161 STDLSMLPHLADLVSYSIQKVIGFAKMIPGFHDLTAEDQIALLKSSVIEVIMLRSNQSFSLEDMSWTcgSEDFKYKLDDVTQAGH----NLELLEPL 253
+                   57899**************************************************************987788777777777655....9******* PP
+
+      THR-like  97 fkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehser..lvmlkve 191
+                   +kf+  l++lnl++ee++Ll+a+++lsP drpgv+++  ve++q+++ + l++y+ ++hp++ ++ l++k+++kl++lRslneehs++  +  +k e
+  Npar_R014406 254 VKFQVGLKKLNLHEEEHVLLMAICILSP-DRPGVQDKALVEAIQDRLSSILQTYILCKHPPPGSRLLYPKMIQKLADLRSLNEEHSKQyrFISFKPE 349
+                   ***************************9.***********************************************************888888887 PP
+
+      THR-like 192 ep 193
+                   + 
+  Npar_R014406 350 HT 351
+                   75 PP
+

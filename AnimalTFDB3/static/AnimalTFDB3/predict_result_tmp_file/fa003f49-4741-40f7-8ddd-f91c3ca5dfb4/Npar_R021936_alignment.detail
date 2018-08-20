@@ -1,0 +1,34 @@
+HMM length of domain: 96 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	112.1	1.3	1.6e-36	8.2e-34	1	96	10	110
+2	-2.1	0.1	0.66	3.3e+02	24	53	148	178
+
+  Alignments for each domain:
+  == domain 1  score: 112.1 bits;  conditional E-value: 1.6e-36
+                   HHHHHHHHHCT...TTTSEESSSSSEEEES-HHHHHHHTHHHHSTT--HHHHHHHHHHTTEEE---SSB..TTB--TTSEEEEESS--XXXXXXXXX CS
+           HSF   1 FlkkLyklled...eelisWsedgksfvvkdkeefakevlpkyfkhsnfssFvrqLnlYgFrkvkrkee..kkkkkekvweFshenFkrgkkelLkk 92 
+                   Fl+kL++l+ed   +e+i+Ws++g+sf+v d+++fake+lpkyfkh+n++sFvrqLn+YgFrkv + ++   k++++   eF+h++F +g+ elL++
+  Npar_R021936  10 FLSKLWTLVEDsdtNEFITWSQNGQSFLVLDEQRFAKEILPKYFKHNNMASFVRQLNMYGFRKVVHVDSgiVKQERDGPVEFQHPFFIQGQDELLEN 106
+                   9********98778899**********************************************99988877566666777***************** PP
+
+                   XXXX CS
+           HSF  93 ikrk 96 
+                   ikrk
+  Npar_R021936 107 IKRK 110
+                   ***7 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 0.66
+                   EEES-HH.HHHHHTHHHHSTT--HHHHHHHH CS
+           HSF  24 fvvkdke.efakevlpkyfkhsnfssFvrqL 53 
+                   f +k+++ ++ +e+     khs+ +  +r++
+  Npar_R021936 148 FTLKRENeALWREITDLRSKHSQQQQVIRKI 178
+                   5555444355555555555666655555554 PP
+
+
+

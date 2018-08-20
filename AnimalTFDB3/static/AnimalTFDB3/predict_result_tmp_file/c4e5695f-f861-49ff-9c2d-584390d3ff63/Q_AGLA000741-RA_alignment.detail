@@ -1,0 +1,86 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	10.9	61.6	4.8e-06	0.0015	355	729	185	619
+2	188.5	70.1	1.2e-59	3.7e-57	492	1226	586	1343
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 4.8e-06
+             AF-4 355 ascVeeILrEMthsWPPpLtAih.TPskaEpskfpfptkesqhvtsalqnqkqydtsskkvstsqqsksmLeddLklsssedsdee........ 439
+                      a  V+ I +EM     +pLtAi  TP      k+ + +  ++ ++ ++     +++   + ++ +  +  L+ddL+ls+++d++++        
+  Q_AGLA000741-RA 185 AAEVDHIFKEMIDQ-RTPLTAIAaTPRIELDNKYNYNPLLAKIHEKTPAPS-AIKKR-DRQPAPRP-QESLRDDLNLSEESDDEHKkealhssn 274
+                      567999*****976.588999963788887899988886665555555543.22222.22222222.256********9888877767777666 PP
+
+             AF-4 440 ....qapekpksssapssapqstpes............vesahsssaeSeSsSeSeSSSeSDSesEs..sssdseanepprtatpe..peppst 513
+                          +         +p sa+ ++++s            + +  sss++S+S S+S+S S SD  +E    s d   + pp   +p   p+  s+
+  Q_AGLA000741-RA 275 iiveK-------MLSPLSATPAIHNSkmdvpeplapipTSPVASSSSDSGSDSGSDSESSSDDSGEEnvTSVDVRLQPPPTELQPAspPSEDSK 361
+                      44330.......2223333333333334443432222222222222222222222222223322222122334444444444444332445556 PP
+
+             AF-4 514 nkWqLdnwlnkvn........qlassqeessaessseteesespkkeskeqsegk...skssssevvees...................seskp 577
+                       +W L +++   +        +l+s       + s++ + ++sp + ++ ++e+    s ++ ++                        s+s  
+  Q_AGLA000741-RA 362 IRWNLASFVGNSQnitdpltsPLVS-----PVKPSCSLPIKTSPDSRKRVSEESDtsdSTKDIDD----IvakakalaelsnlpllssfSDS-- 444
+                      69*******9888888655532223.....33444554444444222222222220002222222....12333567776666555433111.. PP
+
+             AF-4 578 kakskaeqkkseek.qdk.....rskqkspaqkeseepntrktvgkkqPkksekasveeepksslkveke...vpveekdqsskdrpkvktkgr 662
+                          ++++k+s++k q++     ++ + s + ++ +++++rk v    P+  +  s     +s    e++   + v++++++  + p v+ +  
+  Q_AGLA000741-RA 445 ----ENSSKESNSKkQKHtvqpvTNPNLSDSDSDVKRTSKRKPVIRASPRTKSVDS-----HSDSDFENKtysGFVNTAPKPISPVPVVNPEKV 529
+                      ....1222222222111111111222223333344444455555555552221122.....233333333233333444444444444444444 PP
+
+             AF-4 663 rktaprkepkssl....asekkkkrssskkaapksrefvete.............ksesesdseellplsplk..q....s.qtpsssess 729
+                      +k+++ +  k ++    + +k +   ++k+ +p + ++ve +             + +s sd++e+++ +p +  +    + qt+sss s 
+  Q_AGLA000741-RA 530 TKPGRGRPRKIKPpngdEVKKPRG-RPKKTRSPNTSSDVEKKkpkrgrppksvlpPCSSSSDEDEKFEKPPPPprRrtksKvQTSSSSDSD 619
+                      445444444433334432222222.233334444444444444556666667777455555555555555554221222122333333333 PP
+
+  == domain 2  score: 188.5 bits;  conditional E-value: 1.2e-59
+             AF-4  492 ssdseanepprtatpepeppstnkWqLdnwlnkvnqlassqeessaessseteesesp.kkeskeqsegkskssssevvees......sesk 576 
+                       ss s++ e+ + + p p   ++ k q  +      ++a+   +ss+ ss + e++++  k+es ++s +++++ s+e ++ +      + ++
+  Q_AGLA000741-RA  586 SSSSDEDEKFEKPPPPPRRRTKSKVQTSSSSD-SDSPAPRRRNSSSCSSIRHESEREIlKHESPKKSYKHKSPRSEERKKAKkssdeeWGAE 676 
+                       45566677777777777777777777777655.33444444444433333222222220222222222222222222222111101112222 PP
+
+             AF-4  577 pkakskaeqkks..........eek.qdkrskqkspaqkeseepntrk.tvgkkqPkksek.asveee.........pksslkvekevpvee 646 
+                       +ka                   ++k +d+++ ++sp  ++ ++p  +k +   ++ k  +k +s++e+         +k+  k+++     e
+  Q_AGLA000741-RA  677 NKA--------IlknhfrddsiKKKlSDNSKDVTSPFRRKGRPPLPKKeSSDIEKVKSKAKvSSSSEDsdsditspsKKTLNKIDST-IKVE 759 
+                       222........0222244334434444446667777777777666666322222222222323333334666666543333344444.3344 PP
+
+             AF-4  647 kdqsskdrpkvktkgrrktaprkepkssl.......asekkkkrssskkaapksrefvete......ksesesdseellplsplkqsqtpss 725 
+                       ++++  d++k  t  r+  +p++++           +   k ++    ++++k + +v+        + +s s ++e++p+ +  ++ t  s
+  Q_AGLA000741-RA  760 ENKTIADKNKYDTL-RKLFTPKRDSEGGKgggkgggKGGGKVYK----SVKDKRKCGVNVIivdenyERSSSSVEDEAMPTIS--TNPTLLS 844 
+                       45666677777774.55555666665433455433333333333....33344444443335444443333333444444433..2344444 PP
+
+             AF-4  726 sessrtsskkksevveekltkeklplpvrekkllsplrdseepqsLlVKIdLslLs..rvPq.rpekesqskkaesksepeegkkkeskqks 814 
+                         s+ + +k+ks ++  ++ ++    p++ +k+  p+ d+ e  sLlVKIdL+ L    +P  r++ e++++ +e k+e+ +++kke+ +k+
+  Q_AGLA000741-RA  845 PISN-NEVKRKSSELPSHSSSPVYNDPMKCTKTEIPINDNIEKISLLVKIDLNRLDlfSIPAlRKYIENTRRLTEPKKENLDKAKKENLEKT 935 
+                       4444.68999999***************************99**********9876447***988888888866666666666666666666 PP
+
+             AF-4  815 kkssskskrkrKeeeenksd.skklrleketksllsppvissshkesskk.ksskkkseekkkekllppllsplsseskskkpakkrssses 904 
+                        + ++  k k  +e++n+++    ++l++++ s ++++++  + ++ss+  +s+++ s+ +++++  +    ++++++ + k++++r+ +e 
+  Q_AGLA000741-RA  936 GDCETDFKVKSTKESDNETKrALPPKLDQDH-SERKHKLKKRKRRNSSSSiSSLSTVSNMSHNSHKKEH---QIKKDKDNPKSKRRREDTEV 1023
+                       6666666666556666666657778888888.3333444444444444442222222222222221111...22222222222222222222 PP
+
+             AF-4  905 sslsqessksaketkssskkssssskhkksegkasesskenkksskseaklfpvpslpngkskprrpklkfedrqhsadyylkEAKkLKhkA 996 
+                         ++ ++        s    +   ++h ++ +k+ + +     ss+ +++++ +  +     +p  +  + e+r    + yl +AK+LKh A
+  Q_AGLA000741-RA 1024 ARSQIDNL-------SL--INAPPTNHEREASKTVQYLDG-SMSSN-HTQPTRKYHS---YFEPPEEPSEYEER--DQNQYLSDAKRLKHMA 1099
+                       22222222.......22..224556677777776655443.22222.2333333333...33444444444544..4677************ PP
+
+             AF-4  997 DalsdKlgKAvkYlDAalsFiEcGiAmEkdpqeakSaYtmyseTVeLikfvlkLKnfvdasatsaekklavLClrCqSLLylamFrlKkdtA 1088
+                       D ++d ++  + Yl+A+l+F   G+ mE+++    Sa+tmy +T+ Lik++ +   + +++ +s   klavL +rCq+LL  ++F+++k++ 
+  Q_AGLA000741-RA 1100 DGETDTIKQCMLYLEAVLFFLLTGNTMEQESISKNSAFTMYKDTLSLIKYISSQFRS-QQNVSSVHTKLAVLSYRCQALLFYKLFKMRKQES 1190
+                       **************************************************9875444.4557788899************************ PP
+
+             AF-4 1089 lKYSrtLtehfk.nsskstqapspcvangkkstgtPSPlspspSPassvssssgssss..................ssvsssVsiPqrIhqm 1161
+                           +  +++ + n++++ q+       +++ +gtPSPlsp+pSPa+sv+s  ++ss+                  ++ ++    P ++ + 
+  Q_AGLA000741-RA 1191 KEVQKIVSDYCSkNAISQDQQN------HQQGQGTPSPLSPTPSPAGSVGSVGSQSSGyssgelaargnnalipatHAQNAGAWLPLSVFNS 1276
+                       **********973554444444......34678****************9965444448889997777777777766666677777777777 PP
+
+             AF-4 1162 aaSyVnITsniLrayeiWeqAeeLarknk..effaeLdtvmgpLalnSsmteLVrYtRQGlhwLrle 1226
+                        +   +   ++++  ++W++A+ L  k+k  +ff eLd+  +pL+++Ss+ +LVrY+R G+++L+ e
+  Q_AGLA000741-RA 1277 VSLQNQLFTYLISFQDHWDMADSLIIKGKltDFFIELDRQCRPLTMHSSLIDLVRYVREGINRLKRE 1343
+                       676777778888999**********999888*********************************987 PP
+
+
+

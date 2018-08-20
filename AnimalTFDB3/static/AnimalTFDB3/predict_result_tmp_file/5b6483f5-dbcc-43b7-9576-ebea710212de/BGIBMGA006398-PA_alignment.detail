@@ -1,0 +1,34 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	65.8	5.5	9.2e-21	1.2e-19	1	57	140	196
+2	46.2	4.9	1.2e-14	1.6e-13	1	54	482	536
+3	55.2	4.9	2e-17	2.6e-16	1	56	684	739
+
+  Alignments for each domain:
+  == domain 1  score: 65.8 bits;  conditional E-value: 9.2e-21
+                       ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+          Homeobox   1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57 
+                       +r Rt+ft++q++eLe+++  ++y+++++r eLA+ l+L+er +k+WFqNrR+kekk
+  BGIBMGA006398-PA 140 KRVRTAFTSKQMTELEQEYTLTKYLDRARRLELADILQLNERTIKIWFQNRRMKEKK 196
+                       789*****************************************************8 PP
+
+  == domain 2  score: 46.2 bits;  conditional E-value: 1.2e-14
+                       ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHH.HHHHH CS
+          Homeobox   1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFq.NrRak 54 
+                       +r Rt+ft++q+  Le+++ +++y+++++r eLA+ l+L++r +k+WFq N+R k
+  BGIBMGA006398-PA 482 KRVRTAFTSNQMAKLEQEYTRTKYLDRARRLELAEILQLNKRIIKIWFQkNKREK 536
+                       789*********************************************9677766 PP
+
+  == domain 3  score: 55.2 bits;  conditional E-value: 2e-17
+                       ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHH CS
+          Homeobox   1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakek 56 
+                       +r Rt+ft++q+ eLe+++ +++y++++++ eLA+ l+L+er +k+WFqNr  k+k
+  BGIBMGA006398-PA 684 KRVRTAFTNNQMAELEQEYTRTKYLDRARCLELANILRLNERTIKIWFQNRECKRK 739
+                       789************************************************99998 PP
+

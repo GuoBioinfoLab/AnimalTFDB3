@@ -1,0 +1,27 @@
+HMM length of domain: 273 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	288.7	25.3	5.2e-90	2.4e-87	11	266	27	288
+
+  Alignments for each domain:
+  == domain 1  score: 288.7 bits;  conditional E-value: 5.2e-90
+            NF-YC  11 sssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtednkrrtlqrndiama 104
+                      + s+aq +l  fwp+vm+ei+++   d++ q lplarikkimkldedvkmisaeap+lfakaa+ifi eltlr+wihtednkrrtlqrndiama
+  Q_OTAU006348-PA  27 TQSEAQAALTHFWPKVMDEIKSIGNMDLKQQVLPLARIKKIMKLDEDVKMISAEAPLLFAKAAEIFIHELTLRSWIHTEDNKRRTLQRNDIAMA 120
+                      5789****************************************************************************************** PP
+
+            NF-YC 105 itkfdqfdflidivprdelkppkrqeevrqsvtpaepvqyyftlaqqpaavqvqgqqqgqqttsstttiqpgqiiiaqpqqgq.........tt 189
+                      itkfdqfdflidivprd++kp k +ee  ++v+ ++ v yyf laqq  a   ++  q+  +  +tt+   g i i qpqq q         ++
+  Q_OTAU006348-PA 121 ITKFDQFDFLIDIVPRDDIKPSKPREETTRAVN-SDQVHYYFQLAQQHHASLQNSPSQT-TAPPATTAPTQGTIQIVQPQQVQtvqvnaieqNA 212
+                      *****************************9997.588**********988654433332.3345566667899**********55555444312 PP
+
+            NF-YC 190 pvtmqvgegqqvqivqaqaqgqaqqaqsgtgqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtqvvqgq 266
+                      + t     + q  ++  q++ q  + +s+t   +q++qqii+ +geiqqip+ql+  qlq ir+  +  +tq +  q
+  Q_OTAU006348-PA 213 T-TATNTSTTQTPVMIQQTAVQPASPTSSTNGGIQILQQIISPSGEIQQIPIQLSPQQLQMIRMQLQNNSTQPLIIQ 288
+                      2.2222333444444447778888888999999*******************************9999999855443 PP
+

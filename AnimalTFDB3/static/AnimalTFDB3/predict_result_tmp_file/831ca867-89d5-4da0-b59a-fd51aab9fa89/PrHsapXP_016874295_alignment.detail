@@ -1,0 +1,34 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	13.1	1.2	0.0021	0.005	1	23	32	57
+2	12.0	0.3	0.0048	0.011	1	23	66	93
+3	12.7	0.0	0.0028	0.0066	1	20	99	120
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.0021
+                        EEET..TTTEEESSHHHHHHHHHC.C CS
+             zf-C2H2  1 ykCp..dCgksFkrksnLkrHirt.H 23
+                        y C    C  +F+++ +L  Hir+ H
+  PrHsapXP_016874295 32 YNCCwdQCQACFNSSPDLADHIRSiH 57
+                        667779*****************999 PP
+
+  == domain 2  score: 12.0 bits;  conditional E-value: 0.0048
+                        EEET..TTT...EEESSHHHHHHHHHCC CS
+             zf-C2H2  1 ykCp..dCg...ksFkrksnLkrHirtH 23
+                        ++C   +C+    + +++s L+rH+ tH
+  PrHsapXP_016874295 66 FVCLwkGCKvynTPSTSQSWLQRHMLTH 93
+                        6777778888889999***********9 PP
+
+  == domain 3  score: 12.7 bits;  conditional E-value: 0.0028
+                         EEET..TTTEEESSHHHHHHHH CS
+             zf-C2H2   1 ykCp..dCgksFkrksnLkrHi 20 
+                         +kC   +C+ sF ++  L rH 
+  PrHsapXP_016874295  99 FKCVvgGCNASFASQGGLARHV 120
+                         89*******************7 PP
+

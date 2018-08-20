@@ -1,0 +1,47 @@
+HMM length of domain: 65 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.6	6.9	2.6	6.6e+02	28	57	37	66
+2	-0.6	3.3	0.31	77	41	56	107	122
+3	4.0	4.6	0.011	2.9	28	61	136	169
+4	-3.6	5.1	2.7	6.8e+02	26	51	159	184
+5	19.7	1.9	1.4e-07	3.5e-05	17	64	223	270
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 2.6
+       TF_bZIP 28 eeLeqeveeLeeenekLkkevesLreelgq 57
+                  +eL++ ++  +e   +L+    +L+e+++q
+  Npar_R001753 37 HELHNTIQSVKENERELRLLQTQLQEQTKQ 66
+                  678888888888888888888888888876 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.31
+       TF_bZIP  41 nekLkkevesLreelg 56 
+                   + +L+ke+e Lr +l+
+  Npar_R001753 107 VFQLRKEAEKLRTQLK 122
+                   4467777777776654 PP
+
+  == domain 3  score: 4.0 bits;  conditional E-value: 0.011
+       TF_bZIP  28 eeLeqeveeLeeenekLkkevesLreelgqlkqk 61 
+                   ++L  +  +L++en++L+ +v + +++l++ +q+
+  Npar_R001753 136 NKLAEDSGRLTKENAHLLARVLETTKQLEEERQL 169
+                   5666777789999999999999999999887775 PP
+
+  == domain 4  score: -3.6 bits;  conditional E-value: 2.7
+       TF_bZIP  26 rieeLeqeveeLeeenekLkkevesL 51 
+                    +++Le e +  e+e   L++++++L
+  Npar_R001753 159 TTKQLEEERQLRENESLNLTRRISEL 184
+                   55666666666666666666666666 PP
+
+  == domain 5  score: 19.7 bits;  conditional E-value: 1.4e-07
+       TF_bZIP  17 qrcRkkkkerieeLeqeveeLeeenekLkkevesLreelgqlkqklea 64 
+                   q+ Rk  k + ++L +++ +L+++ + L++e+++Lr e+ +l++ +++
+  Npar_R001753 223 QQGRKSAKLAGSSLNKQLTDLQSKHSGLQQENSLLRVEKNHLVEHISQ 270
+                   67899999**********************************998876 PP
+
+
+

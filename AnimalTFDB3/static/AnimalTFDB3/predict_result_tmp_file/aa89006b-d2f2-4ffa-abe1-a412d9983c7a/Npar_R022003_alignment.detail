@@ -1,0 +1,45 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	14.4	3.7	5.2e-05	0.0021	8	25	60	77
+2	27.8	0.6	3e-09	1.3e-07	2	24	82	104
+3	42.6	0.9	6.4e-14	2.7e-12	1	25	109	133
+4	30.8	0.8	3.4e-10	1.4e-08	2	25	138	161
+5	8.8	0.1	0.0032	0.13	1	15	165	179
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 5.2e-05
+     zf-H2C2_2  8 kHtgekpyeCplCdkaFk 25
+                   Htg k + Cp+C+k F+
+  Npar_R022003 60 HHTGSKTFLCPECGKCFN 77
+                  499**************8 PP
+
+  == domain 2  score: 27.8 bits;  conditional E-value: 3e-09
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                   L+ H r+Htg k + Cp C+k F
+  Npar_R022003  82 LMVHQRSHTGVKQFSCPQCGKCF 104
+                   899******************99 PP
+
+  == domain 3  score: 42.6 bits;  conditional E-value: 6.4e-14
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   +L+rH r+Htgekpy+C++C+k+F+
+  Npar_R022003 109 SLSRHERVHTGEKPYTCSKCGKSFS 133
+                   69**********************7 PP
+
+  == domain 4  score: 30.8 bits;  conditional E-value: 3.4e-10
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L  H r+Htg kpy+C++C+k+F+
+  Npar_R022003 138 LFTHERTHTGAKPYTCSVCGKRFT 161
+                   557********************7 PP
+
+  == domain 5  score: 8.8 bits;  conditional E-value: 0.0032
+     zf-H2C2_2   1 nLrrHlrkHtgekpy 15 
+                   nL rH + H g++py
+  Npar_R022003 165 NLLRHEKLHIGDRPY 179
+                   799***********9 PP
+

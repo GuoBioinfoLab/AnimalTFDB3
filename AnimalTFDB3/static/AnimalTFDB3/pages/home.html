@@ -1,21 +1,163 @@
 <div class="row">
-    <div class="col-lg-4">
-        <h3>Welcome to AnimalTFDB</h3>
-        <h4>You can start exploring by:</h4>
-        <div class="badge alert-success" style="width: 160px;text-align: center"><a href="#!/species"><h4>TF species</h4></a></div>
-        <div class="badge alert-danger" style="width: 160px;text-align: center;margin-left: 50px;"><a href="#!/family"><h4>TF families</h4></a></div>
-        <div class="badge alert-warning" style="width: 160px;text-align: center;margin-left: 50px;"><a href="#!/tcf"><h4>TF cofactors</h4></a></div>
-        <br>
-        <br>
-        <div class="panel panel-info">
-            <div class="panel-heading" style="background-color: #88A6CE;"><span style="font-size: large;color: white">Data Summary of AnimalTFDB</span></div>
-            <div class="panel-body"></div>
+    <div class="col-lg-3 col-sm-12 col-md-3 col-xs-12">
+        <div class="well" style="height: 100% ;"><div style="width: 100%;text-align: center"><h4><img src="/static/AnimalTFDB3/image/welcome4.png" style="width:50px;height: 50px;"> Welcome to AnimalTFDB</h4></div>
+            <hr class="divider">
+             AnimalTFDB is a comprehensive database including classification and annotation of genome-wide transcription factors (TFs),
+            and transcription cofactors in 97 animal genomes. The TFs are further classified into 73 families based on their DNA-binding domain (DBD) and cofactors are classified into 83 families and 6 categories.
+            <hr class="divider">
+            <br>
+            <h5> You can browse by</h5>
+            <span class="badge alert-success pull-left"><h4 style="font-weight: bold"><a href="#!/family"><img src="/static/AnimalTFDB3/image/TF_home.jpg" style="width: 30px;height: 30px">TF family</a></h4></span>
+            <div class="badge alert-success pull-right"><h4 style="font-weight: bold"><a href="#!/species"><img src="/static/AnimalTFDB3/image/TF_home.jpg" style="width:30px;height: 30px">TF species</a></h4></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h5>For your convenience, we have launched HumanTFDB:</h5>
+             <span class="badge alert-danger" style="text-align: center"><h4 href="http://211.67.31.242/HumanTFDB/" style="font-weight: bold"><a>HumanTFDB portal</a></h4></span>
         </div>
     </div>
-    <div class="col-lg-4">
-        <a href="#!/species"><img src="/static/AnimalTFDB3/image/home_species.png" style="width: 100%;height: 100%;"></a>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="well" style="height: 100%;"><h4> <div style="width: 100%;text-align: center"><img src="/static/AnimalTFDB3/image/summary.png" style="width:50px;height:50px"> Data summary</div></h4>
+            <hr class="divider">
+
+            <div class="row" style="width: 100%;text-align: center;margin-left: 5px">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <p>Species</p>
+                    <p style="font-size: large"><img src="/static/AnimalTFDB3/image/species_icon1.png" style="height: 40px;width: 40px">97</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-left: 10px">
+                    <p>TFs</p>
+                    <p style="font-size: large"><img src="/static/AnimalTFDB3/image/home_tf.jpg" style="height: 40px;width: 40px">12K</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-left: 10px">
+                    <p>TF Cofactors</p>
+                    <p style="font-size: large"><img src="/static/AnimalTFDB3/image/home_tf.jpg" style="width: 40px;height: 40px">8K</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-left: 10px">
+                    <p>TF Families</p>
+                    <p style="font-size: large"><img src="/static/AnimalTFDB3/image/home_tf.jpg" style="width: 40px;height: 40px">73</p>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2" style="margin-left: 10px">
+                    <p>TF Cofactor Families</p>
+                    <p style="font-size: large"><img src="/static/AnimalTFDB3/image/home_tf.jpg" style="width: 40px;height: 40px">83</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner">
+                            <div class="item active" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/tf_static.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="First slide">
+                            </div>
+                            <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/tf_cofactor_static.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Second slide">
+                            </div>
+                            <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/figure_ture_species.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Third slide">
+                            </div>
+                             <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/figure_turn_family.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Fourth slide">
+                            </div>
+                             <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/figure_turn_cofactor.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Fifth slide">
+                            </div>
+                            <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/figure_turn_tfbs.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Sixth slide">
+                            </div>
+                             <div class="item" style="width: 100%;text-align: center">
+                                <img src="/static/AnimalTFDB3/image/figure_turn_expression.png" style="width:85%;margin-left: 7.5%;height: 190px" alt="Seventh slide">
+                            </div>
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a class="left carousel-control "  role="button" >
+                            <span class="glyphicon glyphicon-chevron-left prev-slide" ng-click="previous()" style="color: #FFB86C" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control "   role="button">
+                            <span class="glyphicon glyphicon-chevron-right" ng-click="next()" style="color: #FFB86C" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" style="width: 100%;text-align: center">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <p> <img src="/static/AnimalTFDB3/image/exp_icon.png" style="width: 40px;height:40px ">Expression</p>
+                        <br>
+                        <p><img src="/static/AnimalTFDB3/image/pathway_icon.png" style="width: 40px;height: 40px">Pathway</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <p> <img src="/static/AnimalTFDB3/image/ortholog_icon.png" style="width: 40px;height: 40px">Ortholog</p>
+                        <br>
+                        <p><img src="/static/AnimalTFDB3/image/phenotype_icon.png" style="width: 40px;height:40px">Phenotype</p>
+
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <p><img src="/static/AnimalTFDB3/image/gwas_icon.png" style="width: 40px;height: 40px">Gwas</p>
+                        <br>
+                        <p><img src="/static/AnimalTFDB3/image/ppi_icon.png" style="width:40px;height:40px">PPI</p>
+
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <p> <img src="/static/AnimalTFDB3/image/ortholog_icon.png" style="width: 40px;height: 40px">Paralog</p>
+                        <br>
+                        <p><img src="/static/AnimalTFDB3/image/tfbs_icon.png" style="width: 40px;height: 40px;">TFBS</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <p><img src="/static/AnimalTFDB3/image/dbd_icon.png" style="width:40px;height:40px">DBD</p>
+                        <br>
+                        <p><img src="/static/AnimalTFDB3/image/go_icon.png" style="width:40px;height:40px">GO</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-lg-3">
-        <a href="#!/family"><img src="/static/AnimalTFDB3/image/family.png" style="width: 100%;height: 550px;" ></a>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="well" style="height: 100%;"><div style="width:100%;text-align: center"><h4><img src="/static/AnimalTFDB3/image/new.png" style="width: 50px;height: 50px;text-align: center"> What's new</h4></div>
+            <hr class="divider">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="/static/AnimalTFDB3/image/home_species_icon.png" style="width:180px;height:130px">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="/static/AnimalTFDB3/image/home_family_icon.png" style="width: 180px;height: 130px;">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+                    <div class="thumbnail" style="width:100%;height:200px;text-align: center;background-color:transparent">
+                        <img src="/static/AnimalTFDB3/image/gwas_icon.png" class="img-circle"></spa>
+                        <div class="caption">
+                            <p style="font-size: small">TF related GWAS phenotype</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+                    <div class="thumbnail" style="width: 100%;height:200px;text-align: center;background-color: transparent">
+                        <img src="/static/AnimalTFDB3/image/ppi_icon.png" class="img-circle"></spa>
+                        <div class="caption">
+                            <p style="font-size: small">PPI network visualization
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="thumbnail" style="width: 100%;height:200px;text-align: center;background-color: transparent">
+                        <img src="/static/AnimalTFDB3/image/home_tfbs_icon.png" style="height: 55%;" class="img-circle"></spa>
+                        <div class="caption">
+                            <p style="font-size: small">TFBS <span style="font-size: smaller">(Transcription Factor Binding Site)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

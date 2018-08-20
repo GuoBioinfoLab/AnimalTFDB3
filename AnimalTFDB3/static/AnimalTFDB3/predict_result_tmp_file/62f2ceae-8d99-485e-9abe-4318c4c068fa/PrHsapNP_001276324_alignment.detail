@@ -1,0 +1,27 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	290.6	0.0	1.5e-90	4.4e-88	2	230	245	483
+
+  Alignments for each domain:
+  == domain 1  score: 290.6 bits;  conditional E-value: 1.5e-90
+                 Tub   2 pgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgv 88 
+                         p+p++++++c+++Rdk+    +++++Y L+l+  +ek+ fLla+rkr+rs+t++Ylis+d+++lsr +e+++Gklrsn+lg +ft++d+g+
+  PrHsapNP_001276324 245 PAPQGRTVRCRLTRDKKgmdrGMYPSYFLHLD--TEKKVFLLAGRKRKRSKTANYLISIDPTNLSRGGENFIGKLRSNLLGNRFTVFDNGQ 333
+                         99******************99*********9..489****************************************************** PP
+
+                 Tub  89 kpkksaa...ekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneqlqayvL 171
+                         +p++  +   +++r+elaav+Ye+nvlg+rgprrm+v+ip +     +v ++p++ ++ l  ++++++ ++l++l+nk+p wn++  +y+L
+  PrHsapNP_001276324 334 NPQRGYStnvASLRQELAAVIYETNVLGFRGPRRMTVIIPGMsaeneRVPIRPRNASDGLLVRWQNKTLESLIELHNKPPVWNDDSGSYTL 424
+                         **99888899889*****************************99999888999************************************** PP
+
+                 Tub 172 nFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfd 230
+                         nF+gRvt+aSvKNfq+v+a+d ++++lqfG+v++d Ft+DyryPl+alqAFai+lssfd
+  PrHsapNP_001276324 425 NFQGRVTQASVKNFQIVHADDPDYIVLQFGRVAEDAFTLDYRYPLCALQAFAIALSSFD 483
+                         **********************************************************9 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	194.3	0.1	3.5e-60	7.5e-59	3	199	268	458
+
+  Alignments for each domain:
+  == domain 1  score: 194.3 bits;  conditional E-value: 3.5e-60
+            THR-like   3 seqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeli 93 
+                          e ++++ +++ s+++++e++eFaK ipgF +l+++DQ+tLLk++++e+++++l++ +n++++ v++ ++ ++tr++l+sl++p  + +++
+  PrHsapNP_001001928 268 AEVRIFHCCQCTSVETVTELTEFAKAIPGFANLDLNDQVTLLKYGVYEAIFAMLSSVMNKDGMLVAYGNG-FITREFLKSLRKP--FCDIM 355
+                         67899*************************************************************9777.***********98..88*** PP
+
+            THR-like  94 esvfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehser 184
+                         e++f+fa+++++l+ldd+++ L+va+++++ +drpg+ n+g++ek+qeg++++l+ +lq++hp  +d +lf+kLl+k+++lR+l +eh++ 
+  PrHsapNP_001001928 356 EPKFDFAMKFNALELDDSDISLFVAAIICC-GDRPGLLNVGHIEKMQEGIVHVLRLHLQSNHP--DDIFLFPKLLQKMADLRQLVTEHAQL 443
+                         ******************************.8*******************************..57************************ PP
+
+            THR-like 185 lvmlkveepktslpp 199
+                         ++++k++e++ +l+p
+  PrHsapNP_001001928 444 VQIIKKTESDAALHP 458
+                         ********9887775 PP
+

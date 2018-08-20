@@ -1,0 +1,38 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	42.1	0.1	7e-15	6.8e-12	1	89	4	94
+2	-0.7	0.0	0.17	1.6e+02	43	62	116	145
+3	-2.4	0.7	0.55	5.4e+02	1	1	556	556
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 7e-15
+          THAP  1 CvvpgCknrkkkkskkk...vsfhrfPkdkelrkkWlkaikrkdkkkkkkskk.........srvCskHFeeekkkkkkeeekkeskkrrkLkkdavPt 87
+                  C++ gC +++ +++  k   + +h+fP+  e++kkW+ ++++  + +++  +k          r+Cs HF+        ++ +  + ++r Lk++a P 
+  Npar_R015815  4 CIIMGCPHKTGNNQ--KfpgIVLHSFPSSIERIKKWILQTGQVFQDPDTLANKiyegkktdtFRMCSAHFT--------KDSYIFTAQKRFLKHNALPA 92
+                  ********766554..3469****************98888765555554434778889999********4........345566667778*******9 PP
+
+          THAP 88 if 89
+                  if
+  Npar_R015815 93 IF 94
+                  98 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 0.17
+          THAP  43 kkkkkskk...srvCskHFeee.......k 62 
+                   k+++ + k   s++Cs+   +e        
+  Npar_R015815 116 KSERLEAKnisSFICSRCLMSEniyegkiF 145
+                   222222224669999987666555555441 PP
+
+  == domain 3  score: -2.4 bits;  conditional E-value: 0.55
+          THAP   1 C 1  
+                   C
+  Npar_R015815 556 C 556
+                   3 PP
+
+
+

@@ -1,0 +1,27 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	302.6	0.0	2.3e-94	1e-91	1	230	153	395
+
+  Alignments for each domain:
+  == domain 1  score: 302.6 bits;  conditional E-value: 2.3e-94
+              Tub   1 qpgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgvkp 90 
+                      qp+ ++ l++c+i+Rd++    +l++tY L+le++ +k+ fLlaarkr++s+ts+Ylis+d++dlsrs+es+vGklrsn+lgt+ftiyd+g +p
+  Q_APLA008322-PA 153 QPASQKVLYKCRITRDRKgmdrGLYPTYFLHLEKDYGKKIFLLAARKRKKSATSNYLISTDPTDLSRSGESFVGKLRSNLLGTQFTIYDNGISP 246
+                      7999999**************99**********999********************************************************** PP
+
+              Tub  91 kksaa....ekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneqlqayvLnFrg 175
+                      +k +        r+el+av+Y++nvlg++gpr+m+v++p +     +v + p++e+e+l e++k +++++l++l+nk+p wn+++q+yvLnF+g
+  Q_APLA008322-PA 247 RKINGlddgVVPRQELGAVIYDTNVLGFKGPRKMTVILPGMtleqqRVVIYPQDESESLIESWKAKNMDNLIELHNKTPVWNDDTQSYVLNFHG 340
+                      *998899995579****************************9999988899******************************************* PP
+
+              Tub 176 RvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfd 230
+                      Rvt+aSvKNfq+v+++d +++++qfG+v++dvFtmD+ryPl+a+qAFai+lssfd
+  Q_APLA008322-PA 341 RVTQASVKNFQIVHDSDTDYIVMQFGRVAEDVFTMDFRYPLCAVQAFAIALSSFD 395
+                      ******************************************************9 PP
+

@@ -1,0 +1,42 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	20.7	0.0	1.3e-07	1.5e-05	16	54	49	87
+2	23.8	0.6	1.4e-08	1.6e-06	3	56	280	333
+3	-3.8	1.9	6.2	6.9e+02	47	51	339	343
+4	11.1	0.1	0.00013	0.014	13	49	397	433
+
+  Alignments for each domain:
+  == domain 1  score: 20.7 bits;  conditional E-value: 1.3e-07
+                  HHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHH CS
+      Homeobox 16 eelFeenrypsaeereeLAkklgLeerqVkvWFqNrRak 54
+                   + F   +yps  e++ L+ + gL+ ++Vk+WF  +R++
+  Npar_R017510 49 ISTFSFFPYPSMPEIALLSLRFGLQMEKVKNWFMVQRIR 87
+                  5678889**************************999987 PP
+
+  == domain 2  score: 23.8 bits;  conditional E-value: 1.4e-08
+                   -SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHH CS
+      Homeobox   3 kRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakek 56 
+                   +R++ +k+ql++L+++F +++  ++e+  +L + +gL+ +++  WF   R+  k
+  Npar_R017510 280 RRQRKSKQQLQILKSFFLKCQWATREDYMRLEEITGLPRADIIQWFGDTRYALK 333
+                   69999******************************************9998766 PP
+
+  == domain 3  score: -3.8 bits;  conditional E-value: 6.2
+                   HHHHH CS
+      Homeobox  47 WFqNr 51 
+                   WF Nr
+  Npar_R017510 339 WFRNR 343
+                   ****9 PP
+
+  == domain 4  score: 11.1 bits;  conditional E-value: 0.00013
+                   HHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHH CS
+      Homeobox  13 eeLeelFeenrypsaeereeLAkklgLeerqVkvWFq 49 
+                   ++Le++   n+   a++ eeL ++ gL+ +qV +WF 
+  Npar_R017510 397 DVLENYLCVNSQFHAQDLEELVTESGLSHQQVLNWFS 433
+                   67777777799999**********************7 PP
+

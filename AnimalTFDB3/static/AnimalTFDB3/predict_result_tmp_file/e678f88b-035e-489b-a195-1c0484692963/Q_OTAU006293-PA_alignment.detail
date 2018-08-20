@@ -1,0 +1,24 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	225.3	0.1	7.1e-71	2.2e-68	2	169	47	215
+
+  Alignments for each domain:
+  == domain 1  score: 225.3 bits;  conditional E-value: 7.1e-71
+                      EEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEEEEEEEEESSST--B-SSEEESTT.EETTEEEEEE-TTTSEEE-S CS
+              RHD   2 eIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeakirvslvtkdeplrpHahslvgkd.ckdgvcevelkpedmvasfq 94 
+                       I+e+P q+ +RfrY+cEgrsaGsipg++s+ ++kt+Pt+k+ +y+g+a+++vs+vtkdep+rpH+h+lvg++ ck+gvc+v + +++m++sfq
+  Q_OTAU006293-PA  47 VIVEEPAQKQLRFRYECEGRSAGSIPGANSTPDNKTYPTIKVEGYKGKAVVVVSCVTKDEPFRPHPHKLVGREgCKQGVCTVPIPEDTMTVSFQ 140
+                      59**********************************************************************99******************** PP
+
+                      SEEEEE--CGGHHHHHHHHHHCT--TTS-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEES CS
+              RHD  95 nlGIlcvkkkeveealkerielkekeknvekeakeeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiydk 169
+                      nlG++cvkkke+e+alk+r+ ++++++ + ++++++ ++idln+vrlcFq+fl+ +++   t+l+p+vSnpiydk
+  Q_OTAU006293-PA 141 NLGVQCVKKKEIEDALKAREDIRVDPFMTGFSHRSSPTSIDLNAVRLCFQVFLHTQNKGKYTNLPPIVSNPIYDK 215
+                      *****************************************************999999999***********97 PP
+

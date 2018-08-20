@@ -1,0 +1,36 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	51.9	1.8	3.4e-18	3.4e-15	1	47	40	86
+2	67.9	2.2	3.4e-23	3.4e-20	1	47	92	138
+3	60.1	0.6	9.6e-21	9.6e-18	1	45	144	187
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 3.4e-18
+                  CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+           MYB  1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47
+                  r kWt+eEd++L+++ve +G++nW++ a  + +R++ qc++rwq++l
+  Npar_R019973 40 RVKWTKEEDDKLKKLVEVHGTDNWSLLACNFLNRSDIQCQHRWQKVL 86
+                  689*****************************************986 PP
+
+  == domain 2  score: 67.9 bits;  conditional E-value: 3.4e-23
+                   CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+           MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                   +g+Wt+eEd++ +e+v+k+G++ W++Iak+l gR +kqcr+rw+n+l
+  Npar_R019973  92 KGPWTKEEDQRVIELVHKYGPKKWSLIAKHLKGRIGKQCRERWHNHL 138
+                   79*******************************************97 PP
+
+  == domain 3  score: 60.1 bits;  conditional E-value: 9.6e-21
+                   CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHH CS
+           MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqn 45 
+                   + +WteeEd  ++ea+++lGn+ W++Iak+l+gRt+++++++w++
+  Npar_R019973 144 KSSWTEEEDRVIYEAHKRLGNR-WAEIAKLLPGRTDNSIKNHWNS 187
+                   679*******************.********************96 PP
+
+
+

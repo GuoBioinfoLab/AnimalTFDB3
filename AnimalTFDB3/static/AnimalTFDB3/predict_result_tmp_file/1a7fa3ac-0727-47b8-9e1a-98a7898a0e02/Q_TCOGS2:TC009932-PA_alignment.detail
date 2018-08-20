@@ -1,0 +1,27 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	226.8	0.1	2.3e-71	1e-68	22	227	231	432
+
+  Alignments for each domain:
+  == domain 1  score: 226.8 bits;  conditional E-value: 2.3e-71
+                   CP2  22 eesavssstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrkkeaklwklWkeg 110
+                            +s+  s +e++rf+++L+a+t++a+kvne++ltYLN+GQ+Y+i+lk+lg  +ls ++gk lksvir+ F+e++++++e+++++ W+  
+  Q_TCOGS2:TC009932-PA 231 VTSTNYSFAEDCRFQYVLAAATSIATKVNEDTLTYLNQGQSYEIKLKKLG--DLSMYRGKLLKSVIRMCFHERRLQYMEKEQMAAWQRA 317
+                           33444456799***************************************..999********************************** PP
+
+                   CP2 111 rgseavrvvdipls.ggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksK..GvkGvPlrlqieTelisesvkesa 196
+                           r+ ++   vd+pls g ++  +       +++++ ++f+W++++e++++++vNc+St+F+++K  G+kGvP+r+q+eT++ +++ ++s 
+  Q_TCOGS2:TC009932-PA 318 RPGDRILEVDVPLSyGAFDIVQP------TNALNIIHFNWDPTKEVGVYIKVNCISTEFTPKKhgGEKGVPFRIQVETYQNGDNLDSSV 400
+                           ****5555566***999999998......99*************************************************999988887 PP
+
+                   CP2 197 .levafckvKlFrdkGAeRKlkndvakvkkki 227
+                            l++a c++K+F+ kGA+RK+k+d++k+ k++
+  Q_TCOGS2:TC009932-PA 401 rLHAAACQIKVFKLKGADRKHKQDREKIMKRP 432
+                           7***************************9985 PP
+

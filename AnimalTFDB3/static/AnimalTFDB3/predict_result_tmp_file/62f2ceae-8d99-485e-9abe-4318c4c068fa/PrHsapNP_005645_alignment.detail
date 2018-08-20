@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	263.0	0.6	4e-81	8.5e-80	1	200	219	413
+
+  Alignments for each domain:
+  == domain 1  score: 263.0 bits;  conditional E-value: 4e-81
+         RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaekevekildleevrvLqelvtkl 94 
+                      ice+aarlLf++Vewa++ip+f +L+  dqv+LLr  W+el++L++aq+s+pl++a+ll+a+gl+++  sa ++v++++d  ++r++qe+v+kl
+  PrHsapNP_005645 219 ICELAARLLFSAVEWARNIPFFPDLQITDQVSLLRLTWSELFVLNAAQCSMPLHVAPLLAAAGLHASPMSA-DRVVAFMD--HIRIFQEQVEKL 309
+                      8*******************************************************************555.68899***..************ PP
+
+         RXR-like  95 rdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpiet 188
+                      + l++d++Ey+cLkaIvlf+   da+gl++ ++iesl+ek+q++leey+++qyp+qp rFgklLlrLp+lr++ss++ie+lff +l+G+tpiet
+  PrHsapNP_005645 310 KALHVDSAEYSCLKAIVLFTS--DACGLSDAAHIESLQEKSQCALEEYVRSQYPNQPSRFGKLLLRLPSLRTVSSSVIEQLFFVRLVGKTPIET 401
+                      *********************..99********************************************************************* PP
+
+         RXR-like 189 lllemlesskps 200
+                      l+++ml+s+++ 
+  PrHsapNP_005645 402 LIRDMLLSGSSF 413
+                      *******98765 PP
+

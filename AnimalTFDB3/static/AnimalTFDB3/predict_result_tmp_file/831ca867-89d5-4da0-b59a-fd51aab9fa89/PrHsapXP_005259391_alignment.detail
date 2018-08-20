@@ -1,0 +1,27 @@
+HMM length of domain: 509 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	99.8	0.0	2.1e-32	9e-30	62	277	36	250
+
+  Alignments for each domain:
+  == domain 1  score: 99.8 bits;  conditional E-value: 2.1e-32
+                 TEA  62 dtgkdgepvWsdeledaFqqaLeanppmGrrkw..seRgksyGRneLiaeyiykltgkrRtrkqvssHlqvldsflkGdPdWerlvrekak 150
+                         d g d+e vWs ++e+ Fq+aL + pp Grrk+  s  gk yGRneLia yi+  tgk RtrkqvssH+qvl           r ++ k k
+  PrHsapXP_005259391  36 DGGPDAEGVWSPDIEQSFQEALAIYPPCGRRKIilSDEGKMYGRNELIARYIKLRTGKTRTRKQVSSHIQVLAR------RKSREIQSKLK 120
+                         7899****************************766899*********************************653......45688888887 PP
+
+                 TEA 151 drstaq..hqpagPkwrtsldhqlsskykehlhsayhdslrsvqdys..geLppknltlssnites..nekkieglnFdmwvsapqqkdrl 235
+                          +   q  +  +gP w     ++ s+   ++  +     l+  ++ +  + Lpp++ +    ++++   + +++ ++F  +v  p++ d  
+  PrHsapXP_005259391 121 ASELFQfwSGGSGPPWNVPDVKPFSQTPFTLSLTPPSTDLPGYEPPQalSPLPPPTPSP-PAWQARglGTARLQLVEFSAFVEPPDAVDSY 210
+                         77666622456799999887777777655554444444444444432014466664333.3344441167788889999999999999975 PP
+
+                 TEA 236 dkalHvYtrlqgdkrvPvarpmpLenlsewrasFpnlkslle 277
+                             H++ ++  +   P a+p+   ++++  ++Fp++k  l 
+  PrHsapXP_005259391 211 --QRHLFVHISQHCPSPGAPPLESVDVRQIYDKFPEKKGGLR 250
+                         ..5799999999999999988777778888999999987665 PP
+

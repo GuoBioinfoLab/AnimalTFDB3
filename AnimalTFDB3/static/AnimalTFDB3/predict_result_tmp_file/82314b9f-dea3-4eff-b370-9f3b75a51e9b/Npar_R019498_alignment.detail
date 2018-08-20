@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	4.5	0.3	0.053	3.1	2	14	63	75
+2	6.2	0.1	0.015	0.88	2	19	131	147
+3	5.6	0.0	0.024	1.4	3	14	201	212
+4	8.5	0.1	0.0028	0.17	2	13	270	280
+
+  Alignments for each domain:
+  == domain 1  score: 4.5 bits;  conditional E-value: 0.053
+                  EETTTTEEESSHH CS
+       zf-C2H2  2 kCpdCgksFkrks 14
+                  +C +Cg+ F +ks
+  Npar_R019498 63 VCYICGREFGSKS 75
+                  6********8876 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.015
+                   EETTTTEEESSHHHHHHH CS
+       zf-C2H2   2 kCpdCgksFkrksnLkrH 19 
+                   +C+ Cg++F  ++ L +H
+  Npar_R019498 131 PCGNCGRTF-LPDRLLVH 147
+                   6********.66666666 PP
+
+  == domain 3  score: 5.6 bits;  conditional E-value: 0.024
+                   ETTTTEEESSHH CS
+       zf-C2H2   3 CpdCgksFkrks 14 
+                   C +Cg+ F +ks
+  Npar_R019498 201 CYICGREFGTKS 212
+                   9*******9998 PP
+
+  == domain 4  score: 8.5 bits;  conditional E-value: 0.0028
+                   EETTTTEEESSH CS
+       zf-C2H2   2 kCpdCgksFkrk 13 
+                   +Cp Cg++F  +
+  Npar_R019498 270 PCPNCGRTFA-S 280
+                   7********4.4 PP
+

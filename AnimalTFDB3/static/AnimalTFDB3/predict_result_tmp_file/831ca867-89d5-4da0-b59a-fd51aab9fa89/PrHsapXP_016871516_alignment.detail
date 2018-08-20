@@ -1,0 +1,44 @@
+HMM length of domain: 583 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1051.3	0.1	0	0	2	447	5	458
+2	55.0	0.8	9.9e-19	2.1e-16	543	583	457	497
+
+  Alignments for each domain:
+  == domain 1  score: 1051.3 bits;  conditional E-value: 0
+                 COE   2 lealkrsgsslkeeplgsglnavrswlqgagvldantaaqsgvglarahfekqppsnlrksnffhfvlalydrqgqpveiertafvdfvek 92 
+                         +e+++r g+++keeplgsg+n+vrsw+++agv+dantaaqsgvglarahfekqppsnlrksnffhfvlalydrqgqpveiertafvdfvek
+  PrHsapXP_016871516   5 QENIPRGGTTMKEEPLGSGMNPVRSWMHTAGVVDANTAAQSGVGLARAHFEKQPPSNLRKSNFFHFVLALYDRQGQPVEIERTAFVDFVEK 95 
+                         799**************************************************************************************** PP
+
+                 COE  93 ekeanaektnngihyrlqllysngvrteqdlyvrlidsltkqaivyegqdknpemcrvlltheimcsrccdkkscgnrnetpsdpviidrf 183
+                         eke+n+ektnngihy+lqllysngvrteqdlyvrlids+tkqaivyegqdknpemcrvlltheimcsrccdkkscgnrnetpsdpviidrf
+  PrHsapXP_016871516  96 EKEPNNEKTNNGIHYKLQLLYSNGVRTEQDLYVRLIDSMTKQAIVYEGQDKNPEMCRVLLTHEIMCSRCCDKKSCGNRNETPSDPVIIDRF 186
+                         ******************************************************************************************* PP
+
+                 COE 184 flkfflkcnqnclknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpse........aatpcikaispsegwttg 266
+                         flkfflkcnqnclknagnprdmrrfqvvvsttvnvdghvlavsdnmfvhnnskhgrrarrldpse        +atpcikaispsegwttg
+  PrHsapXP_016871516 187 FLKFFLKCNQNCLKNAGNPRDMRRFQVVVSTTVNVDGHVLAVSDNMFVHNNSKHGRRARRLDPSEgtapsyleNATPCIKAISPSEGWTTG 277
+                         ******************************************************************************************* PP
+
+                 COE 267 gatviiigdnffdglqvvfgtllvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvytalneptidygfqrlqkviprhp 357
+                         gatviiigdnffdglqvvfgt+lvwselitphairvqtpprhipgvvevtlsykskqfckgapgrfvytalneptidygfqrlqkviprhp
+  PrHsapXP_016871516 278 GATVIIIGDNFFDGLQVVFGTMLVWSELITPHAIRVQTPPRHIPGVVEVTLSYKSKQFCKGAPGRFVYTALNEPTIDYGFQRLQKVIPRHP 368
+                         ******************************************************************************************* PP
+
+                 COE 358 gdperlpkevllkraadlvealygvphnnqeiilkraadiaealysvprnhnqlpalanssahagllgvnsfssqlavnvseasqateqg 447
+                         gdperlpkevllkraadlvealyg+phnnqeiilkraadiaealysvprnhnq+p+l+n++ah+g++gvnsfssqlavnvse+sqa++q+
+  PrHsapXP_016871516 369 GDPERLPKEVLLKRAADLVEALYGMPHNNQEIILKRAADIAEALYSVPRNHNQIPTLGNNPAHTGMMGVNSFSSQLAVNVSETSQANDQV 458
+                         ***************************************************************************************995 PP
+
+  == domain 2  score: 55.0 bits;  conditional E-value: 9.9e-19
+                 COE 543 avkqksafapvvrpqaspppactsangnglqalsglvvppl 583
+                          vkqksafapvvrpqasppp+ctsangnglqa+sglvvpp+
+  PrHsapXP_016871516 457 QVKQKSAFAPVVRPQASPPPSCTSANGNGLQAMSGLVVPPM 497
+                         59*************************************98 PP
+

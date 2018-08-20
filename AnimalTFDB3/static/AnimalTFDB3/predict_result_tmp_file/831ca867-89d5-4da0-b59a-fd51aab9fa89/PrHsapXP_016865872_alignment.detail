@@ -1,0 +1,27 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	325.4	3.8	5.1e-100	1.6e-98	28	271	33	284
+
+  Alignments for each domain:
+  == domain 1  score: 325.4 bits;  conditional E-value: 5.1e-100
+            ESR-like  28 tlqlltqsptkslellpaeklvsvlleaEPekvyagedsskpdteasllssLtdLadrelvvvikWAkkiPGFsdLsleDQmkLlqssWme 118
+                          + +++++++  l+l+ a+++vs+ll+aEP+ +y+++d+++p++eas++  Lt+Ladrelv++i+WAk++PGF+dL+l+DQ++Ll+++W+e
+  PrHsapXP_016865872  33 LMIKRSKKNSLALSLT-ADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLE 122
+                         3344444444444444.6************************************************************************* PP
+
+            ESR-like 119 ilvlglvwRSlkhegkLiFApdlvlde.ekkkvegllelfdallqlsqrfreLklereEyvclKallLlns........psegledqekle 200
+                         il++glvwRS++h+gkL+FAp+l+ld+ ++k+veg++e+fd+ll++s+rfr+++l+ eE+vclK+++Llns        + ++le++++++
+  PrHsapXP_016865872 123 ILMIGLVWRSMEHPGKLLFAPNLLLDRnQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSgvytflssTLKSLEEKDHIH 213
+                         **************************9899*************************************************9*********** PP
+
+            ESR-like 201 elrdalieaLkkviaksrkssqqrssrlakLLllLpelrqasnklvehllsekrkekVelpklllemleaq 271
+                         +++d+++++L +++ak++ + qq+++rla+LLl+L+++r++snk++ehl+s+k+k++V+l++llleml+a+
+  PrHsapXP_016865872 214 RVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAH 284
+                         *********************************************************************98 PP
+

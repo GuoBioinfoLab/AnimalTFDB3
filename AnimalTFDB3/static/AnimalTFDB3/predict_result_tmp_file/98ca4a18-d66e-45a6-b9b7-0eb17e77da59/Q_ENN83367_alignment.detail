@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	14.3	0.2	0.00057	0.0019	3	23	139	160
+2	6.9	0.7	0.12	0.4	3	20	212	229
+3	2.5	0.3	3.2	11	1	23	689	712
+4	10.2	1.0	0.011	0.038	3	20	761	778
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 0.00057
+                 ETTTTEEESSHHHHHHHHHC.C CS
+     zf-C2H2   3 CpdCgksFkrksnLkrHirt.H 23 
+                 C +C +sF +  +L++H  + H
+  Q_ENN83367 139 CLYCERSFVSANLLQKHVERvH 160
+                 99***************99988 PP
+
+  == domain 2  score: 6.9 bits;  conditional E-value: 0.12
+                 ETTTTEEESSHHHHHHHH CS
+     zf-C2H2   3 CpdCgksFkrksnLkrHi 20 
+                 C  C+++F+++s+L  H 
+  Q_ENN83367 212 CLFCKERFRSSSSLSDHN 229
+                 889************995 PP
+
+  == domain 3  score: 2.5 bits;  conditional E-value: 3.2
+                 EEETTTTEEESSHHHHHHHHHC.C CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                 y C  Cg +F++   +  H +  H
+  Q_ENN83367 689 YICAACGGKFSNMKYMLEHKSLyH 712
+                 88**********999999998877 PP
+
+  == domain 4  score: 10.2 bits;  conditional E-value: 0.011
+                 ETTTTEEESSHHHHHHHH CS
+     zf-C2H2   3 CpdCgksFkrksnLkrHi 20 
+                 C++Cgk++++  +L rH 
+  Q_ENN83367 761 CTKCGKRCNNLGELHRHV 778
+                 *****************6 PP
+

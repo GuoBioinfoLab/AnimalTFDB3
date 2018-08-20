@@ -1,0 +1,45 @@
+HMM length of domain: 29 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	35.1	4.8	1.2e-12	6.1e-10	1	24	356	379
+2	2.3	0.5	0.022	11	22	29	790	797
+3	56.2	8.3	3.2e-19	1.6e-16	1	29	810	838
+4	1.6	0.2	0.037	18	22	29	855	862
+5	52.3	5.6	5.2e-18	2.6e-15	1	29	896	924
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 1.2e-12
+           zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrsls 24 
+                       kCPtpGC+G+GHv+G y++Hr+ s
+  BGIBMGA006961-PA 356 KCPTPGCNGQGHVTGLYTHHRRQS 379
+                       7********************875 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.022
+           zf-C2HC  22 slsgCPla 29 
+                       slsgCP+a
+  BGIBMGA006961-PA 790 SLSGCPRA 797
+                       89****97 PP
+
+  == domain 3  score: 56.2 bits;  conditional E-value: 3.2e-19
+           zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                       kCPtpGCdGsGHv+G+y+sHrslsgCP+a
+  BGIBMGA006961-PA 810 KCPTPGCDGSGHVTGNYSSHRSLSGCPRA 838
+                       7**************************97 PP
+
+  == domain 4  score: 1.6 bits;  conditional E-value: 0.037
+           zf-C2HC  22 slsgCPla 29 
+                       s+sgCP+a
+  BGIBMGA006961-PA 855 SASGCPIA 862
+                       79****97 PP
+
+  == domain 5  score: 52.3 bits;  conditional E-value: 5.2e-18
+           zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                       +CPtpGCdGsGH++G + +HrslsgCP+a
+  BGIBMGA006961-PA 896 NCPTPGCDGSGHINGSFLTHRSLSGCPVA 924
+                       5**************************97 PP
+

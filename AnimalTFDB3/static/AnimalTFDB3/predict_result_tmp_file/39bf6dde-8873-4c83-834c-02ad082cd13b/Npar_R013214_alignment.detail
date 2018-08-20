@@ -1,0 +1,42 @@
+HMM length of domain: 27 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	32.3	3.1	7.4e-12	3.7e-09	1	26	46	71
+2	35.2	1.6	8.8e-13	4.4e-10	1	26	84	109
+3	18.4	1.8	1.7e-07	8.2e-05	5	27	135	157
+4	21.2	1.0	2.2e-08	1.1e-05	5	25	162	182
+
+  Alignments for each domain:
+  == domain 1  score: 32.3 bits;  conditional E-value: 7.4e-12
+                  -HCHCBCHHHHHS--TTGGG-SSBSC CS
+       zf-CCCH  1 yktelCrffmrtGyCkyGdrCkFaHg 26
+                  yktelC +++++G+C y +rC+FaHg
+  Npar_R013214 46 YKTELCTRYAENGFCAYRNRCQFAHG 71
+                  9************************8 PP
+
+  == domain 2  score: 35.2 bits;  conditional E-value: 8.8e-13
+                   -HCHCBCHHHHHS--TTGGG-SSBSC CS
+       zf-CCCH   1 yktelCrffmrtGyCkyGdrCkFaHg 26 
+                   yktelCr f+  G C+yG+rC F+Hg
+  Npar_R013214  84 YKTELCRSFHLLGVCSYGPRCLFIHG 109
+                   9************************8 PP
+
+  == domain 3  score: 18.4 bits;  conditional E-value: 1.7e-07
+                   CBCHHHHHS--TTGGG-SSBSCS CS
+       zf-CCCH   5 lCrffmrtGyCkyGdrCkFaHgq 27 
+                    Cr ++    C+yG++C F H++
+  Npar_R013214 135 QCRLWHSPAGCPYGSTCLFQHPR 157
+                   699999999************95 PP
+
+  == domain 4  score: 21.2 bits;  conditional E-value: 2.2e-08
+                   CBCHHHHHS--TTGGG-SSBS CS
+       zf-CCCH   5 lCrffmrtGyCkyGdrCkFaH 25 
+                    Cr+++  G C+yG  C F H
+  Npar_R013214 162 VCRHYAALGVCPYGIHCLFKH 182
+                   6******************** PP
+

@@ -1,0 +1,74 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	51.3	0.7	2.9e-16	3.7e-15	7	53	343	389
+2	50.3	0.3	5.9e-16	7.5e-15	7	53	552	598
+3	51.5	0.4	2.6e-16	3.4e-15	7	53	761	807
+4	18.1	0.1	6.7e-06	8.6e-05	2	29	939	966
+5	68.4	3.6	1.3e-21	1.7e-20	4	57	1200	1253
+6	58.9	6.3	1.2e-18	1.6e-17	1	57	1447	1503
+7	75.3	1.9	9.7e-24	1.2e-22	4	57	1753	1806
+8	52.8	9.0	1e-16	1.3e-15	1	57	1888	1944
+
+  Alignments for each domain:
+  == domain 1  score: 51.3 bits;  conditional E-value: 2.9e-16
+                      S-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHH CS
+         Homeobox   7 ftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRa 53 
+                      +t +ql eLe++F  +  ps+ +r e+++kl+L+e+qV +WFqNrR 
+  Q_LDEC000887-PA 343 LTGHQLMELEQEFSLELFPSRMRRVEISRKLQLSEKQVTIWFQNRRL 389
+                      799*******************************************7 PP
+
+  == domain 2  score: 50.3 bits;  conditional E-value: 5.9e-16
+                      S-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHH CS
+         Homeobox   7 ftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRa 53 
+                      +t +ql eLe++F ++  ps+ +r  +++kl+L+e+qV +WFqNrR 
+  Q_LDEC000887-PA 552 LTGHQLMELEQEFSSELFPSRMRRVGISRKLQLSEKQVTIWFQNRRL 598
+                      799*******************************************7 PP
+
+  == domain 3  score: 51.5 bits;  conditional E-value: 2.6e-16
+                      S-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHH CS
+         Homeobox   7 ftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRa 53 
+                      +t +ql eLe++F  +  ps+ +r e+++kl+L+e+qV +WFqNrR 
+  Q_LDEC000887-PA 761 LTGHQLMELEQEFSLELFPSRMRRVEISRKLQLSEKQVTIWFQNRRL 807
+                      799*******************************************6 PP
+
+  == domain 4  score: 18.1 bits;  conditional E-value: 6.7e-06
+                      T-SSSS-HHHHHHHHHHHHHSSS-SHHH CS
+         Homeobox   2 rkRttftkeqleeLeelFeenrypsaee 29 
+                      r R tftk+ql +Le++F  +r ps+e+
+  Q_LDEC000887-PA 939 RLRVTFTKHQLMVLEQEFSVQRFPSKEK 966
+                      78***********************997 PP
+
+  == domain 5  score: 68.4 bits;  conditional E-value: 1.3e-21
+                       SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+         Homeobox    4 RttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57  
+                       R +ft++ql +Le++F  +r ps+ er e+++kl+L+e+qVk+WFqNrR++ kk
+  Q_LDEC000887-PA 1200 RVSFTNHQLMVLEQEFSVHRFPSKMERVEISRKLQLSEKQVKIWFQNRRMRSKK 1253
+                       99**************************************************97 PP
+
+  == domain 6  score: 58.9 bits;  conditional E-value: 1.2e-18
+                       ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+         Homeobox    1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57  
+                       +r Rt ftk+qle+L ++F+  + +s+++r+e++++l+L+erqV  WFqN+R+k kk
+  Q_LDEC000887-PA 1447 KRFRTIFTKQQLEVLVDEFKVGQFLSRARRAEISNRLQLSERQVTLWFQNQRMKNKK 1503
+                       789****************************************************98 PP
+
+  == domain 7  score: 75.3 bits;  conditional E-value: 9.7e-24
+                       SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+         Homeobox    4 RttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57  
+                       R +ft++ql++Lee+F+++ryps+ er e+++kl+L+e+qV vWFqNrRak kk
+  Q_LDEC000887-PA 1753 RVSFTSHQLTVLEEEFRMHRYPSKMERVEISSKLQLSEKQVNVWFQNRRAKCKK 1806
+                       99**************************************************97 PP
+
+  == domain 8  score: 52.8 bits;  conditional E-value: 1e-16
+                       ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+         Homeobox    1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57  
+                       +r Rt ft++qle+L+++F  n+ +s e+r e++kkl+L+e+qV+ WFqN+R  +kk
+  Q_LDEC000887-PA 1888 KRFRTIFTQQQLEVLNSEFDVNQFVSWERRSEISKKLQLPEKQVRLWFQNQRRMRKK 1944
+                       789***********************************************8866554 PP
+

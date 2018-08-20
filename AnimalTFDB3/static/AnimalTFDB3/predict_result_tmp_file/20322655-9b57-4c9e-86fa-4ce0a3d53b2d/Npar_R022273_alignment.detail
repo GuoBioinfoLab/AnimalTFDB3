@@ -1,0 +1,36 @@
+HMM length of domain: 229 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.3	0.0	0.031	31	174	195	115	136
+2	281.8	5.7	1.8e-88	1.8e-85	5	229	211	429
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 0.031
+           CP2 174 vkGvPlrlqieTelisesvkes 195
+                    k +P++l  +Te++++s++e+
+  Npar_R022273 115 LKTLPVNLSLNTETVEPSKREQ 136
+                   6889************998776 PP
+
+  == domain 2  score: 281.8 bits;  conditional E-value: 1.8e-88
+           CP2   5 esdllknkkesasslaseesavssstekfrfevtLeaptamakkvneepltYLNkGQaYsislkdlgaaklselkgkklksvirvvFeeekqrkkea 101
+                   +++ +k++++   s+ +ee+ +  ++ +++f++tLea++++++k++e p+tYLNkGQ+Y+++l+++ga+k+++++ +k++sv++vvF+e+k+r++++
+  Npar_R022273 211 YNESFKETEKYRGSSVTEEFLY--DQTSSTFQYTLEATKSLRQKQGEGPMTYLNKGQFYAVTLSETGANKCFRHPISKVRSVVMVVFSEDKNRDEQL 305
+                   5566666655444444455555..478899******************************************************************* PP
+
+           CP2 102 klwklWkegrgseavrvvdiplsggveeqkntqvelesssfdaveftWngeeeakifvrvNclStdFsksKGvkGvPlrlqieTelisesvkesale 198
+                   k+wk+W+++++++++rv+di   ++++e++nt+ ++e+++++av+ftW+++eeakif++vNclStdFs++KGvkG+Pl++qi+T++++++++++ ++
+  Npar_R022273 306 KYWKYWHSRQHTAKQRVLDI---ADYKESFNTIGNIEEIAYNAVSFTWDVNEEAKIFITVNCLSTDFSSQKGVKGLPLMIQIDTYSYNNRSNKP-IH 398
+                   ********************...9**********************************************************************.** PP
+
+           CP2 199 vafckvKlFrdkGAeRKlkndvakvkkkiek 229
+                   +a+c++K+F+dkGAeRK++++++k+++k++k
+  Npar_R022273 399 RAYCQIKVFCDKGAERKIRDEERKQNRKKGK 429
+                   ***************************9876 PP
+
+
+

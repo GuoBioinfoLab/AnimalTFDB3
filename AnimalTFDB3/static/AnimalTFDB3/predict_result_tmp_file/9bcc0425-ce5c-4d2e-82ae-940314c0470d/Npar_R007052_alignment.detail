@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	113.0	0.5	3.2e-36	4.5e-34	1	108	65	169
+2	1.9	0.0	0.1	15	35	72	333	367
+
+  Alignments for each domain:
+  == domain 1  score: 113.0 bits;  conditional E-value: 3.2e-36
+                   HHHHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHHT-H CS
+          ZBTB   1 lnelresgelcDvtlvvgdgkefkahkavLaarSpyFkalftskeieessvseielddvepeafealLefiYtgeleitseenleelLaaadllqip 97 
+                   ln++r+ g lcDv+l ++ ++e+++h+ vLaa+S+yFk+lft ++++++    +e+d+v+p+af a+Lef+Yt++l+it ++n++++L aa++l+i+
+  Npar_R007052  65 LNQQRQDGLLCDVILIIQ-DQEYRTHRSVLAACSQYFKKLFTTGSMTDQPYI-YEIDFVKPDAFSAILEFAYTSTLTIT-TANVKHILDAAEMLEIQ 158
+                   79****************.6************************99999977.999**********************8.***************** PP
+
+                   HHHHHHHHHHH CS
+          ZBTB  98 rlkkaceeflk 108
+                   +++++c e+l+
+  Npar_R007052 159 CIINVCLEILE 169
+                   *******9996 PP
+
+  == domain 2  score: 1.9 bits;  conditional E-value: 0.1
+                   HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHH CS
+          ZBTB  35 pyFkalftskeieessvseielddvepeafealLefiY 72 
+                   ++Fk++f ++  ++++  +i+  +++++a  ++L+ ++
+  Npar_R007052 333 DFFKDMFLEH--SAKHFGQIK-AEMDYSAYLSFLSAAH 367
+                   69********..778888887.8899988888887665 PP
+

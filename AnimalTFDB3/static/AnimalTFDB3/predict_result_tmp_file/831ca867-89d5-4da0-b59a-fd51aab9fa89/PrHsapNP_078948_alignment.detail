@@ -1,0 +1,31 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	52.7	0.0	3.1e-17	3e-15	1	88	5	88
+2	2.5	0.1	0.15	14	1	40	217	252
+3	-3.9	0.2	9	8.5e+02	51	60	866	875
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 3.1e-17
+             THAP  1 CvvpgCknrkkkkskkk.vsfhrfPkdkelrkkWlkaikrkdkkkkkkskk.....srvCskHFeeekkkkkkeeekkeskkrrkLkkdavPti 88
+                     C++ gC++r++  s+++ +sfh+fP+d  +r+kW++a++r d ++kk           +CskHF+        e++ ++   rrkLkk+avP++
+  PrHsapNP_078948  5 CSAVGCSTRDTVLSRERgLSFHQFPTDTIQRSKWIRAVNRVDPRSKKI--WipgpgAILCSKHFQ--------ESDFESYGIRRKLKKGAVPSV 88
+                     ********9666655558**********************97776554..2569999*******3........445666778889*******97 PP
+
+  == domain 2  score: 2.5 bits;  conditional E-value: 0.15
+             THAP   1 CvvpgCknrkkkkskkk.vsfhrfPkdkelrkkWlkaikrk 40 
+                      C  + C+++  +    +  ++ ++P+ +++++ Wl++++ +
+  PrHsapNP_078948 217 CTLYLCSSKVYD----YvRKILKLPH-SSILRTWLSKCQPS 252
+                      899999995322....1357999**6.55999*****9975 PP
+
+  == domain 3  score: -3.9 bits;  conditional E-value: 9
+             THAP  51 srvCskHFee 60 
+                      +++  kH ++
+  PrHsapNP_078948 866 KTLSRKHWSS 875
+                      4555566632 PP
+

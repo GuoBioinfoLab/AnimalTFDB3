@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	16.1	0.2	0.00013	0.00058	3	23	56	76
+2	14.0	0.2	0.00063	0.0027	1	20	83	102
+3	4.4	5.1	0.71	3.1	2	23	112	133
+4	17.0	4.2	7.3e-05	0.00031	1	23	139	162
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 0.00013
+                     ETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2  3 CpdCgksFkrksnLkrHirtH 23
+                     C++Cgk  +++s++ +H+++H
+  Q_OTAU013087-PA 56 CKVCGKLLSSPSSYYVHMKVH 76
+                     ********************9 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 0.00063
+                      EEETTTTEEESSHHHHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHi 20 
+                      y C++C++ F  k  L +H+
+  Q_OTAU013087-PA  83 YSCNVCNRAFAVKNYLIAHR 102
+                      89*****************7 PP
+
+  == domain 3  score: 4.4 bits;  conditional E-value: 0.71
+                      EETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                      kC +C   F+++s++  H +tH
+  Q_OTAU013087-PA 112 KCVHCCLEFTSRSQYILHSKTH 133
+                      8*******************99 PP
+
+  == domain 4  score: 17.0 bits;  conditional E-value: 7.3e-05
+                      EEETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirt.H 23 
+                      ++C+ Cg++F   s L rH  + H
+  Q_OTAU013087-PA 139 HECHFCGRVFAKESYLIRHVHKvH 162
+                      78*****************99988 PP
+

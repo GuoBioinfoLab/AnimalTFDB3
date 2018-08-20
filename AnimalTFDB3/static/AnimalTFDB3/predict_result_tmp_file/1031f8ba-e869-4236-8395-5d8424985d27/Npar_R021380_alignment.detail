@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.5	0.8	0.48	28	3	22	36	55
+2	8.2	0.9	0.0034	0.2	3	19	101	117
+3	8.5	0.9	0.0028	0.16	3	20	170	187
+4	8.9	0.0	0.0022	0.13	1	21	232	252
+
+  Alignments for each domain:
+  == domain 1  score: 1.5 bits;  conditional E-value: 0.48
+                  ETTTTEEESSHHHHHHHHHC CS
+       zf-C2H2  3 CpdCgksFkrksnLkrHirt 22
+                  C++C+ +  + s+  +H+++
+  Npar_R021380 36 CKVCSAVLISESQKLAHYQS 55
+                  *****999999999999876 PP
+
+  == domain 2  score: 8.2 bits;  conditional E-value: 0.0034
+                   ETTTTEEESSHHHHHHH CS
+       zf-C2H2   3 CpdCgksFkrksnLkrH 19 
+                   Cp+C+++F+++    +H
+  Npar_R021380 101 CPVCNMTFSSPVVAASH 117
+                   99*******99766666 PP
+
+  == domain 3  score: 8.5 bits;  conditional E-value: 0.0028
+                   ETTTTEEESSHHHHHHHH CS
+       zf-C2H2   3 CpdCgksFkrksnLkrHi 20 
+                   C  C+ +F+++++ ++H+
+  Npar_R021380 170 CQLCNATFNNPHMAQQHY 187
+                   9****************7 PP
+
+  == domain 4  score: 8.9 bits;  conditional E-value: 0.0022
+                   EEETTTTEEESSHHHHHHHHH CS
+       zf-C2H2   1 ykCpdCgksFkrksnLkrHir 21 
+                   ++C++C+ + ++  ++++H +
+  Npar_R021380 232 FTCDICNIVVNSIAQYEAHVS 252
+                   89*****************86 PP
+

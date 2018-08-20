@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	7.6	0.2	0.11	0.27	17	24	71	78
+2	7.0	8.3	0.16	0.4	2	24	84	106
+3	38.9	0.3	1.3e-11	3.2e-11	1	25	111	135
+4	7.6	0.2	0.1	0.25	2	24	140	173
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.11
+           zf-H2C2_2 17 CplCdkaF 24
+                        CplC+kaF
+  PrHsapXP_016882680 71 CPLCPKAF 78
+                        *******9 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.16
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaF 24 
+                         L+rHl+ H + +++ C  C+k F
+  PrHsapXP_016882680  84 LTRHLKCHSPVRRHLCRCCGKGF 106
+                         99*******************99 PP
+
+  == domain 3  score: 38.9 bits;  conditional E-value: 1.3e-11
+           zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                         +L+rH+r+Htg +p+ C++C+kaF+
+  PrHsapXP_016882680 111 DLKRHMRTHTGIRPFRCSACGKAFT 135
+                         69**********************8 PP
+
+  == domain 4  score: 7.6 bits;  conditional E-value: 0.1
+           zf-H2C2_2   2 LrrHlrk.Ht..........gekpyeCplCdkaF 24 
+                         L+ Hl+k H            ek + C+ C+ + 
+  PrHsapXP_016882680 140 LEAHLAKvHGqpasyayrerREKLHVCEDCGFTS 173
+                         8899987466555555544455567*****9876 PP
+

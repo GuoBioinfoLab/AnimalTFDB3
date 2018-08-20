@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	6.5	0.6	0.15	0.69	15	24	73	82
+2	6.1	1.2	0.2	0.93	2	25	181	202
+3	11.8	1.6	0.0031	0.014	5	26	210	230
+4	12.2	0.9	0.0023	0.01	5	25	237	259
+5	5.6	0.0	0.29	1.3	4	24	266	288
+6	14.8	2.5	0.00035	0.0016	1	24	293	317
+7	24.3	0.2	3.6e-07	1.6e-06	1	25	322	346
+8	19.4	0.1	1.2e-05	5.6e-05	2	25	351	374
+9	4.2	0.1	0.8	3.7	14	25	467	478
+10	4.4	0.1	0.7	3.2	1	15	482	498
+11	11.3	0.2	0.0044	0.02	3	25	577	597
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.15
+         zf-H2C2_2 15 yeCplCdkaF 24
+                      +eC++C k+F
+  BGIBMGA008746-PA 73 FECEFCLKRF 82
+                      9*******99 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.2
+         zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                       L+ H+ +H +   y+C+ C+  F 
+  BGIBMGA008746-PA 181 LQEHMHSHYPN--YKCETCGAGFL 202
+                       88999999975..*******9986 PP
+
+  == domain 3  score: 11.8 bits;  conditional E-value: 0.0031
+         zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFkt 26 
+                       H r H g   ++C++C k+F++
+  BGIBMGA008746-PA 210 HVRRH-GTGQHKCDYCEKTFNN 230
+                       77777.6778**********97 PP
+
+  == domain 4  score: 12.2 bits;  conditional E-value: 0.0023
+         zf-H2C2_2   5 Hl.rkHtge.kpyeCplCdkaFk 25 
+                       H  r+H g  +p++C +C+ +F+
+  BGIBMGA008746-PA 237 HVgRSHLGHtTPFKCTVCNERFA 259
+                       662579999559*********97 PP
+
+  == domain 5  score: 5.6 bits;  conditional E-value: 0.29
+         zf-H2C2_2   4 rHlrk.Htgekp..yeCplCdkaF 24 
+                        H+ + H ge p   +C +Cd +F
+  BGIBMGA008746-PA 266 SHMVTaHGGE-PvvIKCQACDRTF 288
+                       6888867777.6567********9 PP
+
+  == domain 6  score: 14.8 bits;  conditional E-value: 0.00035
+         zf-H2C2_2   1 nLrrHlrk.HtgekpyeCplCdkaF 24 
+                       +L+ H++  H  e++yeC +Cdk+F
+  BGIBMGA008746-PA 293 HLSVHTKRdHLLERRYECTECDKRF 317
+                       567776644888889********99 PP
+
+  == domain 7  score: 24.3 bits;  conditional E-value: 3.6e-07
+         zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                       +L+rH++kH   k y+C++C kaF+
+  BGIBMGA008746-PA 322 GLSRHMAKHGTLKQYKCDVCLKAFA 346
+                       59**********************8 PP
+
+  == domain 8  score: 19.4 bits;  conditional E-value: 1.2e-05
+         zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                       Lr H+r H++++++ C  C+ aF+
+  BGIBMGA008746-PA 351 LREHIRIHMNDRRFACVHCGQAFV 374
+                       89*********************8 PP
+
+  == domain 9  score: 4.2 bits;  conditional E-value: 0.8
+         zf-H2C2_2  14 pyeCplCdkaFk 25 
+                       +y C++C + F+
+  BGIBMGA008746-PA 467 RYACSYCLDQFA 478
+                       599******996 PP
+
+  == domain 10  score: 4.4 bits;  conditional E-value: 0.7
+         zf-H2C2_2   1 nLrrHl.rkHtgekp.y 15 
+                       +LrrH+ ++H g++p +
+  BGIBMGA008746-PA 482 SLRRHTtKTHAGDSPdF 498
+                       69***7256*9999863 PP
+
+  == domain 11  score: 11.3 bits;  conditional E-value: 0.0044
+         zf-H2C2_2   3 rrHlrkHtgekpyeCplCdkaFk 25 
+                       + H+r+H +   y C++C+  F+
+  BGIBMGA008746-PA 577 QDHMREHFK--NYVCDFCNSGFV 597
+                       57*****95..5*******9995 PP
+

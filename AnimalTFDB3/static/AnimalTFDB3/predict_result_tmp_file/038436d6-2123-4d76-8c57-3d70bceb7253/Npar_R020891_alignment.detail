@@ -1,0 +1,54 @@
+HMM length of domain: 29 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	44.3	12.1	8e-16	8e-13	1	27	332	358
+2	30.7	4.5	1.5e-11	1.5e-08	1	21	376	396
+3	4.0	0.1	0.0032	3.2	22	29	670	677
+4	57.6	7.2	5.9e-20	5.9e-17	1	29	693	721
+5	56.2	5.4	1.5e-19	1.5e-16	1	29	742	770
+6	50.4	7.8	1e-17	1e-14	2	29	796	823
+
+  Alignments for each domain:
+  == domain 1  score: 44.3 bits;  conditional E-value: 8e-16
+       zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCP 27 
+                   kCPtpGCdG+GHv+G y +HrslsgCP
+  Npar_R020891 332 KCPTPGCDGTGHVTGLYPHHRSLSGCP 358
+                   7************************** PP
+
+  == domain 2  score: 30.7 bits;  conditional E-value: 1.5e-11
+       zf-C2HC   1 kCPtpGCdGsGHvkGkyasHr 21 
+                   kCPtpGC+G+GHv++++ sHr
+  Npar_R020891 376 KCPTPGCTGRGHVNSNRNSHR 396
+                   7*******************9 PP
+
+  == domain 3  score: 4.0 bits;  conditional E-value: 0.0032
+       zf-C2HC  22 slsgCPla 29 
+                   +lsgCPla
+  Npar_R020891 670 TLSGCPLA 677
+                   8*****97 PP
+
+  == domain 4  score: 57.6 bits;  conditional E-value: 5.9e-20
+       zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                   kCPtpGCdGsGH++G+yasHrslsgCP+a
+  Npar_R020891 693 KCPTPGCDGSGHITGNYASHRSLSGCPRA 721
+                   7**************************97 PP
+
+  == domain 5  score: 56.2 bits;  conditional E-value: 1.5e-19
+       zf-C2HC   1 kCPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                   +CP+pGCdG+GHv+GkyasHrs+sgCPla
+  Npar_R020891 742 RCPVPGCDGQGHVTGKYASHRSASGCPLA 770
+                   7**************************97 PP
+
+  == domain 6  score: 50.4 bits;  conditional E-value: 1e-17
+       zf-C2HC   2 CPtpGCdGsGHvkGkyasHrslsgCPla 29 
+                   CPtpGCdGsGH++G + +HrslsgCP+a
+  Npar_R020891 796 CPTPGCDGSGHISGSFLTHRSLSGCPRA 823
+                   **************************97 PP
+
+
+

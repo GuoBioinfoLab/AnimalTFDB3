@@ -1,0 +1,43 @@
+HMM length of domain: 93 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-5.3	9.9	3	8.7e+02	10	37	117	144
+2	123.1	28.2	7.7e-40	2.2e-37	1	93	178	279
+3	-1.7	7.0	0.68	2e+02	71	93	277	298
+4	-0.5	0.6	0.27	79	44	67	301	323
+
+  Alignments for each domain:
+  == domain 1  score: -5.3 bits;  conditional E-value: 3
+              TF_Otx  10 dplapssascmqrsvsaaaasasYpmsY 37 
+                         +++ + s+ +++ ++++++as+s + s 
+  PrHsapNP_001186699 117 ESSGSESSGQFTPPAVSSSASSSSSASS 144
+                         5544444444444433322222111111 PP
+
+  == domain 2  score: 123.1 bits;  conditional E-value: 7.7e-40
+              TF_Otx   1 sPasisp........lpdpl.apssascmqrsvsa..aaasasYpmsYaqaaaysqgypagsssyFggldCssYLaPmhsqlshpghqlsp 80 
+                         sPasisp        +p+pl aps++scmqrsv+a  a+a+asYpmsY+q+++y+qgyp++sssyFgg+dCssYLaPmhs+ +hp hqlsp
+  PrHsapNP_001186699 178 SPASISPgsapasvsVPEPLaAPSNTSCMQRSVAAgaATAAASYPMSYGQGGSYGQGYPTPSSSYFGGVDCSSYLAPMHSH-HHP-HQLSP 266
+                         8************9999999789*********99888999*****************************************.999.***** PP
+
+              TF_Otx  81 laasslsghlhqs 93 
+                         +a+ss++gh+h++
+  PrHsapNP_001186699 267 MAPSSMAGHHHHH 279
+                         ***********98 PP
+
+  == domain 3  score: -1.7 bits;  conditional E-value: 0.68
+              TF_Otx  71 lshpghqlsplaasslsghlhqs 93 
+                          +hp h+  pl++ss   h+h++
+  PrHsapNP_001186699 277 HHHP-HAHHPLSQSSGHHHHHHH 298
+                         2444.777888887766666654 PP
+
+  == domain 4  score: -0.5 bits;  conditional E-value: 0.27
+              TF_Otx  44 sqgypagsssyFggldCssYLaPm 67 
+                          qgy  gs+  F   dC  Y  P 
+  PrHsapNP_001186699 301 HQGY-GGSGLAFNSADCLDYKEPG 323
+                         6888.7888899999999998775 PP
+

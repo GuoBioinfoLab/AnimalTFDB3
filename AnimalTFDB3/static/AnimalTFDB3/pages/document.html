@@ -7,22 +7,22 @@
                     <a href="#!/document#home"><span class="fa fa-home solo">Home</span></a>
                 </li>
                 <li>
-                    <a href="#!/document#anch1" data-scroll>
+                    <a href="#!/document#begin" data-scroll>
                         <span class="fa fa-anchor solo">For beginners</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#!/document#anch2" data-scroll>
+                    <a href="#!/document#prediction" data-scroll>
                         <span class="fa fa-anchor solo">Prediction</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#!/document#anch3" data-scroll>
+                    <a href="#!/document#tf_family" data-scroll>
                         <span class="fa fa-anchor solo">About TF family</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#!/document#anch4" data-scroll>
+                    <a href="#!/document#annotation" data-scroll>
                         <span class="fa fa-anchor solo">Annotation</span>
                     </a>
                 </li>
@@ -31,48 +31,44 @@
     </div>
     <!-- Page content -->
     <div id="page-content-wrapper_doc">
-        <div class="content-header">
-            <h1 id="home">
-                <a id="menu-toggle" href="#!/document#" class="glyphicon glyphicon-align-justify btn-menu toggle">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </h1>
-        </div>
         <div class="page-content inset" data-spy="scroll" data-target="#spy">
             <div class="row">
                 <div class="jumbotron">
-                    <h2 style="text-align: center">Welcom to AnimalTFDB!</h2>
-                    <p>AnimalTFDB is a comprehensive database including classification and annotation of genome-wide
-                        transcription factors (TFs), transcription co-factors and chromatin remodeling factors in 65
-                        animal genomes. The TFs are further classified into 70 families based on their DNA-binding
-                        domain (DBD).</p>
-                    <br>
-                    <p>Current URL of AnimalTFDB is <a href="http://bioinfo.life.hust.edu.cn/AnimalTFDB/">http://bioinfo.life.hust.edu.cn/AnimalTFDB/.</a>The
-                        AnimalTFDB 2.0
-                        provides multiple ways to browse, keyword search, BLAST search and download the data in our
-                        database. We also provided an online prediction sever of TF.</p>
+                    <div style="margin-left: 10px;margin-right: 10px">
+                        <h2 style="text-align: center;margin-top: 0px">Welcom to AnimalTFDB!</h2>
+                        <p>AnimalTFDB is a comprehensive database including classification and annotation of genome-wide
+                            transcription factors (TFs), transcription co-factors in 97
+                            animal genomes. The TFs are further classified into 73 families based on their DNA-binding
+                            domain (DBD). And the TF Cofactors are classified into 83 families base on their function.</p>
+                        <br>
+                        <p>
+                            We curated the TF families, predicted TFs in animal genomes, and constructed the comprehensive database AnimalTFDB v1.0 in 2011, and published the on NAR database issue in 2012. In 2014, we updated it to AnimalTFDB v2.0 (http://bioinfo.life.hust.edu.cn/AnimalTFDB/), which was published on the 2015 database issue of NAR. We recently updated the AnimalTFDB to AnimalTFDB3.0 with the latest data and some new functions.
+                        </p>
+                        <br>
+                        <p> Current URL of AnimalTFDB is http://bioinfo.life.hust.edu.cn/AnimalTFDB3. The AnimalTFDB3.0 is the most comprehensive animal TF database including classification and annotation of genome-wide TFs and cofactors in 97 animal genomes, and provides multiple ways to browse, keyword search, BLAST search and download the data in our database. We also provided online tools for TF prediction, TF binding site prediction, and BLAST search.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 well">
-                    <legend id="anch1" style="font-weight: bold">For beginners</legend>
+                    <legend id="begin" style="font-weight: bold">For beginners</legend>
                     <h4>Browse</h4>
-                    <p>1.Browse by species. Users can browse the database by clicking the logo of species on the
-                        phylogenetic tree or by clicking the name on the left treeview. The cascading style of
-                        species->families->family gene list->single gene annotation is applied for this browse way. The
-                        family gene list page also show the multiple sequence alignment of the DBDs, the weblogo graph
-                        of the multi-alignment and phylogenetic tree of these TFs, as well as a brief introduction and
-                        reference of this TF family.</p>
-                    <p>2.Browse by family. Users can browse the database by clicking the logo of TF families or the bars
-                        of transcription co-factors and chromatin remodeling factors. The names of TFs, transcription
-                        co-factors and chromatin remodeling factors on the left treeview also could be clicked to browse
-                        the database. The full TF list in each species could be browse by clicking the "Transcription
-                        Factor Family" bar. The cascading style of families->species->family gene list->single gene
-                        annotation is applied for this browse way.</p>
+                    <p>1.Browse by species. In AnimalTFDB database, we separated all 97 species into 12 categories with
+                        reference to ensemble database. In addition, to make it convenient for users to browse, we put
+                        a favourites category on the top of species page. Users can browse the database by clicking the
+                        logo of species, species->families->family gene list->single gene annotation is applied for this
+                        browse way. The family gene list page also show the multiple sequence alignment of the DBDs, the
+                        weblogo graph of the multi-alignment of these TFs, as well as a brief introduction and reference
+                        of this TF family.
+                    </p>
+                    <p>2.Browse by family. We separated TFs into 73 families and TF Cofactors into 83 families. Furthermore,
+                        73 TF families and 83 TF Cofactor families was classed into 6 and 6 categories separately. Users can
+                        browse the database by clicking the logo of TF families or the bars of transcription co-factors. The
+                        cascading style of families->species->family gene list->single gene annotation is applied for this browse way.</p>
                     <br>
                     <h4>Search</h4>
-                    <p>1. A quick search box for Ensembl gene id, Entrez gene id or gene symbol locates at the head of
-                        each page.</p>
+                    <p>1. A quick search box for Ensembl gene id, Entrez gene id or gene symbol locates at the navigation bar.</p>
                     <p>2. Advanced search page provides multiple ways to search the database. Users can search by
                         different basic information (multiple gene ids, gene symbol, alias and full name), annotation
                         information (protein-protein interactions, gene ontology, pathway, orthologs and paralogs), mRNA
@@ -87,85 +83,649 @@
                         obtain results within a few minutes. In the prediction result, TF family, alignment e-value, and
                         detailed alignment information will be provided.</p>
                     <br>
+                    <h4>TF binding site prediction</h4>
+                    <p>To help users identify TF targets from their own nucleotide sequences, TFBS prediction server was
+                        added in current version. We collected the TF motif matrixes from <a href="http://www.gene-regulation.com/pub/databases.html">TRANSFAC</a>, <a href="http://jaspar.genereg.net/">JASPAR</a>, <a href="http://hocomoco11.autosome.ru/">HOCOMOCO</a> and <a href="http://bioinfo.life.hust.edu.cn/hTFtarget#!/">hTFtarget</a> databases. We used these matrixes to scan the alignment sequence of human to predict the TF targets by using motif detection function of The MEME Suite (http://meme-suite.org/index.html). In the prediction result, TF binding site sequence, score, P-value, Q-value, and detailed alignment information will be shown. Furthermore, specific TF result can be shown through filter bar.</p>
+                    <br>
                     <h4>BLAST</h4>
                     <p>To help users find homologous gene and explore functions of poorly studied TFs, a BLAST tool was
-                        provided to search against TFs, transcription co-factors and chromatin remodeling factors in our
+                        provided to search against TFs and transcription cofactors in our
                         database with protein or DNA sequences. The protein sequences of all species or one specific
-                        species could be selected as the BLAST database. The specific e-vlaue can be chose.</p>
+                        species could be selected as the BLAST database. The specific e-value can be chose.</p>
                     <br>
                     <h4>Download</h4>
-                    <p>The gene lists of TFs, transcription co-factors and chromatin remodeling factors for each species
-                        could be downloaded from the download page. The longest protein sequences of all the genes also
-                        are provided in the download page.</p>
+                    <p>The gene lists of TFs, transcription cofactors for each species
+                        could be downloaded from the download page.</p>
                 </div>
                 <div class="col-md-12 well">
-                    <legend id="anch2" style="font-weight: bold">Prediction</legend>
-                    <h4>Methods for predicting TFs, transcription co-factors and chromatin remodeling factors</h4>
-                    <p>Transcription factors (TFs) are key regulators through binding to specific DNA sequence to
-                        activate or repress gene expression. Each TF has at least one DNA-binding domain (DBD) which is
-                        conserved in evolution. Based on their DBDs, TFs could be classified into different families.
-                        After reviewing literatures, we finally collected and curated 70 animal TF families and a group
-                        of them named "others" which includes some orphan TFs. We identified TFs based on the Hidden
-                        Markov Model (HMM) profiles of their DBDs. Among the 70 defined families, 56 families had HMM
-                        profiles of their DBDs in Pfam database (v27.0) and we downloaded them directly. For the
-                        remaining domains without available Pfam HMM profiles, we rebuilt the HMM profiles using the
-                        sequences in representative species (human, mouse, zebrafish and fly). To build the HMM profiles
-                        for them, we performed multiple sequence alignment by ClustalW2 for their DBD sequences and used
-                        the hmmbuild program in HMMER package to build HMM profiles. Then, we applied the hmmsearch
-                        program to search all the protein sequences in each species against the HMM profiles to predict
-                        TFs. Based on our manual curation, we took the E-value 0.0001 as the cutoff. In addition to the
-                        predicted TFs, we also found some TFs reported in publications. But none of them can be
-                        classified into one TF family, so we classified them into group "Others".</p>
+                    <legend id="prediction" style="font-weight: bold">Prediction</legend>
+                    <h4>Methods for predicting TFs, transcription cofactors</h4>
+                    <p>Transcription factors (TFs) are key regulators through binding to specific DNA sequence to activate or repress gene expression. Each TF has at least one DNA-binding domain (DBD) which is conserved in evolution. Based on their DBDs, TFs could be classified into different families. After reviewing literatures, we finally collected and curated 72 animal TF families and a group of them named "Others" which includes some orphan TFs. We identified TFs based on the Hidden Markov Model (HMM) profiles of their DBDs. Among the 72 defined families, 59 families had HMM profiles of their DBDs in Pfam database (v31.0) and we downloaded them directly. For the remaining domains without available Pfam HMM profiles, we rebuilt the HMM profiles using the sequences in representative species (human, mouse, zebrafish and fly). To build the HMM profiles for them, we performed multiple sequence alignment by ClustalW2 for their DBD sequences and used the hmmbuild program in HMMER 3.1b2 package to build HMM profiles. Then, we applied the hmmsearch program to search all the protein sequences in each species against the HMM profiles to predict TFs. Based on our manual curation, we took the different E-value cutoff for different TF families. In addition to the predicted TFs, we also found some TFs reported in publications. But none of them can be classified into one TF family, so we classified them into group "Others".</p>
                     <br>
-                    <p>Transcription co-factors are considered as proteins that interact with TFs in the transcription
-                        complex but do not bind to the DNA directly. To identify them, we firstly got the human
-                        transcription co-factors from Tcof-DB database and GO database according to the GO items:
-                        "transcription coactivator activity", "transcription corepressor activity", "transcription
-                        cofactor activity" and "regulation of transcription". After removing redundant genes and the
-                        overlap with TFs, we got 415 transcription co-factors in human.</p>
+                    <p>Transcription cofactors are considered as proteins that interact with TFs in the transcription complex to active or repress the transcription of genes. To identify them, we firstly got the human transcription cofactors from Tcof-DB v2 database and GO database according to the GO items: "transcription coactivator activity", "transcription corepressor activity", "transcription cofactor activity" and "regulation of transcription". In addition, if the gene has one of the following GO annotations: "chromatin remodeling", "chromatin-mediated maintenance of transcription", "histone *ylation", "histone .*ylase activity", "histone *transferase activity", we think it is a chromatin remodeling factors. In AnimalTFDB3.0, the chromatin remodeling factors were also merged into transcriptional cofactors. After removing redundant genes and the overlap with TFs, we got 1025 transcription cofactors in human. Based on their function, transcriptional cofactors were classified into five major categories. Genes in the "Co-activator/repressors" category are genes annotated as a coactivator or corepressor; "Histone-modifying Enzymes" are genes that can encode histone modification enzymes; "Chromatin Remodeling Factors" genes were collected according to the description of the GO annotations mentioned above, excluding the histone modification enzyme; Genes in "General Cofactors" category are transcriptional cofactors involed in initiation or elongation process of transcription; "Cell Cycle" genes are cell cycle associated transcription cofactors; Cofactors dose not belong to the above categories are classified as "Other Cofactors".</p>
                     <br>
-                    <p>The chromatin remodeling factors were defined as proteins that regulate transcription by
-                        modifying the chromatin formation. We obtained the human chromatin remodeling factors from GO
-                        database. If the gene has one of the following GO annotations: "chromatin remodeling",
-                        "chromatin-mediated maintenance of transcription", "histone *ylation", "histone .*ylase
-                        activity", "histone *transferase activity", we think it is a chromatin remodeling factors. After
-                        manual curation, we got 142 chromatin remodeling factors in human.</p>
-                    <br>
-                    <p>In order to identify transcription co-factor and chromatin remodeling factor in other 64 species,
-                        we do the reciprocal best-hit BLAST between the human and other species with the conditions
-                        setting as e-value<=1e-4, coverage>=50%, identity>=30%.</p>
+                <p>In order to identify transcription cofactor in other 96 species, we do the reciprocal best-hit BLAST between the human and other species with the conditions setting as e-value<=1e-4, coverage>=50%, identity>=30%.
+</p>
                 </div>
                 <div class="col-md-12 well">
-                    <legend id="anch3" style="font-weight: bold">About TF family</legend>
-                    <p>After systematically reviewing recently published literatures, we found two new TF families
-                        comparing to AnimalTFDB v1.0. They are NCU-G1 and CEP-1, while CEP-1 only exist in
-                        Caenorhabditis elegans. In addition, we reclassified the nuclear receptor family. In version
-                        1.0, this family is classified into 12 sub-families based on InterPro and Pfam annotations. In
-                        the update version, we classified it into 7 sub-families according to the common classification
-                        methods of the nuclear receptor nomenclature committee [1, 2]. The nuclear transcription factor
-                        Y (NFY) is also classified into 3 sub-families based on the three different subunits.</p>
+                    <legend id="tf_family" style="font-weight: bold">About TF family</legend>
+                    <p>After systematically reviewing recently published literatures and all binding domain from Pfam database for all TFs in AnimalTFDB v2.0, we found five new TF families comparing to AnimalTFDB v2.0. They are zf-CCCH [1], LRRFIP [2], DACH [3, 4], GCFC [5] and CSRNP [6]. In addition, we reclassified the CEP-1 and bZIP family. In version 2.0, CEP-1 only exist in Caenorhabditis elegans, this family is reclassified into "Others" group. The bZIP family were classified into 2 sub-families C/EBP and TF_bZIP in version 2.0, however in the update version, we found that the C/EBP TF prediction results were all included in the TF_bZIP results by using the latest version of the ensembl protein sequence (release_92), and the TF_bZIP results were reliable according to the reference [7], so we removed the C/EBP family. </p>
                     <br>
-                    <p>In most cases, a TF only has one kind of DBD, thus it is easy to assign it into one certain
-                        family correctly. But in some cases, a TF may have more than one kind of DBD. In order to
-                        classify them into correct family, we checked all the TFs of human and mouse which contained
-                        multiple kinds of DBDs, and then set up two rules. First, if a superfamily has several
-                        subfamilies, we classified the TFs based on the subfamily DBD. For example, the Homeobox
-                        superfamily has four subfamilies: Pou, CUT, TF_Otx and other Homeobox. In this superfamily, all
-                        TFs have a Homeobox domain, and some of them have one of the Pou, CUT, and TF_Otx subfamily
-                        signature domains. We assigned them into specific family based on their subfamily signature
-                        domain. The second rule is that if a TF has more than one unrelated DBD, we will classify it
-                        into the family based on the DBD with the smallest E-value. We checked all the classification
-                        results of human and mouse, and found our method was reasonable.</p>
-                    <p>table content .........</p>
+                    <p>In most cases, a TF only has one kind of DBD, thus it is easy to assign it into one certain family correctly. But in some cases, a TF may have more than one kind of DBD. In order to classify them into correct family, we checked all the TFs of human and mouse which contained multiple kinds of DBDs, and then set up three rules. First, if a superfamily has several subfamilies, we classified the TFs based on the subfamily DBD. For example, the Homeobox superfamily has four subfamilies: Pou, CUT, TF_Otx and other Homeobox. In this superfamily, all TFs have a Homeobox domain, and some of them have one of the Pou, CUT, and TF_Otx subfamily signature domains. We assigned them into specific family based on their subfamily signature domain. The second rule is that if a TF has more than one unrelated DBD, we will classify it into the family based on the DBD with the smallest E-value. The third rule is that if a TF family contains a non-TF gene (such as an enzyme gene) and cannot be rejected by changing the cutoff, we will remove the non-TF gene based on the prediction result of the other non-TF gene domain. There are three domains about enzyme genes (PLU-1, MOZ_SAS and TRAM_LAG1_CLN8) and one other domain (TIP_N) act as non-TF gene domain in our prediction process, and the threshold of these domains is 1e-2. For example,we found many demethylase genes in ARID family in AnimalTFDB v2.0, we removed demethylase genes by the prediction result of PLU-1 domain from ARID result. We checked all the classification results of human and mouse, and found our method was reasonable.</p>
+                    <table class="table table-bordered table-striped table-hover  table-condensed tablesorter tablesorter-bootstrap">
+                        <thead>
+                        <tr>
+                            <td colspan="3">Family</td>
+                            <td>DNA-binding domain</td>
+                            <td>Pfam ID</td>
+                            <td>Cutoff</td>
+                            <td>Rules</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr >
+                            <td>AF-4</td>
+                            <td colspan="2"></td>
+                            <td>AF-4</td>
+                            <td><a href="http://pfam.xfam.org/family/PF05110" target="_blank">PF05110</a></td>
+                            <td>1E-04</td>
+                            <td>AF-4 domain</td>
+                        </tr>
+                        <tr >
+                            <td>AP-2</td>
+                            <td colspan="2"></td>
+                            <td>TF_AP-2</td>
+                            <td><a href="http://pfam.xfam.org/family/PF03299">PF03229</a></td>
+                            <td>1E-04</td>
+                            <td>TF_AP-22 domain</td>
+                        </tr>
+                        <tr >
+                            <td>ARID</td>
+                            <td colspan="2"></td>
+                            <td>ARID</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01388"target="_blank"t>PF01388</a></td>
+                             <td>1E-04</td>
+                            <td>ARID domain, no PLU-1 domain</td>
+                        </tr>
+                        <tr >
+                            <td>bHLH
+                            </td>
+                            <td colspan="2"></td>
+                            <td>HLH</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00010"target="_blank">PF00010</a></td>
+                            <td>1E-02</td>
+                            <td>HLH domain</td>
+                        </tr>
+                        <tr >
+                            <td>CBF
+                            </td>
+                            <td colspan="2"></td>
+                            <td>CBF_beta</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02312"target="_blank">PF02312</a></td>
+                            <td>1E-04</td>
+                            <td>CBF_beta domain</td>
+                        </tr>
+                        <tr >
+                            <td>CSL</td>
+                            <td colspan="2"></td>
+                            <td>BTD</td>
+                            <td><a href="http://pfam.xfam.org/family/PF09270"target="_blank">PF09270</a></td>
+                            <td>1E-04</td>
+                            <td>BTD domain</td>
+                        </tr>
+                        <tr >
+                            <td rowspan="3">NF-Y</td>
+                            <td colspan="2">NF-YA</td>
+                            <td>CBFB_NFYA</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02045"target="_blank">PF02045</a></td>
+                            <td>1E-04</td>
+                            <td>CBFB_NFYA domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">NF-YB
+                            </td>
+                            <td>NF-YB</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>NF-YB domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">NF-YC
+                            </td>
+                            <td>NF-YC</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>NF-YC domain</td>
+                        </tr>
+                        <tr >
+                            <td>CG-1</td>
+                            <td colspan="2"></td>
+                            <td>CG-1</td>
+                            <td><a href="http://pfam.xfam.org/family/PF03859"target="_blank">PF03859</a></td>
+                            <td>1E-04</td>
+                            <td>CG-1 domain</td>
+                        </tr>
+                        <tr >
+                            <td>CP2</td>
+                            <td colspan="2"></td>
+                            <td>CP2</td>
+                            <td><a href="http://pfam.xfam.org/family/PF04516"target="_blank">PF04516</a></td>
+                            <td>1E-04</td>
+                            <td>CP2 domain</td>
+                        </tr>
+                        <tr >
+                            <td>CSD</td>
+                            <td colspan="2"></td>
+                            <td>CSD</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00313"target="_blank">PF00313</a></td>
+                            <td>1E-04</td>
+                            <td>CSD domain</td>
+                        </tr>
+                        <tr >
+                            <td>CSRNPN
+                            </td>
+                            <td colspan="2"></td>
+                            <td>CSRNP_N</td>
+                            <td><a href="http://pfam.xfam.org/family/PF16019"target="_blank">PF16019</a></td>
+                            <td>1E-04</td>
+                            <td>CSRNP_N domain</td>
+                        </tr>
+                        <tr >
+                            <td>DACH
+                            </td>
+                            <td colspan="2"></td>
+                            <td>DACH</td>
+                            <td>selfbuild</td>
+                            <td>1E-04</td>
+                            <td>DACH domain</td>
+                        </tr>
+                        <tr >
+                            <td>E2F
+                            </td>
+                            <td colspan="2"></td>
+                            <td>E2F_TDP</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02319"target="_blank">PF02319</a></td>
+                            <td>1E-04</td>
+                            <td>E2F_TDP domain</td>
+                        </tr>
+                        <tr >
+                            <td>ETS
+                            </td>
+                            <td colspan="2"></td>
+                            <td>Ets</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00178"target="_blank">PF00178</a></td>
+                            <td>1E-04</td>
+                            <td>Ets domain</td>
+                        </tr>
+                        <tr >
+                            <td>Fork head
+                            </td>
+                            <td colspan="2"></td>
+                            <td>Fork_head</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00250"target="_blank">PF00250</a></td>
+                            <td>1E-04</td>
+                            <td>Fork_head domain</td>
+                        </tr>
+                        <tr >
+                            <td>GCM</td>
+                            <td colspan="2"></td>
+                            <td>GCM</td>
+                            <td><a href="http://pfam.xfam.org/family/PF03615"target="_blank">PF03615</a></td>
+                            <td>1E-04</td>
+                            <td>GCM domain</td>
+                        </tr>
+                        <tr >
+                            <td>GTF2I</td>
+                            <td colspan="2"></td>
+                            <td>GTF2I</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02946"target="_blank">PF02946</a></td>
+                            <td>1E-04</td>
+                            <td>GTF2I domain</td>
+                        </tr>
+                        <tr >
+                            <td>HMG
+                            </td>
+                            <td colspan="2"></td>
+                            <td>HMG_box</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00505"target="_blank">PF00505</a></td>
+                            <td>1E-03</td>
+                            <td>HMG_box domain</td>
+                        </tr>
+                        <tr >
+                            <td>HMGA</td>
+                            <td colspan="2"></td>
+                            <td>HMGA</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>HMGA domain</td>
+                        </tr>
+                        <tr >
+                            <td>HSF
+                            </td>
+                            <td colspan="2"></td>
+                            <td>HSF_DNA-bind</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00447"target="_blank">PF00447</a></td>
+                            <td>1E-04</td>
+                            <td>HSF_DNA-bind</td>
+                        </tr>
+                        <tr >
+                            <td>HTH
+                            </td>
+                            <td colspan="2"></td>
+                            <td>HTH_psq</td>
+                            <td><a href="http://pfam.xfam.org/family/PF05225"target="_blank">PF05225</a></td>
+                            <td>1E-04</td>
+                            <td>HTH_psq domain</td>
+                        </tr>
+                        <tr >
+                            <td>IRF
+                            </td>
+                            <td colspan="2"></td>
+                            <td>IRF</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00605"target="_blank">PF00605</a></td>
+                            <td>1E-04</td>
+                            <td>IRF domain</td>
+                        </tr>
+                        <tr >
+                            <td>MYB
+                            </td>
+                            <td colspan="2"></td>
+                            <td>Myb_DNA-bd</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00249"target="_blank">PF00249</a></td>
+                            <td>1E-04</td>
+                            <td>Myb_DNA-bd domain</td>
+                        </tr>
+                        <tr >
+                            <td>MBD</td>
+                            <td colspan="2"></td>
+                            <td>MBD</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01429"target="_blank">PF01429</a></td>
+                            <td>1E-04</td>
+                            <td>MBD domain</td>
+                        </tr>
+                        <tr >
+                            <td>NCU-G1</td>
+                            <td colspan="2"></td>
+                            <td>NCU-G1</td>
+                            <td><a href="http://pfam.xfam.org/family/PF15065"target="_blank">PF15065</a></td>
+                            <td>1E-04</td>
+                            <td>NCU-G1 domain</td>
+                        </tr>
+                        <tr >
+                            <td>NDT80/PhoG
+                            </td>
+                            <td colspan="2"></td>
+                            <td>NDT80_PhoG</td>
+                            <td><a href="http://pfam.xfam.org/family/PF05224"target="_blank">PF05224</a></td>
+                            <td>1E-04</td>
+                            <td>NDT80_PhoG domain</td>
+                        </tr>
+                        <tr >
+                            <td>Nrf1
+                            </td>
+                            <td colspan="2"></td>
+                            <td>Nrf1_DNA-bind</td>
+                            <td><a href="http://pfam.xfam.org/family/PF10491"target="_blank">PF10491</a></td>
+                            <td>1E-04</td>
+                            <td>Nrf1_DNA-bind domain</td>
+                        </tr>
+                        <tr >
+                            <td>PC4</td>
+                            <td colspan="2"></td>
+                            <td>PC4</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02229"target="_blank">PF02229</a></td>
+                            <td>1E-04</td>
+                            <td>PC4 domain</td>
+                        </tr>
+                        <tr >
+                            <td>P53</td>
+                            <td colspan="2"></td>
+                            <td>P53</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00870"target="_blank">PF00870</a></td>
+                            <td>1E-04</td>
+                            <td>P53 domain</td>
+                        </tr>
+                        <tr >
+                            <td>PAX</td>
+                            <td colspan="2"></td>
+                            <td>PAX</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00292"target="_blank">PF00292</a></td>
+                             <td>1E-04</td>
+                            <td>RAX domain</td>
+                        </tr>
+                        <tr >
+                            <td>HPD</td>
+                            <td colspan="2"></td>
+                            <td>HPD</td>
+                            <td><a href="http://pfam.xfam.org/family/PF05044"target="_blank">PF05044</a></td>
+                             <td>1E-04</td>
+                            <td>HPD domain</td>
+                        </tr>
+                          <tr >
+                            <td>LRRFIP</td>
+                            <td colspan="2"></td>
+                            <td>LRRFIP</td>
+                            <td><a href="http://pfam.xfam.org/family/PF09738"target="_blank">PF09738</a></td>
+                             <td>1E-04</td>
+                            <td>LRRFIP domain</td>
+                        </tr>
+                        <tr >
+                            <td>RFX
+                            </td>
+                            <td colspan="2"></td>
+                            <td>RFX</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02257"target="_blank">PF02257</a></td>
+                             <td>1E-04</td>
+                            <td>RFX domain</td>
+                        </tr>
+                        <tr >
+                            <td>RHD</td>
+                            <td colspan="2"></td>
+                            <td>RHD</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00554"target="_blank">PF00554</a></td>
+                             <td>1E-04</td>
+                            <td>RHD domain</td>
+                        </tr>
+                        <tr >
+                            <td>Runt</td>
+                            <td colspan="2"></td>
+                            <td>Runt</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00853"target="_blank">PF00853</a></td>
+                             <td>1E-04</td>
+                            <td>Runt domain</td>
+                        </tr>
+                        <tr >
+                            <td>SAND</td>
+                            <td colspan="2"></td>
+                            <td>SAND</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01342"target="_blank">PF01342</a></td>
+                            <td>1E-04</td>
+                            <td>SAND domain</td>
+                        </tr>
+                        <tr >
+                            <td>SRF
+                            </td>
+                            <td colspan="2"></td>
+                            <td>SRF</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00319"target="_blank">PF00319</a></td>
+                            <td>1E-04</td>
+                            <td>SRF domain</td>
+                        </tr>
+                        <tr >
+                            <td>STAT
+                            </td>
+                            <td colspan="2"></td>
+                            <td>STAT_bind</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02864"target="_blank">PF02864</a></td>
+                            <td>1E-04</td>
+                            <td>STAT_bind domain</td>
+                        </tr>
+                        <tr >
+                            <td>T-box</td>
+                            <td colspan="2"></td>
+                            <td>T-box</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00907"target="_blank">PF00907</a></td>
+                            <td>1E-04</td>
+                            <td>T-box domain</td>
+                        </tr>
+                        <tr >
+                            <td>TEA</td>
+                            <td colspan="2"></td>
+                            <td>TEA</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01285"target="_blank">PF01285</a></td>
+                            <td>1E-04</td>
+                            <td>TEA domain</td>
+                        </tr>
+                        <tr >
+                            <td>COE
+                            </td>
+                            <td colspan="2"></td>
+                            <td>COE</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>COE domain</td>
+                        </tr>
+                         <tr >
+                            <td>GCFC
+                            </td>
+                            <td colspan="2"></td>
+                            <td>GCFC</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>GCFC domain</td>
+                        </tr>
+                        <tr >
+                            <td>TSC22</td>
+                            <td colspan="2"></td>
+                            <td>TSC22</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01166"target="_blank">PF01166</a></td>
+                            <td>1E-04</td>
+                            <td>TSC22 domain</td>
+                        </tr>
+                        <tr >
+                            <td>Tub</td>
+                            <td colspan="2"></td>
+                            <td>Tub</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01167"target="_blank">PF01167</a></td>
+                            <td>1E-04</td>
+                            <td>Tub domain</td>
+                        </tr>
+
+                        <tr >
+                            <td>bZIP</td>
+                            <td colspan="2">TF_bZIP</td>
+                            <td>bZIP</td>
+                            <td>self-build</td>
+                            <td>1E-04</td>
+                            <td>bZIP domain</td>
+                        </tr>
+                        <tr >
+                            <td rowspan="2">MH1</td>
+                            <td colspan="2">CTF/NFI</td>
+                            <td>MH1</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00859"target="_blank">PF00859</A></td>
+                             <td>1E-04</td>
+                            <td>CTF/NFI and MH1 domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">MH1</td>
+                            <td>MH1</td>
+                            <td><a href="http://pfam.xfam.org/family/PF03165"target="_blank">PF03165</a></td>
+                             <td>1E-04</td>
+                            <td>MH1 domain</td>
+                        </tr>
+                        <tr >
+                            <td rowspan="4">Homeobox</td>
+                            <td colspan="2">Homeobox</td>
+                            <td>Homeobox</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00046"target="_blank">PF00046</a></td>
+                             <td>1E-03</td>
+                            <td rowspan="4">All TFs have a Homeobox domain, without TRAM_LAG1_CLN8 domain;<br>
+                                some of them have one of the Pou, CUT, and TF_Otx subfamily signature domains</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">Pou</td>
+                            <td>Homeobox, Pou</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00157"target="_blank">PF00157</a></td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">CUT</td>
+                            <td>Homeobox, CUT</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02376"target="_blank">PF02376</a></td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">TF_Otx</td>
+                            <td>Homeobox, TF_Otx</td>
+                            <td><a href="http://pfam.xfam.org/family/PF03529"target="_blank">PF03529</a></td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td  rowspan="19">Zinc finger</td>
+                            <td colspan="2">zf-CCCH</td>
+                            <td>zf-CCCH</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00642"target="_blank">PF00642</a></td>
+                            <td>1E-20</td>
+                            <td>zf-CCCH domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">zf-C2HC</td>
+                            <td>zf-C2HC</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01530"target="_blank">PF01530</a></td>
+                            <td>1E-04</td>
+                            <td>zf-C2HC domain, no MOZ_SAS domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">zf-GAGA</td>
+                            <td>zf-GAGA</td>
+                            <td><a href="http://pfam.xfam.org/family/PF09237"target="_blank">PF09237</a></td>
+                            <td>1E-04</td>
+                            <td>zf-GAGA domain</td>
+                        </tr>
+                        <tr >
+                            <td colspan="2">zf-BED</td>
+                            <td>zf-BED</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02892"target="_blank">PF02892</a></td>
+                            <td>1E-03</td>
+                            <td>zf-BED domain</td>
+                        </tr>
+                        <tr >
+                            <td rowspan="2">zf-C2H2</td>
+                            <td>ZBTB</td>
+                            <td>zf-C2H2</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00651"target="_blank">PF00651</a></td>
+                            <td>1E-04</td>
+                            <td rowspan="2">All TFs have a zf-C2H2 domain, ZBTB family has both ZBTB and zf-C2H2 domain</td>
+                        </tr>
+                        <tr >
+                            <td>zf-C2H2</td>
+                            <td>zf-C2H2</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00096"target="_blank">PF00096</a></td>
+                            <td>1E-03</td>
+                        </tr>
+                        <tr >
+                            <td rowspan="7">Nuclear
+                                Receptor</td>
+                            <td>Miscellaneous</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                            <td rowspan="7">All TFs have a zf-C4 domain; some of them have one of the Miscellaneous,<br>
+                                THR-like, RXR-like, ESR-like, NGFIB-like, SF-like and GCNF-like subfamily signature domains</td>
+                        </tr>
+                        <tr >
+                            <td>THR-like
+                            </td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>RXR-like</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>ESR-like</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>NGFIB-like</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>SF-like</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>GCNF-like</td>
+                            <td>zf-C4</td>
+                            <td>self-build</td>
+                             <td>1E-04</td>
+                        </tr>
+                        <tr >
+                            <td>DM
+                            </td>
+                            <td></td>
+                            <td>DM</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00751"target="_blank">PF00751</a></td>
+                             <td>1E-04</td>
+                            <td>DM domain</td>
+                        </tr>
+                        <tr >
+                            <td>zf-GATA</td>
+                            <td></td>
+                            <td>zf-GATA</td>
+                            <td><a href="http://pfam.xfam.org/family/PF00320"target="_blank">PF00320</a></td>
+                             <td>1E-04</td>
+                            <td>zf-GATA domain</td>
+                        </tr>
+                        <tr >
+                            <td>zf-LITAF-like</td>
+                            <td></td>
+                            <td>zf-LITAF-like</td>
+                            <td><a href="http://pfam.xfam.org/family/PF10601"target="_blank">PF10601</a></td>
+                             <td>1E-04</td>
+                            <td>zf-LITAF-like domain</td>
+                        </tr>
+                        <tr >
+                            <td>zf-MIZ</td>
+                            <td></td>
+                            <td>zf-MIZ</td>
+                            <td><a href="http://pfam.xfam.org/family/PF02891"target="_blank">PF02891</a></td>
+                            <td>1E-04</td>
+                            <td>zf-MIZ domain</td>
+                        </tr>
+                        <tr >
+                            <td>zf-NF-X1</td>
+                            <td></td>
+                            <td>zf-NF-X1</td>
+                            <td><a href="http://pfam.xfam.org/family/PF01422"target="_blank">PF01422</a></td>
+                             <td>1E-04</td>
+                            <td>zf-NF-X1 domain</td>
+                        </tr>
+                        <tr >
+                            <td>THAP</td>
+                            <td></td>
+                            <td>THAP</td>
+                            <td><a href="http://pfam.xfam.org/family/PF05485"target="_blank">PF05485</a></td>
+                              <td>1E-04</td>
+                            <td>THAP domain</td>
+                        </tr>
+                         <tr >
+                            <td>Others</td>
+                            <td colspan="4"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
                     <br>
                     <h4 style="font-weight: bold">References</h4>
-                    <p>1. A unified nomenclature system for the nuclear receptor superfamily. 1999 Apr 16; 97(2):161-3.
-                        PMID 10219237.</p>
-                    <p>2. Evolution of the nuclear receptor superfamily: early diversification from an ancestral orphan
-                        receptor. J Mol Endocrinol. 1997 Dec; 19 (3): 207-26. PMID 9460643</p>
+                    <p>1. Feedback inhibition of macrophage tumor necrosis factor-alpha production by tristetraprolin. Science. 1998 Aug 14;281(5379):1001-5. PMID 9703499.</p>
+                    <p>2. GCF2/LRRFIP1 represses tumor necrosis factor alpha expression. Mol Cell Biol. 2005 Oct;25(20):9073-81. PMID 16199883.</p>
+                    <p>3. Cell fate factor DACH1 represses YB-1-mediated oncogenic transcription and translation. Cancer Res. 2014 Feb 1;74(3):829-39. PMID: 24335958.</p>
+                    <p>4. Sex-specific repression of dachshund is required for Drosophila sex comb development. Dev Biol. 2014 Feb 15;386(2):440-7. PMID 24361261.</p>
+                    <p>5. From PREDs and open reading frames to cDNA isolation: revisiting the human chromosome 21 transcription map. Genomics. 2001 Nov;78(1-2):46-54. PMID: 11707072</p>
+                    <p>6. Characterization of a family of novel cysteine- serine-rich nuclear proteins (CSRNP). PLoS One. 2007 Aug 29;2(8):e808. PMID 17726538.</p>
+                    <p>7. Classification of human B-ZIP proteins based on dimerization properties. Mol Cell Biol. 2002 Sep;22(18):6321-35. PMID 12192032.</p>
                 </div>
                 <div class="col-md-12 well">
-                    <legend id="anch4" style="font-weight: bold">Annotation</legend>
+                    <p>
+                        AnimalTFDB provided complete annotation for TF and TF Cofactors of 97 animal genomes. In addition to basic information about genes, the annotation information is shown in the following figure.
+                    </p>
+                    <div style="width: 100%;text-align: center">
+                        <img src="/static/AnimalTFDB3/image/document_figure.png">
+                    </div>
+                    <legend id="annotation" style="font-weight: bold">Annotation</legend>
                     <h4>1. Gene basic information</h4>
                     <p>This part shows the basic information for a gene, which was extracted from different sources. The
                         Ensembl ID, Gene Symbol, Gene Type, Orientation, Length, Position and Transcripts information
@@ -180,20 +740,13 @@
                         worm) based on the GO annotations. If a TF with GO annotation of "regulation of transcription or
                         transcription factor" and the GO annotation is marked with an <a
                                 href="http://geneontology.org/page/experimental-evidence-codes">experimental evidence
-                            code</a> will be considered as experimental validated TF. If a co-factor with GO annotations
-                        of "transcription coactivator/corepressor/cofactor activity" or "regulation of transcription"
-                        and their evidence codes are experimental, we think this co-factor is an experimentally
-                        validated co-factor. Otherwise, it is putative. For chromatin remodeling factors, if their GO
-                        annotation are "chromatin remodeling", "chromatin-mediated maintenance of transcription",
-                        "histone *ylation", "histone *ylase activity", and "histone *transferase activity" and the
-                        evidence codes are experimental, we think them as experimentally validated chromatin remodeling
-                        factors.</p>
+                            code</a> will be considered as experimental validated TF. If a cofactor with GO annotations of "transcription coactivator/corepressor/cofactor activity", "regulation of transcription" "chromatin remodeling", "chromatin-mediated maintenance of transcription", "histone *ylation", "histone *ylase activity", or "histone *transferase activity" and their evidence codes are experimental, we classified this cofactor as an experimentally validated cofactor. Otherwise, it is putative. </p>
                     <br>
                     <h4>2. Gene model</h4>
                     <p>This part describes the distribution of CDS, UTR and intron of a gene on chromosome based on the
                         information from Ensembl gtf files.</p>
-                    <brr></brr>
-                    <h4>3. Function domain</h4>
+                    <br>
+                    <h4>3.Protein function domain</h4>
                     <p>The function domain displays the domains distribution of the longest protein for each gene. In
                         order to identify the function domains for TFs, we firstly downloaded all the HMMER profiles
                         from Pfam database (version 27.0). Then, we applied PfamScan to search the protein domain
@@ -204,49 +757,46 @@
                     <p>The GO annotations were parsed from gene2go file, which was downloaded from <a
                             href="ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/">NCBI ftp</a>.</p>
                     <br>
-                    <h4>5. Pathway</h4>
-                    <p>The pathway annotations were obtained from the <a href="http://www.genome.jp/kegg/">KEGG</a> and
-                        <a href="http://www.biocarta.com/">BioCarta</a> databases.</p>
+                    <h4>5. TF related GWAS phenotype</h4>
+                    <p>We downloaded the latest GWAS Catalog data and SNP annotation data (release 144) from <a href="http://www.ebi.ac.uk/gwas/">GWAS Catalog</a> and <a href="http://www.bioinfo.org.cn/relative/dbSNP%20Home%20Page.htm">dbSNP</a> respectively. By mapping the GWAS identified phenotype associated SNPs to the genomic locations of TF genes, we obtained a list of SNPs located in TFs with related disease phenotypes and 33,607 TFTF related snp-disease pairs, which were presented in the GWAS panel of TF detail page. </p>
                     <br>
-                    <h4>6. Phenotype</h4>
+                    <h4>6. TFBS</h4>
+                    <p>We download mononucleotide TF binding site matrix files of human and mouse from <a href="http://hocomoco11.autosome.ru/">HOCOMOCOv11</a>,
+                        and got non-redundant matrix files of vertebrates and nematodes from <a href="http://jaspar.genereg.net/">JASPAR</a>. In addition,
+                        we purchased the March 2017 version of the <a href="http://www.gene-regulation.com/pub/databases.html">TRANSFAC</a> database and
+                        extracted TFBS matrix of vertebrates and nematodes. Finally, we integrate all matrix data from three databases and use The <a href="http://meme-suite.org/index.html">MEME Suite</a> to draw the logo of each TFBS.</p>
+                    <br>
+                    <h4>7. Phenotype</h4>
                     <p>We parsed the disease information from <a href="http://www.malacards.org/">MalaCards</a> and
                         Ensembl Biomart.</p>
                     <br>
-                    <h4>7. Protein-protein Interaction</h4>
+                    <h4>8. Protein-protein Interaction</h4>
                     <p>The protein-protein interactions were extracted from <a href="http://thebiogrid.org/">BioGRID</a>
                         version 3.2 and <a href="http://www.hprd.org/">HPRD</a> databases.</p>
                     <br>
-                    <h4>8. Ortholog</h4>
+                    <h4>9. Ortholog</h4>
                     <p>We extracted the ortholog information by Ensembl API.</p>
                     <br>
-                    <h4>9. Paralog</h4>
+                    <h4>10. Paralog</h4>
                     <p>Paralogs also were extracted by Ensembl API.</p>
                     <br>
-                    <h4>10. Gene expression</h4>
-                    <p>The mRNA expression profiles of human, mouse and rhesus monkey for different tissues and cell
-                        lines were obtained. In addition, the protein expression profile of human was also
-                        downloaded.</p>
-                    <p>The gene expression information of 9 model species is provided in AnimalTFDB 3.0 involving normal
-                        tissues, cell lines, development stages and cancers in human.</p>
-                    <p>We downloaded the human gene expression data of cancers from <a
-                            href="https://tcga-data.nci.nih.gov/tcga/findArchives.htm">TCGA</a> and downloaded the data
-                        of tissues and cell lines from <a href="http://www.ebi.ac.uk/gxa/download.html">EMBL-EBI
-                            Expression Atlas</a>. The expression data of the human proteome were parsed from recent
-                        published nature paper [1,2]. The gene expression of D. melanogaster and C. elegans was
-                        extracted from the data published by Li et al [3]. Our collaborators Drs. Yu Xue and Haibo Jia
-                        kindly provided the unpublished gene expression data of Danio rerio. We downloaded the raw data
-                        for Rattus norvegicus, Bos taurus and Gallus gallus from NCBI GEO DataSets published by Burge
-                        group and calculated gene expression with TopHat and Cufflinks programs. The gene expression
-                        data for Mus musculus and Macaca mulatta were downloaded from RhesusBase, which were calculated
-                        from the RNA-Seq data published by groups Burge, Kaessmann and Chuan-Yun Li.</p>
+                    <h4>11. Gene expression</h4>
+                    <p>In AnimalTFDB3.0 we collected expression data of 22 species including (Anolis carolinensis, Bos taurus,
+                        Caenorhabditis elegans, Canis lupus familiaris, Cavia porcellus, Danio rerio, Drosophila melanogaster,
+                        Equus caballus, Erinaceus europaeus, Felis catus, Homo sapiens, Macaca mulatta, Monodelphis domestica,
+                        Mus musculus, Ornithorhynchus, Oryctolagus cuniculus, Pan paniscus, Pan troglodytes, Rattus norvegicus,
+                        Sus scrofa, Xenopus tropicalis). Those data were collected from the following sources:</p>
+                    <p>1.	Human gene expressions in 34 cancers from TCGA</p>
+                    <p>2.	Human gene expressions in normal tissues and cell lines from EMBL-EBI Expression Atlas.</p>
+                    <p>3.	Human protein expressions in normal tissues and cells from <a href="http://www.humanproteomemap.org/"> Human Protein Map</a></p>
+                    <p>4.	Human and other species gene expressions in normal tissues and cells from <a href="https://bgee.org/"> bgee database</a></p>
                     <br>
-                    <h4>11. Family Multi-alignment and Phylogenetic Tree</h4>
-                    <p>We made multiple sequence alignment for the DBD sequences by ClustalW2 and constructed
-                        phylogenetic trees for TFs in the same family of each species by applying PHYLIP
-                        Neighbor-Joining method with bootstrap 100. The multiple sequence alignment result and
-                        phylogenetic tree were displayed by Weblogo and Phylogeny.fr, respectively.</p>
+                    <h4>12. Family Multi-alignment</h4>
+                    <p>We made multiple sequence alignment for the DBD sequences by ClustalW2 
+                        phylogenetic tree files for TFs in the same family of each species by applying PHYLIP
+                        Neighbor-Joining method with bootstrap 100. The multiple sequence alignment result was displayed by Weblogo.</p>
                     <br>
-                    <h4 style="font-width:bold;">Referencesw</h4>
+                    <h4 style="font-width:bold;">References</h4>
                     <p>1. Kim, M.S., Pinto, S.M. et al. (2014) A draft map of the human proteome. Nature, 509,
                         575-581.</p>
                     <p>2. Wilhelm, M., Schlegl, J. et al. (2014) Mass-spectrometry-based draft of the human proteome.

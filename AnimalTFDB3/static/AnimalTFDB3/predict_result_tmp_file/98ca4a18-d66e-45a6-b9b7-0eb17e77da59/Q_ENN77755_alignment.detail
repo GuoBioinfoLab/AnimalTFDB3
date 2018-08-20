@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	217.1	0.1	2.1e-67	8.7e-66	1	198	188	389
+
+  Alignments for each domain:
+  == domain 1  score: 217.1 bits;  conditional E-value: 2.1e-67
+    RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek.....evekildle..evrvLqelvt 92 
+                 ic++++++L+ lVewak+ipaf+eL+l+dqv+LLra++ e+l+L+la++s++l+d  lll++++ ++++++ k     ++++ l ++    r+++elv+
+  Q_ENN77755 188 ICDSMKQQLLILVEWAKYIPAFTELQLDDQVALLRAHAGEHLLLGLARRSMHLKDV-LLLGNNCIITKQCSGKvspvrDPSADLSISrvGSRIMDELVK 285
+                 8******************************************************9.**************99*99996666666666677******** PP
+
+    RXR-like  93 klrdlqldatEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietlll 191
+                 ++ d+q+d+tE+acLkaIv+f+p  +a+gl+++  i++lr + q +le+yi+d++++++grFg+lLl Lp l+si++++ie+++f+kl+G t+i++ll+
+  Q_ENN77755 286 PMTDVQIDDTEFACLKAIVFFDP--NAKGLSSTDRIKQLRFQIQINLEDYISDRQYDSRGRFGELLLTLPPLQSITWQMIEQIQFAKLFGVTHIDSLLQ 382
+                 ***********************..99************************************************************************ PP
+
+    RXR-like 192 emlessk 198
+                 eml+ +k
+  Q_ENN77755 383 EMLLGGK 389
+                 ***9876 PP
+

@@ -14,8 +14,8 @@ body {
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px rgba(240,255,255, 0.1);
 }
 
 .navbar-btn {
@@ -30,7 +30,9 @@ body {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
-
+.cursor-hand {
+    cursor: pointer; cursor: hand;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -69,6 +71,7 @@ body {
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
+    font-weight: bold;
     display: block;
 }
 #sidebar ul li a:hover {
@@ -81,20 +84,19 @@ body {
     background: GhostWhite;
 }
 
-
 a[data-toggle="collapse"] {
     position: relative;
 }
 
-a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-    content: '\e259';
-    display: block;
-    position: absolute;
-    right: 20px;
-}
-a[aria-expanded="true"]::before {
-    content: '\e260';
-}
+/*a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {*/
+    /*content: '\e259';*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*right: 20px;*/
+/*}*/
+/*a[aria-expanded="true"]::before {*/
+    /*content: '\e260';*/
+/*}*/
 
 
 ul ul a {
@@ -123,7 +125,7 @@ ul.CTAs a {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
-    width: 100%;
+    width:100%;
 }
 
 /* ---------------------------------------------------
@@ -153,7 +155,8 @@ ul.CTAs a {
     background: #fafafa;
     position: fixed;
     height: 100%;
-    overflow-y: auto;
+    overflow-y:auto;
+    overflow-x: hidden;
     z-index: 1000;
     transition: all 0.4s ease 0s;
 }
@@ -177,20 +180,19 @@ ul.CTAs a {
     top: 0;
     width: 250px;
     list-style: none;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
-
 .sidebar-nav li {
     line-height: 40px;
     text-indent: 20px;
 }
-
 .sidebar-nav li a {
-    color:#FF9999;
+    color:#85A3CD;
     display: block;
     text-decoration: none;
-    padding-left: 60px;
+    padding-left: 20px;
     font-weight: bold;
     font-size: larger;
 }
@@ -217,7 +219,7 @@ ul.CTAs a {
 }
 .sidebar-nav > .sidebar-brand {
     height: 65px;
-    line-height: 60px;
+    line-height: 50px;
     font-size: 18px;
 }
 .sidebar-nav > .sidebar-brand a {
@@ -283,4 +285,39 @@ td {
 
     white-space:nowrap;overflow:hidden;text-overflow: ellipsis;
 
+}
+/*home static*/
+
+/*.carousel-control {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*width: 15%;*/
+  /*font-size: 20px;*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+  /*text-shadow: 0 1px 2px rgba(240,255,255, .6);*/
+  /*background-color: rgba(0, 0, 0, 0);*/
+  /*filter: alpha(opacity=50);*/
+  /*opacity: .5;*/
+/*}*/
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(240,255,255, .0001) 0%, rgba(240,255,255, .5) 100%);
+  background-image:      -o-linear-gradient(left, rgba(240,255,255, .0001) 0%, rgba(240,255,255, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(240,255,255, .0001)), to(rgba(240,255,255, .5)));
+  background-image:         linear-gradient(to right, rgba(240,255,255, .0001) 0%, rgba(240,255,255, .5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(240,255,255, .5) 0%, rgba(240,255,255, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(240,255,255, .5) 0%, rgba(240,255,255, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(240,255,255, .5)), to(rgba(240,255,255, .0001)));
+  background-image:         linear-gradient(to right, rgba(240,255,255, .5) 0%, rgba(240,255,255, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
 }

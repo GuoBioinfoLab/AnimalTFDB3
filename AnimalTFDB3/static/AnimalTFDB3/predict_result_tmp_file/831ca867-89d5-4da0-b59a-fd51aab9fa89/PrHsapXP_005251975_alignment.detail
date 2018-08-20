@@ -1,0 +1,37 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	525.1	0.1	1.6e-160	5.5e-159	1	376	87	431
+
+  Alignments for each domain:
+  == domain 1  score: 525.1 bits;  conditional E-value: 1.6e-160
+           GCNF-like   1 AvREDrmPGGRNksivyvqikekeierkksgqefeeeaarqeqaqqqhqqsqqssqgqqasaqsqpqqkkqlkssrsvkllggvvdlkeaf 91 
+                         A+RED+mPGGRNksi++vqi+e+eier++sgqefeeea++    +++h++s++ss+g++as+++qp++ ++l+ssrsv+l+g+ ++++e++
+  PrHsapXP_005251975  87 AIREDGMPGGRNKSIGPVQISEEEIERIMSGQEFEEEANH----WSNHGDSDHSSPGNRASESNQPSPGSTLSSSRSVELNGF-MAFREQY 172
+                         9***************************************....**************************************9.******* PP
+
+           GCNF-like  92 lgpslkpelllaphslaqqqqqqqlqqqqrsaspsssalvqqllqaedlnhlqqqigiedGalvdkselsekLcriaDelvfrlvsWiKkL 182
+                         +g+s+ p+++++ph ++++++++ l+qq+rs++p+s++l++qll+aedl++l+++++iedG++v+++el+++Lcr+aDel+fr+++WiKkL
+  PrHsapXP_005251975 173 MGMSVPPHYQYIPHLFSYSGHSPLLPQQARSLDPQSYSLIHQLLSAEDLEPLGTPMLIEDGYAVTQAELFALLCRLADELLFRQIAWIKKL 263
+                         ******************************************************************************************* PP
+
+           GCNF-like 183 PFflelsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlskllgseeelerlkedagevvek 273
+                         PFf+els++d+T+LL+++W+elilLss                         l+v+s+q++geLadv++k+++s+eel+r++++++ev+e+
+  PrHsapXP_005251975 264 PFFCELSIKDYTCLLSSTWQELILLSS-------------------------LTVYSKQIFGELADVTAKYSPSDEELHRFSDEGMEVIER 329
+                         ***************************.........................*************************************** PP
+
+           GCNF-like 274 ltqllrkFrrlkvskEeYvclKviilLnkdekglseveeleslqeryvkvlrsylenkspqnpkarlsellsclpeiraaaskllesklfy 364
+                         l++l++kF++lkvs+EeY+c+K+i++Ln+d++gl+++++le+l++ry++++++++e+k++++p+ r+++l++clpeir++a+k+++++l++
+  PrHsapXP_005251975 330 LIYLYHKFHQLKVSNEEYACMKAINFLNQDIRGLTSASQLEQLNKRYWYICQDFTEYKYTHQPN-RFPDLMMCLPEIRYIAGKMVNVPLEQ 419
+                         ****************************************************************.************************** PP
+
+           GCNF-like 365 vPlllkavlirl 376
+                         +Pll+k+vl+++
+  PrHsapXP_005251975 420 LPLLFKVVLHSC 431
+                         **********98 PP
+

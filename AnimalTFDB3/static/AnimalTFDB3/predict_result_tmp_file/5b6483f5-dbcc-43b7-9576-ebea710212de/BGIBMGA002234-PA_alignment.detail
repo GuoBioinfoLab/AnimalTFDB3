@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.2	0.1	7.1	33	17	25	340	348
+2	27.9	0.7	2.5e-08	1.2e-07	2	25	353	376
+3	32.7	0.8	7.8e-10	3.6e-09	1	25	380	404
+4	26.6	1.2	6.3e-08	2.9e-07	2	20	409	427
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 7.1
+         zf-H2C2_2  17 CplCdkaFk 25 
+                       C  C+k+++
+  BGIBMGA002234-PA 340 CRICGKTYA 348
+                       99*****97 PP
+
+  == domain 2  score: 27.9 bits;  conditional E-value: 2.5e-08
+         zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                       L+ Hlr+H ge+py C  C+k+F+
+  BGIBMGA002234-PA 353 LKTHLRTHSGERPYRCGDCNKSFS 376
+                       889********************7 PP
+
+  == domain 3  score: 32.7 bits;  conditional E-value: 7.8e-10
+         zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                       nL+ H r+Htg+kp+ C +C+kaF+
+  BGIBMGA002234-PA 380 NLTAHVRTHTGQKPFRCRSCKKAFS 404
+                       89**********************6 PP
+
+  == domain 4  score: 26.6 bits;  conditional E-value: 6.3e-08
+         zf-H2C2_2   2 LrrHlrkHtgekpyeCplC 20 
+                       L++Hlr H gekpy+C+lC
+  BGIBMGA002234-PA 409 LTKHLRIHSGEKPYQCKLC 427
+                       89***************** PP
+

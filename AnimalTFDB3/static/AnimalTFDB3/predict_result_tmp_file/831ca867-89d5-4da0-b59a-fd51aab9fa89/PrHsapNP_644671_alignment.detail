@@ -1,0 +1,34 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.9	3.4	2.3	4.8e+02	81	93	137	149
+2	266.8	0.3	5.3e-83	1.1e-80	1	248	317	566
+
+  Alignments for each domain:
+  == domain 1  score: -3.9 bits;  conditional E-value: 2.3
+             STAT  81 eetkqlsaefrnl 93 
+                      +++k+l  + rn+
+  PrHsapNP_644671 137 DKQKELDSKVRNV 149
+                      2333333333332 PP
+
+  == domain 2  score: 266.8 bits;  conditional E-value: 5.3e-83
+             STAT   1 fvvekqP........pqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkql 86 
+                      fvve+qP        p+Vlkt+++F++k+RlLv  klqe +++lkvkv ++++ ++++++kg++k  +     +++++     +   ++++++l
+  PrHsapNP_644671 317 FVVERQPcmpthpqrPLVLKTGVQFTVKLRLLV--KLQELNYNLKVKVLFDKDVNERNTVKGFRK-FN--ILGTHTKV-----MNMEESTNGSL 400
+                      9********************************..****************************32.22..22333333.....22245678899 PP
+
+             STAT  87 saefrnlsLkeikrserkga...esVteekfallFeteftlgelkfkvetlSlPvvvivhgsQepsAwAtilWdna.faepkrlpffv.pekvs 175
+                       aefr+l+Lke+k+++ +++   ++Vtee+++l+Fet+++  +l +++et+SlPvvvi+++sQ ps+wA+ilW+n+ +aep++l+ff+ p+ + 
+  PrHsapNP_644671 401 AAEFRHLQLKEQKNAGTRTNegpLIVTEELHSLSFETQLCQPGLVIDLETTSLPVVVISNVSQLPSGWASILWYNMlVAEPRNLSFFLtPPCAR 494
+                      **************888777788*********************************************************************** PP
+
+             STAT 176 WkqlaeaLswkFssatergLseeqlkyLaekllgkksskeqklvswsqfskenlpgrnftfWeWfdgilelik 248
+                      W+ql+e+Lsw+Fss+t+rgL+ +ql++L+ekllg+++s  + l+ w++f+ken++++nf fW W+++ilelik
+  PrHsapNP_644671 495 WAQLSEVLSWQFSSVTKRGLNVDQLNMLGEKLLGPNASP-DGLIPWTRFCKENINDKNFPFWLWIESILELIK 566
+                      **********************************88766.********************************8 PP
+

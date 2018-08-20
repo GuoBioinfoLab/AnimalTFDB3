@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	28.7	4.9	1.9e-09	6.4e-08	1	26	26	51
+2	37.3	0.7	3.5e-12	1.2e-10	1	26	54	79
+3	33.8	0.5	4.4e-11	1.5e-09	1	25	82	106
+4	27.4	1.5	4.7e-09	1.6e-07	1	25	110	134
+5	22.3	1.4	1.9e-07	6.5e-06	2	25	139	162
+6	29.8	2.8	8.3e-10	2.8e-08	1	26	166	191
+7	35.1	3.1	1.7e-11	5.8e-10	1	26	194	219
+8	30.6	1.0	4.9e-10	1.6e-08	2	25	223	246
+9	24.5	1.0	4e-08	1.3e-06	2	25	251	274
+10	30.3	1.8	5.9e-10	2e-08	2	25	279	302
+11	25.0	1.6	2.7e-08	9.1e-07	2	26	307	334
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 1.9e-09
+     zf-H2C2_2  1 nLrrHlrkHtgekpyeCplCdkaFkt 26
+                  +L++H r Htgek++eC++C k F++
+  Npar_R020792 26 HLTQHQRRHTGEKIFECSECEKCFTK 51
+                  799*********************85 PP
+
+  == domain 2  score: 37.3 bits;  conditional E-value: 3.5e-12
+     zf-H2C2_2  1 nLrrHlrkHtgekpyeCplCdkaFkt 26
+                  nL+ Hl +Htgekp++C++Cdk+F+t
+  Npar_R020792 54 NLNSHLMTHTGEKPFTCSECDKSFTT 79
+                  8***********************97 PP
+
+  == domain 3  score: 33.8 bits;  conditional E-value: 4.4e-11
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   nL+ Hl +Htgekp++C++C+k+F+
+  Npar_R020792  82 NLTVHLMTHTGEKPFKCSECGKSFA 106
+                   7999********************8 PP
+
+  == domain 4  score: 27.4 bits;  conditional E-value: 4.7e-09
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   +L++H   Htgekpy C +C+  F+
+  Npar_R020792 110 DLNKHQSIHTGEKPYRCRECGMCFT 134
+                   69*******************9997 PP
+
+  == domain 5  score: 22.3 bits;  conditional E-value: 1.9e-07
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L+ H  +Htgekpy C +C+  F+
+  Npar_R020792 139 LTIHQMTHTGEKPYRCRECGMCFT 162
+                   7779****************9997 PP
+
+  == domain 6  score: 29.8 bits;  conditional E-value: 8.3e-10
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                   +L+ H r+Htge+++ C++Cdk F+t
+  Npar_R020792 166 SLTNHQRTHTGENRFRCSECDKCFTT 191
+                   5999********************96 PP
+
+  == domain 7  score: 35.1 bits;  conditional E-value: 1.7e-11
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                   nL++H r+Htgekpy C++C+k F+t
+  Npar_R020792 194 NLTQHQRVHTGEKPYRCSECNKCFTT 219
+                   89**********************96 PP
+
+  == domain 8  score: 30.6 bits;  conditional E-value: 4.9e-10
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L+ Hlr+Htgekp+eC++C+  F+
+  Npar_R020792 223 LSTHLRTHTGEKPFECSECGICFT 246
+                   899****************97776 PP
+
+  == domain 9  score: 24.5 bits;  conditional E-value: 4e-08
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L+ H  +Htg+kpy Cp+C+  F+
+  Npar_R020792 251 LTIHQMTHTGQKPYRCPECGMCFT 274
+                   77799**************99885 PP
+
+  == domain 10  score: 30.3 bits;  conditional E-value: 5.9e-10
+     zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                   L+ H r+Htgekpy Cp+C+  F+
+  Npar_R020792 279 LTIHQRTHTGEKPYRCPECGMCFT 302
+                   778*****************9997 PP
+
+  == domain 11  score: 25.0 bits;  conditional E-value: 2.7e-08
+     zf-H2C2_2   2 LrrHlrkHt...gekpyeCplCdkaFkt 26 
+                   L+ H r+Ht   gek++ C++Cdk F+t
+  Npar_R020792 307 LTIHQRTHTgenGEKRFRCSECDKCFTT 334
+                   778******7777779**********96 PP
+

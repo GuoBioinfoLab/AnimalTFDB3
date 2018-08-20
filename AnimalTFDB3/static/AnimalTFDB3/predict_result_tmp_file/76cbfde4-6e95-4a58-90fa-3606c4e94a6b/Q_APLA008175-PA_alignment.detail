@@ -1,0 +1,34 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.3	0.4	6.2	2.7e+02	6	21	401	416
+2	14.6	0.0	3.1e-05	0.0014	3	32	431	463
+3	35.8	0.1	7.9e-12	3.4e-10	3	45	559	604
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 6.2
+                      HHHHHHHHHHHHHHTT CS
+              MYB   6 eeEdelLleaveklGn 21 
+                      eeE e+ l+a  + G+
+  Q_APLA008175-PA 401 EEEREKVLQAAYQKGT 416
+                      79********999887 PP
+
+  == domain 2  score: 14.6 bits;  conditional E-value: 3.1e-05
+                      SS-HHHHHHHHHHHHHHTTT...THHHHHHHHS CS
+              MYB   3 kWteeEdelLleaveklGng...nWkkIakelg 32 
+                       Wt++  +lL++av++++ g   +W+ +a+ ++
+  Q_APLA008175-PA 431 EWTQDHIQLLIKAVNLFPAGtnqRWEVVANFIN 463
+                      7****************************9987 PP
+
+  == domain 3  score: 35.8 bits;  conditional E-value: 7.9e-12
+                      SS-HHHHHHHHHHHHHHTTT...THHHHHHHHSSS-HHHHHHHHHH CS
+              MYB   3 kWteeEdelLleaveklGng...nWkkIakelggRtakqcrsrwqn 45 
+                      +Wt+ E++lL++a++ ++     +W+++a+ + +Rt+k+c  r++ 
+  Q_APLA008175-PA 559 PWTAAEQQLLEQALKTYPAStpdRWDRVAECVSNRTKKECMKRFKE 604
+                      7*****************99***********************986 PP
+

@@ -1,0 +1,30 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	243.3	0.0	3.4e-76	5.9e-74	1	169	44	242
+
+  Alignments for each domain:
+  == domain 1  score: 243.3 bits;  conditional E-value: 3.4e-76
+                         EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEEEEEEEEESSST--B-SSEEESTTEETTEEEEEE-TTTSEE CS
+                 RHD   1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeakirvslvtkdeplrpHahslvgkdckdgvcevelkpedmva 91 
+                         l+IleqPkqrgfRfrY cEg+s+G++pg+ssek+kk++P+vki+ny+g+ak++v+lvt+ ++++ Hahslvgk+c+dg+c+v+ +p+dmv+
+  PrHsapNP_001158884  44 LQILEQPKQRGFRFRYVCEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCEDGICTVTAGPKDMVV 134
+                         79***************************************************************************************** PP
+
+                         E-SSEEEEE--CGGHHHHHHHHH.............................HCT--TTS.-TCGGCTSGGGS-TTEEEEEEEEEE-CSTT CS
+                 RHD  92 sfqnlGIlcvkkkeveealkeri.............................elkekekn.vekeakeeakeidlnvvrlcFqaflpdstg 152
+                          f+nlGIl+v+kk+v+e+l++r+                             +l ++ek+ ++++a++++ke+dl+vvrl+F+aflpdstg
+  PrHsapNP_001158884 135 GFANLGILHVTKKKVFETLEARMteacirgynpgllvhpdlaylqaegggdrQLGDREKElIRQAALQQTKEMDLSVVRLMFTAFLPDSTG 225
+                         ******************************************************************************************* PP
+
+                         SCEEE---EEEEEEEES CS
+                 RHD 153 nfttalepvvSnpiydk 169
+                         +ft++lepvvS++iyd+
+  PrHsapNP_001158884 226 SFTRRLEPVVSDAIYDS 242
+                         ***************96 PP
+

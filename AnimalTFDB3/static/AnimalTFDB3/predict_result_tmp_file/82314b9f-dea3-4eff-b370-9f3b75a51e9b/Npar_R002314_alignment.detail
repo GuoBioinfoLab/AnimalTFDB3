@@ -1,0 +1,50 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	15.7	1.4	1.5e-05	0.00088	3	23	251	274
+2	21.9	1.0	1.6e-07	9.2e-06	1	23	282	309
+3	18.4	2.3	1.9e-06	0.00011	1	23	315	339
+4	16.3	0.7	9.7e-06	0.00057	1	23	345	370
+5	21.2	0.5	2.5e-07	1.5e-05	1	23	376	401
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 1.5e-05
+                   ET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2   3 Cp..dCgksFkrksnLkrHirt.H 23 
+                   C+   C+k F ++++L++Hi+  H
+  Npar_R002314 251 CHweNCTKEFDTQEQLVHHINNeH 274
+                   9999****************9988 PP
+
+  == domain 2  score: 21.9 bits;  conditional E-value: 1.6e-07
+                   EEET..TTT...EEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCp..dCg...ksFkrksnLkrHirtH 23 
+                   ++C+  dC+   ++Fk +++L++H+r+H
+  Npar_R002314 282 FVCHwqDCSrelRPFKAQYMLVVHMRRH 309
+                   89*************************9 PP
+
+  == domain 3  score: 18.4 bits;  conditional E-value: 1.9e-06
+                   EEET..TTTEEESSHHHHHHHHHCC CS
+       zf-C2H2   1 ykCp..dCgksFkrksnLkrHirtH 23 
+                   +kC+  +C+k ++r +nLk+H+r+H
+  Npar_R002314 315 HKCTfeGCNKAYSRLENLKTHLRSH 339
+                   79**********************9 PP
+
+  == domain 4  score: 16.3 bits;  conditional E-value: 9.7e-06
+                   EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2   1 ykCp..dCgksFkrksnLkrHirt.H 23 
+                   y+C+  +C+k F++ s+  +H+++ H
+  Npar_R002314 345 YVCEheGCNKAFSNASDRAKHQNRtH 370
+                   99*********************999 PP
+
+  == domain 5  score: 21.2 bits;  conditional E-value: 2.5e-07
+                   EEET..TTTEEESSHHHHHHHHHC.C CS
+       zf-C2H2   1 ykCp..dCgksFkrksnLkrHirt.H 23 
+                   y+C+  +C+k+++++s+L++H +t H
+  Npar_R002314 376 YVCKipGCTKRYTDPSSLRKHVKTvH 401
+                   99**********************99 PP
+

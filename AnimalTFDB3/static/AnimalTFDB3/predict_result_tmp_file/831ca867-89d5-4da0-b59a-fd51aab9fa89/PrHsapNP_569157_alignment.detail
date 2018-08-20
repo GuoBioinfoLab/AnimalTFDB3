@@ -1,0 +1,34 @@
+HMM length of domain: 55 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	1.6	0.0	0.75	13	38	54	70	86
+2	40.7	1.2	4.7e-13	8.3e-12	2	55	136	187
+3	2.7	0.0	0.32	5.7	7	20	219	232
+
+  Alignments for each domain:
+  == domain 1  score: 1.6 bits;  conditional E-value: 0.75
+                     STHHHHHHHHHHHHHHH CS
+             bHLH 38 lsKaeiLekAveYIkqL 54
+                     l  ++iL +A  Y+ q 
+  PrHsapNP_569157 70 LQNVQILLEAASYLEQI 86
+                     67899********9875 PP
+
+  == domain 2  score: 40.7 bits;  conditional E-value: 4.7e-13
+                      HHHHHHHHHHHHHHHHHHHHHHHHCSCC.CH.TTSS-STHHHHHHHHHHHHHHHH CS
+             bHLH   2 RtahnerErrRRdriNdafeeLrellPk.askakskKlsKaeiLekAveYIkqLq 55 
+                      R++hne+E++RR++++ ++e+L+ l+P  +   + ++ + +  L+kA  +Ik+L+
+  PrHsapNP_569157 136 RSTHNELEKNRRAHLRLCLERLKVLIPLgP---DCTRHTTLGLLNKAKAHIKKLE 187
+                      99**************************88...*******************996 PP
+
+  == domain 3  score: 2.7 bits;  conditional E-value: 0.32
+                      HHHHHHHHHHHHHH CS
+             bHLH   7 erErrRRdriNdaf 20 
+                      e+Er R+d+i + +
+  PrHsapNP_569157 219 EMERIRMDSIGSTI 232
+                      89*******97765 PP
+

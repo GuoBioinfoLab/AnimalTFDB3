@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	461.9	0.0	6e-143	1.3e-140	1	261	337	598
+
+  Alignments for each domain:
+  == domain 1  score: 461.9 bits;  conditional E-value: 6e-143
+    NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgfselqka 96 
+                   sLkGRRGRLpskpksp+++s+pspPvsl++alvr++vds+p+ ++ldys+fq+ ++ +++++d++++qqfydlLtgs+e+ir +aekiPgfsel+k+
+  Npar_R013300 337 SLKGRRGRLPSKPKSPQEPSPPSPPVSLISALVRTHVDSNPAVSSLDYSRFQAnPEFQMNGDDTQHIQQFYDLLTGSMEIIRGWAEKIPGFSELHKQ 433
+                   8***************************************************9999***************************************** PP
+
+    NGFIB-like  97 DqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGLkepkrveelqsk 193
+                   Dq+lL+esaflelfvlRlayRs+++e+kliFc+G vlhrlqc+rgFgewid iv+fs++lqs+n+disAf+c+aaL+++terhGLkepkrveelq+k
+  Npar_R013300 434 DQDLLFESAFLELFVLRLAYRSNPAEGKLIFCNGAVLHRLQCVRGFGEWIDAIVEFSSNLQSMNIDISAFSCIAALAMVTERHGLKEPKRVEELQNK 530
+                   ************************************************************************************************* PP
+
+    NGFIB-like 194 iinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                   iin+Lkdhv++++g+ n++++ls+llgkl+elr+lctqgLqrifylkLedLvp+Paiidklfldtlpf
+  Npar_R013300 531 IINCLKDHVTFNNGGLNRPNYLSKLLGKLPELRTLCTQGLQRIFYLKLEDLVPPPAIIDKLFLDTLPF 598
+                   *******************************************************************9 PP
+

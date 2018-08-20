@@ -1,0 +1,27 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	294.4	0.1	3.1e-91	5.1e-89	1	271	142	407
+
+  Alignments for each domain:
+  == domain 1  score: 294.4 bits;  conditional E-value: 3.1e-91
+      ESR-like   1 vrldrgklkvrgerqkykrkpesessetl..qlltqsptkslellpaeklvsvlleaEPekvyagedsskpdteasllssLtdLadrelvvvikWAk 95 
+                   vrldr    vrg+rqkykr+pe e  +++      qs+t ++++ p +++vs+ll+aEP+k++a++d++ pd   + +s+L+dLadre+v +i+WAk
+  Npar_R013200 142 VRLDR----VRGGRQKYKRRPEGEILQYTpgGQSHQSSTGVKKQAPVNTVVSHLLVAEPDKLFAMPDPALPDGYLKSMSTLCDLADREIVIIISWAK 234
+                   79999....************99988776224556666666777779************************************************** PP
+
+      ESR-like  96 kiPGFsdLsleDQmkLlqssWmeilvlglvwRSlkhegkLiFApdlvldeekkkvegllelfdallqlsqrfreLklereEyvclKallLlnspseg 192
+                   +iPGFs+Lsl+DQm+Llqs+Wme+l+lg+v+RSl++e++++FA+d+vldee+++ + l +l+  +l+l++++r L++ereEyv+lKal L ns+s +
+  Npar_R013200 235 NIPGFSSLSLSDQMSLLQSVWMEVLLLGVVFRSLPYEDEVVFAEDFVLDEESSRSARLSDLCSCVLHLVRKYRALRVEREEYVMLKALTLTNSDSVH 331
+                   ************************************************************************************************* PP
+
+      ESR-like 193 ledqekleelrdalieaLkkviaksrkssqqrssrlakLLllLpelrqasnklvehllsekrkekVelpklllemleaq 271
+                   +ed e++ +lrdal eaL++++a+++ ++   + r +kLLl+Lp lrq++ ++++h++  ++++ V+++kl+lemlea+
+  Npar_R013200 332 IEDPEAVLRLRDALQEALSEYEASRHPEE---PCRDGKLLLTLPLLRQTAGRVLQHFHALREEGTVPMHKLFLEMLEAM 407
+                   ************************99988...9********************************************97 PP
+

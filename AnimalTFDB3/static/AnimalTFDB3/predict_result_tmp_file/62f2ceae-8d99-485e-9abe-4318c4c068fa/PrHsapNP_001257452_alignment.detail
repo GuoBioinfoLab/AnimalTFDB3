@@ -1,0 +1,36 @@
+HMM length of domain: 93 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.0	1.0	1.7	4.9e+02	16	29	136	143
+2	111.8	14.6	2.6e-36	7.4e-34	1	93	153	234
+3	1.5	0.8	0.068	20	40	63	236	259
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 1.7
+              TF_Otx  16 sascmqrsvsa..aaa 29 
+                         s+        +  + a
+  PrHsapNP_001257452 136 ST--------SvpTIA 143
+                         11........122333 PP
+
+  == domain 2  score: 111.8 bits;  conditional E-value: 2.6e-36
+              TF_Otx   1 sPasisplpdplapssascmqrsvsaaaasasYpmsYaqaaaysqgypagsssyFggldCssYLaPmhsqlshpghqlsplaasslsghlh 91 
+                         sPasispl+dpl ++s+scmqrs         Ypm+Y+qa++ysqgy ags+syFgg+dC+sYL+Pmh+ql +pg++lsp++++++++hl+
+  PrHsapNP_001257452 153 SPASISPLSDPL-STSSSCMQRS---------YPMTYTQASGYSQGY-AGSTSYFGGMDCGSYLTPMHHQLPGPGATLSPMGTNAVTSHLN 232
+                         8**********9.7899******.........***************.******************************************9 PP
+
+              TF_Otx  92 qs 93 
+                         qs
+  PrHsapNP_001257452 233 QS 234
+                         86 PP
+
+  == domain 3  score: 1.5 bits;  conditional E-value: 0.068
+              TF_Otx  40 aaaysqgypagsssyFggldCssY 63 
+                         a+  +qgy a+s  + +  dC  Y
+  PrHsapNP_001257452 236 ASLSTQGYGASSLGFNSTTDCLDY 259
+                         5556899988888899*****887 PP
+

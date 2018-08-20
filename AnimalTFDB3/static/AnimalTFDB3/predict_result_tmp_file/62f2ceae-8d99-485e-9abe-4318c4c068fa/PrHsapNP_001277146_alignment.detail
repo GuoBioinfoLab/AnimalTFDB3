@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	211.9	0.0	1.5e-65	3.2e-64	5	199	103	289
+
+  Alignments for each domain:
+  == domain 1  score: 211.9 bits;  conditional E-value: 1.5e-65
+            THR-like   5 qslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgelies 95 
+                         + l+ kf+el+t++i ++veFaK++pgF+ l++ DQitLLk+acl++++lr++++++pe+dt+t++d+ + +r q++++g    +g l++ 
+  PrHsapNP_001277146 103 LGLWDKFSELATKCIIKIVEFAKRLPGFTGLTIADQITLLKAACLDILILRICTRYTPEQDTMTFSDGLTLNRTQMHNAG----FGPLTDL 189
+                         679*****************************************************************************....******* PP
+
+            THR-like  96 vfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlv 186
+                         vf fa++l  l++dd+e+ Ll+a++l++ +dr+++++++kv+klqe++leal++y++kr+p  ++p++f+k+l+k+t+lRs++++ +er+ 
+  PrHsapNP_001277146 190 VFTFANQLLPLEMDDTETGLLSAICLIC-GDRQDLEEPTKVDKLQEPLLEALKIYIRKRRP--SKPHMFPKILMKITDLRSISAKGAERVI 277
+                         ****************************.8*******************************..57************************** PP
+
+            THR-like 187 mlkveepktslpp 199
+                         +lk+e p  s+pp
+  PrHsapNP_001277146 278 TLKMEIP-GSMPP 289
+                         *****98.77776 PP
+

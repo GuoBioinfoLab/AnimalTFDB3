@@ -1,0 +1,36 @@
+HMM length of domain: 125 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	230.0	0.3	1.7e-72	2.8e-70	1	122	15	136
+2	-0.6	0.0	0.4	67	38	56	178	196
+3	-1.9	0.0	0.96	1.6e+02	80	97	240	257
+
+  Alignments for each domain:
+  == domain 1  score: 230.0 bits;  conditional E-value: 1.7e-72
+               PAX   1 gqgrvnqlggvfvngrplpdairlkivelahsgvrpcdisrqlrvshgcvskilaryqetgsirpgaiggskpkvatpevvkkieeykrenps 93 
+                       g+g+vnqlggvfvngrplpd++r++ivelahsgvrpcdisrqlrvshgcvskil+ry+etgs + g+iggskpkvatp vv+ i+ ykrenp+
+  BGIBMGA013358-PA  15 GHGGVNQLGGVFVNGRPLPDVVRQRIVELAHSGVRPCDISRQLRVSHGCVSKILSRYYETGSFKAGVIGGSKPKVATPPVVDAIAAYKRENPT 107
+                       699****************************************************************************************** PP
+
+               PAX  94 ifaweirdkllkegvcdkdtvpsvssisr 122
+                       +faweird+ll+eg+c +d+vpsvssi+r
+  BGIBMGA013358-PA 108 MFAWEIRDRLLSEGICSQDNVPSVSSINR 136
+                       ****************************9 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.4
+               PAX  38 disrqlrvshgcvskilar 56 
+                       d  r++++s+ c  ki+++
+  BGIBMGA013358-PA 178 DADRRFNISQSCAWKIINK 196
+                       5679999********9986 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 0.96
+               PAX  80 vvkkieeykrenpsifaw 97 
+                       + + i+e kr+   +f+ 
+  BGIBMGA013358-PA 240 ILDAIQEVKRQRSVLFSL 257
+                       678899999999999985 PP
+

@@ -1,0 +1,115 @@
+HMM length of domain: 19 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.8	1.7	1.6	7.4e+02	15	18	288	291
+2	10.4	16.1	5.8e-05	0.027	3	19	335	351
+3	-2.5	1.9	0.66	3.1e+02	5	10	376	381
+4	22.8	12.5	7.6e-09	3.6e-06	1	19	387	405
+5	26.4	12.2	5.9e-10	2.7e-07	1	18	445	462
+6	-3.0	0.8	0.92	4.3e+02	6	10	493	497
+7	16.9	14.7	5.3e-07	0.00025	1	19	503	525
+8	-3.0	2.9	0.9	4.2e+02	5	10	554	559
+9	-3.7	10.6	1.5	7.2e+02	1	11	565	575
+10	-0.9	0.7	0.2	92	4	10	580	586
+11	19.9	14.3	6.3e-08	3e-05	1	19	592	610
+12	-2.2	0.8	0.52	2.4e+02	6	10	639	643
+13	1.7	15.7	0.03	14	1	19	649	666
+14	-0.9	0.7	0.19	91	6	11	669	674
+15	4.8	13.8	0.0033	1.5	4	19	689	707
+
+  Alignments for each domain:
+  == domain 1  score: -3.8 bits;  conditional E-value: 1.6
+         zf-NF-X1  15 CppC 18 
+                      Cp+C
+  Q_OTAU000103-PA 288 CPAC 291
+                      ***9 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 5.8e-05
+         zf-NF-X1   3 nHtCeklCHeGpCppCk 19 
+                       H C  lCH+GpCp C+
+  Q_OTAU000103-PA 335 EHACTLLCHPGPCPECT 351
+                      7***************5 PP
+
+  == domain 3  score: -2.5 bits;  conditional E-value: 0.66
+         zf-NF-X1   5 tCeklC 10 
+                      tC+++C
+  Q_OTAU000103-PA 376 TCQSKC 381
+                      8***** PP
+
+  == domain 4  score: 22.8 bits;  conditional E-value: 7.6e-09
+         zf-NF-X1   1 CGnHtCeklCHeGpCppCk 19 
+                      CG H+Cek CH G+C pC+
+  Q_OTAU000103-PA 387 CGLHKCEKNCHAGDCSPCT 405
+                      ******************5 PP
+
+  == domain 5  score: 26.4 bits;  conditional E-value: 5.9e-10
+         zf-NF-X1   1 CGnHtCeklCHeGpCppC 18 
+                      CGnH+C+ +CH+G CppC
+  Q_OTAU000103-PA 445 CGNHKCMLICHSGSCPPC 462
+                      ****************** PP
+
+  == domain 6  score: -3.0 bits;  conditional E-value: 0.92
+         zf-NF-X1   6 CeklC 10 
+                      Cek+C
+  Q_OTAU000103-PA 493 CEKIC 497
+                      ****9 PP
+
+  == domain 7  score: 16.9 bits;  conditional E-value: 5.3e-07
+         zf-NF-X1   1 CG....nHtCeklCHeGpCppCk 19 
+                      CG     H+C+++CH+G+Cp C+
+  Q_OTAU000103-PA 503 CGqpsqPHRCQEKCHKGECPDCS 525
+                      7766667***************6 PP
+
+  == domain 8  score: -3.0 bits;  conditional E-value: 0.9
+         zf-NF-X1   5 tCeklC 10 
+                      +C+k+C
+  Q_OTAU000103-PA 554 RCQKKC 559
+                      7***** PP
+
+  == domain 9  score: -3.7 bits;  conditional E-value: 1.5
+         zf-NF-X1   1 CGnHtCeklCH 11 
+                      C +H+C++ C+
+  Q_OTAU000103-PA 565 CCKHKCNQFCC 575
+                      779*******7 PP
+
+  == domain 10  score: -0.9 bits;  conditional E-value: 0.2
+         zf-NF-X1   4 HtCeklC 10 
+                      H+C  +C
+  Q_OTAU000103-PA 580 HRCSLIC 586
+                      ****999 PP
+
+  == domain 11  score: 19.9 bits;  conditional E-value: 6.3e-08
+         zf-NF-X1   1 CGnHtCeklCHeGpCppCk 19 
+                      CG+H+Ce+ CH G C pC+
+  Q_OTAU000103-PA 592 CGIHRCEQECHRGRCLPCP 610
+                      ******************7 PP
+
+  == domain 12  score: -2.2 bits;  conditional E-value: 0.52
+         zf-NF-X1   6 CeklC 10 
+                      C+++C
+  Q_OTAU000103-PA 639 CNQPC 643
+                      66666 PP
+
+  == domain 13  score: 1.7 bits;  conditional E-value: 0.03
+         zf-NF-X1   1 CGnHtCeklCHeGpCppCk 19 
+                      CG H    +CH GpCppC+
+  Q_OTAU000103-PA 649 CG-HDPGHKCHIGPCPPCT 666
+                      55.555569*********5 PP
+
+  == domain 14  score: -0.9 bits;  conditional E-value: 0.19
+         zf-NF-X1   6 CeklCH 11 
+                      C++ CH
+  Q_OTAU000103-PA 669 CKRWCH 674
+                      ****** PP
+
+  == domain 15  score: 4.8 bits;  conditional E-value: 0.0033
+         zf-NF-X1   4 HtCeklCH.eGpCp..pCk 19 
+                      H C ++CH + pCp  pCk
+  Q_OTAU000103-PA 689 HPCAAPCHkDAPCPdtPCK 707
+                      *************999**7 PP
+

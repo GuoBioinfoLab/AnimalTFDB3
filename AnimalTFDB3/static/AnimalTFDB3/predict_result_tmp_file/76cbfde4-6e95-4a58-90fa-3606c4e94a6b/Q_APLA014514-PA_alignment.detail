@@ -1,0 +1,26 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	55.8	6.0	8.1e-18	2.4e-16	5	68	37	102
+2	76.0	1.9	3.9e-24	1.1e-22	1	69	124	192
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 8.1e-18
+                      --HHHHHHHHHHHHHHHHSTTS-..HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+              HMG   5 lsafflfskeqraklkaenPelk..naeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                      ++a+ +f++  r++ k+++Pe +   ae skk++e+Wk + ++eKk+++e+aek+k+ry++e+++y
+  Q_APLA014514-PA  37 MTAYAFFVQTCREEHKKKHPEENvvFAEFSKKCAERWKTMLDKEKKRFHEMAEKDKKRYDAEMQNY 102
+                      89******************999889***************************************9 PP
+
+  == domain 2  score: 76.0 bits;  conditional E-value: 3.9e-24
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCHH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpeyk 69 
+                      pkR lsaff f++++ra++ka+nPe  + +i+k+lg++W +    +K kYe++aek+karyeke+ +yk
+  Q_APLA014514-PA 124 PKRSLSAFFWFCNDERANVKAQNPEYGVGDIAKELGRRWAEADSTVKSKYEAMAEKDKARYEKEMTAYK 192
+                      8*******************************************************************8 PP
+

@@ -1,0 +1,33 @@
+HMM length of domain: 79 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.9	0.0	0.22	2.2e+02	21	45	215	238
+2	84.0	0.1	3.3e-28	3.3e-25	2	79	385	463
+3	71.4	0.1	2.9e-24	2.9e-21	3	78	513	589
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.22
+           CUT  21 asisqavFAekvlnrsqgtlselLr 45 
+                   ++++q+ +A++    sq ++s + +
+  Npar_R021875 215 KEMNQSTLAKEC-PLSQSMISSIVN 238
+                   567788888775.567777777766 PP
+
+  == domain 2  score: 84.0 bits;  conditional E-value: 3.3e-28
+           CUT   2 seeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeilk 79 
+                   s+  ++ d++q+v++eLkras+sqavFA++++nr+qg+lse+Lr   +P++     ++nl+a       mqn+Lnlpe erd+i++
+  Npar_R021875 385 SSVEVSPDVYQQVRDELKRASVSQAVFARVAFNRTQGLLSEILRkeeDPRTasqslLVNLRA-------MQNFLNLPEVERDRIYQ 463
+                   5678999****************************************9**************.......***************97 PP
+
+  == domain 3  score: 71.4 bits;  conditional E-value: 2.9e-24
+           CUT   3 eeldtkdiaqkvkeeLkrasisqavFAekvlnrsqgtlselLr...kPkp.....wenlkagrevyirmqnwLnlpeserdeil 78 
+                   +  +t+ +++++++e+kra++sqa+FA++++n+sqg+l+elLr   +P+p     wenl +       ++++L+lp++erd ++
+  Npar_R021875 513 NVTITAAVYDEIQQEMKRAKVSQALFAKVAANKSQGWLCELLRwkeNPSPenrtlWENLCT-------IRRFLSLPQHERDGVY 589
+                   67789*****************************************99999**********.......************9876 PP
+
+
+

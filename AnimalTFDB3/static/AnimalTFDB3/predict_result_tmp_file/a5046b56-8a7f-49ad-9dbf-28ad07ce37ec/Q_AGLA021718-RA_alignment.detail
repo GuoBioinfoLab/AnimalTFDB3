@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	13.6	1.6	0.001	0.0033	2	23	203	225
+2	15.7	0.5	0.00022	0.00073	1	23	231	253
+3	3.8	1.1	1.3	4.3	1	23	259	281
+4	12.6	0.1	0.0022	0.0072	1	17	287	303
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.001
+                      EETTTTEEESSHHHHHHHHHC.C CS
+          zf-C2H2   2 kCpdCgksFkrksnLkrHirt.H 23 
+                      +C dC  +F+ +++Lk H++t H
+  Q_AGLA021718-RA 203 TCCDCQVTFSLSDDLKEHYSTtH 225
+                      8*******************999 PP
+
+  == domain 2  score: 15.7 bits;  conditional E-value: 0.00022
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      y C dC+k+++  s + +H r+H
+  Q_AGLA021718-RA 231 YLCADCSKVYSKYSTFLAHVRVH 253
+                      66********************9 PP
+
+  == domain 3  score: 3.8 bits;  conditional E-value: 1.3
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      + C++C + F++    ++H+++H
+  Q_AGLA021718-RA 259 FCCDVCYRWFPTVAAQEQHRSRH 281
+                      78*******************99 PP
+
+  == domain 4  score: 12.6 bits;  conditional E-value: 0.0022
+                      EEETTTTEEESSHHHHH CS
+          zf-C2H2   1 ykCpdCgksFkrksnLk 17 
+                      + C+ Cgk+F+ +s L+
+  Q_AGLA021718-RA 287 HACNTCGKRFRMQSALM 303
+                      56************997 PP
+

@@ -1,0 +1,42 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	5.0	0.0	0.028	1.2	3	17	188	202
+2	4.8	0.1	0.031	1.4	23	47	268	294
+3	28.2	0.1	1.6e-09	7e-08	1	44	300	344
+4	14.8	0.0	2.4e-05	0.001	2	20	354	372
+
+  Alignments for each domain:
+  == domain 1  score: 5.0 bits;  conditional E-value: 0.028
+                 SS-HHHHHHHHHHHH CS
+         MYB   3 kWteeEdelLleave 17 
+                 kWt+ E ++Ll++v+
+  Q_ENN73147 188 KWTQSEMNRLLNGVA 202
+                 7***********996 PP
+
+  == domain 2  score: 4.8 bits;  conditional E-value: 0.031
+                 THHHHHHHHS..SS-HHHHHHHHHHHT CS
+         MYB  23 nWkkIakelg..gRtakqcrsrwqnyl 47 
+                 +W++I++++   +  + +c+ +w++yl
+  Q_ENN73147 268 DWRRISDKFLrgKYNDVECQVFWNTYL 294
+                 6******99998778**********97 PP
+
+  == domain 3  score: 28.2 bits;  conditional E-value: 1.6e-09
+                 CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHS.SS-HHHHHHHHH CS
+         MYB   1 rgkWteeEdelLleaveklGngnWkkIakelg.gRtakqcrsrwq 44 
+                 + +Wt +E ++L+++  ++    W++Ia+elg +Rt+ +c  +++
+  Q_ENN73147 300 KTRWTDQEVDQLKQLAVRYNHQKWDLIAEELGnNRTGFMCCVHYY 344
+                 579***********************************9977775 PP
+
+  == domain 4  score: 14.8 bits;  conditional E-value: 2.4e-05
+                 SSS-HHHHHHHHHHHHHHT CS
+         MYB   2 gkWteeEdelLleaveklG 20 
+                 g++t+eEd++L ++vek++
+  Q_ENN73147 354 GRFTPEEDKRLCHLVEKFT 372
+                 89***************97 PP
+

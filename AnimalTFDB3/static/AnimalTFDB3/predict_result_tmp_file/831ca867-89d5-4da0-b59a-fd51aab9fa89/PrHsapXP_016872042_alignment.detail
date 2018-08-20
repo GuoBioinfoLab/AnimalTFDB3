@@ -1,0 +1,45 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	4.3	0.4	1.2	2.9	14	25	13	24
+2	26.8	1.3	8.7e-08	2.1e-07	2	24	29	51
+3	30.6	4.0	5.8e-09	1.4e-08	1	22	56	77
+4	3.5	0.0	2.1	5.1	15	25	296	306
+5	3.6	6.1	2	4.9	5	21	314	330
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 1.2
+           zf-H2C2_2 14 pyeCplCdkaFk 25
+                        +++C +C++a k
+  PrHsapXP_016872042 13 KLKCRYCNYASK 24
+                        579******976 PP
+
+  == domain 2  score: 26.8 bits;  conditional E-value: 8.7e-08
+           zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdkaF 24
+                        L  H+r Htgekp+ C lC+ a 
+  PrHsapXP_016872042 29 LIEHIRIHTGEKPHRCHLCPFAS 51
+                        668****************9876 PP
+
+  == domain 3  score: 30.6 bits;  conditional E-value: 5.8e-09
+           zf-H2C2_2  1 nLrrHlrkHtgekpyeCplCdk 22
+                        +L+ H+r+Htgekpy+C+lC+ 
+  PrHsapXP_016872042 56 HLEAHMRSHTGEKPYKCELCSF 77
+                        699*****************86 PP
+
+  == domain 4  score: 3.5 bits;  conditional E-value: 2.1
+           zf-H2C2_2  15 yeCplCdkaFk 25 
+                         ++C  Cd +F+
+  PrHsapXP_016872042 296 HHCQHCDMYFA 306
+                         99*****9996 PP
+
+  == domain 5  score: 3.6 bits;  conditional E-value: 2
+           zf-H2C2_2   5 HlrkHtgekpyeCplCd 21 
+                         H+  H  e+p++C  C+
+  PrHsapXP_016872042 314 HMGCHGYENPFQCNICG 330
+                         9*************997 PP
+

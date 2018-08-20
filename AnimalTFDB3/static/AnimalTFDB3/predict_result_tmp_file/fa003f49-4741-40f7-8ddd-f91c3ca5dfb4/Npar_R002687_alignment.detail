@@ -1,0 +1,36 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.1	4.2	0.32	3.2e+02	56	88	113	144
+2	260.6	1.2	9.8e-82	9.8e-79	1	248	317	567
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 0.32
+          STAT  56 skvleleesessgeilnnekaleyqeetkqlsa 88 
+                   +k l +++s s+ ++ n+++++ + +++++l  
+  Npar_R002687 113 TKILANARSFSQNQVGNTQNTV-MIDKHRELDK 144
+                   4444444444444442222221.1111111111 PP
+
+  == domain 2  score: 260.6 bits;  conditional E-value: 9.8e-82
+          STAT   1 fvvekqP........pqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkqlsae 89 
+                   fvve+qP        p Vlkt+++F++k+RlLv  kl+e +++lkvk+ ++++ ++k+++kg++k        +++++     +   +++++ l ae
+  Npar_R002687 317 FVVERQPcmpthpqrPMVLKTSVQFTVKLRLLV--KLPELNYQLKVKAVFDKDVNEKNTVKGFRKFNI---LGTNTKV-----MNMEESTNGCLAAE 403
+                   9********************************..****************************33222...2222333.....223456778999** PP
+
+          STAT  90 frnlsLkeikrserkga...esVteekfallFeteftlgelkfkvetlSlPvvvivhgsQepsAwAtilWdna.faepkrlpffv.pekvsWkqlae 181
+                   fr+l+Lke+k+++++++   ++Vtee+++l+Fet++++ ++ +++et SlP+vvi+++sQ ps+wA+ilW+n+ ++e+k+l+ff+ p+++ W+q++e
+  Npar_R002687 404 FRHLQLKEQKNAGNRTNegpLIVTEELHSLSFETQLCHFGYVVDLETASLPIVVISNVSQLPSGWASILWYNMlCSETKNLSFFLnPPAARWSQVSE 500
+                   ***********888877788***************************************************************************** PP
+
+          STAT 182 aLswkFssatergLseeqlkyLaekllgkksskeqklvswsqfskenlpgrnftfWeWfdgilelik 248
+                   +L w+Fss+t+rgL+++ql++L+ekllg+++  +++ + w++f+kenl++++f fW W++gilelik
+  Npar_R002687 501 VLCWQFSSVTKRGLHTDQLSMLEEKLLGPNVIGTEDFIPWTRFCKENLNDKTFPFWLWIEGILELIK 567
+                   *********************************9********************************8 PP
+
+
+

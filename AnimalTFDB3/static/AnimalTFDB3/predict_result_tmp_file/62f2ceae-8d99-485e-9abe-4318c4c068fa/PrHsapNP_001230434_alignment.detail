@@ -1,0 +1,27 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	289.5	4.5	6.8e-89	1.4e-87	63	272	1	207
+
+  Alignments for each domain:
+  == domain 1  score: 289.5 bits;  conditional E-value: 6.8e-89
+            ESR-like  63 gedsskpdteasllssLtdLadrelvvvikWAkkiPGFsdLsleDQmkLlqssWmeilvlglvwRSlkhegkLiFApdlvldeekkkvegl 153
+                         ++d++ pd+++++l++L+dLadrelvv+i+WAk+iPGFs+Lsl+DQm+Llqs+Wmeil+lg+v+RSl++e++L++A+d+++de+++k +gl
+  PrHsapNP_001230434   1 MPDPTVPDSDIKALTTLCDLADRELVVIIGWAKHIPGFSTLSLADQMSLLQSAWMEILILGVVYRSLSFEDELVYADDYIMDEDQSKLAGL 91 
+                         689**************************************************************************************** PP
+
+            ESR-like 154 lelfdallqlsqrfreLklereEyvclKallLlnspsegledqekleelrdalieaLkkviaksrkssqqrssrlakLLllLpelrqasnk 244
+                         l+l +a+lql+++++++kle+eE+v+lKa++L+ns+s+++ed e++++l+d l+eaL++++a +++++   ++r++k+L++Lp lrq+s+k
+  PrHsapNP_001230434  92 LDLNNAILQLVKKYKSMKLEKEEFVTLKAIALANSDSMHIEDVEAVQKLQDVLHEALQDYEAGQHMED---PRRAGKMLMTLPLLRQTSTK 179
+                         ******************************************************************99...9******************* PP
+
+            ESR-like 245 lvehllsekrkekVelpklllemleaql 272
+                         +v+h++++k ++kV+++kl+lemlea++
+  PrHsapNP_001230434 180 AVQHFYNIKLEGKVPMHKLFLEMLEAKV 207
+                         *************************985 PP
+

@@ -1,0 +1,33 @@
+HMM length of domain: 116 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	42.0	0.6	3.7e-15	1.2e-12	72	116	19	63
+2	-3.6	0.0	0.52	1.6e+02	29	54	194	219
+3	-3.4	2.1	0.47	1.5e+02	14	85	1112	1189
+
+  Alignments for each domain:
+  == domain 1  score: 42.0 bits;  conditional E-value: 3.7e-15
+             CG-1  72 kLkvggeeviecyyahseenetfqrRiYwlldseehivLvhYlnv 116
+                      ++ + +  +i ++y+hs++ +tf+rR+Ywll+ + +ivLvhYlnv
+  Q_AGLA016914-RA  19 QMMIIKIRCIYGCYVHSAILPTFHRRCYWLLQVNPDIVLVHYLNV 63 
+                      56677899***********************************95 PP
+
+  == domain 2  score: -3.6 bits;  conditional E-value: 0.52
+             CG-1  29 elptrPasgslflfdrkklrkfkkDG 54 
+                      +++++  sgs++l +++  r + +D 
+  Q_AGLA016914-RA 194 QVSSTTGSGSMLLSNNNSPRVYSRDS 219
+                      56666779999999999999999996 PP
+
+  == domain 3  score: -3.4 bits;  conditional E-value: 0.47
+             CG-1   14 eiLl.nykkkkfeiseelptrPasgslfl...fdrk.klrkfkkDGyewrkkkdgktvrEdhekLkvgg..eeviecyy 85  
+                       +i++  y+++k   +++ +++  ++++++   ++r  + +++k+  +  +  ++g     +h+++k ++  + +i+ yy
+  Q_AGLA016914-RA 1112 KIIQkAYRSYKGR-QQQEQDKERAAAVVIqnyYRRYkQYAYYKQMTHAAMVIQNGFRSYCEHKRFKKSQeaAVCIQNYY 1189
+                       5665223333333.23333333333333322133323666777777877777777777777777776652334555555 PP
+
+
+

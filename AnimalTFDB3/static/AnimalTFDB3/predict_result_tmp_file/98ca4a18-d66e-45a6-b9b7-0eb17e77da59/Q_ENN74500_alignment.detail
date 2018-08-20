@@ -1,0 +1,34 @@
+HMM length of domain: 376 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	42.9	0.2	2.9e-14	1.6e-12	1	32	34	65
+2	246.6	8.0	3.6e-76	2e-74	156	364	127	335
+
+  Alignments for each domain:
+  == domain 1  score: 42.9 bits;  conditional E-value: 2.9e-14
+   GCNF-like  1 AvREDrmPGGRNksivyvqikekeierkksgq 32
+                AvREDrmPGGRN+++vy+++k+k++++kk  +
+  Q_ENN74500 34 AVREDRMPGGRNSGAVYNLYKVKYKKHKKPSK 65
+                9***************************9765 PP
+
+  == domain 2  score: 246.6 bits;  conditional E-value: 3.6e-76
+   GCNF-like 156 dkselsekLcriaDelvfrlvsWiKkLPFflelsvedhTkLLtdkWaelilLssaayqalplstpiPspaqpldkddeelvvesnqllgeLadvlskll 254
+                  +++lsekLc+i+D++v++lv+W+K+LPF+lel+ve hT+LLt+kW+el++L+++ayqa+  ++   +        ++ +  e++ +l +L+++l+ ++
+  Q_ENN74500 127 HNTDLSEKLCNIGDSIVYKLVQWTKRLPFYLELPVEVHTRLLTHKWHELLVLTTSAYQAIQKAASEQQLQTSSTMIEPDFSQEVETNLCTLQNCLTSMM 225
+                 56899******************************************************97666555555555556788******************** PP
+
+   GCNF-like 255 gseeelerlkedagevvekltqllrkFrrlkvskEeYvclKviilLnkdekg.lseveeleslqeryvkvlrsylenkspqnpkarlsellsclpeira 352
+                 g e+++e+l +d+g ++ek+t ++ +Fr++k+ +EeYvclKvi++Ln+++ +  +++ el+++ ery++ lr y+++ +pq+ + r+++ll  lpei+ 
+  Q_ENN74500 226 GREITIEQLRQDVGLMIEKITHVTLMFRQIKLTMEEYVCLKVITMLNQAKPAsGASTGELDTIHERYMTCLRVYTQHMYPQQAT-RFQDLLVRLPEIQS 323
+                 ************************************************9976478999***********************999.************** PP
+
+   GCNF-like 353 aaskllesklfy 364
+                 aas+llesk+fy
+  Q_ENN74500 324 AASLLLESKMFY 335
+                 **********98 PP
+

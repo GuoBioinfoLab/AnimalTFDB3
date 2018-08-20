@@ -1,0 +1,36 @@
+HMM length of domain: 219 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	311.1	14.4	2.7e-97	2.7e-94	2	219	77	295
+2	-2.4	1.1	0.2	2e+02	85	102	371	388
+
+  Alignments for each domain:
+  == domain 1  score: 311.1 bits;  conditional E-value: 2.7e-97
+       CSRNP_N   2 kkksvkFdkvtvyyFpRlqgftsvPsqGGstLGmakkhsslkkftlaehaieqkrlrreklrerlkeeklealklklsssdlleeeeeealevddis 98 
+                   kk++v+Fd+v v+yF+R+qgftsvPs+GG+tLGm++khs +++ft++e++ eq ++rrekl+erlkeekl +lk++ ++++++e+e++++l++ddi 
+  Npar_R013744  77 KKNKVHFDRVVVFYFQRCQGFTSVPSRGGCTLGMRRKHSYSRQFTMEEFSREQLNRRREKLKERLKEEKLLTLKNMFTMNGTIESEKANNLSIDDIC 173
+                   799********************************************************************************************** PP
+
+       CSRNP_N  99 dedld.seaelddylflqplstkkrralLraaGvkkidseekkelraiRksRekCGCdCkgvCdPetCaCslagikCqvDrasFPCgCtkdgCgnte 194
+                   ded+d ++ el+d +  +++++kkrralL+++G+kkid++ek el++iRksRe+CGCdC+++CdPetC+C lagikCq D+++FPCgCtkdgCgn++
+  Npar_R013744 174 DEDIDlTNGELEDGFSPRMYPSKKRRALLKQEGIKKIDKTEKYELNEIRKSREQCGCDCQDFCDPETCSCNLAGIKCQRDHSTFPCGCTKDGCGNPN 270
+                   *****9999**************************************************************************************** PP
+
+       CSRNP_N 195 griefnsvrvrthflhtlmrlelek 219
+                   gr+efns+rv+thf+ht+m+lele+
+  Npar_R013744 271 GRVEFNSSRVQTHFIHTVMKLELEE 295
+                   **********************985 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 0.2
+       CSRNP_N  85 eeeeeealevddisdedl 102
+                   +++e ++   +++s++d 
+  Npar_R013744 371 SQSEVSEGPYEHASSSDK 388
+                   111111112222222222 PP
+
+
+

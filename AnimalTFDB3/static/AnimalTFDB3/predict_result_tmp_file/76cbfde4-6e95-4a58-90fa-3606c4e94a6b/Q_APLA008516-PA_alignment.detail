@@ -1,0 +1,24 @@
+HMM length of domain: 169 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	100.6	1.1	2.5e-32	4.5e-30	1	168	849	1008
+
+  Alignments for each domain:
+  == domain 1  score: 100.6 bits;  conditional E-value: 2.5e-32
+                       EEEEE-B-TTSE--EECCCTSSSS---BTT--SSS----EEEEES--SSEEEEEEEEESSST--B-S....SEEEST..T.EETT......E CS
+              RHD    1 leIleqPkqrgfRfrYkcEgrsaGsipgessekskktfPtvkilnydgeakirvslvtkdeplrpHa....hslvgk..d.ckdg......v 79  
+                       l+I++qP+q+ +R+rY++E +s+G++++    ++ ++fP v++++yd +a+++v+++t+  +  pH+    +++ gk  + c +       v
+  Q_APLA008516-PA  849 LTIVSQPEQQ-HRARYQTE-GSRGAVKD----RTGNGFPIVQLNGYDKPATLQVFIGTDVGKATPHMfyqaCRVSGKnsTpCIERkiegtvV 934 
+                       78********.********.9*******....9**********************************9999******55245555899999* PP
+
+                       EEEEE-TT.TSEEE-SSEEEEE--CGGHHHHHHHHHHCT--TTS-TCGGCTSGGGS-TTEEEEEEEEEE-CSTTSCEEE---EEEEEEEE CS
+              RHD   80 cevelkpe.dmvasfqnlGIlcvkkkeveealkerielkekeknvekeakeeakeidlnvvrlcFqaflpdstgnfttalepvvSnpiyd 168 
+                       +e++l p  +mva+++++GIl+ ++ +ve+++ e+++++ k+k+              +++r++F++++  +++n+ +++ +++S+pi +
+  Q_APLA008516-PA  935 IELQLDPSkEMVATCDCVGILKERNVDVEHRFPEQTATRSKKKS--------------TRCRMVFRTTV--THDNGVQEVLQICSQPIAC 1008
+                       *******99************************99999988888..............9**********..*****************98 PP
+

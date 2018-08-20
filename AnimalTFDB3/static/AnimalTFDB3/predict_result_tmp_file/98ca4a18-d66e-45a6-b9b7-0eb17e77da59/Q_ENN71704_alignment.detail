@@ -1,0 +1,33 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.2	0.0	0.16	63	8	61	393	448
+2	10.3	0.0	4.7e-05	0.018	70	128	538	619
+3	92.6	0.2	3.5e-30	1.4e-27	144	229	958	1040
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 0.16
+         Tub   8 liqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedl 61 
+                  ++c++ ++++    ++   Y+Lyle   +    Ll ++++++  + e++i+  + d 
+  Q_ENN71704 393 RLHCTMIKHDEdinnSTGICYTLYLEYL-GGLVPLLKGKRTSKI-CPEFVIFDPQVDG 448
+                 5667666655557766677899999965.788888888877665.8888887666554 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 4.7e-05
+         Tub  70 GklrsnflgtkftiydkgvkpkksaaekvrkelaavvYelnvlgtrgprrmkvlipsi...............................k 128
+                  ++ sn++ tkf i+          ++ v  +l++v+Y++++l+  +pr+m+ +i ++                               k
+  Q_ENN71704 538 VEVTSNLWATKFKIHGLA-------SGVVPSNLGKVTYKTSLLH-LQPRQMTLVITELrddfpivpdptfnpnlfsedeedpaadlpeeK 619
+                 567788888888886655.......3567899**********99.67********88877777777777666555444444443333330 PP
+
+  == domain 3  score: 92.6 bits;  conditional E-value: 3.5e-30
+         Tub  144 ekkeeesdllvlknkaprwneqlqayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssf 229 
+                   ++  +++ +v++nkap wne+ q y L+F gRvt+ S KNfq+       k ++qfG+v+ + +t+D++yP+salqAFa++l+++
+  Q_ENN71704  958 SQTVPQRREFVMHNKAPMWNENSQVYQLDFGGRVTQESAKNFQIEF---RGKQVMQFGRVDGNAYTLDFQYPFSALQAFAVALANV 1040
+                  4444556789*********************************965...5788******************************975 PP
+
+
+

@@ -1,0 +1,34 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.0	0.7	0.00017	0.01	22	47	115	148
+2	2.8	0.0	0.13	7.7	11	31	146	172
+3	12.5	0.1	0.00012	0.007	3	46	218	280
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00017
+                       TTHHHHHHHHS........SS-HHHHHHHHHHHT CS
+               MYB  22 gnWkkIakelg........gRtakqcrsrwqnyl 47 
+                       ++W  Ia++++         Rt++q + +w n++
+  BGIBMGA011655-PA 115 KTWMQIAEMYNkqnkqnriQRTGNQLKTKWENLK 148
+                       37*****************************986 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.13
+                       HHHHHHHHHTTT......THHHHHHHH CS
+               MYB  11 lLleaveklGng......nWkkIakel 31 
+                        L++ v+k  +g      +W++I++++
+  BGIBMGA011655-PA 146 NLKKMVKKCRKGskydqhDWDSILDKV 172
+                       688999999999999999*****9876 PP
+
+  == domain 3  score: 12.5 bits;  conditional E-value: 0.00012
+                       SS-HHHHHHHHHHHHHHTTT..............THHHHHHHHS.....SS-HHHHHHHHHHH CS
+               MYB   3 kWteeEdelLleaveklGng..............nWkkIakelg.....gRtakqcrsrwqny 46 
+                       k+++ E +lL ++v++  +                W +I k ++     +R+ k+ rs+++n+
+  BGIBMGA011655-PA 218 KFSPHECKLLMQCVKQEKKSmavpnsksnkfkslAWIRITKSYNrlspqKRSTKMLRSKFNNL 280
+                       89****************99*****************************************97 PP
+

@@ -1,0 +1,36 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.4	0.1	0.094	89	177	194	50	67
+2	147.1	28.1	2.8e-47	2.6e-44	1	198	137	330
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.094
+   TRAM_LAG1_CLN8 177 iflilllvLqllnlyWfy 194
+                      + l++l + +ll  yWf+
+  Q_OTAU010370-PA  50 LALVMLGIRYLLEKYWFT 67 
+                      345666666999999996 PP
+
+  == domain 2  score: 147.1 bits;  conditional E-value: 2.8e-47
+   TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiitlvllv 88 
+                      kf+e ++++++yl+s+++gl+vl+++p      e+w+gyp + ++     + +yy+++l+++++ l+v+ +++ krkdf++m+iHhi+t+vl++
+  Q_OTAU010370-PA 137 KFTEEAWRCLYYLCSFTYGLVVLWDKPwfwdinECWNGYPYQSVST---DIWWYYMFSLAFYWS-LCVSQFFDVKRKDFWQMFIHHIATIVLMS 226
+                      79*************************************9999977...999**********88.9999999********************** PP
+
+   TRAM_LAG1_CLN8  89 lsyvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylillsildvaklslstaplwlpliflill 182
+                      +s++ nl r+g++vl++h+  d+fl+++k+ +y  ++ +++++ +f  ++f+++++ +R+ ++p++i++ +  va+  l+  +++ ++if++ll
+  Q_OTAU010370-PA 227 FSWICNLPRIGSLVLVVHDCADIFLEAAKMAKYS-GY-QKICDTIF--AIFTILWITTRVGIYPFWIIHNTSIVAPTLLP--MFPAYYIFNGLL 314
+                      **********************************.88.899*****..************************99996655..7*********** PP
+
+   TRAM_LAG1_CLN8 183 lvLqllnlyWfylivk 198
+                      l+L++l+++W+yli+k
+  Q_OTAU010370-PA 315 LLLLTLHIVWTYLILK 330
+                      **************97 PP
+
+
+

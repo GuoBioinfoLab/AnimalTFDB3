@@ -1,0 +1,27 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	139.5	23.8	1.8e-44	5.1e-42	1	198	132	325
+
+  Alignments for each domain:
+  == domain 1  score: 139.5 bits;  conditional E-value: 1.8e-44
+   TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiitlvllv 88 
+                      kf+e  +++++yl+s+v gl vl+++        +w+ yp+++l+    +l++ yll+lg++++ l+ l + + krkdf+e++iHh+++++l++
+  PrHsapNP_078828 132 KFCEASWRFLFYLSSFVGGLSVLYHESwlwapvMCWDRYPNQTLKP---SLYWWYLLELGFYLSLLIRLPF-DVKRKDFKEQVIHHFVAVILMT 221
+                      799*****************************************88...9**************7777777.99999***************** PP
+
+   TRAM_LAG1_CLN8  89 lsyvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylillsildvaklslstaplwlpliflill 182
+                      +sy  nl+r+g++vlllh+ sd +l+++k+ +y+ ++ ++ ++ lf  l+f ++Ff++Rlvl+p +il++++++    ++ +p+  +++f++ll
+  PrHsapNP_078828 222 FSYSANLLRIGSLVLLLHDSSDYLLEACKMVNYM-QY-QQVCDALF--LIFSFVFFYTRLVLFPTQILYTTYYESI--SNRGPFFGYYFFNGLL 309
+                      **********************************.88.788*****..******************9999998885..67789*********** PP
+
+   TRAM_LAG1_CLN8 183 lvLqllnlyWfylivk 198
+                      ++Lqll+++W  li++
+  PrHsapNP_078828 310 MLLQLLHVFWSCLILR 325
+                      **************97 PP
+

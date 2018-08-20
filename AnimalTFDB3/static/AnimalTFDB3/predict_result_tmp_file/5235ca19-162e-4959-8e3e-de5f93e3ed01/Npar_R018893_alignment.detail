@@ -1,0 +1,29 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.5	0.1	1	3.3e+02	136	154	142	160
+2	143.8	0.2	7.7e-46	2.6e-43	3	192	198	376
+
+  Alignments for each domain:
+  == domain 1  score: -3.5 bits;  conditional E-value: 1
+      THR-like 136 veklqegvlealevylqkr 154
+                   +e+l ++v+ a +  +q r
+  Npar_R018893 142 LELLTQNVVFAHQETCQFR 160
+                   3333333333333333333 PP
+
+  == domain 2  score: 143.8 bits;  conditional E-value: 7.7e-46
+      THR-like   3 seqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkf 99 
+                   +  +++e++ + +t+aiq++veFaK+++gF++l+ +DQi+LLk++++e++l+r++r+fn +++tv ++++ + +++ ++slg    + +li+ +f++
+  Npar_R018893 198 PMDQMWERCVCHITNAIQYIVEFAKRLSGFMDLNPNDQIVLLKAGAMELLLIRMSRAFNCYNNTVFFEGK-YAQLELFHSLG----CIDLISGMFDL 289
+                   5689**************************************************************9777.***********....*********** PP
+
+      THR-like 100 akslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkvee 192
+                    + l +lnl++ ema ++a++l+ P +rp+++++ kve l  ++ +a++++l+++h+    + +  kL  k  +l  +++ h e+l+++++ +
+  Npar_R018893 290 CHILGALNLSEHEMAFYSAMMLMDP-SRPWLQDKPKVETLHRRLQLAFRNLLRRTHR----EGIISKLPHKE-RLSEICQLHLEKLNVFRQMY 376
+                   ************************9.*******************************....89********9.9**************99866 PP
+

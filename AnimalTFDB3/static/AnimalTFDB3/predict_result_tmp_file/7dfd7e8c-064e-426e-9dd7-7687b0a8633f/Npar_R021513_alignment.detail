@@ -1,0 +1,31 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	50.8	0.4	1.4e-17	1.4e-14	1	89	4	94
+2	-2.0	0.3	0.42	4.2e+02	50	61	129	147
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.4e-17
+          THAP  1 CvvpgCknrkkkkskkk..vsfhrfPkdkelrkkWlkaikrkdkkkkkkskk.........srvCskHFeeekkkkkkeeekkeskkrrkLkkdavPti 88
+                  C v++C++++ kk+  +  ++fh+fP++ +l+k Wlk+ +  d+  ++ +            r+Cs HF+        e++  ++  r+ Lk++avPti
+  Npar_R021513  4 CLVRSCHHTTGKKNL-YpgITFHQFPQNVSLCKLWLKKAGMGDCMLEEYTGMifedktrgkFRMCSAHFQ--------EDCFVMKGYRKYLKQNAVPTI 93
+                  ********8776654.369**********************99998775433778889999********4........445566667888********* PP
+
+          THAP 89 f 89
+                  f
+  Npar_R021513 94 F 94
+                  8 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 0.42
+          THAP  50 k.......srvCskHFeee 61 
+                           ++ C++H  e+
+  Npar_R021513 129 AesksilcYCQCHRHCPEQ 147
+                   1344444455577776333 PP
+
+
+

@@ -1,0 +1,34 @@
+HMM length of domain: 47 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	63.4	1.6	2.2e-20	7.5e-19	1	47	48	94
+2	68.5	1.9	5.4e-22	1.9e-20	1	47	100	146
+3	62.8	0.6	3.4e-20	1.2e-18	1	45	152	195
+
+  Alignments for each domain:
+  == domain 1  score: 63.4 bits;  conditional E-value: 2.2e-20
+                        CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+                 MYB  1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47
+                        r kWt +Ed++L+++ve++G+++W++Ia++l++R++ qc++rwq++l
+  PrHsapXP_016868948 48 RVKWTRDEDDKLKKLVEQHGTDDWTLIASHLQNRSDFQCQHRWQKVL 94
+                        689*****************************************986 PP
+
+  == domain 2  score: 68.5 bits;  conditional E-value: 5.4e-22
+                         CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHHHT CS
+                 MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqnyl 47 
+                         +g+Wt+eEd++ +e+v+k+G+++W++Iak+l gR +kqcr+rw+n+l
+  PrHsapXP_016868948 100 KGPWTKEEDQRVIELVQKYGPKRWSLIAKHLKGRIGKQCRERWHNHL 146
+                         79*******************************************97 PP
+
+  == domain 3  score: 62.8 bits;  conditional E-value: 3.4e-20
+                         CSSS-HHHHHHHHHHHHHHTTTTHHHHHHHHSSS-HHHHHHHHHH CS
+                 MYB   1 rgkWteeEdelLleaveklGngnWkkIakelggRtakqcrsrwqn 45 
+                         + +WteeEd +++ea+++lGn+ W++Iak+l+gRt+++++++w++
+  PrHsapXP_016868948 152 KSSWTEEEDRIIYEAHKRLGNR-WAEIAKLLPGRTDNSIKNHWNS 195
+                         679*******************.********************96 PP
+

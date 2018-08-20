@@ -1,0 +1,88 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	18.4	56.3	2.6e-08	2.3e-05	422	761	24	384
+2	-14.9	53.3	1	8.7e+02	488	765	236	510
+3	223.4	14.9	3.6e-70	3.1e-67	854	1224	624	1026
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 2.6e-08
+                  AF-4 422 smLeddLklsssedsdeeqapekpksssapssapqstpes..........vesahsssaeSeSsSeSeSSSeSDSesEs...sssdsea 497
+                           s L+ddL+ls+++d+d++q ++ p ++  ++    +   s            +a sss++S+S S+SeS S SD  +E+   ss  s+ 
+  Q_TCOGS2:TC007363-PA  24 SDLRDDLNLSDDSDDDQKQSSKLPVEKMVSPLGATPAVGSfskmeyppepADPAGSSSSDSGSDSGSESDSSSDDSAEDnvtSSNPSKS 112
+                           669***********999966555444443332222222224455555444777788888888777777777777777764434555666 PP
+
+                  AF-4 498 nepprtatpe.pepps...tnkWqLdnwlnkvn......qlassqeessaessseteesespkkeskeqsegkskssssevvees..se 574
+                           n  p  + p  p pp+   +++W L+++l   +      ++ s++ ++s  +ss  +    +kk ++e+ ++ s ++ ++vv+e   s 
+  Q_TCOGS2:TC007363-PA 113 NVVPAETGPSsPPPPEekdKKRWNLGSYLVIDQnnakadSVLSPKVQTSPLTSSMLPLAVDKKKVTEESDASDSTKDLDSVVAEAlaSA 201
+                           6655555553344444322669******9833344555555555555555555554444333333333333344444445555444422 PP
+
+                  AF-4 575 skpkakskaeqkks..eekqdkrskqk.spaqkeseepntrktvgkkqPkksek.asveeepksslkveke...vpveekdqsskdrpk 656
+                             p  +s   + +s  e + +kr+k++   + ++++e+ +     +k+Pk + + ++ +++  s+   +++      ++ ++ +++ p 
+  Q_TCOGS2:TC007363-PA 202 TVPLLSSFSDSDDSvtERR-TKRRKHTiIQSVTKNSESDSDDAERTKKPKPVRRaSPRTKSVDSCSDSDNNsanIIKKRLSPLPHKSPE 289
+                           2222222222222232222.333333322223344444455577778887777755566666666666666422222333333344444 PP
+
+                  AF-4 657 vktkgrrktapr..kepksslasekkkkrssskkaapksrefveteksesesdseellplsplkqsqtpsssessr.tsskkkse.vve 741
+                             +  ++k+++   ++ k++++ + kk r+     +pk r  +      s sd+e+++  +p+      +++ s+r  ss+++s+   +
+  Q_TCOGS2:TC007363-PA 290 QLV--KPKQSRGrpRKIKPAVSGSDKKPRKR--GRPPKPRPSHP-----SSSDEEDNVDKRPVR-----RRTISKRdASSSSDSDsRYR 364
+                           444..44444440044445553333333432..23333332222.....333344444444442.....22222222222333330334 PP
+
+                  AF-4 742 ekltkeklplpvrekkllsp 761
+                           +   ++k+p p+++k  + +
+  Q_TCOGS2:TC007363-PA 365 KYESPKKIPKPFEDKIKRPA 384
+                           44447788888888844444 PP
+
+  == domain 2  score: -14.9 bits;  conditional E-value: 1
+                  AF-4 488 sEssssdseanepp...rtatp...epeppstnkWqLdnwlnkvnqlassqeessaessseteesesp.kkeskeqsegkskssssevv 569
+                           sEs s d e  ++p   r a+p     ++ s  +    n ++k     s+ +++s e+  ++++s+++ +k +   s + +k+ ++  +
+  Q_TCOGS2:TC007363-PA 236 SESDSDDAERTKKPkpvRRASPrtkSVDSCSDSDNNSANIIKKR---LSPLPHKSPEQLVKPKQSRGRpRKIKPAVSGSDKKPRKRGRP 321
+                           44444444444333111333432111233334455555555544...444444444444454444433023333333334445555555 PP
+
+                  AF-4 570 eesseskpkakskaeqkkseek.qdkrskqkspaqkeseepntrktvgkkqPkksekasveee.pksslkvekevpveekdqsskdrpk 656
+                            ++++s+p+++ ++ +   +++    r+++ s    +s++ + ++    + Pkk  k + e++ ++  +k +++      d   k+++k
+  Q_TCOGS2:TC007363-PA 322 PKPRPSHPSSSDEEDNV--DKRpV--RRRTISKRDASSSSDSDSRYRKYESPKKIPK-PFEDKiKRPAIKNDSD-----DDWGKKNKNK 400
+                           55677777664444443..33312..3333333334455555666777789999998.6666614445555655.....4555566666 PP
+
+                  AF-4 657 vktkgrrktaprkepk.sslasekkkkrssskkaapksrefveteksesesdseellplsplkqs.qtpsssess.rtsskkksevvee 742
+                            k ++r  + ++k++  ++ +  ++k r+s+   ++ks +   t++++s+sds  +  l+   +s + ++ss s  ++ +k++ ++vee
+  Q_TCOGS2:TC007363-PA 401 LKPRQRSESESSKKNDsPKKEVFRRKGRTSN--PHHKSAATLPTTTDSSDSDSGPSKRLQRSLSSrSRSRSSDSDtNILAKSPVNKVEE 487
+                           6666555666666555244477788888854..55577777666666666665555555444344233333344424777777788877 PP
+
+                  AF-4 743 klt.keklplpvrekkllsplrds 765
+                               k+k  + +  k l  p rds
+  Q_TCOGS2:TC007363-PA 488 TKPiKDKNKSDTLRK-LFTPKRDS 510
+                           766688888877776.78888887 PP
+
+  == domain 3  score: 223.4 bits;  conditional E-value: 3.6e-70
+                  AF-4  854 ssshkesskkksskkkseekkkekllppllsplsseskskkpakkrsssessslsqessksaketkssskkssssskhkksegkase 940 
+                             +  +e +kkk s +++e+kkk+  l     +l+++  skk ++++sss+ ssls  s+ s++++k +++k  +++k k+ ++++  
+  Q_TCOGS2:TC007363-PA  624 HPYFREFEKKKLSDNDNESKKKDSDL----AELKHK--SKKRKRRNSSSSISSLSTVSNLSHSSKKLEHRKDRENHKMKRRKDDEIY 704 
+                            33445555666666666666666433....333444..4444567778888888888888888888888888999999999988887 PP
+
+                  AF-4  941 ssk..............enkksskseaklfpvpsl.....pngkskprrpklkfedrqhsadyylkEAKkLKhkADalsdKlgKAvk 1008
+                            + +              ++++ s s++ + pv +         +s  ++p   +e + +    yl +A +LKh AD ++d ++  + 
+  Q_TCOGS2:TC007363-PA  705 PRSqsdnisltnapptnHEREGSRSRQVISPVDKNksqstREYHSYFEKPDEPLECEERAQSQYLSDATRLKHLADKETDTTKQCML 791 
+                            777667777777777654444444433333333322010123344445555334444445778************************ PP
+
+                  AF-4 1009 YlDAalsFiEcGiAmEkdpqeakSaYtmyseTVeLikfvlkLKnfvdasatsaekklavLClrCqSLLylamFrlKkdtAlKYSrtL 1095
+                            Yl+A+l+F   G+AmE    +  + +tmy +T+ Li+++ + K  ++++a+s+  klavL +rCq+LLy ++F++Kk +A  Y + L
+  Q_TCOGS2:TC007363-PA  792 YLEAVLFFLLTGNAMELTRVTENACFTMYKDTLSLIRYITS-KFRSQHNASSKHNKLAVLSYRCQALLYYKLFKMKKHEAKDYQKVL 877 
+                            **************************************976.99999**************************************** PP
+
+                  AF-4 1096 tehfknsskstqapspcvangkkstgtPSPlspspSPassvssssgssss......................ssvsssVsiPqrIhq 1160
+                            +e+f+n  k+   p p    +++ +gtPSP+sp+pSPa+sv+s  ++ss+                      +s ++ V iPq+I +
+  Q_TCOGS2:TC007363-PA  878 SEYFNN--KAVAIP-PEQQ-TQQGQGTPSPMSPTPSPAGSVGSVGSQSSGyssgelaargsnvpppvpsthaQSGGAHVWIPQNIYN 960 
+                            *****9..666666.5444.45789****************9965544448899****************9989999********98 PP
+
+                  AF-4 1161 maaSyVnITsniLrayeiWeqAeeLarknk..effaeLdtvmgpLalnSsmteLVrYtRQGlhwLr 1224
+                                  +   ++L+  ++W++A++L  k+k  +ff +Ld++ +pL+++Ss+ +LVrY+R G+++L 
+  Q_TCOGS2:TC007363-PA  961 AMYKQNQNFTYLLSCQDLWDTADALVIKGKhtDFFIDLDRLCKPLTMHSSLIDLVRYIREGIKRLN 1026
+                            666666666699*************98877669******************************995 PP
+
+
+

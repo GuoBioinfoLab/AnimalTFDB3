@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	19.2	0.6	1.4e-05	5.7e-05	2	26	26	50
+2	13.6	1.8	0.0008	0.0033	2	23	54	75
+3	28.7	6.9	1.4e-08	5.7e-08	1	25	81	105
+4	13.2	2.1	0.0011	0.0044	1	21	109	132
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 1.4e-05
+             zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdkaFkt 26
+                          L++H+r+H   k + C+ Cd++ kt
+  Q_TCOGS2:TC012146-PA 26 LKQHFRTHSDVKSFSCSICDYRGKT 50
+                          99*******************9886 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 0.0008
+             zf-H2C2_2  2 LrrHlrkHtgekpyeCplCdka 23
+                          L+ Hl +H g k+y C +C  +
+  Q_TCOGS2:TC012146-PA 54 LKHHLTVHSGTKKYACTKCLFS 75
+                          788****************876 PP
+
+  == domain 3  score: 28.7 bits;  conditional E-value: 1.4e-08
+             zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                           +L+rH+r Htg kpy Cp C+++ +
+  Q_TCOGS2:TC012146-PA  81 HLKRHIRLHTGSKPYSCPHCAYKCN 105
+                           79********************976 PP
+
+  == domain 4  score: 13.2 bits;  conditional E-value: 0.0011
+             zf-H2C2_2   1 nLrrH...lrkHtgekpyeCplCd 21 
+                           nLr+H   + kH+g+ +yeC++C+
+  Q_TCOGS2:TC012146-PA 109 NLRKHvllTNKHRGKCIYECKFCA 132
+                           89***664479************8 PP
+

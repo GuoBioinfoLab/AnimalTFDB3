@@ -1,0 +1,29 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.8	0.1	1.1	2.1e+02	136	183	153	206
+2	184.4	0.7	4.8e-58	9.6e-56	4	192	341	522
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 1.1
+      THR-like 136 veklqegvlealevylqkrhpas.......ndpdlfakLlgkltelRslneehse 183
+                   +++   ++++ +++++q+++ ++       +d  +f ++ ++  ++R+l+e+hs 
+  Npar_R010164 153 LKNETCSIVRINRNRCQQCRFRKclsvgmsRDAVRFGRIPKRE-KQRMLAEMHSA 206
+                   5555555566666666666655556666654445555544444.77888888776 PP
+
+  == domain 2  score: 184.4 bits;  conditional E-value: 4.8e-58
+      THR-like   4 eqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkfa 100
+                    q+ +e+f+ ++t+a++evveFa++ipgF++l+q+DQ+tLLk++++ev+++r+a++f+  ++ + + ++ ++++  l+++g    +gel++s+f+f+
+  Npar_R010164 341 VQQVWEEFSLSFTPAVREVVEFARHIPGFQNLTQQDQVTLLKAGTFEVLMVRFATLFDVRERSLRFLSGATYSLPELQAMG----MGELLSSMFDFS 433
+                   699**************************************************************9999999999999988....9*********** PP
+
+      THR-like 101 kslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkvee 192
+                   ++laslnl++ee+ +++a++l+s adr+g++n   ve+lqe++++al+ ++ k+ p  nd ++f+kLl +l++lR+ln++hse+l+ ++v +
+  Npar_R010164 434 EKLASLNLSQEELGIFTALVLVS-ADRSGMENGSLVEQLQETLIRALRSLILKNTP--NDTSRFTKLLLRLPDLRTLNSMHSEKLLSFRVDT 522
+                   ***********************.8*******************************..78****************************9976 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	182.5	0.1	1.5e-56	3.2e-55	3	191	222	409
+
+  Alignments for each domain:
+  == domain 1  score: 182.5 bits;  conditional E-value: 1.5e-56
+         THR-like   3 seqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvt..lndaelvtrdqlrslgrpglqgelie 94 
+                      s++s+++++a+l+ ++iq+v+ FaK ipgF++l++eDQi+LLk++++ev++lr ++ f+ +++ +t  ++d ++   d  ++++    + elie
+  PrHsapNP_000367 222 SQLSMLPHLADLVSYSIQKVIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTcgNQDYKYRVSDVTKAGH----SLELIE 311
+                      5789**************************************************************976677677777777655....9***** PP
+
+         THR-like  95 svfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehser..lv 186
+                      ++ kf+  l++lnl++ee++Ll+a++++sP drpgv++   +e++q+++ ++l++y+++rhp++ ++ l+ak+++kl++lRslneehs++   +
+  PrHsapNP_000367 312 PLIKFQVGLKKLNLHEEEHVLLMAICIVSP-DRPGVQDAALIEAIQDRLSNTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQyrCL 404
+                      *****************************9.**********************************************************96644 PP
+
+         THR-like 187 mlkve 191
+                       ++ e
+  PrHsapNP_000367 405 SFQPE 409
+                      44444 PP
+

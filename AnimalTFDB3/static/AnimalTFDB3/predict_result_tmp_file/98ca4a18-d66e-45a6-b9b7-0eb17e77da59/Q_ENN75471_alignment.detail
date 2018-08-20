@@ -1,0 +1,29 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	168.1	3.5	1.6e-52	7e-51	4	197	217	404
+2	-2.9	0.0	3.9	1.7e+02	92	124	595	625
+
+  Alignments for each domain:
+  == domain 1  score: 168.1 bits;  conditional E-value: 1.6e-52
+    THR-like   4 eqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkfaks 102
+                 +q+l+++f++++ +ai+ vveFaK+ipgFs l+q+DQ+tLLk++++ev+l+rl+ +f+ ++  +   ++e  +rd+++++ +      l++s+f+fa +
+  Q_ENN75471 217 QQELLQDFSKRFSPAIRGVVEFAKRIPGFSLLSQDDQVTLLKAGVFEVLLVRLTCMFDSQTASMICLNGEVLKRDSIHNSSN---ARFLMDSMFDFADR 312
+                 6899********************************************************9998866888*********996...6789********** PP
+
+    THR-like 103 laslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkveepktsl 197
+                 +++l+l+d+e+ L++ v+++  adrpg++n + +e++ e++   l++++ ++hp   +++++  L++k+++lR+ln+ hse+l+ +k++e+++ +
+  Q_ENN75471 313 MNTLRLSDAEIGLFCSVVVIA-ADRPGLRNTELIENMHEKLKKCLQTVVTQNHPG--QQHILDELIKKVPDLRTLNTLHSEKLLAFKMTEQQQMM 404
+                 *********************.8*******************************5..6********************************98765 PP
+
+  == domain 2  score: -2.9 bits;  conditional E-value: 3.9
+    THR-like  92 liesvfkfakslaslnlddeemaLlvavallsP 124
+                 l+++ +k +k++ +l+  d+  a +  v+++sP
+  Q_ENN75471 595 LMDEAYKPHKKFRALRHKDS--AEAEPVVVMSP 625
+                 44444444444444444443..33333333333 PP
+

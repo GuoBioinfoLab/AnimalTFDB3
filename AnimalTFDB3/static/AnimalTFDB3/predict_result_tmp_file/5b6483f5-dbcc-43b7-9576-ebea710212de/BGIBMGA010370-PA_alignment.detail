@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	160.4	0.0	4.6e-50	2.7e-48	11	199	1	181
+
+  Alignments for each domain:
+  == domain 1  score: 160.4 bits;  conditional E-value: 4.6e-50
+          RXR-like  11 llVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek...evekildleevrvLqelvtklrdlqld 100
+                       ++V+w++    f+ L+ +dq+ LLra+W++l++L+laq+s+p ++a+ll a     ar   +    ++ + l   e ++Lqe+++++r++  d
+  BGIBMGA010370-PA   1 MAVRWVRCLAPFQALSPSDQLVLLRAAWKDLFLLHLAQWSAPWDLAPLLSAPA---AR---ARlppDPLADL---ELNTLQEILCRFRQIAPD 84 
+                       579*******************************************7777763...33...22223333322...579*************** PP
+
+          RXR-like 101 atEyacLkaIvlfnpdtdaagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpietlllem 193
+                         E +c+kaIvlf+p  d agl+e++ +e+l++++q+ l +y++++y  qp+rFg+lLl+Lp+lr ++++ ie l f+ ++Gd++++tll++m
+  BGIBMGA010370-PA  85 GSECGCMKAIVLFSP--DTAGLSETQPVEMLQDQAQCILADYVRTRYTRQPTRFGRLLLLLPSLRAVRARSIELLLFRDTVGDVSVTTLLHDM 175
+                       ***************..67************************************************************************** PP
+
+          RXR-like 194 lesskp 199
+                       ++++++
+  BGIBMGA010370-PA 176 YRMQPA 181
+                       **9876 PP
+

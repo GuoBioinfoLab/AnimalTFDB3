@@ -1,0 +1,36 @@
+HMM length of domain: 248 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.2	1.9	0.042	39	61	102	174	212
+2	341.6	3.7	1.9e-106	1.8e-103	1	248	332	578
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.042
+             STAT  61 leesessgeilnnekaleyqeetkqlsaefrnlsLkeikrse 102
+                        + +++++i   +++++ +++++ +s ++++l+L++++ + 
+  Q_OTAU005872-PA 174 ALHYHECTKI---NAQIQEHQSQQPVSSHLQQLQLRKTNMEM 212
+                      2233333444...45556666677778888888888877643 PP
+
+  == domain 2  score: 341.6 bits;  conditional E-value: 1.9e-106
+             STAT   1 fvvekqPpqVlktqtkFsakvRlLvgdklqehlnslkvkvsiiseeqakallkgeskvleleesessgeilnnekaleyqeetkqlsaefrnls 94 
+                      f++ekqPpqV+kt+t+F+ +vRlLvg+kl++++++++vkv+iise+qa+ llk++   +  ++ e sgeilnn++++eyq++++qls++frn++
+  Q_OTAU005872-PA 332 FIIEKQPPQVMKTNTRFTSTVRLLVGGKLNVNMTPPQVKVTIISESQANVLLKSD---KLAKNGEASGEILNNTGTMEYQQASRQLSVSFRNMQ 422
+                      9*****************************************************9...45578999**************************** PP
+
+             STAT  95 LkeikrserkgaesVteekfallFeteftl..gelkfkvetlSlPvvvivhgsQepsAwAtilWdnafaepkrlpffvpekvsWkqlaeaLswk 186
+                      Lk+ikr+e+kg+esV++ekf+l+F+++f++  gel f+v+tlSlPvvvivhg+Qep+AwAt++Wdnaf+ep r pf+vp+kv+W+++ae+Ls k
+  Q_OTAU005872-PA 423 LKKIKRAEKKGTESVMDEKFSLFFQSQFSVggGELMFQVWTLSLPVVVIVHGNQEPHAWATVTWDNAFSEPGRPPFAVPDKVPWNKVAEMLSLK 516
+                      ******************************999************************************************************* PP
+
+             STAT 187 FssatergLseeqlkyLaekllgkksskeqklvswsqfskenlpgrnftfWeWfdgilelik 248
+                      F s+t+r L+e++l++La+k+++ + +++++l+swsqf+ke+l++rnftfWeWf+++++l++
+  Q_OTAU005872-PA 517 FRSTTGRSLNEDNLRFLADKAFRGSFTDNNQLLSWSQFCKEPLSERNFTFWEWFYAVMKLTR 578
+                      ************************************************************96 PP
+
+
+

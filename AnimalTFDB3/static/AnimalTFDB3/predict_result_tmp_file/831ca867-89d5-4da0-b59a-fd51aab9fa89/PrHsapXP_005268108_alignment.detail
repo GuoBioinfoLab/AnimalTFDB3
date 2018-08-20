@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	70.8	0.2	4.7e-22	4.8e-21	1	105	36	135
+2	-0.1	0.0	4.8	49	54	76	373	395
+
+  Alignments for each domain:
+  == domain 1  score: 70.8 bits;  conditional E-value: 4.7e-22
+                         HHHHHHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTTCCCEEEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHH CS
+                ZBTB   1 lnelresgelcDvtlvvgdgkefkahkavLaarSpyFkalftskeieessvseielddvepeafealLefiYtgeleitseenleelLaaa 91 
+                         ln +re g lcD+t+++g +  fkah+avLaa S+yFk++f ++  +e    +i+ +d++p++f  lL+++Ytg+ + +   ++  l +  
+  PrHsapXP_005268108  36 LNMQREFGFLCDCTVAIG-DVYFKAHRAVLAAFSNYFKMIFIHQ-TSEC--IKIQPTDIQPDIFSYLLHIMYTGKGPKQ-IVDHSRLEEGI 121
+                         6899**************.6************************.3444..479*********************9985.44444444444 PP
+
+                         HHHT-HHHHHHHHH CS
+                ZBTB  92 dllqiprlkkacee 105
+                         ++l+ + l ++++e
+  PrHsapXP_005268108 122 RFLHADYLSHIATE 135
+                         77777777766665 PP
+
+  == domain 2  score: -0.1 bits;  conditional E-value: 4.8
+                         EEETTSGHHHHHHHHHHHHHSEE CS
+                ZBTB  54 ielddvepeafealLefiYtgel 76 
+                          ++   ++    +lLe +Yt + 
+  PrHsapXP_005268108 373 CTICGHKFPRKSQLLEHMYTHKG 395
+                         5567777777789*******976 PP
+

@@ -1,0 +1,31 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	0.5	0.1	0.024	22	171	194	37	67
+2	111.4	23.0	2.5e-36	2.3e-33	1	157	136	290
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.024
+   TRAM_LAG1_CLN8 171 p....lwlpliflilllvL...qllnlyWfy 194
+                      +     +l++ + ++ l+L   +ll  yWf 
+  Q_APLA000592-PA  37 TfpnsKHLYYPIPMAFLMLglrYLLERYWFA 67 
+                      144455555555555555555799*****95 PP
+
+  == domain 2  score: 111.4 bits;  conditional E-value: 2.5e-36
+   TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiitlvllv 88 
+                      kf+e+ +++++y++s+++gl +l+s+p      e+w++ p++ ++     l +yy++ l ++++ l+++ +++   kdf++m+iHh++t+vl++
+  Q_APLA000592-PA 136 KFCENSWRCFYYTISFIYGLTILWSKPwlwdinECWYTFPNQSVTT---DLWFYYMMNLTFYWS-LCFSHFFDVVHKDFWQMFIHHVATIVLMS 225
+                      799***************************9999999999999988...9999*********99.777777799999***************** PP
+
+   TRAM_LAG1_CLN8  89 lsyvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylill 157
+                      ls+++nl+r+g++v+++h+  d+fl+++k+ +y  ++ +  ++v+f  ++f++s++++R  ++p++i++
+  Q_APLA000592-PA 226 LSWIGNLVRIGSLVIVVHDCADVFLEAAKMTKYS-GY-QRVCDVIF--AIFTISWIITRTGIYPFWIIR 290
+                      **********************************.77.788*****..******************986 PP
+
+
+

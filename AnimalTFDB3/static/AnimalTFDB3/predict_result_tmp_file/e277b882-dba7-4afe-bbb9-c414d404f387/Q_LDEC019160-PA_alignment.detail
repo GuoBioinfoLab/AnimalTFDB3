@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	17.3	0.5	2.6e-05	8.9e-05	5	23	2	20
+2	16.7	0.2	4.2e-05	0.00015	3	20	92	109
+3	10.0	8.0	0.0055	0.019	1	23	118	140
+4	19.1	0.7	7.1e-06	2.5e-05	1	23	146	168
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 2.6e-05
+                     TTTEEESSHHHHHHHHHCC CS
+          zf-C2H2  5 dCgksFkrksnLkrHirtH 23
+                     +Cg  F+++s L+rHi +H
+  Q_LDEC019160-PA  2 YCGNAFPHQSKLTRHILSH 20
+                     8****************99 PP
+
+  == domain 2  score: 16.7 bits;  conditional E-value: 4.2e-05
+                      ETTTTEEESSHHHHHHHH CS
+          zf-C2H2   3 CpdCgksFkrksnLkrHi 20 
+                      C+ CgksF++ s+L +H+
+  Q_LDEC019160-PA  92 CKFCGKSFPDVSSLITHL 109
+                      *****************7 PP
+
+  == domain 3  score: 10.0 bits;  conditional E-value: 0.0055
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      +kC+ Cgk Fk ++++k H r+H
+  Q_LDEC019160-PA 118 FKCEFCGKAFKLRHHMKDHCRVH 140
+                      8******************8888 PP
+
+  == domain 4  score: 19.1 bits;  conditional E-value: 7.1e-06
+                      EEETTTTEEESSHHHHHHHHHCC CS
+          zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                      ++C+ Cgk F+r+  Lk+H +tH
+  Q_LDEC019160-PA 146 FRCGLCGKNFSRSTILKAHEKTH 168
+                      89********************9 PP
+

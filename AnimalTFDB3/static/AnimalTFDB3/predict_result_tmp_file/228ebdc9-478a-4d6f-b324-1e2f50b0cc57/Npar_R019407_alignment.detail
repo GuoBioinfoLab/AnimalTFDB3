@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	2.1	2.6	0.5	17	14	25	118	129
+2	34.6	0.2	2.5e-11	8.3e-10	1	25	133	157
+3	38.8	1.7	1.2e-12	4.1e-11	1	25	161	185
+4	33.7	2.3	4.7e-11	1.6e-09	1	25	189	213
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 0.5
+     zf-H2C2_2  14 pyeCplCdkaFk 25 
+                    y C++C+  F+
+  Npar_R019407 118 SYSCSECGECFV 129
+                   499*****9997 PP
+
+  == domain 2  score: 34.6 bits;  conditional E-value: 2.5e-11
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   +LrrH ++H gekpy C++C+k F+
+  Npar_R019407 133 DLRRHQKSHLGEKPYLCSVCGKGFS 157
+                   69**********************7 PP
+
+  == domain 3  score: 38.8 bits;  conditional E-value: 1.2e-12
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   +L+rH r+Htgekpy C++C+k+F 
+  Npar_R019407 161 HLSRHQRTHTGEKPYSCSECGKSFL 185
+                   79**********************6 PP
+
+  == domain 4  score: 33.7 bits;  conditional E-value: 4.7e-11
+     zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                   +L+rH r Htgekp+ C +C+k F+
+  Npar_R019407 189 HLSRHQRLHTGEKPHSCTECGKGFS 213
+                   79**********************7 PP
+

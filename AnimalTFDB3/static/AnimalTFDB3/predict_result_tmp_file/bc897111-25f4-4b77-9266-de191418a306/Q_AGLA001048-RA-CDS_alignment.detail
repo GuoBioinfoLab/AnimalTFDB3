@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.6	0.0	3.2	2.9e+02	78	100	69	93
+2	151.2	0.0	1.2e-47	1.1e-45	8	193	122	300
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 3.2
+             THR-like  78 dqlrslgr..pglqgeliesvfkfa 100
+                          + l+++ +  + +q+eli  ++ f+
+  Q_AGLA001048-RA-CDS  69 KTLTNGVKpiSPEQEELIHRLVYFQ 93 
+                          3444444444445666666666665 PP
+
+  == domain 2  score: 151.2 bits;  conditional E-value: 1.2e-47
+             THR-like   8 vekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvf 97 
+                          + +++e++  ++q +veFaK++pgF++l  eDQi+LLk+++ evm+ r+ar+++ +sd + + + + ++rd+   +g    +ge ie ++
+  Q_AGLA001048-RA-CDS 122 FRHITEITILTVQLIVEFAKRLPGFDKLLREDQIALLKACSSEVMMFRMARRYDVQSDSILFVNNQPYSRDSYNLAG----MGETIEDLL 207
+                          789***********************************************************9***********999....9******** PP
+
+             THR-like  98 kfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvm 187
+                          +f ++++s+++d +e+aLl+a++++s  +rp + +  kvek+qe +leal+ y+  r+++ +   +fakLl+ ltelR+l ++ se+   
+  Q_AGLA001048-RA-CDS 208 HFCRTMYSMKVDNAEYALLTAIVIFS--ERPALIEGWKVEKIQEIYLEALRAYVDNRRKP-RPGTIFAKLLSVLTELRTLGNQNSEMCFS 294
+                          **************************..**************************999986.589**********************9777 PP
+
+             THR-like 188 lkveep 193
+                          lk +++
+  Q_AGLA001048-RA-CDS 295 LKLKNK 300
+                          666665 PP
+

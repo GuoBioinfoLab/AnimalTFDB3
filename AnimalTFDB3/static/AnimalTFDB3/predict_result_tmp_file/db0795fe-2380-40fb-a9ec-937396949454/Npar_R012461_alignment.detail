@@ -1,0 +1,34 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.9	0.0	0.26	1.3e+02	137	153	21	37
+2	135.3	27.1	2.4e-43	1.2e-40	1	198	105	298
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.26
+  TRAM_LAG1_CLN8 137 llfllsFfvcRlvllpy 153
+                     +lf+ +  ++R++  p 
+    Npar_R012461  21 CLFICFCCYFRFIAKPC 37 
+                     34444444555555555 PP
+
+  == domain 2  score: 135.3 bits;  conditional E-value: 2.4e-43
+  TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiitlvllvl 89 
+                     +f+e+++++++ l ++++g+  l+++p      ++w++yp ++l+a    l++yy+++l+++++ l+++ + + krkdf  m++Hh++t+ l+++
+    Npar_R012461 105 RFCESMWKFTFNLYIFTYGIRYLKKTPwlwntrQCWYNYPYQQLTA---DLHYYYIVELSFYWS-LMFSQFTDIKRKDFGIMFLHHLATISLITF 195
+                     699*************************************999998...9999*********88.9999999*********************** PP
+
+  TRAM_LAG1_CLN8  90 syvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylillsildvaklslstaplwlpliflilllv 184
+                     syv n++rvg++v++lh++ d++l+++k+ +y  k  ++++++lf  ++f+l+F+++Rl ++p++il ++l++ ++ +   p +++++f++lllv
+    Npar_R012461 196 SYVNNMVRVGTLVMCLHDMADVLLEAAKMANYS-KC-QKLCDLLF--VVFALVFIIARLGVFPLWILNTTLFESWEIVG--PYPSWWVFNLLLLV 284
+                     *********************************.76.888*****..**************************998877..5************* PP
+
+  TRAM_LAG1_CLN8 185 LqllnlyWfylivk 198
+                     Lq+l+++W yli+k
+    Npar_R012461 285 LQSLHVFWSYLIIK 298
+                     ************97 PP
+

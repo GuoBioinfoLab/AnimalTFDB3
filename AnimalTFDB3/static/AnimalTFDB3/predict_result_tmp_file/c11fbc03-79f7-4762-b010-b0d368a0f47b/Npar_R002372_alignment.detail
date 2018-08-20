@@ -1,0 +1,53 @@
+HMM length of domain: 1227 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	179.4	43.2	6.7e-57	3e-54	508	831	2	341
+2	216.0	0.4	5.8e-68	2.6e-65	952	1071	356	476
+3	55.1	0.0	2.2e-19	9.8e-17	1190	1227	490	527
+
+  Alignments for each domain:
+  == domain 1  score: 179.4 bits;  conditional E-value: 6.7e-57
+          AF-4 508 peppstnkWqLdnwlnkvn....qlassqeessaessseteesespkkeskeqsegkskssssevvees...seskpkakskaeqkkseekqdkrsk 597
+                   peppstnkWqLd+wlnkvn    +++++q+++++e++se++++++ + +sk++ + +  ++ ++ ++e    s++++k+k++ +qk++e+k   + k
+  Npar_R002372   2 PEPPSTNKWQLDKWLNKVNphnkTIINNQNDVHSENNSEAQNNQQIAGDSKRELD-NIIPQPDSLPKERellSPVREKSKTRVTQKPQETK---NLK 94 
+                   9*********************99*******************999999999877.55556667777777889999999*******99988...*** PP
+
+          AF-4 598 qkspaqkeseepntrktvgkkqPkksek.asveee......pksslkvekevpveekdqsskdrpkvktkgrrktaprkepkssl..asekkkkrss 685
+                   qkspa+   +ep+ ++ v+kkqPk++e+ +s e++      p+ss+++ek+   +e+++++k+r+k++++   ktaprke+++s+  +s+kkk r++
+  Npar_R002372  95 QKSPAH---DEPTPQRAVAKKQPKRVERtSSGEDYtwnkpnPTSSTPKEKD--LRENQEPPKARTKTTVA---KTAPRKEQRTSTgsTSDKKKARGA 183
+                   ****85...788899*************5555665****9999********..999*************7...*********99999*********5 PP
+
+          AF-4 686 skkaapksrefvete.ksesesdseellplsplk..............q..sqtpsssessrtsskkksevveekltkeklplpvrekkllsplrds 765
+                    +k+ pksref+et+ +s+s++d++e ++++  +              +  s ++ +    ++ss+ + ++ +++l ++  plpv +++llsplr++
+  Npar_R002372 184 -NKIVPKSREFIETDsASDSNTDQDEVMQVKVSTtgpinpvkpkdcssNilSVSSLT----SNSSSISLDQTHNDLEEPFSPLPVVQSELLSPLREF 275
+                   .6*************8899************99977777766655433122211111....223333334444444455557*************** PP
+
+          AF-4 766 eepqsLlVKIdLslLsrvPqrpekesqskkaesksepeegkkkeskqkskkssskskrkrKeeeen 831
+                   ee++sL+VKIdLslLsr+P++ + es+  k+e++++  ++k ++  ++ +k+++ks+rk+K++e++
+  Npar_R002372 276 EELKSLWVKIDLSLLSRIPGQDTFESEALKNEARDTGFKHKPQTPATAPEKNATKSRRKHKVDEHR 341
+                   ************************99999*****9999***********************88765 PP
+
+  == domain 2  score: 216.0 bits;  conditional E-value: 5.8e-68
+          AF-4  952 eaklfpvpsl.pngkskprrpklkfedrqhsadyylkEAKkLKhkADalsdKlgKAvkYlDAalsFiEcGiAmEkdpqeakSaYtmyseTVeLik 1045
+                    e ++++++ + +ng++ +rr+k+ f++ +h+adyy++EAK+LKhkADal++K+gKAv+Y+DAalsFiEcG+AmE+dp+eakS+YtmyseTVeLi+
+  Npar_R002372  356 EPDVWSSIPAiSNGNTDSRRTKIMFDEALHNADYYMQEAKRLKHKADALIEKFGKAVNYADAALSFIECGNAMERDPLEAKSPYTMYSETVELIR 450 
+                    67899998888************************************************************************************ PP
+
+          AF-4 1046 fvlkLKnfvdasatsaekklavLClr 1071
+                    ++++LKnf+ + a + ekklavL+ r
+  Npar_R002372  451 YAMRLKNFTGSAANEGEKKLAVLUTR 476 
+                    ************************98 PP
+
+  == domain 3  score: 55.1 bits;  conditional E-value: 2.2e-19
+          AF-4 1190 keffaeLdtvmgpLalnSsmteLVrYtRQGlhwLrlea 1227
+                    ++ff +Ld vm+pL+++S+mt+LVrY+RQGlhwLr+ea
+  Npar_R002372  490 EKFFCDLDMVMEPLTQHSTMTDLVRYVRQGLHWLRIEA 527 
+                    68*********************************997 PP
+
+
+

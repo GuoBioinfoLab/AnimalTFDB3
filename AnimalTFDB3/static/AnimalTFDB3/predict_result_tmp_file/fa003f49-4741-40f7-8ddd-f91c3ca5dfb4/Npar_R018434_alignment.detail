@@ -1,0 +1,36 @@
+HMM length of domain: 277 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	328.4	17.9	2.2e-102	2.2e-99	1	277	643	911
+2	0.0	0.0	0.029	29	245	272	924	951
+
+  Alignments for each domain:
+  == domain 1  score: 328.4 bits;  conditional E-value: 2.2e-102
+          GCFC   1 leeiaekFeelkekyleeykeaelselavslvaPllrealleWePLkdptalvdnlkswrklLeeevkekekkrkesttpyetllwelwlpsvrssv 97 
+                   l+e+a+ F+ l++ky+eeyk  e s+lav+lv+Pl++e++++W+PL d t+++d +++w++lLe e + ++++++++++py++llwe+w+p +r ++
+  Npar_R018434 643 LDECARVFQMLQDKYYEEYKLSEKSDLAVALVYPLVKEYFKDWNPLRDATYGIDVMSKWKDLLE-EGHLSHSAQDATLDPYHRLLWETWVPFLR-NI 737
+                   799************************************************************8.5688899999*******************.88 PP
+
+          GCFC  98 anewdprdpdpmlalleaWkplLPefvldnlleqlilpkLeaaveeWdPlskkqttrlvpihswifpwlpllgeerlepglvsdirrklrqaLdaWd 194
+                   +++w+pr++ pm+++l++W  lLP ++ldn+l+ql++pkL+++ve+W+Pl++++     pihswi+pwlp+++ +rlep l+s+ir+kl++aL++W+
+  Npar_R018434 738 ISQWQPRNCAPMVDFLDSWVYLLPVWILDNILDQLVFPKLQKEVESWNPLTDTV-----PIHSWIHPWLPMMQ-SRLEP-LFSPIRNKLANALQKWH 827
+                   8****************************************************9.....**************.*****.***************** PP
+
+          GCFC 195 ps.rsalaiLkpWkdvfspaewdklllrhilpklaralqefeinpkqqslellenvlkWkdllspsvlaeLlekeffpkwlqvl 277
+                   ps +sa+ iL+pWk+vf+p++wd++++++i+pkl+++++ef inp+qq+++ + +v++W+++ s s l+ Llek+ffpkwlqvl
+  Npar_R018434 828 PSdSSAKLILQPWKEVFTPGSWDAFMVKNIVPKLGMCMAEFIINPHQQHMDVFLWVMDWEGMSSLSSLVGLLEKHFFPKWLQVL 911
+                   **********************************************************************************97 PP
+
+  == domain 2  score: 0.0 bits;  conditional E-value: 0.029
+          GCFC 245 llenvlkWkdllspsvlaeLlekeffpk 272
+                     ++ l Wk+++s++ la+  +ke f++
+  Npar_R018434 924 ITKWYLGWKSMFSDQLLAHPGIKERFNE 951
+                   5678899999999999998877777774 PP
+
+
+

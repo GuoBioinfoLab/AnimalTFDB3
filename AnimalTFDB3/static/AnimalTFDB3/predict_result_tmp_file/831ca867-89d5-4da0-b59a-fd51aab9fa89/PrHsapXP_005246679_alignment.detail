@@ -1,0 +1,27 @@
+HMM length of domain: 261 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	469.4	0.0	4.3e-144	1.3e-142	1	261	274	535
+
+  Alignments for each domain:
+  == domain 1  score: 469.4 bits;  conditional E-value: 4.3e-144
+          NGFIB-like   1 sLkGRRGRLpskpksprdesqpspPvsllaalvraivdstpstakldyskfqe.adekvskedaedvqqfydlLtgslevirklaekiPgf 90 
+                         sLkGRRGRLpskpksp+++s+pspPvsl++alvra+vds+p++++ldys+fq+ +d+++s++d++++qqfydlLtgs+e+ir +aekiPgf
+  PrHsapXP_005246679 274 SLKGRRGRLPSKPKSPQEPSPPSPPVSLISALVRAHVDSNPAMTSLDYSRFQAnPDYQMSGDDTQHIQQFYDLLTGSMEIIRGWAEKIPGF 364
+                         8***************************************************99************************************* PP
+
+          NGFIB-like  91 selqkaDqelLlesaflelfvlRlayRsknsedkliFcsGlvlhrlqclrgFgewidsivdfsrslqslnldisAfaclaaLvllterhGL 181
+                         ++l+kaDq+lL+esaflelfvlRlayRs+++e+kliFc+G+vlhrlqc+rgFgewidsiv+fs++lq++n+disAf+c+aaL+++terhGL
+  PrHsapXP_005246679 365 ADLPKADQDLLFESAFLELFVLRLAYRSNPVEGKLIFCNGVVLHRLQCVRGFGEWIDSIVEFSSNLQNMNIDISAFSCIAALAMVTERHGL 455
+                         ******************************************************************************************* PP
+
+          NGFIB-like 182 kepkrveelqskiinaLkdhvsvaagsqnkeaklsrllgkldelralctqgLqrifylkLedLvpaPaiidklfldtlpf 261
+                         kepkrveelq+ki+n+Lkdhv++++g+ n++++ls+llgkl+elr+lctqgLqrifylkLedLvp+Paiidklfldtlpf
+  PrHsapXP_005246679 456 KEPKRVEELQNKIVNCLKDHVTFNNGGLNRPNYLSKLLGKLPELRTLCTQGLQRIFYLKLEDLVPPPAIIDKLFLDTLPF 535
+                         *******************************************************************************9 PP
+

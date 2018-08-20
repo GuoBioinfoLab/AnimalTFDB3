@@ -1,0 +1,87 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	9.6	2.1	0.025	0.062	12	25	174	187
+2	18.2	0.5	4.9e-05	0.00012	2	25	192	215
+3	27.2	2.1	6.8e-08	1.7e-07	1	25	219	243
+4	29.4	1.3	1.4e-08	3.4e-08	2	25	248	271
+5	27.1	0.4	7.1e-08	1.7e-07	5	25	279	299
+6	30.7	0.1	5.2e-09	1.3e-08	1	26	303	328
+7	24.4	0.6	5e-07	1.2e-06	2	25	332	355
+8	26.8	0.2	9.3e-08	2.3e-07	4	25	362	383
+9	16.4	0.3	0.00017	0.00042	4	25	390	411
+10	29.1	0.1	1.7e-08	4.1e-08	2	25	416	439
+11	19.6	2.0	1.8e-05	4.3e-05	1	25	443	467
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.025
+        zf-H2C2_2  12 ekpyeCplCdkaFk 25 
+                      +kpy Cp C+ +F+
+  PrHsapNP_612456 174 KKPYPCPDCGRRFS 187
+                      79**********97 PP
+
+  == domain 2  score: 18.2 bits;  conditional E-value: 4.9e-05
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ H r H ge py C+ C+k+F+
+  PrHsapNP_612456 192 LVSHRRAHSGECPYVCDQCGKRFS 215
+                      789********************7 PP
+
+  == domain 3  score: 27.2 bits;  conditional E-value: 6.8e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nL++H   Htgekpy+Cp C+  F 
+  PrHsapNP_612456 219 NLSQHQVIHTGEKPYHCPDCGRCFR 243
+                      89*******************9996 PP
+
+  == domain 4  score: 29.4 bits;  conditional E-value: 1.4e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L  H  +Htgekp++Cp+C+ +F+
+  PrHsapNP_612456 248 LANHRTTHTGEKPHQCPSCGRRFA 271
+                      778*******************97 PP
+
+  == domain 5  score: 27.1 bits;  conditional E-value: 7.1e-08
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H r+Htgekpy+C +C+ +F 
+  PrHsapNP_612456 279 HQRTHTGEKPYTCLECNRRFR 299
+                      ******************996 PP
+
+  == domain 6  score: 30.7 bits;  conditional E-value: 5.2e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFkt 26 
+                      +L+ H r Htgekpy Cp C  +F++
+  PrHsapNP_612456 303 ALVIHQRIHTGEKPYPCPDCERRFSS 328
+                      5888*******************985 PP
+
+  == domain 7  score: 24.4 bits;  conditional E-value: 5e-07
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+ H r+H ge+py C+ C  +F+
+  PrHsapNP_612456 332 LVSHRRVHSGERPYACEHCEARFS 355
+                      899*****************9997 PP
+
+  == domain 8  score: 26.8 bits;  conditional E-value: 9.3e-08
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                      +H   Htgekpy Cp C+ aF 
+  PrHsapNP_612456 362 QHQLLHTGEKPYPCPDCGRAFR 383
+                      7999*****************6 PP
+
+  == domain 9  score: 16.4 bits;  conditional E-value: 0.00017
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                       H  +Ht ek + C+ C+ +F+
+  PrHsapNP_612456 390 IHRSTHTEEKLHACDDCGRRFA 411
+                      5999****************97 PP
+
+  == domain 10  score: 29.1 bits;  conditional E-value: 1.7e-08
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L  H r+H ge+py C+lC+k+F+
+  PrHsapNP_612456 416 LASHRRVHSGERPYACDLCSKRFA 439
+                      568********************7 PP
+
+  == domain 11  score: 19.6 bits;  conditional E-value: 1.8e-05
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +L +H   Htgekp+ C +C+  F 
+  PrHsapNP_612456 443 HLAQHQLLHTGEKPFPCLECGRCFR 467
+                      6889*****************9996 PP
+

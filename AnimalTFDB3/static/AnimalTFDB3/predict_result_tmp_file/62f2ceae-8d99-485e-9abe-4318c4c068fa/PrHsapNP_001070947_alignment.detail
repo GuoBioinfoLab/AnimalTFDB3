@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.0	0.0	9.7	2.1e+02	126	147	67	88
+2	171.1	0.0	4.5e-53	9.7e-52	5	188	126	304
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 9.7
+            THR-like 126 drpgvsnegkveklqegvleal 147
+                         +r+  + + +++k qe+++++l
+  PrHsapNP_001070947  67 QRRAQQTPVQLSKEQEELIRTL 88 
+                         4444455555666666666655 PP
+
+  == domain 2  score: 171.1 bits;  conditional E-value: 4.5e-53
+            THR-like   5 qslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgelies 95 
+                         + lv +fa++ t ++ +v++F+K +p F++l++eDQi LLkga++e++++ l+++f+ +++++     +++ +d  r ++    q e++e 
+  PrHsapNP_001070947 126 LPLVTHFADINTFMVLQVIKFTKDLPVFRSLPIEDQISLLKGAAVEICHIVLNTTFCLQTQNFLCGPLRYTIEDGARVGF----QVEFLEL 212
+                         6789************************************************************9999*******99876....******* PP
+
+            THR-like  96 vfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlv 186
+                         +f+f+ +l +l+l++ e++Ll+a+al+sP drpgv++++++++lqe+++++l+ y++ ++++++d++l+akLlg l+elRs+ne++  + +
+  PrHsapNP_001070947 213 LFHFHGTLRKLQLQEPEYVLLAAMALFSP-DRPGVTQRDEIDQLQEEMALTLQSYIKGQQRRPRDRFLYAKLLGLLAELRSINEAYGYQIQ 302
+                         ****************************9.***************************999999***********************99977 PP
+
+            THR-like 187 ml 188
+                         ++
+  PrHsapNP_001070947 303 HI 304
+                         75 PP
+

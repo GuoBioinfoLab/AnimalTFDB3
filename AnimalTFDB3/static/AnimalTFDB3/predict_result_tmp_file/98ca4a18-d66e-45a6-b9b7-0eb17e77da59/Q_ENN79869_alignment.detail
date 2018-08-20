@@ -1,0 +1,42 @@
+HMM length of domain: 23 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	19.0	6.0	1.8e-05	6e-05	1	23	359	381
+2	10.4	0.1	0.0097	0.032	2	23	391	412
+3	21.9	0.6	2.2e-06	7.3e-06	1	23	416	438
+4	6.1	0.0	0.22	0.74	3	14	446	457
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 1.8e-05
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 + C++Cgk++ ++snL rH +tH
+  Q_ENN79869 359 FCCSECGKCYATSSNLSRHKQTH 381
+                 78********************9 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.0097
+                 EETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   2 kCpdCgksFkrksnLkrHirtH 23 
+                 kC+ Cgk + +   L  H+ tH
+  Q_ENN79869 391 KCNACGKAYVSMPALAMHLLTH 412
+                 7********************9 PP
+
+  == domain 3  score: 21.9 bits;  conditional E-value: 2.2e-06
+                 EEETTTTEEESSHHHHHHHHHCC CS
+     zf-C2H2   1 ykCpdCgksFkrksnLkrHirtH 23 
+                 + C++Cgk F+r+ +L+ H+r+H
+  Q_ENN79869 416 HSCEICGKQFSRPWLLQGHLRSH 438
+                 68********************9 PP
+
+  == domain 4  score: 6.1 bits;  conditional E-value: 0.22
+                 ETTTTEEESSHH CS
+     zf-C2H2   3 CpdCgksFkrks 14 
+                 C +Cgk F ++ 
+  Q_ENN79869 446 CAHCGKAFADRN 457
+                 99******9876 PP
+

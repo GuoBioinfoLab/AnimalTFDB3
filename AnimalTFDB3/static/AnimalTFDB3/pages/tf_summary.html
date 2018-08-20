@@ -1,0 +1,165 @@
+
+<ul id="myTab" class="nav nav-tabs" ng-show="species_count_list.length" style="vertical-align: bottom">
+    <li class="active" ng-click="show_tf()">
+        <a data-toggle="tab" style="font-weight: bolder">
+            TF <span class="glyphicon glyphicon-question-sign" data-placement="top" data-container="body" data-toggle="popover" style="color: lightskyblue" data-trigger="hover" data-content="The left barchart shows TFs of which number larger than 50, and the right one shows remaining TFs" data-original-title="" title=""></span>
+        </a>
+    </li>
+    <li ng-show="cofactors" ng-click="show_cofactor()">
+        <a ng-show="species_cofactor_count_list.length" data-toggle="tab" style="font-weight: bolder">TF Cofactors</a>
+    </li>
+    <li ng-show="species" style="margin-left: 25%"><h4><img src="/static/AnimalTFDB3/image/species/{$ species $}.png" style="height: 50px;width: 50px;">{$species_title$}: {$all_species_tf_count$} TFs and {$all_species_cofactor_count$} TF Cofactors</h4></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+    <div ng-show="tf_click">
+        <div class="tab-pane fade in active" id="tf_tab" ng-show="species_count_list.length">
+             <span>
+                <ng-echarts id="barchart" ec-config="lineConfig1"  ec-option="lineOption1" style="width:1800px;height: 280px;margin-bottom: 10px;margin-left: 20%;margin-top: 0;" ></ng-echarts>
+                </span>
+            <div class="well" style="width: 100%;">
+                <h4 id="basic">Basic Domains Group</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="danger" ng-repeat="item in basic_domain_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 id="beta">Beta-Scaffold Factors</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="info" ng-repeat="item in beta_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self" >{$ item.family $} ({$item.count$})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 id="helix">Helix-turn-helix</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="success" ng-repeat="item in helix_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 id="alpha">Other Alpha-Helix Group</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="warning" ng-repeat="item in alpha_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self" >{$ item.family $} ({$item.count$})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 id="unclass">Unclassified Structure</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="" ng-repeat="item in unclass_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self">{$ item.family $} ({$ item.count $})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4 id="zinc">Zinc-Coordinating Group</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr ng-repeat="item in zinc_list" style="display: inline;">
+                        <td style="width: 100px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}" target="_self" >{$ item.family $}({$ item.count $})</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div ng-show="cofactor_click">
+        <div class="tab-pane fade in active" id="tf_cofactors" ng-show="species_cofactor_count_list.length">
+		    <span>
+                <ng-echarts id="barchart_cofactors" ec-config="lineConfig2"  ec-option="lineOption2" style="width:1800px;height: 300px;margin-bottom: 10px;margin-left: 20%;margin-top: 0;" ></ng-echarts>
+                </span>
+            <div class="well" style="width: 100%;">
+                <div class="panel" style="margin-left: 3px">
+                    <div class="panel-body">
+                        <h4>Co-activator/repressors</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr class="danger" ng-repeat="item in activator_list" style="display: inline;">
+                                <td style="width: 237px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>Chromatin Remodeling Factors</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr class="info" ng-repeat="item in chromatin_list" style="display: inline;">
+                                <td style="width: 215px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $}({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>General Cofactors</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr class="success" ng-repeat="item in general_list" style="display: inline;">
+                                <td style="width: 215px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>Histone-modifying Enzymes</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr class="warning" ng-repeat="item in his_list" style="display: inline;">
+                                <td style="width: 215px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>Cell Cycle</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr ng-repeat="item in cell_cycle_list" style="display: inline;">
+                                <td style="width: 215px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4>Other Cofactors</h4>
+                        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                            <tbody>
+                            <tr class="active" ng-repeat="item in other_list" style="display: inline;">
+                                <td style="width: 215px"><a href= "#!/tf_detail?species={$ species $}&family={$ item.family $}&cofactors=1" target="_self" >{$ item.family $} ({$ item.count $})</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="well" ng-show="family_count_list.length">
+    <h4 ng-show="family" style="margin-left: 40%;margin-top: 0;">TF <span ng-show="cofactors">cofactor</span> Family: {$family$} ({$ all_tf_species_count $} TFs)</h4>
+    <span >
+                <ng-echarts id="barchart1" ec-config="lineConfig1"  ec-option="lineOption1" style="width:1800px;height: 300px;margin-bottom: 10px;margin-left: 20%" ></ng-echarts>
+                </span>
+    <div style="width: 100%;text-align: center" >
+        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+            <tbody>
+            <tr ng-repeat="item in family_count_list" style="display: inline;">
+                <td style="width: 250px"><a href="#!/tf_detail?species={$ item.species $}&family={$ family $}" target="_self"><span ng-hide="item.bold_tag">{$ item.species $}</span><span ng-show="item.bold_tag" style="font-weight: bolder;color: red">{$ item.species $}</span></a>({$ item.count $})</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="well" ng-show="cofactors_family_count_list.length">
+    <h4 ng-show="family" style="margin-left: 35%;">TF <span ng-show="cofactors">cofactor</span> Family: {$family$} ({$ all_cofactors_species_count $} TF Cofactors)</h4>
+    <span>
+                <ng-echarts id="barchart_cofactors1" ec-config="lineConfig2"  ec-option="lineOption2" style="width:1800px;height: 300px;margin-bottom: 10px;margin-left: 20%" ></ng-echarts>
+                </span>
+    <div style="width: 100%;text-align: center" ng-show="cofactors_family_count_list.length">
+        <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+            <tbody>
+            <tr ng-repeat="item in cofactors_family_count_list" style="display: inline;">
+                <td style="width: 250px"><a href="#!/tf_detail?species={$ item.species $}&family={$ family $}&cofactors=1" target="_self"><span ng-hide="item.bold_tag">{$ item.species $}</span><span ng-show="item.bold_tag" style="font-weight: bolder;color: red">{$ item.species $}</span></a>({$ item.count $})</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+

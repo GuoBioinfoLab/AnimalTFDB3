@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	195.5	0.1	1.1e-60	4.4e-59	2	199	222	422
+
+  Alignments for each domain:
+  == domain 1  score: 195.5 bits;  conditional E-value: 1.1e-60
+         RXR-like   2 cetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek..evekildleevrvLqelvtk 93 
+                      ce+aarl+f++V+wak++p f++Lpl+dq+ LL++sW+el++L+ aq  +pl+++ +l+ ++  ++r+ ++    ++      e++ +qe++++
+  Q_APLA003009-PA 222 CESAARLIFMNVKWAKNVPSFTNLPLQDQLLLLEESWRELFVLGSAQFLMPLELG-HLTHYSGILERHPNKAdnIIN------EIKQFQEILSR 308
+                      9******************************************************.666665555554443322444......4556******* PP
+
+         RXR-like  94 lrdlqldatEyacLkaIvlfnpdt.........daagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffs 178
+                      l+++q+d +EyacL+aIvlf+  t         + ++l+++  +  ++++ q  l++yi + +p+qp rFgklLl+Lp lr++s +tieelff+
+  Q_APLA003009-PA 309 LAQFQIDTHEYACLRAIVLFKT-TfenpnvgtsEEKSLTNPTCVGIVQDQTQLMLNKYIATAHPGQPLRFGKLLLLLPMLRNVSGETIEELFFR 401
+                      **********************.55********************************************************************* PP
+
+         RXR-like 179 kliGdtpietlllemlesskp 199
+                      k+iG++pi++++++m+++ +p
+  Q_APLA003009-PA 402 KTIGNIPIVKIICDMYKNASP 422
+                      *****************9876 PP
+

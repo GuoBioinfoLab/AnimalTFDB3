@@ -2,7 +2,8 @@
 "use strict";
 
 angular.module('AnimalTFDB3')
-    .controller('PredictController', PredictController);
+    .controller('PredictController', PredictController)
+    .controller('TfbsPredictController',TfbsPredictController);
 
 function PredictController($scope,$http,$routeParams,AnimalTFDBservice,$window) {
     $scope.result=0;
@@ -10,7 +11,7 @@ function PredictController($scope,$http,$routeParams,AnimalTFDBservice,$window) 
     console.log("PredictController loaded");
     var result_dir="";
     $scope.load=function () {
-        $("#input_seq").val(">Q7Z591\n"+"MASSETEIRWAEPGLGKGPQRRRWAWAEDKRDVDRSSSQSWEEERLFPNATSPELLEDFR\n" +
+        $scope.input_seq=">Q7Z591\n"+"MASSETEIRWAEPGLGKGPQRRRWAWAEDKRDVDRSSSQSWEEERLFPNATSPELLEDFR\n" +
             "LAQQHLPPLEWDPHPQPDGHQDSESGETSGEEAEAEDVDSPASSHEPLAWLPQQGRQLDM\n" +
             "TEEEPDGTLGSLEVEEAGESSSRLGYEAGLSLEGHGNTSPMALGHGQARGWVASGEQASG\n" +
             "DKLSEHSEVNPSVELSPARSWSSGTVSLDHPSDSLDSTWEGETDGPQPTALAETLPEGPS\n" +
@@ -120,14 +121,12 @@ function PredictController($scope,$http,$routeParams,AnimalTFDBservice,$window) 
             "LSDTAGLREGVGPVEQEGVRRARERLEQADLILAMLDASDLASPSSCNFLATVVASVGAQ\n" +
             "SPSDSSQRLLLVLNKSDLLSPEGPGPGPDLPPHLLLSCLTGEGLDGLLEALRKELAAVCG\n" +
             "DPSTDPPLLTRARHQHHLQGCLDALGHYKQSKDLALAAEALRVARGHLTRLTGGGGTEEI\n" +
-            "LDIIFQDFCVGK\n"
-
-        );
+            "LDIIFQDFCVGK\n";
     };
     $scope.get_result=function () {
         var base_url = AnimalTFDBservice.getAPIBaseUrl();
         $scope.predict_start=1;
-        var seq=$("#input_seq").val();
+        var seq=$scope.input_seq;
         $http({
             url: base_url + '/api/prediction',
             method: 'POST',
@@ -151,6 +150,75 @@ function PredictController($scope,$http,$routeParams,AnimalTFDBservice,$window) 
         window.open("/static/AnimalTFDB3/predict_result_tmp_file/"+result_dir+"/"+tf+"_alignment.detail","_blank");
     };
     $scope.reset=function () {
-        $("#input_seq").val("");
+        $scope.input_seq="";
     }
+}
+function TfbsPredictController($scope,$http,$routeParams,AnimalTFDBservice,$window) {
+    var base_url = AnimalTFDBservice.getAPIBaseUrl();
+     $("[data-toggle='popover']").popover();
+    var result_list=[];
+    $scope.load=function () {
+        $scope.fasta=">Example\nATCGATCGACTAGCTAGCTAGCTACGATCGATCGATCAGCTGACTGACTAGCTACGTCG";
+    };
+    $scope.reset=function () {
+        $scope.input_seq="";
+    };
+    $scope.predict = function () {
+        if (!$scope.fasta || !$scope.fasta.trim()) {
+            alert("Please input a fasta sequence!");
+            return;
+        }
+        $scope.loading = true;
+        $scope.result=0;
+        $scope.tfs=[];
+        $scope.prediction_results = null; 
+        $http({
+            url: base_url + '/api/tfbs_prediction',
+            method: 'POST',
+            data: {fasta:$scope.fasta}
+        }).then(
+            function (response) {
+                $scope.loading = false;
+                console.log(response.data.result);
+                result_list=response.data.result;
+                $scope.result_ls=result_list;
+                var check_list=[];
+                var tf_list=[];
+                if (result_list.length>0){
+                    $scope.result=1
+                }else{
+                    $scope.zero=1
+                }
+                tf_list.push({"tf":"All"});
+                for (var i=0;i<result_list.length;i++){
+                    var spe=result_list[i];
+                    var va=spe["tf"];
+                    if (check_list.indexOf(va)<0){
+                        check_list.push(va);
+                        tf_list.push({"tf":va})
+                    }
+                }
+                $scope.tf_list=tf_list;
+            },
+            function () {
+                $scope.loading = false;
+            }
+        )
+    };
+    $scope.filter_tf=function () {
+        var tf = $("#filter_tf").val();
+        var new_arr=[];
+        if (tf=="All"){
+            $scope.result_ls=result_list
+        }else{
+            for(var i=0;i<result_list.length;i++){
+                var temp=result_list[i];
+                if (temp["tf"]==tf){
+                    new_arr.push(temp)
+                }
+            }
+            $scope.result_ls=new_arr
+        }
+
+    };
 }

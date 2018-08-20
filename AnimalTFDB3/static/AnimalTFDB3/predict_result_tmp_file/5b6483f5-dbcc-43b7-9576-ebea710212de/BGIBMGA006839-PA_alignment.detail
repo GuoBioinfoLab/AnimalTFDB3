@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	129.0	0.1	1.4e-40	9e-39	7	194	232	413
+2	-2.7	0.0	2.9	2e+02	64	86	568	592
+
+  Alignments for each domain:
+  == domain 1  score: 129.0 bits;  conditional E-value: 1.4e-40
+          THR-like   7 lvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgeliesvfkf 99 
+                          +f++++++ i+ v++Fa  ipgF+ l+q+D+ tLLk++ ++++++rl  +f+   + +   +++l++rd+++s+ +      l++s fkf
+  BGIBMGA006839-PA 232 SEKEFSQRFAHVIRGVIDFAGLIPGFQLLTQDDKFTLLKSGLFDALFVRLICMFDAPLNSIICLNGQLMKRDSIQSGAN---ARFLVDSTFKF 321
+                       55789999***********************************************876666655777*********986...67789****** PP
+
+          THR-like 100 akslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlkvee 192
+                       a++++s+nl+d+e+ L++a++l+ P drpg++n + ve++  ++   l++++ +++p  ++p ++  L+  l++lR+l++ h+e+lv++++e+
+  BGIBMGA006839-PA 322 AERMNSMNLTDAEIGLFCAIVLITP-DRPGLRNIELVERMHSRLKACLQTVIAQNRP--ERPGFLRELMDTLPDLRTLSTLHTEKLVVFRTEH 411
+                       ************************9.*******************************..57*****************************999 PP
+
+          THR-like 193 pk 194
+                       ++
+  BGIBMGA006839-PA 412 KE 413
+                       75 PP
+
+  == domain 2  score: -2.7 bits;  conditional E-value: 2.9
+          THR-like  64 sdtvtlndaelvtrdqlrslgr..p 86 
+                       + t+tl d++++  +++r+++r  +
+  BGIBMGA006839-PA 568 GGTSTLMDETYKPHKKFRAMRRdtG 592
+                       5678888888888888888887643 PP
+

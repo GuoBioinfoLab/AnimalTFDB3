@@ -1,0 +1,29 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	79.8	0.0	5.9e-25	1.3e-23	2	103	220	322
+2	85.7	2.1	9.3e-27	2e-25	189	272	325	408
+
+  Alignments for each domain:
+  == domain 1  score: 79.8 bits;  conditional E-value: 5.9e-25
+            ESR-like   2 rldrgklkvrgerqkykrkpesessetlqlltqsptkslellp....aeklvsvlleaEPekvyagedsskpdteasllssLtdLadrelv 88 
+                         r++r+++  r  r++++++++ ++  ++++   ++ +++ell     +e+lv +lleaEP++v+++++s  p+teas+++sLt+Lad+elv
+  PrHsapNP_001258806 220 RRERCGY--RLVRRQRSADEQLHCAGKAKRSGGHAPRVRELLLdalsPEQLVLTLLEAEPPHVLISRPS-APFTEASMMMSLTKLADKELV 307
+                         8999999..6677888888999***********99999999889999********************88.9******************** PP
+
+            ESR-like  89 vvikWAkkiPGFsdL 103
+                         ++i+WAkkiPG   L
+  PrHsapNP_001258806 308 HMISWAKKIPGMYPL 322
+                         ***********8776 PP
+
+  == domain 2  score: 85.7 bits;  conditional E-value: 9.3e-27
+            ESR-like 189 psegledqekleelrdalieaLkkviaksrkssqqrssrlakLLllLpelrqasnklvehllsekrkekVelpklllemleaql 272
+                         ++++ ++++kl +l++a+++aL++viaks+ ssqq+s+rla+LL+lL+++r+asnk++ehll++k+k++V++++llleml+a++
+  PrHsapNP_001258806 325 ATQDADSSRKLAHLLNAVTDALVWVIAKSGISSQQQSMRLANLLMLLSHVRHASNKGMEHLLNMKCKNVVPVYDLLLEMLNAHV 408
+                         478899***************************************************************************985 PP
+

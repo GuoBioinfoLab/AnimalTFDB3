@@ -1,0 +1,66 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	64.9	7.5	7.8e-21	3.2e-19	1	68	112	179
+2	33.7	4.5	4.1e-11	1.7e-09	2	68	197	263
+3	26.2	0.3	9.1e-09	3.7e-07	1	64	298	357
+4	53.6	4.4	2.5e-17	1e-15	1	63	407	469
+5	13.9	6.3	6.6e-05	0.0027	33	67	513	547
+6	19.6	2.1	1.1e-06	4.4e-05	2	62	569	627
+7	-0.5	0.1	2.1	84	40	62	635	657
+
+  Alignments for each domain:
+  == domain 1  score: 64.9 bits;  conditional E-value: 7.8e-21
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                      pk+pl+ +f+f++e+rak+++ +Pe++n +++k+l++k+k+l+e++K+kY++++++ek+++e++ +++
+  PrHsapNP_055048 112 PKKPLTPYFRFFMEKRAKYAKLHPEMSNLDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARF 179
+                      8***************************************************************9988 PP
+
+  == domain 2  score: 33.7 bits;  conditional E-value: 4.1e-11
+                      -SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+              HMG   2 kRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                       +p +   l++ ++++ + +  P+++ +e++  lg++W++ls++++ k++ ka +++++ye+ +++y
+  PrHsapNP_055048 197 EKPKTPQQLWYTHEKKVYLKVRPDATTKEVKDSLGKQWSQLSDKKRLKWIHKALEQRKEYEEIMRDY 263
+                      577777789*******************************************************999 PP
+
+  == domain 3  score: 26.2 bits;  conditional E-value: 9.1e-09
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryeke 64 
+                      +k p++++ l++ e  a++k        +e ++ ++++Wk ls++eK  Y++k ++ k+ ye e
+  PrHsapNP_055048 298 TKPPPNSYSLYCAELMANMKD----VPSTERMVLCSQQWKLLSQKEKDAYHKKCDQKKKDYEVE 357
+                      599*********999998885....5678889*****************************966 PP
+
+  == domain 4  score: 53.6 bits;  conditional E-value: 2.5e-17
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryek 63 
+                      pkRp+sa f+fs+e+r++l +e Pel+ +e+++ l+++W++lse++K+kY+++ +++ka+ e+
+  PrHsapNP_055048 407 PKRPVSAMFIFSEEKRRQLQEERPELSESELTRLLARMWNDLSEKKKAKYKAREAALKAQSER 469
+                      8******************************************************99998765 PP
+
+  == domain 5  score: 13.9 bits;  conditional E-value: 6.6e-05
+                      HHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCC CS
+              HMG  33 kklgekWkalseeeKkkYeekaekekaryekekpe 67 
+                      k ++ +W++++++eK  +++ka+++++rye+e +e
+  PrHsapNP_055048 513 KAMEMTWNNMEKKEKLMWIKKAAEDQKRYERELSE 547
+                      667789*************************9875 PP
+
+  == domain 6  score: 19.6 bits;  conditional E-value: 1.1e-06
+                      -SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHH CS
+              HMG   2 kRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekarye 62 
+                      k p++ +  fs+e   +   e  +l  +e ++++g +W+  s+++K++Y++ ae+++++y+
+  PrHsapNP_055048 569 KPPMNGYQKFSQELLSN--GELNHLPLKERMVEIGSRWQRISQSQKEHYKKLAEEQQKQYK 627
+                      88999999999999987..5667788899999****************************8 PP
+
+  == domain 7  score: -0.5 bits;  conditional E-value: 2.1
+                      HCSHHHHHHHHHHHHHHHHHHHH CS
+              HMG  40 kalseeeKkkYeekaekekarye 62 
+                      k+ls+++++ Y+e  +  ++ + 
+  PrHsapNP_055048 635 KSLSPQDRAAYKEYISNKRKSMT 657
+                      7899*******999888887765 PP
+

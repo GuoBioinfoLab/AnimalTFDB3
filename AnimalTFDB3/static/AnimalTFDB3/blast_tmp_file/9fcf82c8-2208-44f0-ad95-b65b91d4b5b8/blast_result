@@ -1,0 +1,94 @@
+<HTML>
+<TITLE>BLAST Search Results</TITLE>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#660099" ALINK="#660099">
+<PRE>
+<b>BLASTP 2.2.26 [Sep-21-2011]</b>
+
+
+<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids
+=9254694&dopt=Citation">Reference</a>:</b>
+Altschul, Stephen F., Thomas L. Madden, Alejandro A. Sch&auml;ffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids
+=16218944&dopt=Citation">Reference for compositional score matrix adjustment</a>:</b>
+Altschul, Stephen F., John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Sch&auml;ffer, and Yi-Kuo Yu (2005) "Protein database
+searches using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+<b>Query=</b> ENSP00000415151
+         (187 letters)
+
+<b>Database:</b> Cavia_porcellus 
+           1738 sequences; 1,015,011 total letters
+
+Searching..................................................done
+
+<PRE>
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+ENSCPOP00000009720 ENSCPOG00000010825 symbol: family:CBF species...   <a href = #46> 99</a>   9e-28
+</PRE>
+<PRE>
+><a name = 46></a>ENSCPOP00000009720 ENSCPOG00000010825 symbol: family:CBF
+           species:Cavia_porcellus
+          Length = 85
+
+ Score = 99.4 bits (246), Expect = 9e-28,   Method: Compositional matrix adjust.
+ Identities = 50/70 (71%), Positives = 50/70 (71%)
+
+Query: 101 MILNGVCVIWKGWIDLQRLDGMGCLEFDEERAQQEDALAQQXXXXXXXXXXXXXXXXXSH 160
+           MILNGVCVIWKGWIDLQRLDGMGCLEFDEERAQQEDALAQQ                 SH
+Sbjct: 1   MILNGVCVIWKGWIDLQRLDGMGCLEFDEERAQQEDALAQQAFEEARRRTREFEDRDRSH 60
+
+Query: 161 REEMEARRQQ 170
+           REEME R  Q
+Sbjct: 61  REEMEVRVSQ 70
+</PRE>
+
+
+<PRE>
+  Database: Cavia_porcellus
+    Posted date:  Jun 16, 2018  9:56 AM
+  Number of letters in database: 1,015,011
+  Number of sequences in database:  1738
+  
+Lambda     K      H
+   0.319    0.135    0.412 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 1738
+Number of Hits to DB: 416,729
+Number of extensions: 16668
+Number of successful extensions: 31
+Number of sequences better than 1.0e-05: 1
+Number of HSP's gapped: 30
+Number of HSP's successfully gapped: 1
+Length of query: 187
+Length of database: 1,015,011
+Length adjustment: 78
+Effective length of query: 109
+Effective length of database: 879,447
+Effective search space: 95859723
+Effective search space used: 95859723
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 89 (38.9 bits)
+</PRE>
+</BODY>
+</HTML>

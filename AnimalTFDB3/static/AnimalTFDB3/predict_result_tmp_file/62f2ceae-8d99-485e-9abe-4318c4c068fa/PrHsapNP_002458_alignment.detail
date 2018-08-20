@@ -1,0 +1,34 @@
+HMM length of domain: 55 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.4	0.0	7.4	1.2e+02	27	49	71	119
+2	52.6	1.5	1e-16	1.6e-15	1	55	370	422
+3	4.5	1.9	0.11	1.7	10	25	436	451
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 7.4
+                      SCCCH...........................TTSS-STHHHHHHHHHH CS
+             bHLH  27 lPkas..........................kakskKlsKaeiLekAve 49 
+                      lP+++                           ++++  s a+ Le+++e
+  PrHsapNP_002458  71 LPTPPlspsrrsglcspsyvavtpfslrgdnDGGGGSFSTADQLEMVTE 119
+                      5554445555555555556666666666666667777899999999987 PP
+
+  == domain 2  score: 52.6 bits;  conditional E-value: 1e-16
+                      CHHHHHHHHHHHHHHHHHHHHHHHHCSCCCH.TTSS-STHHHHHHHHHHHHHHHH CS
+             bHLH   1 rRtahnerErrRRdriNdafeeLrellPkaskakskKlsKaeiLekAveYIkqLq 55 
+                      +R++hn +Er+RR++++ +f+ Lr+ +P++  ++++K  K+ iL+kA+ YI + q
+  PrHsapNP_002458 370 KRRTHNVLERQRRNELKRSFFALRDQIPEL--ENNEKAPKVVILKKATAYILSVQ 422
+                      79***************************7..6******************9876 PP
+
+  == domain 3  score: 4.5 bits;  conditional E-value: 0.11
+                      HHHHHHHHHHHHHHHH CS
+             bHLH  10 rrRRdriNdafeeLre 25 
+                      r+RR+++++++e+Lr 
+  PrHsapNP_002458 436 RKRREQLKHKLEQLRN 451
+                      9*************95 PP
+

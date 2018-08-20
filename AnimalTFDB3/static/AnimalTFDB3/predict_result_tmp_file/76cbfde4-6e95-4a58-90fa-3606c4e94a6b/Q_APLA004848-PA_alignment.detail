@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	8.5	0.1	0.035	0.14	12	26	117	131
+2	16.1	6.8	0.00014	0.00058	5	25	138	158
+3	27.5	1.9	3.4e-08	1.4e-07	1	25	162	186
+4	8.0	0.0	0.049	0.2	1	25	190	223
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.035
+        zf-H2C2_2  12 ekpyeCplCdkaFkt 26 
+                      e+p+ C+ C+k Fk+
+  Q_APLA004848-PA 117 ETPHICDICGKGFKH 131
+                      89999********98 PP
+
+  == domain 2  score: 16.1 bits;  conditional E-value: 0.00014
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H  +Htgek+y+C +C+  F 
+  Q_APLA004848-PA 138 HKLSHTGEKKYKCTYCKRCFL 158
+                      6678*************9996 PP
+
+  == domain 3  score: 27.5 bits;  conditional E-value: 3.4e-08
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      +LrrHl+ Ht+ek + C+ C  +F+
+  Q_APLA004848-PA 162 HLRRHLKIHTNEKSHVCSICERSFA 186
+                      79********************996 PP
+
+  == domain 4  score: 8.0 bits;  conditional E-value: 0.049
+        zf-H2C2_2   1 nLrrHlrkHtgekp.y........eCplCdkaFk 25 
+                      nL  H + H +++  y         C +C  +Fk
+  Q_APLA004848-PA 190 NLLAHQKLHSSQRNnYqtatsgslRCQVCQQVFK 223
+                      7889******99844555666666******9998 PP
+

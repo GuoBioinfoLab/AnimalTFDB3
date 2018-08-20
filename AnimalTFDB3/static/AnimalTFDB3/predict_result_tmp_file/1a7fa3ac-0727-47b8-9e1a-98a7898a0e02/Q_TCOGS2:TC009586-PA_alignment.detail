@@ -1,0 +1,32 @@
+HMM length of domain: 273 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	271.2	26.9	2.1e-84	4.7e-82	11	271	27	293
+
+  Alignments for each domain:
+  == domain 1  score: 271.2 bits;  conditional E-value: 2.1e-84
+                 NF-YC  11 sssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtednkrrtlqrn 99 
+                           + s+aq+ l+ fwp+ me+ir++   d++ q lplarikkimkldedvkmisaeap+lfakaa+ifi eltlrawihtednkrrtlqrn
+  Q_TCOGS2:TC009586-PA  27 TQSEAQNVLNQFWPKAMEDIRAIRNMDLKQQVLPLARIKKIMKLDEDVKMISAEAPLLFAKAAEIFIQELTLRAWIHTEDNKRRTLQRN 115
+                           5789************************************************************************************* PP
+
+                 NF-YC 100 diamaitkfdqfdflidivprdelkppkrqeevrqsvtpaepvqyyftlaqqpaavqvqgqqqgqqt..tss.tttiqpgqiiiaqpqq 185
+                           diamai+k+dqfdflidivprd++kp k +e+  ++        yyf laqq  a   q++  g  t  t+  t+t   g i i qpqq
+  Q_TCOGS2:TC009586-PA 116 DIAMAISKYDQFDFLIDIVPRDDMKPAKPREDATRTS--NSDQVYYFQLAQQHHANLQQNTGAGTATaaTAPtTVTQAQGAIQIVQPQQ 202
+                           ****************************999976654..34456*********999888888877663233303344568899****** PP
+
+                 NF-YC 186 gqttpvtmqvgegqq....vqivqaqaqgqaqqaq.sgtgqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtqvvqgqiqt 269
+                            qt +v     ++          q+    qa qa  +++   +q++qqi+t +geiqqip++l+  qlq i++  +  ++q v  q+  
+  Q_TCOGS2:TC009586-PA 203 VQTVQVNALDQNAASssppNTSAQTPVLIQAGQAIaQNQPGNVQIVQQIVTPSGEIQQIPINLTPQQLQMIKMQLQGNTSQPVIIQTAP 291
+                           **99997533322220011233444444565555436677789*****************************98888888877666655 PP
+
+                 NF-YC 270 la 271
+                           +a
+  Q_TCOGS2:TC009586-PA 292 IA 293
+                           55 PP
+

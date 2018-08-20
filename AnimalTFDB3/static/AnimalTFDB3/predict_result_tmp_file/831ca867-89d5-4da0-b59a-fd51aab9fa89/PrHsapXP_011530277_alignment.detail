@@ -1,0 +1,32 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	329.4	0.5	3e-101	9.3e-100	1	271	677	971
+
+  Alignments for each domain:
+  == domain 1  score: 329.4 bits;  conditional E-value: 3e-101
+            ESR-like   1 vrldr.gklkvrgerqkykrk...................pesessetlqlltqsptkslellpaeklvsvlleaEPekvyagedsskpdt 71 
+                         +++++ gklk+ +e+q+++++                   p +e+s +++l++q +t s++l+p  + v+vl+++EPe vyag+dsskpdt
+  PrHsapXP_011530277 677 RKSKKlGKLKGIHEEQPQQQQppppppppqspeegttyiaPAKEPSVNTALVPQLSTISRALTP--SPVMVLENIEPEIVYAGYDSSKPDT 765
+                         5889999************99******************************************9..************************* PP
+
+            ESR-like  72 easllssLtdLadrelvvvikWAkkiPGFsdLsleDQmkLlqssWmeilvlglvwRSlkh..egkLiFApdlvldeekkkvegllelfdal 160
+                         +++lls+L++La++++++v+kWAk +PGF++L+leDQ++L+q+sWm++ +++l+wRS+kh  ++ L+FApdlv++eek+++++++el++ +
+  PrHsapXP_011530277 766 AENLLSTLNRLAGKQMIQVVKWAKVLPGFKNLPLEDQITLIQYSWMCLSSFALSWRSYKHtnSQFLYFAPDLVFNEEKMHQSAMYELCQGM 856
+                         ************************************************************999**************************** PP
+
+            ESR-like 161 lqlsqrfreLklereEyvclKallLlns.psegledqekleelrdalieaLkkviaksrkssqq...rssrlakLLllLpelrqasnklve 247
+                         +q+s +f++L+l+ eEy+++K+llLl++ p++gl++q+++ee+r+++i++L+k+++k+ ++s q   r+++l+kLL+++++l++++ ++++
+  PrHsapXP_011530277 857 HQISLQFVRLQLTFEEYTIMKVLLLLSTiPKDGLKSQAAFEEMRTNYIKELRKMVTKCPNNSGQswqRFYQLTKLLDSMHDLVSDLLEFCF 947
+                         **************************************************************99999************************ PP
+
+            ESR-like 248 hllsekrkekVelpklllemleaq 271
+                         ++++e+++ kVe+p +l+e++++q
+  PrHsapXP_011530277 948 YTFRESHALKVEFPAMLVEIISDQ 971
+                         *********************998 PP
+

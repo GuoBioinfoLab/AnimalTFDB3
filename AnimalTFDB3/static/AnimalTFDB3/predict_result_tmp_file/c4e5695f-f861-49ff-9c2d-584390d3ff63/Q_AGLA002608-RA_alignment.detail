@@ -1,0 +1,32 @@
+HMM length of domain: 111 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	50.8	0.0	1.9e-16	2.9e-15	5	102	30	128
+2	1.3	0.1	0.44	6.8	9	48	396	433
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.9e-16
+                      HHHTTTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTST..TTTTCCCE..EEEETTSGHHHHHHHHHHHHHSEEEC-CGGGHHHHHHHHHHH CS
+             ZBTB   5 resgelcDvtlvvgdgkefkahkavLaarSpyFkalftsk..eieessvs..eielddvepeafealLefiYtgeleitseenleelLaaadll 94 
+                      ++++++ Dv+lv+ dg++++ah++vL  +S ++ + ++ +    ++       i  +++++++++ l++++Y+ge +++ +e l+++L+  d+l
+  Q_AGLA002608-RA  30 LQNDSFADVALVTVDGHQIMAHRFVLTYSSLFLAQVLKFQpkATTAL--PlvIIMPPEIDYKSLKVLVRYMYSGEAKVS-KEILNNVLRGGDIL 120
+                      57789**********************99999999888884333333..2559999**********************6.************** PP
+
+                      T-HHHHHH CS
+             ZBTB  95 qiprlkka 102
+                      q++ l ++
+  Q_AGLA002608-RA 121 QVKGLYRE 128
+                      ***99776 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.44
+                      TTS-EEEEETTTEEEEE-HHHHHHH-HHHHHHHTSTTTTT CS
+             ZBTB   9 elcDvtlvvgdgkefkahkavLaarSpyFkalftskeiee 48 
+                      + +D  l +  +k+++  k v+ a S++ ++ +++  +++
+  Q_AGLA002608-RA 396 THTDFELHLS-NKKIHHGKSVVTAPSTITSSALNEL-SKK 433
+                      678999****.6**************9988888877.333 PP
+

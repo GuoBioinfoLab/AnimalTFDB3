@@ -1,0 +1,34 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	35.0	0.0	1.7e-11	6.8e-10	1	38	246	283
+2	21.8	1.5	2.3e-07	9.1e-06	38	68	350	380
+3	20.0	0.6	8.2e-07	3.2e-05	39	69	553	583
+
+  Alignments for each domain:
+  == domain 1  score: 35.0 bits;  conditional E-value: 1.7e-11
+                      --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHH CS
+              HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgek 38 
+                      +k+pl+af+l++ke+rak++ae++  + a+i+++lg++
+  Q_AGLA008577-RA 246 IKKPLNAFMLYMKEMRAKVVAECTLKESAAINQILGRR 283
+                      69**********************************86 PP
+
+  == domain 2  score: 21.8 bits;  conditional E-value: 2.3e-07
+                      HHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+              HMG  38 kWkalseeeKkkYeekaekekaryekekpey 68 
+                      +W++l++ee++kY+eka++e++ +++ +p +
+  Q_AGLA008577-RA 350 TWHSLTREEQAKYYEKARQERQLHMQLYPGW 380
+                      7***************************998 PP
+
+  == domain 3  score: 20.0 bits;  conditional E-value: 8.2e-07
+                      HHCSHHHHHHHHHHHHHHHHHHHHHHHCCHH CS
+              HMG  39 WkalseeeKkkYeekaekekaryekekpeyk 69 
+                      W+al +ee++kY+e a++e++ +++ +p+++
+  Q_AGLA008577-RA 553 WHALGREEQAKYYELARRERQLHMQLYPDWS 583
+                      ****************************995 PP
+

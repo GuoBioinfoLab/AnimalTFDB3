@@ -1,0 +1,45 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	6.5	0.1	0.15	0.62	13	26	90	103
+2	21.9	0.8	2e-06	8.4e-06	2	25	107	130
+3	22.3	0.1	1.5e-06	6.2e-06	2	25	135	158
+4	16.3	7.8	0.00012	0.00051	4	25	165	186
+5	30.8	0.7	3e-09	1.2e-08	1	25	190	214
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.15
+        zf-H2C2_2  13 kpyeCplCdkaFkt 26 
+                      k yeC  C+k F +
+  Q_APLA000581-PA  90 KVYECGICSKEFGH 103
+                      45**********87 PP
+
+  == domain 2  score: 21.9 bits;  conditional E-value: 2e-06
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L+rHl +Ht e++++C  C+kaF 
+  Q_APLA000581-PA 107 LMRHLPTHTDERKFQCNTCGKAFR 130
+                      89*********************6 PP
+
+  == domain 3  score: 22.3 bits;  conditional E-value: 1.5e-06
+        zf-H2C2_2   2 LrrHlrkHtgekpyeCplCdkaFk 25 
+                      L++H + H  e+py C+ C k+F+
+  Q_APLA000581-PA 135 LSQHRAIHSAERPYVCEICQKTFN 158
+                      899********************8 PP
+
+  == domain 4  score: 16.3 bits;  conditional E-value: 0.00012
+        zf-H2C2_2   4 rHlrkHtgekpyeCplCdkaFk 25 
+                       H ++Ht  kp+ C lC+kaF 
+  Q_APLA000581-PA 165 SHRKTHTDHKPHRCHLCNKAFH 186
+                      7********************5 PP
+
+  == domain 5  score: 30.8 bits;  conditional E-value: 3e-09
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCplCdkaFk 25 
+                      nLr H+ +Ht+e+py+C++C+k F+
+  Q_APLA000581-PA 190 NLRNHIFTHTNERPYKCDVCSKGFN 214
+                      8***********************7 PP
+

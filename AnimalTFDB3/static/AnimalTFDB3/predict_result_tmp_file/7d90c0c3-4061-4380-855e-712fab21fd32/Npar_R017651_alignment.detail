@@ -1,0 +1,36 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.7	1.3	2.2	4.5e+02	43	59	27	43
+2	-7.0	9.5	5	1e+03	44	66	266	288
+3	54.4	3.6	3.6e-18	7.1e-16	2	64	363	425
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 2.2
+                  HHHHHHHHHHHHHHHHH CS
+           HMG 43 seeeKkkYeekaekeka 59
+                  ++e+K+ Y++  ++e +
+  Npar_R017651 27 QREKKRSYKDLLREEEE 43
+                  57899999999988866 PP
+
+  == domain 2  score: -7.0 bits;  conditional E-value: 5
+                   HHHHHHHHHHHHHHHHHHHHHHC CS
+           HMG  44 eeeKkkYeekaekekaryekekp 66 
+                   e +Kkk  +k++k k +++++k 
+  Npar_R017651 266 ETKKKKKSKKSKKKKDKHKEDKH 288
+                   67888889999999999999875 PP
+
+  == domain 3  score: 54.4 bits;  conditional E-value: 3.6e-18
+                   -SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHH CS
+           HMG   2 kRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryeke 64 
+                   k+++sa+ +fske r ++ +e+P++   e+skkl+e Wk+l+e++K  +++ka+ ++++ +k+
+  Npar_R017651 363 KKNMSAYQVFSKEYRSSIISEHPGIDFGELSKKLAEVWKQLPEKDKLVWKQKAQYLQHKQNKA 425
+                   9*****************************************************999988776 PP
+
+
+

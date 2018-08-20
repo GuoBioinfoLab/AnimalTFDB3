@@ -1,0 +1,26 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	27.3	3.6	9.5e-09	1.2e-07	2	57	87	153
+2	31.3	1.9	5.1e-10	6.5e-09	10	57	412	469
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 9.5e-09
+                      T-SSSS-HH.HHHHHHHHHHHSSS-SHHHHHHHHHHH..........TS-HHHHHHHHHHHHHHHHH CS
+         Homeobox   2 rkRttftke.qleeLeelFeenrypsaeereeLAkkl..........gLeerqVkvWFqNrRakekk 57 
+                      r Rt+f +e +l  L++ F en++ps++++++  k+l           L+ ++V +WF+N Ra +k+
+  Q_LDEC014136-PA  87 RMRTSFDPElELPKLQRWFTENQHPSRQQIQQYVKELnnlesrrgrkPLDINNVVYWFKNARAAQKR 153
+                      7899999876899********************************999****************997 PP
+
+  == domain 2  score: 31.3 bits;  conditional E-value: 5.1e-10
+                      HHHHHHHHHHHHSSS-SHHHHHHHHHHH..........TS-HHHHHHHHHHHHHHHHH CS
+         Homeobox  10 eqleeLeelFeenrypsaeereeLAkkl..........gLeerqVkvWFqNrRakekk 57 
+                      +++ +Le+ F  n +ps++ + + +++l          +Le ++V++WF+NrRak k+
+  Q_LDEC014136-PA 412 TEVPRLEQWFSLNTHPSHNLILKYTEELncmayrqkfpRLEPKNVQFWFKNRRAKCKR 469
+                      46779***************************************************97 PP
+

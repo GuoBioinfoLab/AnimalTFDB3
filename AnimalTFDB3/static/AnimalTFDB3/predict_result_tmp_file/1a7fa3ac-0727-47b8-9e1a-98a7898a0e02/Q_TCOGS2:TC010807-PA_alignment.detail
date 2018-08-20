@@ -1,0 +1,48 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	252.9	22.6	2.4e-79	2.1e-76	2	333	751	1080
+2	10.8	0.1	1.1e-05	0.0096	81	133	1218	1270
+3	-2.1	0.1	0.093	81	135	162	1375	1402
+
+  Alignments for each domain:
+  == domain 1  score: 252.9 bits;  conditional E-value: 2.4e-79
+                 PLU-1    2 Waekveelle..eeskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllskkqrtRrkneaeeeeeekeklslee 86  
+                            W ++v+++l+  + ++++L+el++llnea+ +kfp+++ll++L+++v++aek++ ++qql  +k+rtR++n     +++k+kl+l+e
+  Q_TCOGS2:TC010807-PA  751 WVNRVKDALDpkTPKTLTLQELKALLNEADGKKFPKCDLLQTLTDAVEDAEKCARVIQQLDLNKMRTRTRNS----SDTKYKLTLKE 833 
+                            ***********99*********************************************************88....99********* PP
+
+                 PLU-1   87 lekLleeldslpFdlpeieqLkelleeieefrkkarellseesedssieeleklieeGksfnvelpeleeLkrvleqlkWleevrev 173 
+                            l  + eeldsl ++l+e++++k+llee ++f+ ++++ll+ + ++ s+++le++i++G+++++elp l  +k +l+q+ Wl++v ++
+  Q_TCOGS2:TC010807-PA  834 LILFHEELDSLVCVLEEAKSIKDLLEETKKFETTSKALLEMKLSECSLSDLEQCISQGNNLCIELPNLRSVKMRLRQCVWLNDVLSY 920 
+                            *****************************************99999***************************************** PP
+
+                 PLU-1  174 reekkqltleevkeLieeGeslaispek.eellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaalee 259 
+                            +++++ l le +k++i++G +l+ ++++ e +l++lq+ll+++e+weeka+ +L+ + +  l e+++ll+ea +i+ +lps + l e
+  Q_TCOGS2:TC010807-PA  921 KKKTEVLGLESIKNIIKTGTQLP-PNPEiEVELSELQALLSKSEEWEEKAQAILKDTGSEVLIEVDKLLKEAGQINSYLPSEEFLFE 1006
+                            988888*****************.78888**************************9******************************* PP
+
+                 PLU-1  260 alkkarelqrkveeliksaerptlseleellkkgeslpvkleeleeLekelsraedWlekakklFlkknaplsl 333 
+                            a++k r++ r++ee+++++  p+++++eel+k+g++l  +l e+++Le+ l++a++W+ek+++ Fl+kn++ +l
+  Q_TCOGS2:TC010807-PA 1007 AMDKSRDWLRQLEEMNSAECYPYFNDMEELIKRGHQLALHLVEVSKLESFLETANAWKEKTSRAFLRKNSSCTL 1080
+                            ***************777666*************************************************9988 PP
+
+  == domain 2  score: 10.8 bits;  conditional E-value: 1.1e-05
+                 PLU-1   81 klsleelekLleeldslpFdlpeieqLkelleeieefrkkarellseesedss 133 
+                            +  l+ +  Ll +l++l   +pe e+L+ l e+  +++ +ar+l+++ + +  
+  Q_TCOGS2:TC010807-PA 1218 RPRLDAILLLLMSLQKLFVRVPEGEALQSLTERAMNWQDRARQLIQQPELEAA 1270
+                            55677777888888888888888888888888888888888888888544433 PP
+
+  == domain 3  score: -2.1 bits;  conditional E-value: 0.093
+                 PLU-1  135 eeleklieeGksfnvelpeleeLkrvle 162 
+                            +++e+l+ eG+ + v l e  +L + l+
+  Q_TCOGS2:TC010807-PA 1375 KQIEELLMEGDLLEVYLDETFQLWKLLQ 1402
+                            5789999999999999999999988887 PP
+
+
+

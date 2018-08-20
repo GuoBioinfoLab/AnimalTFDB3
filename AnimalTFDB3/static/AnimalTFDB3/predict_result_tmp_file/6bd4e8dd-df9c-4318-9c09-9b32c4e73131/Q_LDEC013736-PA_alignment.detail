@@ -1,0 +1,38 @@
+HMM length of domain: 81 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-2.4	0.2	2.3	3.5e+02	30	48	70	88
+2	-2.5	0.1	2.5	3.7e+02	16	32	109	122
+3	-2.5	0.0	2.5	3.8e+02	46	62	192	208
+4	109.6	0.4	2.6e-35	4e-33	1	81	227	306
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 2.3
+              ETS 30 klvdpeevarlWgkrknkp 48
+                     k   ++++a +W+   n +
+  Q_LDEC013736-PA 70 KAKTNKNIAVQWKVDDNYK 88
+                     5555666777776665544 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 2.5
+              ETS  16 ssiiaWtdkekgeFklv 32 
+                      +++i+W  +    F l+
+  Q_LDEC013736-PA 109 RHWIQWAVR---QFNLT 122
+                      788999865...56555 PP
+
+  == domain 3  score: -2.5 bits;  conditional E-value: 2.5
+              ETS  46 nkpkmnyeklsralryy 62 
+                       k++m+  + s a+ry+
+  Q_LDEC013736-PA 192 TKKEMKILNYSTAVRYF 208
+                      56779999999999885 PP
+
+  == domain 4  score: 109.6 bits;  conditional E-value: 2.6e-35
+              ETS   1 qLwqFllelLedpskssiiaWtdkekgeFklvdpeevarlWgkrknkpkmnyeklsralryyykkgilekvkgkrlvYkFv 81 
+                      qLwqFllelL  +++ ++i+W+++ +geF++ +pe va+lWg rk+kp mnyeklsralryyy+ ++++kv+gkr+vYkFv
+  Q_LDEC013736-PA 227 QLWQFLLELLITREYGNVIQWIGN-DGEFRFNNPEVVAQLWGVRKKKPMMNYEKLSRALRYYYDGDMISKVHGKRFVYKFV 306
+                      8*********************98.9******************************************************7 PP
+

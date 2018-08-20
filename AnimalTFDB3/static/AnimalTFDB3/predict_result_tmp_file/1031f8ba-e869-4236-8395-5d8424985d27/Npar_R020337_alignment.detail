@@ -1,0 +1,62 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.1	0.1	0.19	1.9e+02	317	334	163	180
+2	308.3	15.0	3.5e-96	3.5e-93	1	334	540	871
+3	14.8	1.4	6.5e-07	0.00065	71	131	999	1067
+4	-2.4	0.0	0.12	1.2e+02	134	162	1237	1265
+5	1.8	13.4	0.006	6	7	72	1293	1373
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 0.19
+         PLU-1 317 lekakklFlkknaplsll 334
+                   +++a ++F+kk+++++l+
+  Npar_R020337 163 KDRADEMFKKKSSKFELF 180
+                   57999*********9986 PP
+
+  == domain 2  score: 308.3 bits;  conditional E-value: 3.5e-96
+         PLU-1   1 eWaekveelle..eeskpsLkelrsllneaekikfplkelleeLksfvkeaekwvekaqqllskkqrtRrkneaeeeeeekeklsleelekLleeld 95 
+                   +W ++v+e+l    ++k ++ el+++l++ae++kfp++el ++L+++vkeae ++++aq ll+kkq++ + +  +++ ++++kl++eel++++ +l 
+  Npar_R020337 540 TWVSRVTESLTasLSHKKDIIELKVMLEDAEDRKFPENELYRRLRDAVKEAETCASVAQLLLTKKQKHNKLS--QDSGKARTKLTMEELKAFVHQLF 634
+                   6*********9999**************************************************98776664..5999******************* PP
+
+         PLU-1  96 slpFdlpeieqLkelleeieefrkkarellseesedssieeleklieeGksfnvelpeleeLkrvleqlkWleevrevreekkqltleevkeLieeG 192
+                   slp+ ++++ q+k+ll+++eef+++a+e++ +e +d  +++l+ li++G+++ velpel++Lk+ l q++Wl+evr++ ++  ++tl+ +k+Li++G
+  Npar_R020337 635 SLPCIITQARQVKNLLDDVEEFHERAQEAMLDEVPD--SSKLQALIDLGSNLYVELPELPRLKQELLQARWLDEVRQTLSDPHKVTLDVMKKLIDSG 729
+                   ********************************8766..****************************************877888************* PP
+
+         PLU-1 193 eslaispek.eellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaaleealkkarelqrkveeliksaerptlselee 288
+                   + la ++ + e+++ +lqell+ +e+weekak +L+ar+++++++Le+++ ea++i+++lp++ al+eal++a+++++kve++++ ++ +++++le+
+  Npar_R020337 730 VGLA-PHHAvEKAMGELQELLTVSERWEEKAKACLQARPQHTVSSLESIIVEAKSIQAYLPNVLALKEALQRAKDWTAKVESIQNGSQYAYMEQLES 825
+                   ****.68877*************************************************************************666777******** PP
+
+         PLU-1 289 llkkgeslpvkleeleeLekelsraedWlekakklFlkknaplsll 334
+                    l+k++++pv+le l++Le+++++a++W+e++ ++Flkkn++++ll
+  Npar_R020337 826 FLSKARPIPVRLEALPQLESQVAAARAWRERTGRTFLKKNSSYTLL 871
+                   ********************************************97 PP
+
+  == domain 3  score: 14.8 bits;  conditional E-value: 6.5e-07
+         PLU-1   71 e.........aeeeeeekeklsleelekLleeldslpFdlpeieqLkelleeieefrkkarellseesed 131 
+                    +          +++  ++++  le + +Ll +l++lp  lpe e+L+ l e+  +++ +ar++l+ e+ +
+  Npar_R020337  999 NwqskdvkflCTQC-MRSRRPRLETILSLLVSLQKLPVRLPEGEALQCLTERAMSWQDRARQALATEELS 1067
+                    35555555544444.4556999******************************************986544 PP
+
+  == domain 4  score: -2.4 bits;  conditional E-value: 0.12
+         PLU-1  134 ieeleklieeGksfnvelpeleeLkrvle 162 
+                    +++le+l+ +G+ + v l e + + r+l+
+  Npar_R020337 1237 KSQLEELMMLGDLLEVSLDETQHIWRILQ 1265
+                    68899999999999999999999999987 PP
+
+  == domain 5  score: 1.8 bits;  conditional E-value: 0.006
+         PLU-1    7 eelleeeskpsLkelrsllneaeki.....kfplkelleeLksfvkeaekwvekaqqllskkqrtRrkne...........a 72  
+                    +e+ e++ k +L++++ ll+e++++     k +++   ++Lk  +++a++ ++ a+ l ++++r+R++++            
+  Npar_R020337 1293 KESSEKKRKRKLERAEHLLSEGKQRskelkKLDKTKK-KKLKLGHDKAKELSKLAKRLAKEEERKRKREKaaaakaelnkeL 1373
+                    44556999*****************888877778888.9**************************99999887777664332 PP
+
+
+

@@ -1,0 +1,31 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	17.4	0.0	3.3e-07	0.00016	2	128	418	599
+2	96.1	0.3	2.9e-31	1.5e-28	142	229	1214	1301
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 3.3e-07
+               Tub   2 pgprdgliqcfikRdkskltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiydkgvkpkksa 94 
+                       p+  ++ ++c++ R++++    Y+Lyle+  +    Ll +r++++  + e++i+  + +  + s   + + r    ++k +   ++++p+++ 
+  BGIBMGA002419-PA 418 PPATGARLHCTMLRHDDEEPGAYTLYLEHL-GGLVPLLKGRRTSKI-RPEFVIFDPQAEGCSGSP-RLQRRRRARERRKVRAATEKDEPPDEL 507
+                       555667788888888888888899998854.778888888877766.668888877776655544.455555555666666666666677666 PP
+
+               Tub  95 a.............................ekvrkelaavvYelnvlgtrgprrmkvlipsi..............................k 128
+                       a                             ++v  +l++v+Y++++l+  +pr+m+ +i ++                              +
+  BGIBMGA002419-PA 508 AyidslpedvrlvevtsniwgtkfkmhglaKNVPANLGQVTYKTSLLH-LQPRQMTLTITELrddypvgpdpsfkpnifsedeeevfhsndsN 599
+                       67777777777788888888888888887788999***********99.67********9888888888888877766666655433333210 PP
+
+  == domain 2  score: 96.1 bits;  conditional E-value: 2.9e-31
+               Tub  142 e...eekkeeesdllvlknkaprwneqlqayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssf 229 
+                        +   e +++++++ l+++nkap wne+ q y L+F gRvt+ S KNfq+     + k ++qfG+++ + +t+D++yP+salqAFa++l+++
+  BGIBMGA002419-PA 1214 NntgESRNNNARRQLIMHNKAPMWNENSQVYQLDFGGRVTQESAKNFQIE---YHGKQVMQFGRIDGNAYTLDFQYPFSALQAFAVALANV 1301
+                        03345667777899**********************************95...68899******************************975 PP
+
+
+

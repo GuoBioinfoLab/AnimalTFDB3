@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	25.5	3.1	6e-08	2.3e-07	5	25	151	171
+2	23.4	0.3	2.7e-07	1.1e-06	1	26	175	202
+3	18.7	3.6	8.2e-06	3.2e-05	4	25	208	231
+4	0.6	0.2	4.4	17	6	14	236	244
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 6e-08
+        zf-H2C2_2   5 HlrkHtgekpyeCplCdkaFk 25 
+                      H r+Ht+ekp++C  Cdk+F+
+  Q_LDEC020921-PA 151 HVRTHTNEKPHKCFQCDKSFS 171
+                      ********************8 PP
+
+  == domain 2  score: 23.4 bits;  conditional E-value: 2.7e-07
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCp..lCdkaFkt 26 
+                      nL+ H+r+H gekpy C    C+ka+++
+  Q_LDEC020921-PA 175 NLKIHTRSHSGEKPYACTvpGCNKAYSN 202
+                      7999*************9878****986 PP
+
+  == domain 3  score: 18.7 bits;  conditional E-value: 8.2e-06
+        zf-H2C2_2   4 rHlrkHtgekpyeCp..lCdkaFk 25 
+                      +H+r+H +ekpy+C+   C+k+++
+  Q_LDEC020921-PA 208 KHTRTHQVEKPYQCKvpGCPKKYT 231
+                      7**************878***996 PP
+
+  == domain 4  score: 0.6 bits;  conditional E-value: 4.4
+        zf-H2C2_2   6 lrkHtgekp 14 
+                      lrkHt+ ++
+  Q_LDEC020921-PA 236 LRKHTKTFR 244
+                      466666655 PP
+

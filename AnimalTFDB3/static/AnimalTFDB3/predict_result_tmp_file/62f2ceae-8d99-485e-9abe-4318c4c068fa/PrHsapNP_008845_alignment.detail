@@ -1,0 +1,34 @@
+HMM length of domain: 199 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-0.6	0.1	1.8	38	164	176	97	117
+2	204.8	0.3	2e-63	4.4e-62	2	197	253	439
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 1.8
+         THR-like 164 fakLlgkltelR........s 176
+                       +k+ ++l+e+R         
+  PrHsapNP_008845  97 VQKHQQRLQEQRqqqsgeaeA 117
+                      468888888888555444443 PP
+
+  == domain 2  score: 204.8 bits;  conditional E-value: 2e-63
+         THR-like   2 kseqslvekfaelstqaiqevveFaKkipgFseleqeDQitLLkgaclevmllrlargfnpesdtvtlndaelvtrdqlrslgrpglqgelies 95 
+                      ks++ l++++a ++t+aiq+vveFaK+i+gF+el+q+DQi+LLk++clev+l+r++r+fnp ++tv ++++ +   + +++lg    +++l+++
+  PrHsapNP_008845 253 KSREALWQQCAIQITHAIQYVVEFAKRITGFMELCQNDQILLLKSGCLEVVLVRMCRAFNPLNNTVLFEGK-YGGMQMFKALG----SDDLVNE 341
+                      78999**************************************************************9777.***********....9****** PP
+
+         THR-like  96 vfkfakslaslnlddeemaLlvavallsPadrpgvsnegkveklqegvlealevylqkrhpasndpdlfakLlgkltelRslneehserlvmlk 189
+                       f+fak+l+sl+l++ee+aL++ ++l+sP dr ++ +++kv+klqe+++ al++++qk+h    d++++akL++k++++  +++ h e+l+++k
+  PrHsapNP_008845 342 AFDFAKNLCSLQLTEEEIALFSSAVLISP-DRAWLIEPRKVQKLQEKIYFALQHVIQKNHL---DDETLAKLIAKIPTITAVCNLHGEKLQVFK 431
+                      ****************************9.*******************************...59**************************** PP
+
+         THR-like 190 veepktsl 197
+                      +++p+ ++
+  PrHsapNP_008845 432 QSHPEIVN 439
+                      ***98665 PP
+

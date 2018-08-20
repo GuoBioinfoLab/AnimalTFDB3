@@ -1,0 +1,43 @@
+HMM length of domain: 334 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	13.0	1.2	2.3e-06	0.0023	195	312	113	229
+2	7.9	0.4	8.1e-05	0.081	203	300	238	337
+3	-2.8	0.0	0.15	1.5e+02	224	246	699	721
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.3e-06
+         PLU-1 195 laispekeellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpsl.aaleealkkarelqrkveeliksaerptlseleell 290
+                   l++ + ++++ ak++e+ +    ++++   +L+ + +l l+ Le+l +++  + +   +l +a e++lk++ el + +e+++++    +++ele++ 
+  Npar_R000614 113 LQT-HMDQDEGAKYREMRDYLSGFQDQCDSILN-DVNLALQHLESLQKQYLFVSTKTGTLhEACEQLLKEQSELVNLAESIQQKL--SYFNELENIS 205
+                   553.667899999999999999999999999*9.9***************988888866615678999*************8876..9********* PP
+
+         PLU-1 291 kkges..lpvkleeleeLekelsr 312
+                   +k++s  l v +e++  + ++l++
+  Npar_R000614 206 TKLNSptLSVNSEGFIPMLSKLDD 229
+                   ***665888888888777776665 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 8.1e-05
+         PLU-1 203 ellaklqelleaaekweekakelLeareklsleeLeallneaqeipvslpslaaleealkkarelqrkveeliks.aer.ptlseleellkkgeslp 297
+                   + ++ +   l+++++  +ka +l+++    +l+ L +ll + q++  + +s  a+   + k+r++  kv +li++ ++r  ++ e + ll++++++ 
+  Npar_R000614 238 PNYKDYPVYLAKFKQCLSKAMHLMKTYTVNTLQNLTNLLIKRQDLSHTPNSDNAFTLFYVKFRAAAPKVRTLIEQmEQRsEKIPEYQLLLAEIHQCY 334
+                   5666666678899999999****99999999999999999999*******************************97444788899888888888876 PP
+
+         PLU-1 298 vkl 300
+                    + 
+  Npar_R000614 335 LDQ 337
+                   554 PP
+
+  == domain 3  score: -2.8 bits;  conditional E-value: 0.15
+         PLU-1 224 elLeareklsleeLeallneaqe 246
+                   ++++++ k+ +e +e+++++++ 
+  Npar_R000614 699 QFIQQQSKIFVEPFEDFMAKVTA 721
+                   33333333333333333333332 PP
+
+
+

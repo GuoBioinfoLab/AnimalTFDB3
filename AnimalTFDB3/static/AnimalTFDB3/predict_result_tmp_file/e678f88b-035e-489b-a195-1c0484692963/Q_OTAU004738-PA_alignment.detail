@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	15.5	0.3	0.00015	0.00091	3	25	512	535
+2	4.4	0.1	0.46	2.9	2	22	572	597
+3	7.7	0.3	0.042	0.26	1	24	604	630
+4	15.2	0.2	0.00018	0.0011	1	26	635	662
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 0.00015
+        zf-H2C2_2   3 rrHlrk.HtgekpyeCplCdkaFk 25 
+                      ++H  + H g+  y+C +C+k F 
+  Q_OTAU004738-PA 512 MKHASElHNGQGAYQCQFCKKFFL 535
+                      7999977***************96 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.46
+        zf-H2C2_2   2 LrrHlrkHtgek....p.yeCplCdk 22 
+                      L+ H++  +g+     + ++C++C k
+  Q_OTAU004738-PA 572 LKVHIKRMHGDMadilKdFQCKNCMK 597
+                      788999999888665526******66 PP
+
+  == domain 3  score: 7.7 bits;  conditional E-value: 0.042
+        zf-H2C2_2   1 nLrrHlrk.Ht..gekpyeCplCdkaF 24 
+                      +L+rH ++ H   ++    C +C+k F
+  Q_OTAU004738-PA 604 ALQRHVKEvHQkqVDDACACTKCGKMF 630
+                      79*****83553333346*******99 PP
+
+  == domain 4  score: 15.2 bits;  conditional E-value: 0.00018
+        zf-H2C2_2   1 nLrrHlrkHtgekpyeCp..lCdkaFkt 26 
+                      nL+ H+ +H g kp+ C   +C+ aF+t
+  Q_OTAU004738-PA 635 NLKIHMLTHSGIKPFRCNekECSAAFTT 662
+                      7999**************999*****86 PP
+

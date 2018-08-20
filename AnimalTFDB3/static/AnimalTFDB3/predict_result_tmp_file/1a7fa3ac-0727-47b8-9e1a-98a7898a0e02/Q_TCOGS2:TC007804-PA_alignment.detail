@@ -1,0 +1,27 @@
+HMM length of domain: 231 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	306.9	0.1	1.1e-95	4.8e-93	1	231	153	395
+
+  Alignments for each domain:
+  == domain 1  score: 306.9 bits;  conditional E-value: 1.1e-95
+                   Tub   1 qpgprdgliqcfikRdks....kltstYhLylelseekgkfLlaarkrrrsttseYlisldaedlsrssesyvGklrsnflgtkftiyd 85 
+                           qp++++ l++c+i+Rd++    +l++tY+L+le++ +k+ fLlaarkr++s+ts+Ylis+d++dlsrs+es+vGklrsn+lgt+ft+yd
+  Q_TCOGS2:TC007804-PA 153 QPAQQKVLYKCRITRDRKgmdrGLYPTYYLHLERDYGKKVFLLAARKRKKSATSNYLISTDPTDLSRSAESFVGKLRSNLLGTQFTVYD 241
+                           799999***************99**********999***************************************************** PP
+
+                   Tub  86 kgvkpkksaa...ekvrkelaavvYelnvlgtrgprrmkvlipsi.....kvevspkeeeeelqeeekkeeesdllvlknkaprwneql 166
+                           +g +p+k++     + r+elaav+Y++nvlg++gpr+m+v++p +     +v++ p++e+e+l e +k++++++l++l+nk+p wn+++
+  Q_TCOGS2:TC007804-PA 242 NGISPRKANFkegVTPRQELAAVTYDTNVLGFKGPRKMTVILPGMtldqqRVAIYPQDESESLIECWKSKNMDNLIELHNKTPVWNDDT 330
+                           **99999877888668*****************************9**9989999********************************** PP
+
+                   Tub 167 qayvLnFrgRvtvaSvKNfqLvaaedeekvilqfGkvgkdvFtmDyryPlsalqAFaiclssfdt 231
+                           q+yvLnF+gRvt+aSvKNfq+v+++d e+v++qfG+v++d FtmDyryP++alqAFai+lssfd+
+  Q_TCOGS2:TC007804-PA 331 QSYVLNFHGRVTQASVKNFQIVHDSDVEYVVMQFGRVAEDAFTMDYRYPMCALQAFAIALSSFDS 395
+                           ***************************************************************96 PP
+

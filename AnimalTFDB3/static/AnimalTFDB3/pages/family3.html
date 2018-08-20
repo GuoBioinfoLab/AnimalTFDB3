@@ -1,0 +1,165 @@
+<ul id="myTab" class="nav nav-tabs">
+    <li class="active" ng-click="show_tf()">
+        <a  style="font-weight: bolder" data-toggle="tab">
+            TF family
+        </a>
+    </li>
+    <li  ng-click="show_cofactor()">
+        <a data-toggle="tab" style="font-weight: bolder">TF Cofactor family</a>
+    </li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+    <div ng-show="tf_click">
+        <div class="tab-pane fade in active" id="tf_tab" style="width: 100%;">
+            <div id="wrapper_doc">
+                <!-- Sidebar -->
+                <div id="sidebar-wrapper_doc" style="width: 250px">
+                    <nav id="spy">
+                        <ul class="sidebar-nav nav">
+                            <li><a style="height: 50px" href="#!family#basic"><span class="fa fa-anchor solo">Basic Domains Group</span></a></li>
+                            <li><a style="height: 50px" href="#!family#beta"><span class="fa fa-anchor solo">Beta-Scaffold Factors</span></a></li>
+                            <li><a style="height: 50px" href="#!family#helix"><span class="fa fa-anchor solo">Helix-turn-helix</span></a></li>
+                            <li><a style="height: 50px;font-size: 16px" href="#!family#alpha"><span class="fa fa-anchor solo">Other Alpha-Helix Group</span></a></li>
+                            <li><a style="height: 50px" href="#!family#unclass"><span class="fa fa-anchor solo">Unclassified Structure</span></a></li>
+                            <li><a style="height: 50px; font-size: 16px" href="#!family#zinc"><span class="fa fa-anchor solo">Zinc-Coordinating Group</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Page content -->
+                <div id="page-content-wrapper_doc">
+                    <div class="panel" style="margin-left: 3px">
+                        <div class="panel-body">
+                            <h4 id="basic">Basic Domains Group</h4>
+                            <div class="row">
+                                <div ng-repeat="item in basic_domain_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                            <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <h4 id="beta">Beta-Scaffold Factors</h4>
+                            <div class="row">
+                                <div ng-repeat="item in beta_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                            <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <h4 id="helix">Helix-turn-helix</h4>
+                            <div class="row">
+                                <div ng-repeat="item in helix_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                            <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <h4 id="alpha">Other Alpha-Helix Group</h4>
+                            <div class="row">
+                                <div ng-repeat="item in alpha_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                           <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <h4 id="unclass">Unclassified Structure</h4>
+                            <div class="row">
+                                <div ng-repeat="item in unclass_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                          <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <h4 id="zinc">Zinc-Coordinating Group</h4>
+                            <div class="row">
+                                <div ng-repeat="item in zinc_list" style="vertical-align: top;display: inline-block;padding: 0">
+                                    <div class="thumbnail" style="width: 100px;height: 120px;margin-right: 5px;">
+                                        <span class="cursor-hand" data-toggle="modal" data-target="#myModal"><a href="#!/tf_summary?family={$item.name$}" target="_self"><img src="/static/AnimalTFDB3/image/families-head/{$ item.figure $}.jpg" class="img-rounded" style="width: 80px;height: 80px"></a></span>
+                                        <div class="caption" style="width: 100%;text-align: center">
+                                          <p style="font-size: small;font-weight:bolder">{$ item.name $}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-show="cofactor_click">
+        <div class="panel" style="margin-left: 3px">
+            <div class="panel-body">
+                 <h4>Co-activator/repressors</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="danger" ng-repeat="item in activator_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4>Chromatin Remodeling Factors</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="info" ng-repeat="item in chromatin_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4>General Cofactors</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="success" ng-repeat="item in general_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4>Histone-modifying Enzymes</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="warning" ng-repeat="item in his_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                 <h4>Cell Cycle</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr ng-repeat="item in cell_cycle_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h4>Other Cofactors</h4>
+                <table width="100%" border="0" cellpadding="0" style="table-layout:fixed" class="table table-bordered table-striped table-hover table-condensed tablesorter tablesorter-bootstrap ng-scope">
+                    <tbody>
+                    <tr class="active" ng-repeat="item in other_list" style="display: inline;">
+                        <td style="width: 215px"><a href= "#!/tf_summary?family={$item.family$}&cofactors=1" target="_self" style="font-weight: bold">{$ item.family $}</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

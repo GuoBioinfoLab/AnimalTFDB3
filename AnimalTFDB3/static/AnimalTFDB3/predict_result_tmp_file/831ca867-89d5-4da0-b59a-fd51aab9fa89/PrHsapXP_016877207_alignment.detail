@@ -1,0 +1,34 @@
+HMM length of domain: 57 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	57.4	0.4	5.5e-18	4.5e-17	3	57	548	602
+2	56.4	1.0	1.1e-17	9e-17	1	57	808	864
+3	57.7	0.2	4.4e-18	3.6e-17	1	57	1016	1072
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 5.5e-18
+                         -SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+            Homeobox   3 kRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57 
+                         +Rt+ft+ q+++L+++Fe + yp+  e e+LA+ lgL  r+V vWFqN R+k +k
+  PrHsapXP_016877207 548 SRTKFTEFQTQALQSFFETSAYPKDGEVERLASLLGLASRVVVVWFQNARQKARK 602
+                         7****************************************************97 PP
+
+  == domain 2  score: 56.4 bits;  conditional E-value: 1.1e-17
+                         ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+            Homeobox   1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57 
+                         +r Rtt+ +eqle+L + + ++++p++++   +++++gL++r+V+vWFqN Ra+e+k
+  PrHsapXP_016877207 808 KRLRTTILPEQLEILYRWYMQDSNPTRKMLDCISEEVGLKKRVVQVWFQNTRARERK 864
+                         789****************************************************98 PP
+
+  == domain 3  score: 57.7 bits;  conditional E-value: 4.4e-18
+                          ST-SSSS-HHHHHHHHHHHHHSSS-SHHHHHHHHHHHTS-HHHHHHHHHHHHHHHHH CS
+            Homeobox    1 rrkRttftkeqleeLeelFeenrypsaeereeLAkklgLeerqVkvWFqNrRakekk 57  
+                          rr Rt++++ ql+++++++e  r+p+ +e+e L +++gL++r+++vWFqN Rakekk
+  PrHsapXP_016877207 1016 RRYRTQMSSLQLKIMKACYEAYRTPTMQECEVLGEEIGLPKRVIQVWFQNARAKEKK 1072
+                          899*****************************************************8 PP
+

@@ -1,0 +1,32 @@
+HMM length of domain: 272 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	298.5	0.0	1.2e-91	2.6e-90	1	271	149	420
+
+  Alignments for each domain:
+  == domain 1  score: 298.5 bits;  conditional E-value: 1.2e-91
+            ESR-like   1 vrldrgklkvrgerqkykrkpesessetlqlltqsptkslellp....aeklvsvlleaEPekvyagedsskpdteasllssLtdLadrel 87 
+                         vrldr    vrg+rqkykr+pe ++ +    +++ p ++    +     + lvs+ll++EPek+ya++d++ pd +  ++ +L+dL+dre+
+  PrHsapNP_001269380 149 VRLDR----VRGGRQKYKRRPEVDPLPFPGPFPAGPLAVAGGPRktapVNALVSHLLVVEPEKLYAMPDPAGPDGHLPAVATLCDLFDREI 235
+                         79999....*********************99999888765444555699***************************************** PP
+
+            ESR-like  88 vvvikWAkkiPGFsdLsleDQmkLlqssWmeilvlglvwRSlkhegkLiFApdlvldeekkkvegllelfdallqlsqrfreLklereEyv 178
+                         vv+i+WAk+iPGFs+Lsl+DQm++lqs+Wme+lvlg++ RSl+ +++L FA+dlvldee+++++gl el  allql++r++ L+lereEyv
+  PrHsapNP_001269380 236 VVTISWAKSIPGFSSLSLSDQMSVLQSVWMEVLVLGVAQRSLPLQDELAFAEDLVLDEEGARAAGLGELGAALLQLVRRLQALRLEREEYV 326
+                         ******************************************************************************************* PP
+
+            ESR-like 179 clKallLlnspsegledqekleelrdalieaLkkviaksrkssqq.rssrlakLLllLpelrqasnklvehllsekrkekVelpkllleml 268
+                         +lKal+L+ns+s ++ed+e++e+lr+al+eaL +++a +       + +r+++LLl+Lp lrq++ k++ h++ +k ++kV+++kl+leml
+  PrHsapNP_001269380 327 LLKALALANSDSVHIEDAEAVEQLREALHEALLEYEAGRAGPGGGaERRRAGRLLLTLPLLRQTAGKVLAHFYGVKLEGKVPMHKLFLEML 417
+                         *************************************99988876799******************************************* PP
+
+            ESR-like 269 eaq 271
+                         ea+
+  PrHsapNP_001269380 418 EAM 420
+                         *97 PP
+

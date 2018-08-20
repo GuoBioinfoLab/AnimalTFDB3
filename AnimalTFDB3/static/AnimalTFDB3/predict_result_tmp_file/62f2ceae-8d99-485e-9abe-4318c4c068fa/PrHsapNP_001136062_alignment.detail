@@ -1,0 +1,41 @@
+HMM length of domain: 273 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	436.7	9.5	3.9e-135	1.7e-132	1	188	1	188
+2	90.4	10.4	1.5e-29	6.4e-27	219	273	185	239
+3	-8.2	14.9	2	8.7e+02	169	206	244	286
+
+  Alignments for each domain:
+  == domain 1  score: 436.7 bits;  conditional E-value: 3.9e-135
+               NF-YC   1 mstdggfgaasssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtedn 91 
+                         mst+ggfg++sssdaqqslqsfwprvmeeirnltvkdfrvqelplarikkimkldedvkmisaeapvlfakaaqifiteltlrawihtedn
+  PrHsapNP_001136062   1 MSTEGGFGGTSSSDAQQSLQSFWPRVMEEIRNLTVKDFRVQELPLARIKKIMKLDEDVKMISAEAPVLFAKAAQIFITELTLRAWIHTEDN 91 
+                         9****************************************************************************************** PP
+
+               NF-YC  92 krrtlqrndiamaitkfdqfdflidivprdelkppkrqeevrqsvtpaepvqyyftlaqqpaavqvqgqqqgqqttsstttiqpgqiiiaq 182
+                         krrtlqrndiamaitkfdqfdflidivprdelkppkrqeevrqsvtpaepvqyyftlaqqp+avqvqgqqqgqqttsstttiqpgqiiiaq
+  PrHsapNP_001136062  92 KRRTLQRNDIAMAITKFDQFDFLIDIVPRDELKPPKRQEEVRQSVTPAEPVQYYFTLAQQPTAVQVQGQQQGQQTTSSTTTIQPGQIIIAQ 182
+                         ******************************************************************************************* PP
+
+               NF-YC 183 pqqgqt 188
+                         pqqgqt
+  PrHsapNP_001136062 183 PQQGQT 188
+                         *****8 PP
+
+  == domain 2  score: 90.4 bits;  conditional E-value: 1.5e-29
+               NF-YC 219 tgqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtqvvqgqiqtlatn 273
+                         +gqtmqvmqqiitntgeiqqipvqlnagqlqyirlaqpvsgtqvvqgqiqtlatn
+  PrHsapNP_001136062 185 QGQTMQVMQQIITNTGEIQQIPVQLNAGQLQYIRLAQPVSGTQVVQGQIQTLATN 239
+                         69***************************************************97 PP
+
+  == domain 3  score: -8.2 bits;  conditional E-value: 2
+               NF-YC 169 stttiqpgqiiiaqpqqgq....ttpvtmqvgeg.qqvqivqa 206
+                         + t +q gq   +q  +gq     ++vtm  g+   q  ++q+
+  PrHsapNP_001136062 244 TQTEVQQGQQQFSQFTDGQqlyqIQQVTMPAGQDlAQPMFIQS 286
+                         2344455555444444443222234444444432123333333 PP
+

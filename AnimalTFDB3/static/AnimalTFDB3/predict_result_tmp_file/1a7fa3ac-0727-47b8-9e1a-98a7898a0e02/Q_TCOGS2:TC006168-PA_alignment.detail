@@ -1,0 +1,26 @@
+HMM length of domain: 69 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	60.7	0.9	2.3e-19	6.4e-18	1	68	46	113
+2	39.3	6.4	1.1e-12	3.1e-11	1	68	151	213
+
+  Alignments for each domain:
+  == domain 1  score: 60.7 bits;  conditional E-value: 2.3e-19
+                           --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+                   HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                           pk+pl+ +f f +++r+ l ++nP+lk+++++++l++ Wk + ++ K+kYe++++ e ++y  ++ +y
+  Q_TCOGS2:TC006168-PA  46 PKKPLTPYFKFIQDHRPALLKQNPNLKVTQVVSQLAADWKTVDPSLKAKYENDYKNEMEEYADQYLRY 113
+                           8**************************************************************99988 PP
+
+  == domain 2  score: 39.3 bits;  conditional E-value: 1.1e-12
+                           --SS--HHHHHHHHHHHHHHHHSTTS-HHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHCCH CS
+                   HMG   1 pkRplsafflfskeqraklkaenPelknaeiskklgekWkalseeeKkkYeekaekekaryekekpey 68 
+                           pk+p+  ++l+++eq +   ++ P     +++k+l  +W +ls++eK kY e+aek+k++ye++ +++
+  Q_TCOGS2:TC006168-PA 151 PKKPVGPYMLYLMEQAKVSNKKYP-----QLMKELKGEWAELSPDEKSKYVEAAEKAKKQYEQDLSKW 213
+                           8**************877776666.....789*******************************99988 PP
+

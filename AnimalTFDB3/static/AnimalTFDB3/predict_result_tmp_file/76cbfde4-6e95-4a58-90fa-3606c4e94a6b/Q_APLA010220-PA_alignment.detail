@@ -1,0 +1,31 @@
+HMM length of domain: 89 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	24.7	2.9	5.1e-08	1.8e-06	1	89	5	69
+2	-0.1	0.1	2.7	96	24	48	281	304
+3	0.7	0.0	1.5	53	50	62	431	453
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 5.1e-08
+             THAP  1 CvvpgCknrkkkkskkkvsfhrfPkdkelrkkWlkaikrkdkkkkkkskksrvCskHFeeekkkkkkeeekkeskkrrkLkkdavPtif 89
+                     C++++C++r +k            k+      +l ai+r+++ ++k +   r+CskHF  ++       +k+  ++r +LkkdavP+if
+  Q_APLA010220-PA  5 CCAYNCTERFQKG-----------KNI----SFLVAIRRENFVPTKFT---RICSKHFGADC------FTKNPWSNRITLKKDAVPSIF 69
+                     8999998732222...........222....56678888888887766...9******6553......33345677889********98 PP
+
+  == domain 2  score: -0.1 bits;  conditional E-value: 2.7
+             THAP  24 PkdkelrkkWlkaikrkdkkkkkks 48 
+                      P  +++++kW + i+++   + +++
+  Q_APLA010220-PA 281 P-HPRTLQKWYQTIECEPGFNAESM 304
+                      4.5678899*999988766655544 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 1.5
+             THAP  50 k....srvCskHFeee......k 62 
+                      k    +++C++H e        +
+  Q_APLA010220-PA 431 KfilsYKICQDHLEVFfsairsR 453
+                      1445589*****85435443320 PP
+

@@ -1,0 +1,27 @@
+HMM length of domain: 183 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	260.9	0.0	3.6e-81	3.9e-79	1	183	96	283
+
+  Alignments for each domain:
+  == domain 1  score: 260.9 bits;  conditional E-value: 3.6e-81
+                 T-box   1 velenkelWekfhelgtEmiitksGrrmfpslkvsvsgldpkakYlvlldivpvddkryk..ftsskWevagkaepelpkrlyihpdsp 87 
+                           ++le+k+lWekf+elgtEmiitksGrrmfp+++vs++g++p+++Y+vlldivpvd+kry+  +++s+W vagka+p +p r+  hpdsp
+  Q_TCOGS2:TC014296-PA  96 CHLETKDLWEKFNELGTEMIITKSGRRMFPTVRVSFTGIRPDQRYAVLLDIVPVDNKRYRyaYHRSSWLVAGKADPPAPCRMCAHPDSP 184
+                           689******************************************************9998899***********99999********* PP
+
+                 T-box  88 atgekwmkqkvsfeklkltnnkedkkkghiilnsmhkYqprlhivel....aeeekelseekvktfvfpeteFiaVtaYqneeitkLKi 172
+                            tge++ kq vsfek+kltnn++dk +gh++lnsmhkYqpr+h+v+     + +  +l++e++ktf fpet F+aVtaYqn+ itkLKi
+  Q_TCOGS2:TC014296-PA 185 FTGEQLRKQVVSFEKVKLTNNEMDK-HGHLVLNSMHKYQPRIHLVKRpdgaSGQIVDLENEEYKTFIFPETVFTAVTAYQNQLITKLKI 272
+                           *************************.99*****************99999988999********************************* PP
+
+                 T-box 173 dnNpFAkgfrd 183
+                           d+NpFAkgfrd
+  Q_TCOGS2:TC014296-PA 273 DSNPFAKGFRD 283
+                           **********7 PP
+

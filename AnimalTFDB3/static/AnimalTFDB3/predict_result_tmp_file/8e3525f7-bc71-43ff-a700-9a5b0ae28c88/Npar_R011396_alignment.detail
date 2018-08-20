@@ -1,0 +1,38 @@
+HMM length of domain: 179 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-3.7	0.0	0.86	1.9e+02	108	133	32	56
+2	18.1	0.0	1.8e-07	3.9e-05	1	23	473	495
+3	144.9	0.2	2.2e-46	4.8e-44	70	178	495	603
+
+  Alignments for each domain:
+  == domain 1  score: -3.7 bits;  conditional E-value: 0.86
+       MOZ_SAS 108 regkigtPekPlsdlgllsyrsywke 133
+                   regk + P + +s+ g++   + w++
+  Npar_R011396  32 REGK-AMPRRKVSEEGHTELGQLWRS 56 
+                   4555.7899*******9999999965 PP
+
+  == domain 2  score: 18.1 bits;  conditional E-value: 1.8e-07
+       MOZ_SAS   1 ppGkeiYrkeklsvfevdGekek 23 
+                   ppG+eiYrk  +svfevdG+k+k
+  Npar_R011396 473 PPGDEIYRKGAISVFEVDGKKNK 495
+                   8*******************997 PP
+
+  == domain 3  score: 144.9 bits;  conditional E-value: 2.2e-46
+       MOZ_SAS  70 kekesaeeynlaCilvlPpyqrkgyGklliefsYeLskregkigtPekPlsdlgllsyrsywkeeilellkekekkkisieeisektgikeeDiist 166
+                   kek+s  +yn++Cil++P+y r+g+Gk+li+fsY Lsk+e+k+g+Pe+Plsdlgl+syrsywke++l++l++ + k+isi+eis++t+++  Di+st
+  Npar_R011396 495 KEKNSFLNYNVSCILTMPQYMRQGFGKMLIDFSYLLSKVEEKVGSPERPLSDLGLISYRSYWKEVLLRYLHTFQGKEISIKEISQETAVNPVDIVST 591
+                   9************************************************************************************************ PP
+
+       MOZ_SAS 167 leelkllkyekg 178
+                   l++l++lky+kg
+  Npar_R011396 592 LQALQMLKYWKG 603
+                   **********97 PP
+
+
+

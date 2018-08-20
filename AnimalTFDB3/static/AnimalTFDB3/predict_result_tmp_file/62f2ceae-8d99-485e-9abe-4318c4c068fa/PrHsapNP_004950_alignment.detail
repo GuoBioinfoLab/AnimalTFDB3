@@ -1,0 +1,37 @@
+HMM length of domain: 411 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	528.6	0.0	3.1e-161	6.9e-160	1	409	82	461
+
+  Alignments for each domain:
+  == domain 1  score: 528.6 bits;  conditional E-value: 3.1e-161
+          SF-like   1 AVRaDRmRGGRnkFgplYkrdralkqqkkamkatiranavkleasqaltlaqppeltvssalsdsssaasyedltkssllpssteqslsvsesl 94 
+                      AVRaDRmRGGRnkFgp+Ykrdralkqqk   ka+iran++kle+ +++ + +pp+ + +++l+ s ++ +++ l+    +p + +  ++++++l
+  PrHsapNP_004950  82 AVRADRMRGGRNKFGPMYKRDRALKQQK---KAQIRANGFKLETGPPMGVPPPPPPAPDYVLPPSLHGPEPKGLAA---GPPAGPLGDFGAPAL 169
+                      9***************************...*******************************************99...*************** PP
+
+          SF-like  95 srsvppllretlpaayqyeefdlssraikseypdsytsnttnaatlspestvgstysestslsssttgreasstvpiLilellklekdedqvkn 188
+                       ++vp ++  +l++ y+y+  +++ raikseyp++y+s         p + +g +y + + +s  +       +vp+Lil+ll+le+dedqv++
+  PrHsapNP_004950 170 PMAVPGAHG-PLAG-YLYP--AFPGRAIKSEYPEPYAS---------PPQ-PGLPYGYPEPFSGGP-------NVPELILQLLQLEPDEDQVRA 242
+                      *******97.9998.99*8..*****************.........554.9**************.......********************* PP
+
+          SF-like 189 kilAklqqeqasrkktekpekfallckvAdqtLfsiVeWAkssqlFkeLkvdDQmkLLqnsWsellildhiarqvkhgkegsiklvtGqevels 282
+                      +il++lq++++sr  +++p++f+llc++Adqt++siV+WA+++++FkeL+v+DQm+LLqn+Wsell++dhi+rqv+hgkegsi+lvtGqevel+
+  PrHsapNP_004950 243 RILGCLQEPTKSR--PDQPAAFGLLCRMADQTFISIVDWARRCMVFKELEVADQMTLLQNCWSELLVFDHIYRQVQHGKEGSILLVTGQEVELT 334
+                      *************..******************************************************************************* PP
+
+          SF-like 283 tvlsqagltlqtlvsraqdlvkrLrsLqldrrefvclkfLvLfdsdvkllenaleveevqekvnaalleYtlanypqcpdkfeqlllrlpevra 376
+                      tv++qag+ l++lv raq+lv +L +Lqldr+efvclkf++Lf+ d k+l+n+ +v+++qek+naall+Ytl++yp+c+dkf+qlll+l+evra
+  PrHsapNP_004950 335 TVATQAGSLLHSLVLRAQELVLQLLALQLDRQEFVCLKFIILFSLDLKFLNNHILVKDAQEKANAALLDYTLCHYPHCGDKFQQLLLCLVEVRA 428
+                      ********************************************************************************************** PP
+
+          SF-like 377 lssqaeeylaykhlegevpvnnLliellqAkrt 409
+                      ls+qa+eyl++khl +e+p+nnLlie+lqAk+t
+  PrHsapNP_004950 429 LSMQAKEYLYHKHLGNEMPRNNLLIEMLQAKQT 461
+                      *******************************98 PP
+

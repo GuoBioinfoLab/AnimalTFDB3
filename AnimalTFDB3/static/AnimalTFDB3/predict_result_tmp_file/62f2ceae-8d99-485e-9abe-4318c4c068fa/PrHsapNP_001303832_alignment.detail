@@ -1,0 +1,38 @@
+HMM length of domain: 26 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	12.1	0.3	0.0038	0.0098	13	25	39	51
+2	26.6	0.7	9.7e-08	2.5e-07	4	22	58	76
+3	12.4	0.0	0.003	0.0079	2	21	84	102
+4	2.8	0.0	3.4	9	2	11	111	120
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.0038
+           zf-H2C2_2 13 kpyeCplCdkaFk 25
+                        +py C++C+k+F+
+  PrHsapNP_001303832 39 RPYACSVCGKRFS 51
+                        69*********95 PP
+
+  == domain 2  score: 26.6 bits;  conditional E-value: 9.7e-08
+           zf-H2C2_2  4 rHlrkHtgekpyeCplCdk 22
+                         H r+Htgekp+ C+lC+ 
+  PrHsapNP_001303832 58 THYRVHTGEKPFSCSLCPQ 76
+                        6****************96 PP
+
+  == domain 3  score: 12.4 bits;  conditional E-value: 0.003
+           zf-H2C2_2   2 LrrHlrkHtgekpyeCplCd 21 
+                          ++Hlr+H g  py C+lC+
+  PrHsapNP_001303832  84 MTKHLRTH-GAAPYRCSLCG 102
+                         689*****.789*******7 PP
+
+  == domain 4  score: 2.8 bits;  conditional E-value: 3.4
+           zf-H2C2_2   2 LrrHlrkHtg 11 
+                          + H+r H +
+  PrHsapNP_001303832 111 MQAHMRGHSP 120
+                         578*****85 PP
+

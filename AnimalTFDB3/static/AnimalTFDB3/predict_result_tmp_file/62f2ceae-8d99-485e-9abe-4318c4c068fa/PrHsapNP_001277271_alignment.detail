@@ -1,0 +1,36 @@
+HMM length of domain: 198 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	-1.8	1.0	0.12	1.1e+02	143	187	8	52
+2	122.1	31.0	1.4e-39	1.2e-36	1	198	131	324
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 0.12
+      TRAM_LAG1_CLN8 143 FfvcRlvllpylillsildvaklslstaplwlpliflilllvLql 187
+                         +f++  ++lp +i +s l++++  ++ +p +l++++  + l+L +
+  PrHsapNP_001277271   8 WFWLERFWLPPTIKWSDLEDHDGLVFVKPSHLYVTIPYAFLLLII 52 
+                         788888999999999999999999998888888888887777766 PP
+
+  == domain 2  score: 122.1 bits;  conditional E-value: 1.4e-39
+      TRAM_LAG1_CLN8   1 kfdervvslvqyllstvfglivlsssp......elwegyperilgathfllkayyllalgYfiydllvlllyekkrkdfvemliHhiitlv 85 
+                         kf+e ++++ +yl++tv+g+ +l+++p      e+w+gyp+++l     + ++yy+l+++++++ l+ l + + krkdf   +iHh++++ 
+  PrHsapNP_001277271 131 KFQEACWRFAFYLMITVAGIAFLYDKPwlydlwEVWNGYPKQPLLP---SQYWYYILEMSFYWSLLFRLGF-DVKRKDFLAHIIHHLAAIS 217
+                         79*****************************************977...999**********997777777.99999************** PP
+
+      TRAM_LAG1_CLN8  86 llvlsyvrnlgrvglvvlllhelsdpflnlrkilsylkkkskssklvlfngllfllsFfvcRlvllpylillsildvaklslstaplwlpl 176
+                         l+++s++ n++r g++v+++h++ d++l+ +k++sy+ +  +++++ lf  ++f  +Ff+ Rl+++p++il+++l    ++l+  p+ +++
+  PrHsapNP_001277271 218 LMSFSWCANYIRSGTLVMIVHDVADIWLESAKMFSYA-GW-TQTCNTLF--FIFSTIFFISRLIVFPFWILYCTLILPMYHLE--PFFSYI 302
+                         *************************************.99.899*****..************************99987777..5***** PP
+
+      TRAM_LAG1_CLN8 177 iflilllvLqllnlyWfylivk 198
+                         ++++ l++Lq+l+lyW y i+k
+  PrHsapNP_001277271 303 FLNLQLMILQVLHLYWGYYILK 324
+                         ******************9986 PP
+
+
+

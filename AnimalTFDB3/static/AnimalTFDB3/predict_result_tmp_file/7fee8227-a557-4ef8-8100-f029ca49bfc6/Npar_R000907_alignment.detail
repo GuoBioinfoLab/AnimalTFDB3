@@ -1,0 +1,27 @@
+HMM length of domain: 202 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	236.9	0.8	2e-74	9.9e-72	1	198	191	390
+
+  Alignments for each domain:
+  == domain 1  score: 236.9 bits;  conditional E-value: 2e-74
+      RXR-like   1 icetaarlLfllVewaksipafseLpledqviLLrasWaelliLalaqtsiplsdaqlllasglsvarnsaek.evekildleevrvLqelvtklrd 96 
+                   +ce+aarlLf++++waks+pafs+L+l+dq++LL+++W+el++L++aq++ip++ ++ll++sg++  ++ ++k +  ki +  e+++Lqe+v ++r+
+  Npar_R000907 191 VCESAARLLFMSIKWAKSVPAFSTLSLQDQLMLLEDAWRELFVLGIAQWAIPVDASTLLAVSGMNNDNTDSQKlN--KIIT--EIQALQEVVARFRQ 283
+                   8*************************************************************9888887776654..5555..99************ PP
+
+      RXR-like  97 lqldatEyacLkaIvlfnpdt.....daagleerskieslrekvqasleeyiqdqypeqpgrFgklLlrLpalrsissktieelffskliGdtpiet 188
+                   l+ldatE+acLk+Iv f+  +     + ++l++ + i++l++++q +l++yi+++yp+qp+rFgklLl+Lpalrsis++tiee+ff+k+iG++pi++
+  Npar_R000907 284 LRLDATEFACLKCIVTFKAVPthsgsELRSLRNAAAIAALQDEAQLTLNSYIHTRYPTQPCRFGKLLLLLPALRSISPSTIEEVFFKKTIGNVPITR 380
+                   *******************999*************************************************************************** PP
+
+      RXR-like 189 lllemlessk 198
+                   ll++m++ss+
+  Npar_R000907 381 LLSDMYKSSD 390
+                   *******976 PP
+

@@ -1,0 +1,43 @@
+HMM length of domain: 183 aa
+
+c-Evalue (conditional Evalue): It is an attempt to measure the statistical significance of each domain, given that we’ve already decided that the target sequence is a true homolog. It is the expected number of additional domains we’d find with a domain score this big in the set of sequences reported in the top hits list, if those sequences consisted only of random nonhomologous sequence outside the region that sufficed to define them as homologs.
+i-Evalue (independent Evalue): The significance of the sequence in the whole database search, if this were the only domain we had identified. 
+Domain annotation for each sequence:
+#	score	bias	c-Evalue	i-Evalue	hmmfrom	hmm to	alifrom	ali to
+--	-----	----	--------	--------	-------	------	-------	------
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+1	243.0	0.0	9.7e-76	1.2e-73	1	183	77	260
+2	-3.8	0.0	5.2	6.3e+02	39	83	371	416
+3	-2.1	0.0	1.5	1.9e+02	59	88	1302	1330
+
+  Alignments for each domain:
+  == domain 1  score: 243.0 bits;  conditional E-value: 9.7e-76
+               T-box   1 velenkelWekfhelgtEmiitksGrrmfpslkvsvsgldpkakYlvlldivpvddkrykftsskWevagkaepelpkrlyihpdspatge 91 
+                         v+l+n+++W++f++ +tEmi+tk+Grrmfp++++ ++gld++ kY++++di pvd++ryk++ + We+ gkaep++  r++ihp+sp+tg+
+  PrHsapXP_016877522  77 VTLDNNSMWNEFYHRSTEMILTKQGRRMFPYCRYWITGLDSNLKYILVMDISPVDNHRYKWNGRWWEPSGKAEPHVLGRVFIHPESPSTGH 167
+                         79*************************************************************************99************** PP
+
+               T-box  92 kwmkqkvsfeklkltnnkedkkkghiilnsmhkYqprlhivel..aeeekelseekvktfvfpeteFiaVtaYqneeitkLKidnNpFAkg 180
+                          wm+q+vsf klkltnn+ d+ +ghiil+smh+Y prlh+v +  a e  +l+   v+tf+fp+teF+aVtaYqn +it+LKid+NpFAkg
+  PrHsapXP_016877522 168 YWMHQPVSFYKLKLTNNTLDQ-EGHIILHSMHRYLPRLHLVPAekAVEVIQLNGPGVHTFTFPQTEFFAVTAYQNIQITQLKIDYNPFAKG 257
+                         *********************.99*****************986555667788888*********************************** PP
+
+               T-box 181 frd 183
+                         frd
+  PrHsapXP_016877522 258 FRD 260
+                         **7 PP
+
+  == domain 2  score: -3.8 bits;  conditional E-value: 5.2
+               T-box  39 ldpkakYlvlldivpvddkrykftss.kWevagkaepelpkrlyih 83 
+                         ld++ ++ v+++ +p dd++y+  +  + ++++++e+  ++ +y  
+  PrHsapXP_016877522 371 LDQNGSFNVVIKEEPLDDYDYELGECpEGVTVKQEETDEETDVYSN 416
+                         7888999999999999988887443212333333334334455554 PP
+
+  == domain 3  score: -2.1 bits;  conditional E-value: 1.5
+               T-box   59 ykftsskWevagkaepelpkrlyihpdspa 88  
+                           k ++++W++  + e e+ ++ y+h++sp 
+  PrHsapXP_016877522 1302 DKLQEKSWKSSCN-EGESSSTSYMHQRSPG 1330
+                          4678999*99544.44457899***99985 PP
+
+
+
